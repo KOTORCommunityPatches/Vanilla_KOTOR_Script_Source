@@ -1,0 +1,46 @@
+# Define Aurora/Odyssey NSS.
+*.nss linguist-language=NWScript
+# Define RTF as documentation to remove them from the language stats
+*.rtf linguist-documentation
+# Flag compiled scripts, 2DAs, models, textures, GFF, container formats, etc. as binary.
+*.2da binary
+*.are binary
+*.bik binary
+*.dds binary
+*.dlg binary
+*.dwk binary
+*.erf binary
+*.git binary
+*.gui binary
+*.ifo binary
+*.jrl binary
+*.lip binary
+*.mdl binary
+*.mdx binary
+*.mod binary
+*.mp3 binary
+*.ncs binary
+*.pth binary
+*.pwk binary
+*.rim binary
+*.rtf binary
+*.ssf binary
+*.tga binary
+*.tlk binary
+*.tpc binary
+*.utc binary
+*.utd binary
+*.ute binary
+*.uti binary
+*.utm binary
+*.utp binary
+*.uts binary
+*.utt binary
+*.utw binary
+*.wav binary
+*.wok binary
+# Flag any text files to have Windows-style EOL to prevent crashes (apparently Odyssey does not like Unix-style).
+*.lyt text eol=crlf
+*.nss text eol=crlf
+*.txi text eol=crlf
+*.vis text eol=crlf
