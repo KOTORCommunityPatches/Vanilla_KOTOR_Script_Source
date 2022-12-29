@@ -1,2 +1,2 @@
-# Vanilla_KOTOR_Script_Source
-Decompiled vanilla scripts for the KOTOR games
+# Vanilla KOTOR Script Source
+Source for the vanilla scripts of the KOTOR games.
