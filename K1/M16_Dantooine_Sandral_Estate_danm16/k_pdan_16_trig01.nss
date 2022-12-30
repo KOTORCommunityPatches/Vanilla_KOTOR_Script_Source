@@ -1,9 +1,11 @@
-#include "k_inc_dan"
+// Byte code does not match
 
-void main() {
-	
-	if (HasNeverTriggered())
-		{
-			AssignCommand(GetObjectByTag("dan16_nurik", 0), ActionStartConversation(GetFirstPC()));
-		}
-}
+#include "k_inc_dan"
+ 
+ void main() {
+ 	
+ 	if (HasNeverTriggered())
+ 		{
+ 			AssignCommand(GetObjectByTag("dan16_nurik", 0), ActionStartConversation(GetFirstPC()));
+ 		}
+ }

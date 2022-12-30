@@ -1,22 +1,32 @@
 void main() {
+	
 	object oPC = GetFirstPC();
-	object oKor38b_mekel = GetObjectByTag("kor38b_mekel", 0);
-	object oNPC = GetPartyMemberByIndex(1);
-	object object7 = GetPartyMemberByIndex(2);
+	object oMekel = GetObjectByTag("kor38b_mekel", 0);
+	object oPM1 = GetPartyMemberByIndex(1);
+	object oPM2 = GetPartyMemberByIndex(2);
+	
 	ActionPauseConversation();
+	
 	AssignCommand(oPC, ClearAllActions());
-	AssignCommand(oPC, ActionPlayAnimation(22, 1.0, 30.0));
-	if (GetIsObjectValid(oKor38b_mekel)) {
-		AssignCommand(oKor38b_mekel, ClearAllActions());
-		AssignCommand(oKor38b_mekel, ActionPlayAnimation(22, 1.0, 30.0));
-	}
-	if (GetIsObjectValid(oNPC)) {
-		AssignCommand(oNPC, ClearAllActions());
-		AssignCommand(oNPC, ActionPlayAnimation(22, 1.0, 30.0));
-	}
-	if (GetIsObjectValid(object7)) {
-		AssignCommand(object7, ClearAllActions());
-		AssignCommand(object7, ActionPlayAnimation(22, 1.0, 30.0));
-	}
+	AssignCommand(oPC, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+	
+	if (GetIsObjectValid(oMekel))
+		{
+			AssignCommand(oMekel, ClearAllActions());
+			AssignCommand(oMekel, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+		}
+	
+	if (GetIsObjectValid(oPM1))
+		{
+			AssignCommand(oPM1, ClearAllActions());
+			AssignCommand(oPM1, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+		}
+	
+	if (GetIsObjectValid(oPM2))
+		{
+			AssignCommand(oPM2, ClearAllActions());
+			AssignCommand(oPM2, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+		}
+	
 	ActionResumeConversation();
 }

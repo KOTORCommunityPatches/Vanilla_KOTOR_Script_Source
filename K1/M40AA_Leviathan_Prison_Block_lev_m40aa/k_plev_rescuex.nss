@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Lev_Rescue", 1);
+	
+	SetGlobalBoolean("Lev_Rescue", TRUE);
 }

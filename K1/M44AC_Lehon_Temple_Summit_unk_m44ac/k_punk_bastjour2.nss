@@ -1,3 +1,4 @@
 void main() {
-	AddJournalQuestEntry("k_swg_bastilatalk", 2, 1);
+	
+	AddJournalQuestEntry("k_swg_bastilatalk", 2, TRUE);
 }

@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Unk_ZaalbarInsane", 1);
+	
+	SetGlobalBoolean("Unk_ZaalbarInsane", TRUE);
 }

@@ -1,17 +1,18 @@
-// Prototypes
-void sub1();
-
-void sub1() {
+void MoveGuard() {
 	ClearAllActions();
-	ActionMoveToObject(GetObjectByTag("lev40_wpescape3", 0), 0, 1.0);
+	ActionMoveToObject(GetObjectByTag("lev40_wpescape3", 0));
 	ActionDoCommand(SetFacingPoint(GetPosition(GetObjectByTag("lev40_wpjoleeout", 0))));
 }
 
 void main() {
-	object oNearestLev40_cell08 = GetNearestObjectByTag("lev40_cell08", OBJECT_SELF, 1);
-	object oLevguard403 = GetObjectByTag("levguard403", 0);
-	AssignCommand(oLevguard403, sub1());
-	DelayCommand(4.0, AssignCommand(oNearestLev40_cell08, ActionCloseDoor(oNearestLev40_cell08)));
+	
+	object oDoor = GetNearestObjectByTag("lev40_cell08", OBJECT_SELF, 1);
+	object oGuard = GetObjectByTag("levguard403", 0);
+	
+	AssignCommand(oGuard, MoveGuard());
+	
+	DelayCommand(4.0, AssignCommand(oDoor, ActionCloseDoor(oDoor)));
+	
 	ActionPauseConversation();
 	ActionWait(7.0);
 	ActionResumeConversation();

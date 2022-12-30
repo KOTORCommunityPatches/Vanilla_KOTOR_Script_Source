@@ -1,17 +1,22 @@
 void main() {
-	object oKas22ab_exit = GetWaypointByTag("kas22ab_exit");
-	object oKas22_czguard_01 = GetObjectByTag("kas22_czguard_01", 0);
-	object oKas22_czguard_02 = GetObjectByTag("kas22_czguard_02", 0);
+	
+	object oExit = GetWaypointByTag("kas22ab_exit");
+	object oGuard1 = GetObjectByTag("kas22_czguard_01", 0);
+	object oGuard2 = GetObjectByTag("kas22_czguard_02", 0);
+	
 	ClearAllActions();
-	AssignCommand(oKas22_czguard_01, ClearAllActions());
-	AssignCommand(oKas22_czguard_01, ActionMoveToObject(oKas22ab_exit, 1, 1.0));
-	AssignCommand(oKas22_czguard_01, ActionDoCommand(DestroyObject(OBJECT_SELF, 0.0, 0, 0.0)));
-	AssignCommand(oKas22_czguard_01, SetCommandable(0, OBJECT_SELF));
-	AssignCommand(oKas22_czguard_02, ClearAllActions());
-	AssignCommand(oKas22_czguard_02, ActionMoveToObject(oKas22ab_exit, 1, 1.0));
-	AssignCommand(oKas22_czguard_02, ActionDoCommand(DestroyObject(OBJECT_SELF, 0.0, 0, 0.0)));
-	AssignCommand(oKas22_czguard_02, SetCommandable(0, OBJECT_SELF));
-	ActionMoveToObject(oKas22ab_exit, 1, 1.0);
-	ActionDoCommand(DestroyObject(OBJECT_SELF, 0.0, 0, 0.0));
-	SetCommandable(0, OBJECT_SELF);
+	
+	AssignCommand(oGuard1, ClearAllActions());
+	AssignCommand(oGuard1, ActionMoveToObject(oExit, TRUE));
+	AssignCommand(oGuard1, ActionDoCommand(DestroyObject(OBJECT_SELF)));
+	AssignCommand(oGuard1, SetCommandable(FALSE, OBJECT_SELF));
+	
+	AssignCommand(oGuard2, ClearAllActions());
+	AssignCommand(oGuard2, ActionMoveToObject(oExit, TRUE));
+	AssignCommand(oGuard2, ActionDoCommand(DestroyObject(OBJECT_SELF)));
+	AssignCommand(oGuard2, SetCommandable(FALSE, OBJECT_SELF));
+	
+	ActionMoveToObject(oExit, TRUE);
+	ActionDoCommand(DestroyObject(OBJECT_SELF));
+	SetCommandable(FALSE, OBJECT_SELF);
 }

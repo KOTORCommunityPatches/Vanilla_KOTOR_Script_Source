@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalBoolean("UNK_DISRUPT_OFF") == 0);
-	return int1;
+	
+	int nGlobal = (GetGlobalBoolean("UNK_DISRUPT_OFF") == 0);
+	
+	return nGlobal;
 }

@@ -1,6 +1,9 @@
 void main() {
-	object oKor33b_murdered = GetObjectByTag("kor33b_murdered", 0);
-	ChangeToStandardFaction(OBJECT_SELF, 2);
-	ChangeToStandardFaction(oKor33b_murdered, 4);
-	ActionAttack(oKor33b_murdered, 0);
+	
+	object oVictim2 = GetObjectByTag("kor33b_murdered", 0);
+	
+	ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_FRIENDLY_1);
+	ChangeToStandardFaction(oVictim2, STANDARD_FACTION_FRIENDLY_2);
+	
+	ActionAttack(oVictim2);
 }

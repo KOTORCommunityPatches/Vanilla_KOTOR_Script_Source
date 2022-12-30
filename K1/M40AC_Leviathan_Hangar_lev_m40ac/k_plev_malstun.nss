@@ -1,56 +1,28 @@
-// Globals
-	int intGLOB_1 = 0;
-	int intGLOB_2 = 1;
-	int intGLOB_3 = 2;
-	int intGLOB_4 = 3;
-	int intGLOB_5 = 4;
-	int intGLOB_6 = 5;
-	int intGLOB_7 = 6;
-	int intGLOB_8 = 7;
-	int intGLOB_9 = 8;
-	int intGLOB_10 = 9;
-	int intGLOB_11 = 10;
-	int intGLOB_12 = 11;
-	int intGLOB_13 = 12;
-	int intGLOB_14 = 13;
-	int intGLOB_15 = 14;
-	int intGLOB_16 = 15;
-	int intGLOB_17 = 16;
-	int intGLOB_18 = 17;
-	int intGLOB_19 = 18;
-	int intGLOB_20 = 19;
-	int intGLOB_21 = 1100;
-	int intGLOB_22 = (-6);
-	int intGLOB_23 = (-5);
-	int intGLOB_24 = (-4);
-	int intGLOB_25 = (-2);
-	int intGLOB_26 = (-1);
-	int intGLOB_27 = 0;
-
-// Prototypes
-void sub1(float floatParam1);
-
-void sub1(float floatParam1) {
-	ActionPauseConversation();
-	DelayCommand(floatParam1, ActionResumeConversation());
-}
+#include "k_inc_utility"
 
 void main() {
+	
 	object oPC = GetFirstPC();
 	object oBastila = GetObjectByTag("Bastila", 0);
 	object oCarth = GetObjectByTag("Carth", 0);
-	object oDarthMalak400 = GetObjectByTag("DarthMalak400", 0);
-	sub1(4.0);
-	RemovePartyMember(2);
-	RemovePartyMember(0);
-	ChangeToStandardFaction(oCarth, 5);
-	ChangeToStandardFaction(oBastila, 5);
+	object oMalak = GetObjectByTag("DarthMalak400", 0);
+	
+	UT_ActionPauseConversation(4.0);
+	
+	RemovePartyMember(NPC_CARTH);
+	RemovePartyMember(NPC_BASTILA);
+	
+	ChangeToStandardFaction(oCarth, STANDARD_FACTION_NEUTRAL);
+	ChangeToStandardFaction(oBastila, STANDARD_FACTION_NEUTRAL);
+	
 	PlaySound("v_imp_stun");
-	AssignCommand(oDarthMalak400, ActionCastFakeSpellAtObject(11, oPC, 0));
-	DelayCommand(0.3, ApplyEffectToObject(2, EffectCutSceneParalyze(), oBastila, 0.0));
-	DelayCommand(0.4, ApplyEffectToObject(2, EffectVisualEffect(2008, 0), oBastila, 0.0));
-	DelayCommand(0.5, ApplyEffectToObject(2, EffectCutSceneParalyze(), oCarth, 0.0));
-	DelayCommand(0.6, ApplyEffectToObject(2, EffectVisualEffect(2008, 0), oCarth, 0.0));
+	
+	AssignCommand(oMalak, ActionCastFakeSpellAtObject(FORCE_POWER_DEATH_FIELD, oPC));
+	DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_PERMANENT, EffectCutSceneParalyze(), oBastila));
+	DelayCommand(0.4, ApplyEffectToObject(DURATION_TYPE_PERMANENT, EffectVisualEffect(VFX_DUR_HOLD), oBastila));
+	DelayCommand(0.5, ApplyEffectToObject(DURATION_TYPE_PERMANENT, EffectCutSceneParalyze(), oCarth));
+	DelayCommand(0.6, ApplyEffectToObject(DURATION_TYPE_PERMANENT, EffectVisualEffect(VFX_DUR_HOLD), oCarth));
+	
 	DelayCommand(1.0, SetDialogPlaceableCamera(15));
 	DelayCommand(2.5, SetDialogPlaceableCamera(16));
 }

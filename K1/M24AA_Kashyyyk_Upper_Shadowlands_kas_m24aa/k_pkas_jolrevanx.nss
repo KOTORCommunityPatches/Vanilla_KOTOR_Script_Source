@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Kas_Jolee_Revan", 1);
+	
+	SetGlobalBoolean("Kas_Jolee_Revan", TRUE);
 }

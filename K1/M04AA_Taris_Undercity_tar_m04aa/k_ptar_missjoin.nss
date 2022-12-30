@@ -1,3 +1,5 @@
+// Could not recompile
+
 void main() {
-	AddPartyMember(OBJECT_SELF);
-}
+ 	AddPartyMember(OBJECT_SELF);
+ }

@@ -1,32 +1,44 @@
 void main() {
-	object oNPC = GetPartyMemberByIndex(0);
-	object object3 = GetPartyMemberByIndex(1);
-	object object5 = GetPartyMemberByIndex(2);
+	
+	object oPM0 = GetPartyMemberByIndex(0);
+	object oPM1 = GetPartyMemberByIndex(1);
+	object oPM2 = GetPartyMemberByIndex(2);
+	effect eVFX = EffectVisualEffect(VFX_PRO_DROID_DISABLE);
+	
 	ActionPauseConversation();
-	if (GetIsObjectValid(oNPC)) {
-		AssignCommand(oNPC, ClearAllActions());
-		AssignCommand(oNPC, ActionPlayAnimation(116, 1.0, 10.0));
-	}
-	if (GetIsObjectValid(object3)) {
-		if (((GetTag(object3) != "HK47") && (GetTag(object3) != "T3M4"))) {
-			AssignCommand(object3, ClearAllActions());
-			AssignCommand(object3, ActionPlayAnimation(116, 1.0, 10.0));
+	
+	if (GetIsObjectValid(oPM0))
+		{
+			AssignCommand(oPM0, ClearAllActions());
+			AssignCommand(oPM0, ActionPlayAnimation(ANIMATION_LOOPING_CHOKE, 1.0, 10.0));
 		}
-		else {
-			effect efVisual = EffectVisualEffect(1007, 0);
-			ApplyEffectToObject(0, efVisual, object3, 1.0);
+	
+	if (GetIsObjectValid(oPM1))
+		{
+			if (((GetTag(oPM1) != "HK47") && (GetTag(oPM1) != "T3M4")))
+				{
+					AssignCommand(oPM1, ClearAllActions());
+					AssignCommand(oPM1, ActionPlayAnimation(ANIMATION_LOOPING_CHOKE, 1.0, 10.0));
+				}
+			else
+				{
+					ApplyEffectToObject(DURATION_TYPE_INSTANT, eVFX, oPM1, 1.0);
+				}
 		}
-	}
-	if (GetIsObjectValid(object5)) {
-		if (((GetTag(object5) != "HK47") && (GetTag(object5) != "T3M4"))) {
-			AssignCommand(object5, ClearAllActions());
-			AssignCommand(object5, ActionPlayAnimation(116, 1.0, 10.0));
+	
+	if (GetIsObjectValid(oPM2))
+		{
+			if (((GetTag(oPM2) != "HK47") && (GetTag(oPM2) != "T3M4")))
+				{
+					AssignCommand(oPM2, ClearAllActions());
+					AssignCommand(oPM2, ActionPlayAnimation(ANIMATION_LOOPING_CHOKE, 1.0, 10.0));
+				}
+			else
+				{
+					ApplyEffectToObject(DURATION_TYPE_INSTANT, eVFX, oPM2, 1.0);
+				}
 		}
-		else {
-			effect effect3 = EffectVisualEffect(1007, 0);
-			ApplyEffectToObject(0, effect3, object5, 1.0);
-		}
-	}
+	
 	ActionWait(3.0);
 	ActionResumeConversation();
 }

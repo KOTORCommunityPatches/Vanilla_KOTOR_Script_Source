@@ -1,5 +1,7 @@
 void main() {
-	if ((GetTag(GetEnteringObject()) == "Bastilae")) {
-		SetGlobalNumber("UNK_AREA", 8);
-	}
+	
+	if (GetTag(GetEnteringObject()) == "Bastilae")
+		{
+			SetGlobalNumber("UNK_AREA", 8);
+		}
 }

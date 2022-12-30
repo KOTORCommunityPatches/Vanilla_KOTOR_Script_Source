@@ -1,5 +1,7 @@
 void main() {
-	object oSpeaker = GetPCSpeaker();
-	object object3 = GetItemPossessedBy(OBJECT_SELF, "kas25_wookcrysta");
-	ActionGiveItem(object3, oSpeaker);
+	
+	object oPC = GetPCSpeaker();
+	object oCrystal = GetItemPossessedBy(OBJECT_SELF, "kas25_wookcrysta");
+	
+	ActionGiveItem(oCrystal, oPC);
 }

@@ -1,3 +1,4 @@
 void main() {
-	EndGame(1);
+	
+	EndGame(TRUE);
 }

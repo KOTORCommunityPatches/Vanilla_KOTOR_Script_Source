@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = GetGlobalBoolean("UNK_SHIELD_OFF");
-	return int1;
+	
+	int nGlobal = GetGlobalBoolean("UNK_SHIELD_OFF");
+	
+	return nGlobal;
 }

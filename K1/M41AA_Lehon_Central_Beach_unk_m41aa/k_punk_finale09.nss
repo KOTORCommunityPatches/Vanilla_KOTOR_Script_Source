@@ -1,6 +1,9 @@
 void main() {
+	
 	ActionPauseConversation();
-	ActionMoveToObject(GetObjectByTag("carthflee", 0), 1, 1.0);
+	
+	ActionMoveToObject(GetObjectByTag("carthflee", 0), TRUE);
 	ActionDoCommand(SetFacingPoint(GetPosition(GetPCSpeaker())));
+	
 	ActionResumeConversation();
 }

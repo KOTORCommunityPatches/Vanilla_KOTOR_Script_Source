@@ -1,6 +1,9 @@
 int StartingConditional() {
-	if ((GetGlobalBoolean("STA_BASTILA_STUNT") == 0)) {
-		return 1;
-	}
-	return 0;
+	
+	if (GetGlobalBoolean("STA_BASTILA_STUNT") == FALSE)
+		{
+			return TRUE;
+		}
+		
+	return FALSE;
 }

@@ -1,6 +1,9 @@
 void main() {
+	
 	ActionPauseConversation();
-	SetLightsaberPowered(OBJECT_SELF, 1, 1, 1);
+	
+	SetLightsaberPowered(OBJECT_SELF, TRUE, TRUE, TRUE);
+	
 	ActionWait(2.0);
 	ActionResumeConversation();
 }

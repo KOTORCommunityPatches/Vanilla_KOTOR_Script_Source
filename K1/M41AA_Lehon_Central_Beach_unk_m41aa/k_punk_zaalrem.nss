@@ -1,4 +1,5 @@
 void main() {
-	RemoveAvailableNPC(6);
-	RemoveAvailableNPC(8);
+	
+	RemoveAvailableNPC(NPC_MISSION);
+	RemoveAvailableNPC(NPC_ZAALBAR);
 }

@@ -1,4 +1,6 @@
 void main() {
-	object oLevRodian = GetObjectByTag("LevRodian", 0);
-	DestroyObject(oLevRodian, 0.0, 1, 0.0);
+	
+	object oRodian = GetObjectByTag("LevRodian", 0);
+	
+	DestroyObject(oRodian, 0.0, TRUE);
 }

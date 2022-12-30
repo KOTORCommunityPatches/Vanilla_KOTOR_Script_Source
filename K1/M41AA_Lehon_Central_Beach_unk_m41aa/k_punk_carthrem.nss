@@ -1,3 +1,4 @@
 void main() {
-	RemoveAvailableNPC(2);
+	
+	RemoveAvailableNPC(NPC_CARTH);
 }

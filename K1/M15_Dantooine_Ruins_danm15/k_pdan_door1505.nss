@@ -1,8 +1,10 @@
-#include "k_inc_dan"
+// Byte code does not match
 
-void main() {
-	if (HasNeverTriggered())
-		{
-			UT_NPC_InitConversation("dan15_ancientdrd", "", OBJECT_INVALID);
-		}
-}
+#include "k_inc_dan"
+ 
+ void main() {
+ 	if (HasNeverTriggered())
+ 		{
+ 			UT_NPC_InitConversation("dan15_ancientdrd", "", OBJECT_INVALID);
+ 		}
+ }

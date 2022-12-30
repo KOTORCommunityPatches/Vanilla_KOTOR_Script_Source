@@ -1,8 +1,12 @@
 void main() {
-	object oLev40_blastdoore = GetObjectByTag("lev40_blastdoord", 0);
-	AssignCommand(oLev40_blastdoore, ActionOpenDoor(oLev40_blastdoore));
-	oLev40_blastdoore = GetObjectByTag("lev40_blastdoore", 0);
-	AssignCommand(oLev40_blastdoore, ActionOpenDoor(oLev40_blastdoore));
+	
+	object oDoor = GetObjectByTag("lev40_blastdoord", 0);
+	
+	AssignCommand(oDoor, ActionOpenDoor(oDoor));
+	
+	oDoor = GetObjectByTag("lev40_blastdoore", 0);
+	AssignCommand(oDoor, ActionOpenDoor(oDoor));
+	
 	ActionPauseConversation();
 	ActionWait(1.2);
 	ActionResumeConversation();

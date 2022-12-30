@@ -1,19 +1,28 @@
 void main() {
+	
 	object oPC = GetFirstPC();
-	object oNPC = GetPartyMemberByIndex(1);
-	object object5 = GetPartyMemberByIndex(2);
+	object oPM1 = GetPartyMemberByIndex(1);
+	object oPM2 = GetPartyMemberByIndex(2);
+	
 	ActionPauseConversation();
+	
 	AssignCommand(oPC, ClearAllActions());
-	AssignCommand(oPC, ActionPlayAnimation(22, 1.0, 30.0));
+	AssignCommand(oPC, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+	
 	ClearAllActions();
-	ActionPlayAnimation(13, 0.5, 1.0);
-	if (GetIsObjectValid(oNPC)) {
-		AssignCommand(oNPC, ClearAllActions());
-		AssignCommand(oNPC, ActionPlayAnimation(22, 1.0, 30.0));
-	}
-	if (GetIsObjectValid(object5)) {
-		AssignCommand(object5, ClearAllActions());
-		AssignCommand(object5, ActionPlayAnimation(22, 1.0, 30.0));
-	}
+	ActionPlayAnimation(ANIMATION_LOOPING_PAUSE_DRUNK, 0.5, 1.0);
+	
+	if (GetIsObjectValid(oPM1))
+		{
+			AssignCommand(oPM1, ClearAllActions());
+			AssignCommand(oPM1, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+		}
+	
+	if (GetIsObjectValid(oPM2))
+		{
+			AssignCommand(oPM2, ClearAllActions());
+			AssignCommand(oPM2, ActionPlayAnimation(ANIMATION_LOOPING_SLEEP, 1.0, 30.0));
+		}
+	
 	ActionResumeConversation();
 }

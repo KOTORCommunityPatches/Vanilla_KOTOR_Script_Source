@@ -1,3 +1,4 @@
 void main() {
-	ActionPlayAnimation(100, 1.0, 0.0);
+	
+	ActionPlayAnimation(ANIMATION_FIREFORGET_HEAD_TURN_LEFT);
 }

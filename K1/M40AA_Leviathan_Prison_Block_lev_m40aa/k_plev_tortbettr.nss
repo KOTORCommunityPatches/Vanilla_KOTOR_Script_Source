@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Lev_TortureBetray", 1);
+	
+	SetGlobalBoolean("Lev_TortureBetray", TRUE);
 }

@@ -1,98 +1,74 @@
-// Globals
-	int intGLOB_1 = 0;
-	int intGLOB_2 = 1;
-	int intGLOB_3 = 2;
-	int intGLOB_4 = 3;
-	int intGLOB_5 = 4;
-	int intGLOB_6 = 5;
-	int intGLOB_7 = 6;
-	int intGLOB_8 = 7;
-	int intGLOB_9 = 8;
-	int intGLOB_10 = 9;
-	int intGLOB_11 = 10;
-	int intGLOB_12 = 11;
-	int intGLOB_13 = 12;
-	int intGLOB_14 = 13;
-	int intGLOB_15 = 14;
-	int intGLOB_16 = 15;
-	int intGLOB_17 = 16;
-	int intGLOB_18 = 17;
-	int intGLOB_19 = 18;
-	int intGLOB_20 = 19;
-	int intGLOB_21 = 1100;
-	int intGLOB_22 = (-6);
-	int intGLOB_23 = (-5);
-	int intGLOB_24 = (-4);
-	int intGLOB_25 = (-2);
-	int intGLOB_26 = (-1);
-	int intGLOB_27 = 0;
-
-// Prototypes
-int sub1();
-
-int sub1() {
-	int int1 = 0;
-	object oAreaObject = GetFirstObjectInArea(OBJECT_SELF, 1);
-	while (GetIsObjectValid(oAreaObject)) {
-		if (((((GetStandardFaction(oAreaObject) == 1) || (GetStandardFaction(oAreaObject) == 3)) && (!GetIsDead(oAreaObject))) && (GetRacialType(oAreaObject) != 5))) {
-			int1 = (int1 + 1);
+int MookCount() {
+	int nCount = 0;
+	object nMook = GetFirstObjectInArea(OBJECT_SELF, OBJECT_TYPE_CREATURE);
+	
+	while (GetIsObjectValid(nMook))
+		{
+			if (GetStandardFaction(nMook) == STANDARD_FACTION_HOSTILE_1 || GetStandardFaction(nMook) == STANDARD_FACTION_HOSTILE_2 && !GetIsDead(nMook) && GetRacialType(nMook) != RACIAL_TYPE_DROID)
+				{
+					nCount = nCount + 1;
+				}
+			
+			nMook = GetNextObjectInArea(OBJECT_SELF, OBJECT_TYPE_CREATURE);
 		}
-		oAreaObject = GetNextObjectInArea(OBJECT_SELF, 1);
-	}
-	return int1;
+	
+	return nCount;
 }
 
 void main() {
-	int int1 = GetGlobalBoolean("K_STA_SPAWNER");
-	int nGlobal = GetGlobalNumber("K_STA_HORDE");
-	object oNPC = GetPartyMemberByIndex(0);
-	int int5 = (Random(12) + 1);
-	string string1;
-	if ((int5 == 1)) {
-		string1 = "sta45b_trooper";
-	}
-	else {
-		if ((int5 == 2)) {
-			string1 = "sta45b_troope001";
+	
+	int nSpawn = GetGlobalBoolean("K_STA_SPAWNER");
+	int nHorde = GetGlobalNumber("K_STA_HORDE");
+	object oPM0 = GetPartyMemberByIndex(0);
+	int nRand = (Random(12) + 1);
+	string sTag;
+	
+	if (nRand == 1)
+		{
+			sTag = "sta45b_trooper";
 		}
-		else {
-			if (((int5 == 3) || (int5 == 4))) {
-				string1 = "k_sta_sithtrpenc";
+		else if (nRand == 2)
+			{
+				sTag = "sta45b_troope001";
 			}
-			else {
-				if (((int5 == 5) || (int5 == 6))) {
-					string1 = "sta45b_appren001";
+			else if (nRand == 3 || nRand == 4)
+				{
+					sTag = "k_sta_sithtrpenc";
 				}
-				else {
-					if (((int5 == 7) || (int5 == 8))) {
-						string1 = "sta45b_appren002";
+				else if (nRand == 5 || nRand == 6)
+					{
+						sTag = "sta45b_appren001";
 					}
-					else {
-						if ((int5 == 9)) {
-							string1 = "k_sta_sithtrp001";
+					else if (nRand == 7 || nRand == 8)
+						{
+							sTag = "sta45b_appren002";
 						}
-						else {
-							if ((int5 == 10)) {
-								string1 = "sta45b_apprentic";
+						else if (nRand == 9)
+							{
+								sTag = "k_sta_sithtrp001";
 							}
-							else {
-								string1 = "k_sta_darkjedien";
-							}
+							else if (nRand == 10)
+								{
+									sTag = "sta45b_apprentic";
+								}
+								else
+									{
+										sTag = "k_sta_darkjedien";
+									}
+	
+	if (nSpawn == TRUE && !GetIsInConversation(oPM0))
+		{
+			if (MookCount() <= 4)
+				{
+					if (nHorde < 9)
+						{
+							object oSpawner1 = GetNearestObjectByTag("STA_HORDE_SPAWN", oPM0, 1);
+							object oSpawner2 = GetNearestObjectByTag("STA_HORDE_SPAWN", oPM0, 2);
+							location lSpawner2 = GetLocation(oSpawner2);
+							
+							SetGlobalNumber("K_STA_HORDE", (nHorde + 1));
+							CreateObject(OBJECT_TYPE_CREATURE, sTag, lSpawner2);
 						}
-					}
 				}
-			}
 		}
-	}
-	if (((int1 == 1) && (!GetIsInConversation(oNPC)))) {
-		if ((sub1() <= 4)) {
-			if ((nGlobal < 9)) {
-				object oNearestSTA_HORDE_SPAWN = GetNearestObjectByTag("STA_HORDE_SPAWN", oNPC, 1);
-				object object5 = GetNearestObjectByTag("STA_HORDE_SPAWN", oNPC, 2);
-				location location1 = GetLocation(object5);
-				SetGlobalNumber("K_STA_HORDE", (nGlobal + 1));
-				CreateObject(1, string1, location1, 0);
-			}
-		}
-	}
 }

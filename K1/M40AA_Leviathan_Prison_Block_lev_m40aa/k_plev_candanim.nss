@@ -1,16 +1,15 @@
-// Prototypes
-void sub1();
-
-void sub1() {
+void JumpAnim() {
 	ClearAllActions();
-	ActionJumpToObject(GetObjectByTag("lev40_wpcand", 0), 0);
-	ActionPlayAnimation(115, 1.0, 0.0);
-	ActionDoCommand(SetCommandable(1, OBJECT_SELF));
-	SetCommandable(0, OBJECT_SELF);
+	ActionJumpToObject(GetObjectByTag("lev40_wpcand", 0), FALSE);
+	ActionPlayAnimation(ANIMATION_FIREFORGET_ACTIVATE);
+	ActionDoCommand(SetCommandable(TRUE, OBJECT_SELF));
+	SetCommandable(FALSE, OBJECT_SELF);
 }
 
 void main() {
-	AssignCommand(GetFirstPC(), sub1());
+	
+	AssignCommand(GetFirstPC(), JumpAnim());
+	
 	ActionPauseConversation();
 	ActionWait(2.0);
 	ActionResumeConversation();

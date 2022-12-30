@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalNumber("Lev_Escape") == 1);
-	return int1;
+	
+	int nGlobal = (GetGlobalNumber("Lev_Escape") == 1);
+	
+	return nGlobal;
 }

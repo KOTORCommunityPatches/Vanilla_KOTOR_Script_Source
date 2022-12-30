@@ -1,27 +1,28 @@
-// Prototypes
-void sub1(string stringParam1, int intParam2, int intParam3, float floatParam4);
-
-void sub1(string stringParam1, int intParam2, int intParam3, float floatParam4) {
-	if ((!ShipBuild())) {
-		AurPostString(stringParam1, intParam2, intParam3, floatParam4);
-	}
-}
+#include "k_inc_debug"
 
 void main() {
-	sub1("v2.0 HEALING", 5, 5, 4.0);
-	object oAreaObject;
+	
+	Db_PostString("v2.0 HEALING", 5, 5, 4.0);
+	
+	object oNPC;
 	object oBastila = GetObjectByTag("bastila", 0);
-	int int1 = 1;
+	int nCount = 1;
 	effect efHeal;
 	int nMaxHP;
-	oAreaObject = GetFirstObjectInArea(GetArea(GetFirstPC()), 1);
-	while (GetIsObjectValid(oAreaObject)) {
-		nMaxHP = GetMaxHitPoints(oAreaObject);
-		nMaxHP = ((nMaxHP - (nMaxHP / 4)) - GetCurrentHitPoints(oAreaObject));
-		if ((nMaxHP > 0)) {
-			efHeal = EffectHeal(nMaxHP);
-			ApplyEffectToObject(0, efHeal, oAreaObject, 0.0);
+	
+	oNPC = GetFirstObjectInArea(GetArea(GetFirstPC(), OBJECT_TYPE_CREATURE));
+	
+	while (GetIsObjectValid(oNPC))
+		{
+			nMaxHP = GetMaxHitPoints(oNPC);
+			nMaxHP = (nMaxHP - (nMaxHP / 4) - GetCurrentHitPoints(oNPC));
+			
+			if (nMaxHP > 0)
+				{
+					efHeal = EffectHeal(nMaxHP);
+					ApplyEffectToObject(0, efHeal, oNPC, 0.0);
+				}
+			
+			oNPC = GetNextObjectInArea(GetArea(GetFirstPC()), OBJECT_TYPE_CREATURE);
 		}
-		oAreaObject = GetNextObjectInArea(GetArea(GetFirstPC()), 1);
-	}
 }

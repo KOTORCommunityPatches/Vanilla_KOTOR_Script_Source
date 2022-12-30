@@ -1,3 +1,3 @@
 void main() {
-	ShowPartySelectionGUI("k_pebn_exithawk", 0xFFFFFFFF, 0xFFFFFFFF);
+	ShowPartySelectionGUI("k_pebn_exithawk", -1, -1);
 }

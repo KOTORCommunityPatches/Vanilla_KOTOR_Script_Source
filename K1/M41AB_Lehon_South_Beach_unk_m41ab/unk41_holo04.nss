@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = ((GetGlobalBoolean("UNK_ONE_SPOKE") == 1) && (GetGlobalBoolean("UNK_BLACKHOSTILE") == 0));
-	return int1;
+	
+	int nCheck = (GetGlobalBoolean("UNK_ONE_SPOKE") == TRUE && GetGlobalBoolean("UNK_BLACKHOSTILE") == FALSE);
+	
+	return nCheck;
 }

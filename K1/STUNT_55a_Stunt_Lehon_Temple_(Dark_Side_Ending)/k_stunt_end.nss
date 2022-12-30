@@ -1,14 +1,11 @@
-// Prototypes
-void sub1();
-
-void sub1() {
-	StartCreditSequence(0);
-	SetGlobalBoolean("CREDITPLAY", 1);
+void PlayCredits() {
+	StartCreditSequence(FALSE);
+	SetGlobalBoolean("CREDITPLAY", TRUE);
 }
 
 void main() {
-	SetGlobalFadeOut(0.0, 0.0, 0.0, 0.0, 0.0);
-	QueueMovie("55", 1);
-	PlayMovieQueue(1);
-	AssignCommand(GetFirstPC(), DelayCommand(0.049999997, sub1()));
+	SetGlobalFadeOut();
+	QueueMovie("55", TRUE);
+	PlayMovieQueue(TRUE);
+	AssignCommand(GetFirstPC(), DelayCommand(0.049999997, PlayCredits()));
 }

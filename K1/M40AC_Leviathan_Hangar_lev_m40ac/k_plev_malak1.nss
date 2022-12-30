@@ -1,4 +1,5 @@
 int StartingConditional() {
-	int int1 = (GetGlobalNumber("Lev_MalakVision") == 1);
-	return int1;
+	
+	int nGlobal = (GetGlobalNumber("Lev_MalakVision") == 1);
+	return nGlobal;
 }

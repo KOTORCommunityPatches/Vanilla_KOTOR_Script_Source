@@ -1,7 +1,11 @@
 void main() {
-	object oKor38b_door4 = GetObjectByTag("kor38b_door4", 0);
+	
+	object oDoor = GetObjectByTag("kor38b_door4", 0);
+	
 	ActionPauseConversation();
-	AssignCommand(oKor38b_door4, ActionOpenDoor(oKor38b_door4));
+	
+	AssignCommand(oDoor, ActionOpenDoor(oDoor));
+	
 	ActionWait(2.0);
 	ActionResumeConversation();
 }
