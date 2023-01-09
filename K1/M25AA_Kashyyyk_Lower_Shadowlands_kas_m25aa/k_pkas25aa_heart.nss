@@ -1,26 +1,23 @@
-void sub2(int intParam1) {
-	SetGlobalNumber("kas_MandalorPlot", intParam1);
-	return;
-}
-
-int sub1() {
-	return GetGlobalNumber("kas_MandalorPlot");
-}
+#include "k_inc_kas"
 
 void main() {
-	object oK_pkas_wp_mandal = GetWaypointByTag("k_pkas_wp_mandal");
-	object oK_pkas_wp_swoop = GetWaypointByTag("k_pkas_wp_swoop");
-	object oK_pkas_wp_swoop2 = GetWaypointByTag("k_pkas_wp_swoop2");
-	object oK_pkas_wp_swoop3 = GetWaypointByTag("k_pkas_wp_swoop3");
-	location location1 = GetLocation(oK_pkas_wp_mandal);
-	location location3 = GetLocation(oK_pkas_wp_swoop);
-	location location5 = GetLocation(oK_pkas_wp_swoop2);
-	location location7 = GetLocation(oK_pkas_wp_swoop3);
-	if ((sub1() == 2)) {
-		sub2(3);
-		CreateObject(1, "kas25_mandcomm", location1, 0);
-		CreateObject(64, "kas25_mandswoop", location3, 0);
-		CreateObject(64, "kas25_mandswoop2", location5, 0);
-		CreateObject(64, "kas25_mandswoop3", location7, 0);
-	}
+	
+	object oWP_Mando = GetWaypointByTag("k_pkas_wp_mandal");
+	object oWP_Swoop1 = GetWaypointByTag("k_pkas_wp_swoop");
+	object oWP_Swoop2 = GetWaypointByTag("k_pkas_wp_swoop2");
+	object oWP_Swoop3 = GetWaypointByTag("k_pkas_wp_swoop3");
+	location lMando = GetLocation(oWP_Mando);
+	location lSwoop1 = GetLocation(oWP_Swoop1);
+	location lSwoop2 = GetLocation(oWP_Swoop2);
+	location lSwoop3 = GetLocation(oWP_Swoop3);
+	
+	if (GetMandalorianPlotGlobal() == 2)
+		{
+			SetMandalorianPlotGlobal(3);
+			
+			CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandcomm", lMando);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "kas25_mandswoop", lSwoop1);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "kas25_mandswoop2", lSwoop2);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "kas25_mandswoop3", lSwoop3);
+		}
 }

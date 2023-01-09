@@ -11,22 +11,20 @@ void main() {
 	location 1WP3 = GetLocation(oWP3);
 	
 	if (GetIsPC(oEntering) == TRUE)
-	{
-		if (GetMandalorianPlotGlobal() == 0 && GetIsObjectValid(GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oEntering)) == FALSE && GetIsObjectValid(GetItemInSlot(INVENTORY_SLOT_LEFTWEAPON, oEntering)) == FALSE)
 		{
-			CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor01", 1WP1, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor01", 1WP2, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor01", 1WP3, 0);
-			DestroyObject(OBJECT_SELF);
-		}
-		else {
-			if (GetMandalorianPlotGlobal() > 0 && GetMandalorianPlotGlobal() < 4)
+			if (GetMandalorianPlotGlobal() == 0 && GetIsObjectValid(GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oEntering)) == FALSE && GetIsObjectValid(GetItemInSlot(INVENTORY_SLOT_LEFTWEAPON, oEntering)) == FALSE)
 				{
-					CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor02", 1WP1, 0);
-					CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor02", 1WP2, 0);
-					CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor02", 1WP3, 0);
+					CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor01", 1WP1, 0);
+					CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor01", 1WP2, 0);
+					CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor01", 1WP3, 0);
 					DestroyObject(OBJECT_SELF);
 				}
+				else if (GetMandalorianPlotGlobal() > 0 && GetMandalorianPlotGlobal() < 4)
+					{
+						CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor02", 1WP1, 0);
+						CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor02", 1WP2, 0);
+						CreateObject(OBJECT_TYPE_CREATURE, "kas25_mandalor02", 1WP3, 0);
+						DestroyObject(OBJECT_SELF);
+					}
 		}
-	}
 }
