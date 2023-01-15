@@ -1,0 +1,16 @@
+//::///////////////////////////////////////////////
+//:: FileName c_skilrep
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Chris Avellone
+//:: Created On: 11/12/2003 1:46:14 PM
+//:: This script checks to see if the player has any ranks in Repair.
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+
+    if(!GetHasSkill(SKILL_REPAIR, GetPCSpeaker()))
+        return FALSE;
+
+    return TRUE;
+}
