@@ -5,4 +5,3 @@ void main() {
 	DelayCommand(IntToFloat(nParam1), AssignCommand(object1, ActionUnlockObject(object1)));
 	DelayCommand(IntToFloat(nParam1), AssignCommand(object1, ActionOpenDoor(object1)));
 }
-

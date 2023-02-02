@@ -14,4 +14,3 @@ void main() {
 		DelayCommand(0.6, AssignCommand(oDisciple, ActionStartConversation(oPC, "discend", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

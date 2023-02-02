@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(oTwinSun1, ActionForceMoveToObject(oWP_TWIN1_CANTINA_2, 0, 1.0, 30.0));
 	AssignCommand(oTwinSun2, ActionForceMoveToObject(oWP_TWIN2_CANTINA_2, 0, 1.0, 30.0));
 }
-

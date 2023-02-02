@@ -10,4 +10,3 @@ void main() {
 	DelayCommand(0.4, ActionForceMoveToObject(oWp_mand_exit, 1, 1.0, 30.0));
 	DelayCommand(0.4, AssignCommand(oMand_merc2, ActionForceMoveToObject(oWp_mand_exit, 1, 1.0, 30.0)));
 }
-

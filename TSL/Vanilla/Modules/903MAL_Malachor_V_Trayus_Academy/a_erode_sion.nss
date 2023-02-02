@@ -4,4 +4,3 @@ void main() {
 	AdjustCreatureAttributes(oDarthSion, 4, (-1));
 	ModifyWillSavingThrowBase(oDarthSion, (-3));
 }
-

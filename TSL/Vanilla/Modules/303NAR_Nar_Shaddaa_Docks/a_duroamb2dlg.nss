@@ -40,4 +40,3 @@ void main() {
 		DelayCommand(0.3, AssignCommand(oGran, ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

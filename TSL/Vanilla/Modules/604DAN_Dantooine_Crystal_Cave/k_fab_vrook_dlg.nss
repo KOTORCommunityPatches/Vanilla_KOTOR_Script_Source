@@ -34,4 +34,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 42, 1);
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_4);
 }
-

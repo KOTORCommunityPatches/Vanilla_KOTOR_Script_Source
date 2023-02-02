@@ -33,4 +33,3 @@ void main() {
 		AssignCommand(oInviso_sion, ActionStartConversation(GetFirstPC(), "sion_cut", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

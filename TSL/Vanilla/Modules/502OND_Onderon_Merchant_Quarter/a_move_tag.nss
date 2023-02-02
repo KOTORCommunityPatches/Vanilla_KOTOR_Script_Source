@@ -46,4 +46,3 @@ void main() {
 		DelayCommand(IntToFloat(nParam2), SetCommandable(0, object1));
 	}
 }
-

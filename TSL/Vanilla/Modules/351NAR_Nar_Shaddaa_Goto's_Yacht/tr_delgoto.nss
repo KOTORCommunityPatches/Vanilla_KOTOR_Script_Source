@@ -4,4 +4,3 @@ void main() {
 		DestroyObject(GetObjectByTag("GotoHolo", 0), 0.0, 0, 0.0, 0);
 	}
 }
-

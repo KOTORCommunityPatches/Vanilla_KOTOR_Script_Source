@@ -39,4 +39,3 @@ void main() {
 	ActionWait(0.5);
 	ActionDoCommand(sub1(GetObjectByTag("WP_WIRE_1", 0)));
 }
-

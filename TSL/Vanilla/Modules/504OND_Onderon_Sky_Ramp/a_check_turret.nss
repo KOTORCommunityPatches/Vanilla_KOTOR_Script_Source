@@ -3,4 +3,3 @@ void main() {
 		SetGlobalNumber("500OND_Turret", 2);
 	}
 }
-

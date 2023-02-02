@@ -290,4 +290,3 @@ void main() {
 	SetPlanetSelectable(int11, 0);
 	ShowGalaxyMap(int11);
 }
-

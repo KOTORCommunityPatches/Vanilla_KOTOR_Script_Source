@@ -38,4 +38,3 @@ int StartingConditional()
     }
     return FALSE;
 }
-

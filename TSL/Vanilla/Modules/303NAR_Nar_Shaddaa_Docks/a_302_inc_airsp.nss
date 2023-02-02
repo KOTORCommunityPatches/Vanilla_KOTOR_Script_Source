@@ -3,4 +3,3 @@ void main() {
 	SetGlobalNumber("302NAR_Airspeeder_00", (nGlobal + 1));
 	GivePlotXP("Nar_Shaddaa_Plot_Base_XP", 10);
 }
-

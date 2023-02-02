@@ -569,4 +569,3 @@ void main() {
 	SetNPCAIStyle(OBJECT_SELF, 15);
 	sub6();
 }
-

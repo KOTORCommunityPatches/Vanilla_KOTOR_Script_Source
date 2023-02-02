@@ -10,4 +10,3 @@ void main() {
 		SetGlobalNumber("200TEL_CzerkaM_Exch", 20);
 	}
 }
-

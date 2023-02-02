@@ -538,4 +538,3 @@ void main() {
 	effect efSpeedInc = EffectMovementSpeedIncrease(600);
 	ApplyEffectToObject(2, efSpeedInc, OBJECT_SELF, 0.0);
 }
-

@@ -13,4 +13,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 40, 1);
 	AssignCommand(oKadron, ActionStartConversation(oEntering, "ro_sold1", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

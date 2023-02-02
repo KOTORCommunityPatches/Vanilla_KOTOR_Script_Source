@@ -10,4 +10,3 @@ void main() {
 	DestroyObject(oRECapt, 0.0, 0, 0.0, 0);
 	DelayCommand(0.5, DestroyObject(oQuello, 0.0, 0, 0.0, 0));
 }
-

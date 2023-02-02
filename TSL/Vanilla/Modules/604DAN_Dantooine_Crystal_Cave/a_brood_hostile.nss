@@ -10,4 +10,3 @@ void main() {
 	}
 	ChangeToStandardFaction(GetObjectByTag("g_kinrath_mom", 0), 1);
 }
-

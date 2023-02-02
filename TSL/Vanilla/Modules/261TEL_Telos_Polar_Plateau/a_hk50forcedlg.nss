@@ -5,4 +5,3 @@ void main() {
 	}
 	AssignCommand(oHK501, ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

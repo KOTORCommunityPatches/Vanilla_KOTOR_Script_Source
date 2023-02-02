@@ -1358,4 +1358,3 @@ void main() {
 		ActionUnequipItem(GetObjectByTag("w_brifle_04", 1), 0);
 	}
 }
-

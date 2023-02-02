@@ -16,4 +16,3 @@ void main() {
 		AssignCommand(oG_DARKJEDI04, ActionStartConversation(oEntering, "si_sold1", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

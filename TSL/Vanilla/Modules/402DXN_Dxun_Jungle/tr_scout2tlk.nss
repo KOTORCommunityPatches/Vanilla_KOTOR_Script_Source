@@ -14,4 +14,3 @@ void main() {
 	SetGlobalNumber("402DXN_SecondScout", 1);
 	SetGlobalNumber("402DXN_ScoutHunt", (GetGlobalNumber("402DXN_ScoutHunt") + 1));
 }
-

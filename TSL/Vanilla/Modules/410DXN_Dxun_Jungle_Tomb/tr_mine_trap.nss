@@ -68,4 +68,3 @@ void main() {
 	SetLocalBoolean(GetObjectByTag("power_gen", 0), 45, 1);
 	SoundObjectPlay(GetObjectByTag("Alarm", 0));
 }
-

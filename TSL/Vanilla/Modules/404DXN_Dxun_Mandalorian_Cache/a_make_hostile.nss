@@ -4870,4 +4870,3 @@ void main() {
 	DelayCommand((float1 + 0.5), sub1(OBJECT_SELF, nParam2));
 	DelayCommand((float1 + 0.5), sub3(OBJECT_INVALID));
 }
-

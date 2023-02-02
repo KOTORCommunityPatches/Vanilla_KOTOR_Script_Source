@@ -38,4 +38,3 @@ void main() {
 	IncrementGlobalNumber("300NAR_Exchange_Gap", 1);
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

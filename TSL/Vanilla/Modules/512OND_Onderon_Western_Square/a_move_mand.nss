@@ -6,4 +6,3 @@ void main() {
 		AssignCommand(oMand, ClearAllActions());
 	}
 }
-

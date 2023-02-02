@@ -471,4 +471,3 @@ void main() {
 	}
 	CreateItemOnObject(string2, object2, 1, 0);
 }
-

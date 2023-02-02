@@ -44,4 +44,3 @@ void main() {
 	AssignCommand(oPC, ActionJumpToObject(GetWaypointByTag("wp_starpc"), 1));
 	DelayCommand(0.1, SetFacing(90.0));
 }
-

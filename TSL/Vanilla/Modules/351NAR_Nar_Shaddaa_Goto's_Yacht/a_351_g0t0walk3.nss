@@ -8,4 +8,3 @@ void main() {
 	location location5 = GetLocation(oWP_G0T0_3);
 	AssignCommand(oG0T0Temp, ActionMoveToLocation(location5, 0));
 }
-

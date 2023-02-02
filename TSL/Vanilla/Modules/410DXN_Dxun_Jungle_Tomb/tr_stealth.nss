@@ -24,4 +24,3 @@ void main() {
 		SoundObjectPlay(GetObjectByTag("Alarm", 0));
 	}
 }
-

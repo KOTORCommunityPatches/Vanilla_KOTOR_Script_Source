@@ -7,4 +7,3 @@ void main() {
 		AssignCommand(GetObjectByTag("Hanharr", 0), ActionForceMoveToObject(GetObjectByTag("WP_MIRA_END2_2", 0), 0, 1.0, 30.0));
 	}
 }
-

@@ -13,4 +13,3 @@ void main() {
 		DestroyObject(GetObjectByTag("203_Moza", 0), 0.0, 0, 0.0, 0);
 	}
 }
-

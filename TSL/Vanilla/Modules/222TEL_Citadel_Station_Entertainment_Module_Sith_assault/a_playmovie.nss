@@ -3,4 +3,3 @@ void main() {
 	SetFadeUntilScript();
 	PlayMovie("MalMov03", 0);
 }
-

@@ -104,4 +104,3 @@ void main() {
 	SetLocalBoolean(GetObjectByTag("tdroid2", 0), 40, 1);
 	SetLocalBoolean(GetObjectByTag("tdroid3", 0), 40, 1);
 }
-

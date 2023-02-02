@@ -105,4 +105,3 @@ int GR_GetGrenadeDC(object oTarget)
     return nDC;
 
 }
-

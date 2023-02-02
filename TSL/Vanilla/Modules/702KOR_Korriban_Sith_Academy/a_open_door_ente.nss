@@ -8,4 +8,3 @@ void main() {
 	SetLocalBoolean(GetObjectByTag("tr_enter", 0), 41, 1);
 	CreatureFlourishWeapon(GetFirstPC());
 }
-

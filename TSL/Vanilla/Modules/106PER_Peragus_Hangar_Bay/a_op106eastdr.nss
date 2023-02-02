@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oTrafficEastDoor, 0);
 	DelayCommand(0.6, AssignCommand(oTrafficEastDoor, ActionOpenDoor(oTrafficEastDoor)));
 }
-

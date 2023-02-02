@@ -11,4 +11,3 @@ void main() {
 		AurPostString("Not a Mine.", 5, 15, 5.0);
 	}
 }
-

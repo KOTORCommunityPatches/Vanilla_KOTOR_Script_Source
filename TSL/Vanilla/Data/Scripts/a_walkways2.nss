@@ -14,4 +14,3 @@ void main()
     ClearAllActions();
     DelayCommand(1.0, GN_WalkWayPoints());
 }
-

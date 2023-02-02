@@ -30,4 +30,3 @@ void main() {
 		AssignCommand(oMira, ActionMoveToObject(GetObjectByTag("WP_MIRA_2_1", 0), 0, 1.0));
 	}
 }
-

@@ -16,4 +16,3 @@ void main() {
 		DelayCommand(45.0, AssignCommand(GetObjectByTag("bh_trandoshan", 0), ActionStartConversation(GetFirstPC(), "", 0, 1, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

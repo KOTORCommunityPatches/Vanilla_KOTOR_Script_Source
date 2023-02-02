@@ -15,4 +15,3 @@ void main() {
 		SetGlobalNumber("203TEL_Czerka_Attack", 1);
 	}
 }
-

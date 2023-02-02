@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(o903corps, ActionStartConversation(o903corps, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

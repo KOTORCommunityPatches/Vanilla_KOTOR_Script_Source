@@ -24,4 +24,3 @@ void main() {
 		DelayCommand(2.0, StartNewModule("003EBO", "WP_from_outside", "", "", "", "", "", ""));
 	}
 }
-

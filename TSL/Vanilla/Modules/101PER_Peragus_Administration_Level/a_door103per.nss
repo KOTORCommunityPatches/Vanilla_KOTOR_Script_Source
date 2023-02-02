@@ -6,4 +6,3 @@ void main() {
 	SetLocked(oHatch_103PERDoor, 0);
 	AssignCommand(oHatch_103PERDoor, ActionOpenDoor(oHatch_103PERDoor));
 }
-

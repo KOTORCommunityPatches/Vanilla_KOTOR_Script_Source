@@ -86,4 +86,3 @@ void main() {
 		AssignCommand(oTwik, ActionStartConversation(GetFirstPC(), "twik_trigger", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

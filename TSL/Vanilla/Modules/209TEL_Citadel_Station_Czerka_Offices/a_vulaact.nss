@@ -10,4 +10,3 @@ void main() {
 		DelayCommand(3.1, DestroyObject(oVula, 0.0, 0, 0.0, 0));
 	}
 }
-

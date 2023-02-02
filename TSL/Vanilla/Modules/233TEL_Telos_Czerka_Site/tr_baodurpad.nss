@@ -32,4 +32,3 @@ void main() {
 	DelayCommand(1.0, SetGlobalFadeIn(1.0, 1.0, 0.0, 0.0, 0.0));
 	DelayCommand(1.0, AssignCommand(GetObjectByTag("baodur", 0), ActionStartConversation(GetFirstPC(), "233bdur", 0, 1, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

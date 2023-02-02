@@ -69,4 +69,3 @@ void main() {
 		GrantSpell(180, GetFirstPC());
 	}
 }
-

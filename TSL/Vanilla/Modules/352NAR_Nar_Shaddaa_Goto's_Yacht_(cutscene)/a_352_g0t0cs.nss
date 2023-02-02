@@ -15,4 +15,3 @@ void main() {
 	DelayCommand(10.0, SetDialogPlaceableCamera(3));
 	DelayCommand(12.0, SetDialogPlaceableCamera(1));
 }
-

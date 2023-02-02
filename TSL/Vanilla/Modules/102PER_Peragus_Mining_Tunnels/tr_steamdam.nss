@@ -6,4 +6,3 @@ void main() {
 	ApplyEffectToObject(0, efDamage, GetEnteringObject(), 0.0);
 	SetLocalBoolean(OBJECT_SELF, 55, 1);
 }
-

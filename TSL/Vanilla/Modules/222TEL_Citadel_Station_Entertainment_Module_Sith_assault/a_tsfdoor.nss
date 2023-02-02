@@ -9,4 +9,3 @@ void main() {
 	ChangeToStandardFaction(GetObjectByTag("ond_sold", 0), 2);
 	ChangeToStandardFaction(GetObjectByTag("ond_sold", 1), 2);
 }
-

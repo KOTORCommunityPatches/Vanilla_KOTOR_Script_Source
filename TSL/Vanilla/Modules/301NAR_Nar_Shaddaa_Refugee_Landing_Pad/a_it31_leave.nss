@@ -149,4 +149,3 @@ void main() {
 	AssignCommand(oIt31, ActionPlayAnimation(25, 1.0, (-1.0)));
 	AssignCommand(oIt31, ActionDoCommand(ResetCreatureAILevel(oIt31)));
 }
-

@@ -20,4 +20,3 @@ int StartingConditional()
     return FALSE;
 
 }
-

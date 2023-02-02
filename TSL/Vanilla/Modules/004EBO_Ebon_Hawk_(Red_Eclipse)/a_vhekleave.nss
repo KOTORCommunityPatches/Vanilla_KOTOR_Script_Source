@@ -3,4 +3,3 @@ void main() {
 	object oRatrin = GetObjectByTag("Ratrin", 0);
 	AssignCommand(oRatrin, ActionMoveToObject(oFROM_302NAR, 0, 1.0));
 }
-

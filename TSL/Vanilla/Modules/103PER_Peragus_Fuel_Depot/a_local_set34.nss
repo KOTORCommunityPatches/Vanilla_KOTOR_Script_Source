@@ -30,4 +30,3 @@
 void main() {
 	SetLocalBoolean(OBJECT_SELF, 34, 1);
 }
-

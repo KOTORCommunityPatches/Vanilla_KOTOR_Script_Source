@@ -102,4 +102,3 @@ void main() {
 	DelayCommand(1.0, AssignCommand(o204_habat, ClearAllActions()));
 	DelayCommand(1.0, AssignCommand(o204_habat, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

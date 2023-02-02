@@ -17,4 +17,3 @@ void main() {
 	sub1("hssiss", 1);
 	sub1("hssiss", 2);
 }
-

@@ -231,4 +231,3 @@ void main() {
 	SetLocalNumber(OBJECT_SELF, 11, 6);
 	ActionPlayAnimation(38, 1.0, (-1.0));
 }
-

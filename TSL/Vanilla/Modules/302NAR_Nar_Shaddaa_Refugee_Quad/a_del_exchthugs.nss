@@ -8,4 +8,3 @@ void main() {
 		DestroyObject(oExchangeThug302_2, 0.0, 0, 0.0, 0);
 	}
 }
-

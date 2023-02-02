@@ -4817,4 +4817,3 @@ void main() {
 	DelayCommand(0.2, AssignCommand(oG_salvager_tae2, ActionAttack(GetFirstPC(), 0)));
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 }
-

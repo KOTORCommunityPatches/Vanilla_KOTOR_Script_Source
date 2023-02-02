@@ -16,4 +16,3 @@ void main() {
 	DelayCommand(1.5, sub1());
 	DelayCommand(2.0, AssignCommand(GetFirstPC(), ActionJumpToObject(oWp_t3m4_sp, 0)));
 }
-

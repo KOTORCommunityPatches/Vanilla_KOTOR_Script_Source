@@ -3,4 +3,3 @@ void main() {
 	object oTiennInvis = GetObjectByTag("TiennInvis", 0);
 	DelayCommand(1.0, AssignCommand(oDuros, SetFacingPoint(GetPosition(oTiennInvis))));
 }
-

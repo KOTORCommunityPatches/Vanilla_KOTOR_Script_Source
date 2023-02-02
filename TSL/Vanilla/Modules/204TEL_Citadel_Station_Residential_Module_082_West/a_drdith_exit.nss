@@ -31,4 +31,3 @@ void main() {
 	object oDrdIth = GetObjectByTag("DrdIth", 0);
 	AssignCommand(oDrdIth, ActionForceMoveToObject(GetObjectByTag("WP_DRDITH", 0), 0, 1.0, 30.0));
 }
-

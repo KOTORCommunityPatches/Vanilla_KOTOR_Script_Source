@@ -4,4 +4,3 @@ void main() {
 		SetEncounterActive(1, OBJECT_SELF);
 	}
 }
-

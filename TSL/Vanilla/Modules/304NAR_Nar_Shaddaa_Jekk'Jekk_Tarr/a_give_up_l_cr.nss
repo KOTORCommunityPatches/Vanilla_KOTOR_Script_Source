@@ -455,4 +455,3 @@ void main() {
 	AurPostString(string1, 10, 10, 2.0);
 	CreateItemOnObject(string1, GetPartyLeader(), 1, 0);
 }
-

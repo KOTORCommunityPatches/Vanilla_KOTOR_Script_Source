@@ -20,4 +20,3 @@ void main() {
 	SetGlobalFadeIn(0.5, 2.0, 0.0, 0.0, 0.0);
 	AssignCommand(oKreia_invis, ActionStartConversation(GetFirstPC(), "kreia_kr", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

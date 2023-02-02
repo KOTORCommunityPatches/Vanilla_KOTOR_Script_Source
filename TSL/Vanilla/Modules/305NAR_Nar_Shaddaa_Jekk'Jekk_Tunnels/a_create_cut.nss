@@ -6,4 +6,3 @@ void main() {
 		CreateObject(1, "p_hanharr", GetLocation(GetObjectByTag("WP_HAN_END2_0", 0)), 0);
 	}
 }
-

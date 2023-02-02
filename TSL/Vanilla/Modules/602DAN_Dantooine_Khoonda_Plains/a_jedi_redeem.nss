@@ -10,4 +10,3 @@ void main() {
 	SetGlobalNumber(string1, (GetGlobalNumber(string1) + 1));
 	AurPostString((string1 + " has been incremented"), 5, 5, 2.0);
 }
-

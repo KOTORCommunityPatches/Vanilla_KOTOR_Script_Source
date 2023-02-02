@@ -61,4 +61,3 @@ int StartingConditional() {
 	SetLocalNumber(GetObjectByTag("racedialog", 0), 12, 0);
 	return 0;
 }
-

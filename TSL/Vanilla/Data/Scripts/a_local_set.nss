@@ -25,4 +25,3 @@ void main()
     SetLocalBoolean(oObject, nLocalBoolean, TRUE);
 
 }
-

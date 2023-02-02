@@ -17,4 +17,3 @@ void main() {
 	AddJournalQuestEntry("bithstd", 90, 1);
 	SetLocalBoolean(OBJECT_SELF, 30, 1);
 }
-

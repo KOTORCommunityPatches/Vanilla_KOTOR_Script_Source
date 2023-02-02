@@ -36,4 +36,3 @@ void main() {
 	}
 	DelayCommand(0.5, AssignCommand(GetObjectByTag("Mira", 0), ActionForceMoveToObject(GetObjectByTag(sParam, 0), 0, 1.0, 30.0)));
 }
-

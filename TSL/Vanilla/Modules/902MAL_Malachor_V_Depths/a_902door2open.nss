@@ -4,4 +4,3 @@ void main() {
 	DelayCommand(0.5, SetLocked(oPortcullis2, 0));
 	DelayCommand(1.0, AssignCommand(oPortcullis2, ActionOpenDoor(oPortcullis2)));
 }
-

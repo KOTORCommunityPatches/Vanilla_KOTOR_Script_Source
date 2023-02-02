@@ -6,4 +6,3 @@ void main() {
 		AddJournalQuestEntry("RecentHistory", 90, 0);
 	}
 }
-

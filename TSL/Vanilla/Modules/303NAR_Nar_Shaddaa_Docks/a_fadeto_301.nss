@@ -4,4 +4,3 @@ void main() {
 	SwitchPlayerCharacter(0);
 	StartNewModule("306NAR", "WP_ATTON_CANTINA1", "", "", "", "", "", "");
 }
-

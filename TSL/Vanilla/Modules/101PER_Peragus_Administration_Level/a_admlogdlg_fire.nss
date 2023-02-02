@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(oAdm_Console, ActionStartConversation(GetPCSpeaker(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

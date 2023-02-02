@@ -34,4 +34,3 @@ void main() {
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 	SetGlobalNumber("203TEL_Current_Thug", 0);
 }
-

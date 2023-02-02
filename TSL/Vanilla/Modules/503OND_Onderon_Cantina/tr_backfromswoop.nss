@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(oQimtiq, ClearAllActions());
 	AssignCommand(oQimtiq, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

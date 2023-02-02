@@ -13,4 +13,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 40, 1);
 	SetLocalBoolean(GetObjectByTag("tr_bh_cv", 0), 55, 1);
 }
-

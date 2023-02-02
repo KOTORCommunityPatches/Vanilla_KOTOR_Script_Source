@@ -15,4 +15,3 @@ void main()
     UT_RemoveComputerSpikes(nAmount);
     UT_SetPlotBooleanFlag(GetModule(), SW_PLOT_COMPUTER_DEACTIVATE_DROIDS, TRUE);
 }
-

@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(oRutum, ActionMoveToObject(oWp_rutum_exit, 1, 1.0));
 	DelayCommand(3.0, DestroyObject(oRutum, 0.0, 0, 0.0, 0));
 }
-

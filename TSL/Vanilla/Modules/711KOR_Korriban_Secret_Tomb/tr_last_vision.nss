@@ -74,4 +74,3 @@ void main() {
 	efHeal = EffectHeal(100);
 	ApplyEffectToObject(2, efHeal, oG_darkpc_male, 0.0);
 }
-

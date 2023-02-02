@@ -1060,4 +1060,3 @@ void main() {
 	SetLocalNumber(OBJECT_SELF, 11, 6);
 	sub6(OBJECT_SELF, (Random(4) - 2), 0);
 }
-

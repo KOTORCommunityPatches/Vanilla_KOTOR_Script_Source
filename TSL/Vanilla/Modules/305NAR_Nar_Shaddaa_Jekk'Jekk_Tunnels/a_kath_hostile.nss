@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(0.3, ChangeToStandardFaction(oKHoundA2, 1));
 	DelayCommand(0.3, ChangeToStandardFaction(oKHoundA3, 1));
 }
-

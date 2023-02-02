@@ -30,4 +30,3 @@ void main() {
 	object oSentry2_standin = GetObjectByTag("sentry2_standin", 0);
 	AssignCommand(oSentry2_standin, ActionStartConversation(oEntering, "sentry2", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

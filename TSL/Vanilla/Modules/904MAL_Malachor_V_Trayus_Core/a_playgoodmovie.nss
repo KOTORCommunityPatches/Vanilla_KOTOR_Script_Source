@@ -6,4 +6,3 @@ void main() {
 	QueueMovie("MalMov12", 1);
 	PlayMovieQueue(0);
 }
-

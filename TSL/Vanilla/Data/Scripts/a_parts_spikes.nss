@@ -33,4 +33,3 @@ void main()
 
     else UT_RemoveRepairParts(iCost);
 }
-

@@ -31,4 +31,3 @@ void main() {
 	int nParam1 = GetScriptParameter(1);
 	SetGlobalNumber("105PER_Flash_Code", nParam1);
 }
-

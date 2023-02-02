@@ -18,4 +18,3 @@ void main() {
 	vector struct4 = GetPosition(OBJECT_SELF);
 	AssignCommand(GetPCSpeaker(), SetFacingPoint(struct4));
 }
-

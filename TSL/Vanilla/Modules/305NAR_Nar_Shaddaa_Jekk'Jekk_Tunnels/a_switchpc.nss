@@ -21,4 +21,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oPC, ActionJumpToObject(GetObjectByTag("WP_PC_VENT_0", 0), 0)));
 	}
 }
-

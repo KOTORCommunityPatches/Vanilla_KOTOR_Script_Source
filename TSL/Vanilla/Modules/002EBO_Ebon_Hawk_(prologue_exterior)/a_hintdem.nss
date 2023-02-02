@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(GetObjectByTag("ProtonMis", 0), ActionStartConversation(GetFirstPC(), "hintdem", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

@@ -8,4 +8,3 @@ void main() {
 		DelayCommand(0.1, ActionStartConversation(OBJECT_SELF, "ffield", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

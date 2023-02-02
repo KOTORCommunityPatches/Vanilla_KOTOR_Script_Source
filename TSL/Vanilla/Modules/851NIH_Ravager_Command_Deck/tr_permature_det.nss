@@ -8,4 +8,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 55, 1);
 	AssignCommand(GetObjectByTag("det", 0), ActionStartConversation(GetFirstPC(), "851exp", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

@@ -5,4 +5,3 @@ void main() {
 	}
 	DestroyObject(oT3M40, 0.0, 0, 0.0, 0);
 }
-

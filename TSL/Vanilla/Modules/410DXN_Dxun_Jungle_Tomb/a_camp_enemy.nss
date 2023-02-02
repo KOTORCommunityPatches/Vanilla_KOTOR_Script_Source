@@ -4827,4 +4827,3 @@ void main() {
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 	DelayCommand(0.1, ActionMoveToLocation(GetLocation(GetFirstPC()), 1));
 }
-

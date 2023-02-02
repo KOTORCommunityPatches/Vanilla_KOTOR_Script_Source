@@ -140,4 +140,3 @@ int StartingConditional() {
 		}
 	}
 }
-

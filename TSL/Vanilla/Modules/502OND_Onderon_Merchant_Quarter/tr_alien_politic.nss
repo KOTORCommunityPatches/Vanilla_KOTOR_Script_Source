@@ -10,4 +10,3 @@ void main() {
 	object oFake_alien = GetObjectByTag("fake_alien", 0);
 	AssignCommand(oFake_alien, ActionStartConversation(oEntering, "al_poli", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

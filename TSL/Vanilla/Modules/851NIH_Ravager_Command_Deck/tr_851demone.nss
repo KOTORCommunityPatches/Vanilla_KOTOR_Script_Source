@@ -17,4 +17,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oZuka, ClearAllActions()));
 	DelayCommand(0.5, AssignCommand(oZuka, ActionStartConversation(GetFirstPC(), "851dem", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

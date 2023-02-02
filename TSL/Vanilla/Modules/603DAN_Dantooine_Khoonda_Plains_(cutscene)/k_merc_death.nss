@@ -39,4 +39,3 @@ void main() {
 		ExecuteScript("a_mil_retreat", GetFirstPC(), 0xFFFFFFFF);
 	}
 }
-

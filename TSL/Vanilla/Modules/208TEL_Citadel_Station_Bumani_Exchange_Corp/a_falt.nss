@@ -46,4 +46,3 @@ void main() {
 		ChangeToStandardFaction(GetObjectByTag("g_csd002", 0), 1);
 	}
 }
-

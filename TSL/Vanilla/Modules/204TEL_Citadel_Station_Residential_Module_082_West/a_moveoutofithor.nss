@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(GetNextPC(), ActionMoveToObject(oWp_leavingithorian, 0, 1.0));
 	ActionResumeConversation();
 }
-

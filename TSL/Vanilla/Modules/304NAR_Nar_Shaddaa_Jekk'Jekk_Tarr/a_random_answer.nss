@@ -5,4 +5,3 @@ void main() {
 		SetLocalNumber(OBJECT_SELF, nParam2, Random(GetScriptParameter(1)));
 	}
 }
-

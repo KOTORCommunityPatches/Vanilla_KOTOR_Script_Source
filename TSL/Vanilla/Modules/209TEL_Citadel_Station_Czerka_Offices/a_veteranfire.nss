@@ -11,4 +11,3 @@ void main() {
 		AssignCommand(GetObjectByTag("Kreia", 0), ActionStartConversation(GetFirstPC(), "veteran", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

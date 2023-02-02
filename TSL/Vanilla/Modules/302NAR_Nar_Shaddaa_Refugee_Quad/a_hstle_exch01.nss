@@ -5,4 +5,3 @@ void main() {
 		ActionAttack(GetPartyLeader(), 0);
 	}
 }
-

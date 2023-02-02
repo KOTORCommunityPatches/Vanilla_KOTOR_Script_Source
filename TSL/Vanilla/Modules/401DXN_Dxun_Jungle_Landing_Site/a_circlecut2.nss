@@ -11,4 +11,3 @@ void main() {
 	vector struct2 = GetPositionFromLocation(location1);
 	DelayCommand(1.5, AssignCommand(oCannok_Scene, SetFacingPoint(struct2)));
 }
-

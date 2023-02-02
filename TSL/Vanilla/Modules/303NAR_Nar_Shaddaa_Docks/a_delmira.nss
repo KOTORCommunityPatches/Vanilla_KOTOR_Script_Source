@@ -4,4 +4,3 @@ void main() {
 	DestroyObject(oHanharr, 0.0, 0, 0.0, 0);
 	DestroyObject(o303Han, 0.0, 0, 0.0, 0);
 }
-

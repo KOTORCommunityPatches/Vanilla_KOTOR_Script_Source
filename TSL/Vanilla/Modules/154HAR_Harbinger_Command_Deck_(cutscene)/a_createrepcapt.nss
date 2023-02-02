@@ -8,4 +8,3 @@ void main() {
 	CreateObject(1, "n_repoff002", GetLocation(oWP_REPCAPT), 0);
 	CreateObject(1, "n_hk50", GetLocation(oWP_HK50), 0);
 }
-

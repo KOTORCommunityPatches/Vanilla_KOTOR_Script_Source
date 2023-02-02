@@ -34,4 +34,3 @@ void main() {
 	AddJournalQuestEntry("30001", 33, 1);
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

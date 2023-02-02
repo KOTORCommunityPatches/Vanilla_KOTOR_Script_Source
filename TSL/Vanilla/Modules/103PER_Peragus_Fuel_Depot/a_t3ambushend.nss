@@ -48,4 +48,3 @@ void main() {
 		DelayCommand(0.8, ApplyEffectToObject(0, EffectSleep(), oPC, 0.0));
 	}
 }
-

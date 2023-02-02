@@ -3,4 +3,3 @@ void main() {
 	GrantSpell(181, oSpeaker);
 	GrantSpell(6, oSpeaker);
 }
-

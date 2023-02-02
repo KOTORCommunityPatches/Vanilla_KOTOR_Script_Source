@@ -5,4 +5,3 @@ void main() {
 		CreateObject(1, "n_commf002", GetLocation(oWP_DOCKOFF), 0);
 	}
 }
-

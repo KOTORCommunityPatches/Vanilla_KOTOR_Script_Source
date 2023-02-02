@@ -24,4 +24,3 @@ void main() {
 	AurPostString((((("Spawning " + sParam) + " at sp_") + sParam) + IntToString(nParam1)), 5, 5, 5.0);
 	DelayCommand(IntToFloat(nParam2), sub1(sParam, nParam1));
 }
-

@@ -386,4 +386,3 @@ void main() {
 		sub1(object1, 1, 920);
 	}
 }
-

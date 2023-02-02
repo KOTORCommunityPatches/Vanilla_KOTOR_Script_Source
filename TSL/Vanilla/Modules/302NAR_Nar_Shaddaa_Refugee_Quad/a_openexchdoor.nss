@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oExchangeDoor, 0);
 	DelayCommand(1.0, AssignCommand(oExchangeDoor, ActionOpenDoor(oExchangeDoor)));
 }
-

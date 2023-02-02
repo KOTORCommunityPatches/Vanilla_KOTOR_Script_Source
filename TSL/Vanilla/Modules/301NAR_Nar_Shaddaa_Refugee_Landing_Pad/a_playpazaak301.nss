@@ -6,4 +6,3 @@ void main() {
 	int nParam4 = GetScriptParameter(4);
 	DelayCommand(IntToFloat(nParam4), PlayPazaak(nParam1, sParam, nParam2, nParam3, OBJECT_INVALID));
 }
-

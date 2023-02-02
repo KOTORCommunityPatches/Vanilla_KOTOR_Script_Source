@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(oKreia, ClearAllActions());
 	AssignCommand(oKreia, ActionStartConversation(GetFirstPC(), "151Kreia", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

@@ -5,4 +5,3 @@ void main() {
 	}
 	GiveItem(oP_kinrath_gland, GetFirstPC());
 }
-

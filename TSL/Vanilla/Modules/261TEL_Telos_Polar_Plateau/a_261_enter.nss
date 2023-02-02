@@ -7,4 +7,3 @@ void main() {
 		SetDisableTransit(1);
 	}
 }
-

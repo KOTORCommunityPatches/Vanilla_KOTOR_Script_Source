@@ -39,4 +39,3 @@ void main() {
 	AssignCommand(oVisquis, ActionStartConversation(GetFirstPC(), "305end", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(oHOLO3, ActionMoveToObject(oWP_DROIDHOLO_3_2, 1, 1.0));
 	DelayCommand(5.0, ActionResumeConversation());
 }
-

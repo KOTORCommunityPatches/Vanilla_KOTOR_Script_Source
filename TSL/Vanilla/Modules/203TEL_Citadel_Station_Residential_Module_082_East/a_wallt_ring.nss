@@ -33,4 +33,3 @@ void main() {
 	DelayCommand(1.0, AssignCommand(oPC, ClearAllActions()));
 	DelayCommand(30.0, AssignCommand(oPC, sub1()));
 }
-

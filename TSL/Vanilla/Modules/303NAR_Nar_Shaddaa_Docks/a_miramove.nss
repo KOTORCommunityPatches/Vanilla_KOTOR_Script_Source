@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(oMira, ActionMoveToObject(oWP_MIRA_1, 0, 1.0));
 	DelayCommand(3.0, ActionResumeConversation());
 }
-

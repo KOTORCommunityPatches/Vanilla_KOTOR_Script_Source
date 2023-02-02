@@ -11,4 +11,3 @@ void main() {
 	DelayCommand(1.0, ApplyEffectToObject(0, efDamage, object7, 0.0));
 	DelayCommand(1.0, ApplyEffectToObject(0, efDamage, object9, 0.0));
 }
-

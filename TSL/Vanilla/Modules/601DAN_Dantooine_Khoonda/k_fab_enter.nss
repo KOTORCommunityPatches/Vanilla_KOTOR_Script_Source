@@ -23,4 +23,3 @@ void main() {
 		AssignCommand(GetObjectByTag("npc_azkul", 0), ActionStartConversation(GetFirstPC(), "azkul", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

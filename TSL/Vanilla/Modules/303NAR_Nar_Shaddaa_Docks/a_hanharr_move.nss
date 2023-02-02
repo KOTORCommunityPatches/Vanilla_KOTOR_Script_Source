@@ -45,4 +45,3 @@ void main() {
 		DelayCommand(5.0, SoundObjectPlay(oCantena_Band_01a));
 	}
 }
-

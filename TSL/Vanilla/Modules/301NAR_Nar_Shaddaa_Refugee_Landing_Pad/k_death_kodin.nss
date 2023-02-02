@@ -34,4 +34,3 @@ void main() {
 	AddJournalQuestEntry("DroidRetrieval", 60, 0);
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

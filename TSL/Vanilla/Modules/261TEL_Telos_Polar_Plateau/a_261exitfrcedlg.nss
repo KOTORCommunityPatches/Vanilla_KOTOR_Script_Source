@@ -12,4 +12,3 @@ void main() {
 		AssignCommand(oBaoDur2, ActionStartConversation(oPC, "261exit", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

@@ -523,4 +523,3 @@ void main() {
 	sub6();
 	PlayAnimation(22, 1.0, 10.0);
 }
-

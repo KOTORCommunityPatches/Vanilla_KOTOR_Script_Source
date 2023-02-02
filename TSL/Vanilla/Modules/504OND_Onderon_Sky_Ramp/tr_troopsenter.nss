@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(oVaklu_GunnerCS, ActionMoveToObject(GetObjectByTag("wp_guard1a", 0), 1, 1.0));
 	AssignCommand(object5, ActionMoveToObject(GetObjectByTag("wp_guard2a", 0), 1, 1.0));
 }
-

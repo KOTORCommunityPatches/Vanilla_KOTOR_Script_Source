@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(oDoor_thug_2, ActionUnlockObject(oDoor_thug_2));
 	AssignCommand(oDoor_thug_2, ActionOpenDoor(oDoor_thug_2));
 }
-

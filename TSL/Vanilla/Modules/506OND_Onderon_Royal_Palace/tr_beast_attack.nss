@@ -13,4 +13,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 40, 1);
 	AssignCommand(oVaklu_captain, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

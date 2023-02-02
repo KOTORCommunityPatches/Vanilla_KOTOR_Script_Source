@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(GetObjectByTag("SerrocoLeader", 0), ClearAllActions());
 	ChangeToStandardFaction(GetObjectByTag("SerrocoLeader", 0), 1);
 }
-

@@ -5,4 +5,3 @@ void main() {
 		AddJournalQuestEntry("tutorial_garage", 20, 0);
 	}
 }
-

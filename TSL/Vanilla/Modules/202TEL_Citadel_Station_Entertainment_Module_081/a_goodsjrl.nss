@@ -4,4 +4,3 @@ void main() {
 		AddJournalQuestEntry("blackmarket", 40, 0);
 	}
 }
-

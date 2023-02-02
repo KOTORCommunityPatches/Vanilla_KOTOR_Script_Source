@@ -6,4 +6,3 @@ void main() {
 	DestroyObject(GetObjectByTag("CoortaCS", 0), 0.0, 0, 0.0, 0);
 	DestroyObject(GetObjectByTag("MineFor", 0), 0.0, 0, 0.0, 0);
 }
-

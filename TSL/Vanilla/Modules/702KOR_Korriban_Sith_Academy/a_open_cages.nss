@@ -7,4 +7,3 @@ void main() {
 	DelayCommand(1.6, AssignCommand(GetObjectByTag("cage_tukata", 3), ActionPlayAnimation(202, 1.0, 0.0)));
 	DelayCommand(2.0, AssignCommand(GetObjectByTag("cage_tukata", 4), ActionPlayAnimation(202, 1.0, 0.0)));
 }
-

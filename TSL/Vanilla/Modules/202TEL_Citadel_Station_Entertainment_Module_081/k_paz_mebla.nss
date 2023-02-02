@@ -9,4 +9,3 @@ void main() {
 		PlayPazaak(1, "k_pazend_mebla", 40, 0, OBJECT_INVALID);
 	}
 }
-

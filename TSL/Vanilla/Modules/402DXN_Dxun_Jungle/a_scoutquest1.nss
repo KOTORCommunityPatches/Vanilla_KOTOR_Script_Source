@@ -6,4 +6,3 @@ void main() {
 	SetLockHeadFollowInDialog(GetObjectByTag("om_scout2", 0), 1);
 	SetLockOrientationInDialog(GetObjectByTag("om_scout2", 0), 1);
 }
-

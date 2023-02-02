@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oHK50Door2, ActionUnlockObject(oHK50Door2)));
 	DelayCommand(0.5, AssignCommand(oHK50Door2, ActionOpenDoor(oHK50Door2)));
 }
-

@@ -10,4 +10,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 40, 1);
 	SetLocalBoolean(GetObjectByTag("exit_door", 0), 45, 1);
 }
-

@@ -12,4 +12,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(GetObjectByTag("Handmaiden", 0), 1));
 	DelayCommand(0.2, AssignCommand(GetObjectByTag("Handmaiden", 0), ActionAttack(GetFirstPC(), 0)));
 }
-

@@ -6,4 +6,3 @@ void main() {
 	CreateItemOnObject("g_w_sbrcrstl06", GetFirstPC(), 1, 0);
 	CreateItemOnObject("g_w_sbrcrstl05", GetFirstPC(), 1, 0);
 }
-

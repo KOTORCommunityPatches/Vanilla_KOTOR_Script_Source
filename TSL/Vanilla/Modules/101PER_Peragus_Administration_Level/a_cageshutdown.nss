@@ -7,4 +7,3 @@ void main() {
 	DelayCommand(3.0, AssignCommand(OBJECT_SELF, ActionJumpToObject(oWP_ATTON_FREE, 1)));
 	SetGlobalNumber("101PER_Talk_Atton", 1);
 }
-

@@ -15,4 +15,3 @@ void main() {
 	PlayMovie("NarMov07", 0);
 	StartNewModule("007EBO", "FROM_351NAR", "", "", "", "", "", "");
 }
-

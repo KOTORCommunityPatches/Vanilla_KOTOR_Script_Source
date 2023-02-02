@@ -11,4 +11,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oVisasMarr, ActionForceMoveToObject(GetObjectByTag("WP_650END_2", 0), 0, 1.0, 30.0)));
 	}
 }
-

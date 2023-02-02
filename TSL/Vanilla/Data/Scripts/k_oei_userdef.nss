@@ -11,4 +11,3 @@ void main()
     int nUser = GetUserDefinedEventNumber();
     DoSpecialUserDefined(OBJECT_SELF, nUser);
 }
-

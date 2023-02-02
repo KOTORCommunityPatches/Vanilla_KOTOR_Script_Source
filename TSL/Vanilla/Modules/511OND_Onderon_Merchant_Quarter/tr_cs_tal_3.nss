@@ -42,4 +42,3 @@ void main() {
 	AssignCommand(object10, ActionMoveToObject(oWp_cs_bostuco, 1, 1.0));
 	DelayCommand(0.1, AssignCommand(object10, ActionStartConversation(GetFirstPC(), "cs_tal_3", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

@@ -11,4 +11,3 @@ void main() {
 		AurPostString(("Destroying " + string1), 5, 7, 5.0);
 	}
 }
-

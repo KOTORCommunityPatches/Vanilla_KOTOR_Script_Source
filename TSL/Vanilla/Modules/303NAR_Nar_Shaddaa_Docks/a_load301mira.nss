@@ -5,4 +5,3 @@ void main() {
 	DestroyObject(GetObjectByTag("hanharr", 0), 0.0, 0, 0.0, 0);
 	StartNewModule("301NAR", "From_MiraApt", "", "", "", "", "", "");
 }
-

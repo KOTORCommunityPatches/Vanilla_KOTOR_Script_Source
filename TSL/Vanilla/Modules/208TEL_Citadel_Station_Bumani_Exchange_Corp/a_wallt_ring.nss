@@ -30,4 +30,3 @@ void main() {
 	AssignCommand(GetFirstPC(), ClearAllActions());
 	DelayCommand(30.0, AssignCommand(GetFirstPC(), sub1()));
 }
-

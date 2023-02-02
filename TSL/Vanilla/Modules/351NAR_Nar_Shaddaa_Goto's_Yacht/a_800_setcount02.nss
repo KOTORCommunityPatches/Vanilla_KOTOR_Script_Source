@@ -5,4 +5,3 @@ void main() {
 	}
 	SetGlobalNumber("800DRO_Count_02", nParam1);
 }
-

@@ -25,4 +25,3 @@ void main() {
 		SetGlobalNumber("202TEL_Falt", 4);
 	}
 }
-

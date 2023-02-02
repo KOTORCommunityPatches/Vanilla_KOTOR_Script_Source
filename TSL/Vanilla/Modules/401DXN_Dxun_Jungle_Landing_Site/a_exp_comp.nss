@@ -15,4 +15,3 @@ void main() {
 	CreateItemOnObject("compont_00001", GetFirstPC(), d3(1), 0);
 	DestroyObject(OBJECT_SELF, 0.0, 0, 0.0, 0);
 }
-

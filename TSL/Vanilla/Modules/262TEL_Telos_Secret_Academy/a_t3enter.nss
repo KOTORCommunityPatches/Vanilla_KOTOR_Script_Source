@@ -12,4 +12,3 @@ void main() {
 	}
 	AssignCommand(oT3M4, ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

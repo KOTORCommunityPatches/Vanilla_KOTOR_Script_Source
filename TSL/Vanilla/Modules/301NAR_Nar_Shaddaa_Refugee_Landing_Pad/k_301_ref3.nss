@@ -90,4 +90,3 @@ void main() {
 		AssignCommand(oRefugee3, ActionStartConversation(oPC, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

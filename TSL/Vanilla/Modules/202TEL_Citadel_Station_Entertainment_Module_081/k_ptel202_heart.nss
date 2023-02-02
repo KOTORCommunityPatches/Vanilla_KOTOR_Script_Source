@@ -3,4 +3,3 @@ void main() {
 	object oSittingBith = GetObjectByTag("SittingBith", 0);
 	int nRandom = Random(8);
 }
-

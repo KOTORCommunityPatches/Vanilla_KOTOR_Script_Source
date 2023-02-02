@@ -20,4 +20,3 @@ void main() {
 		CreateObject(1, "dev_killer", GetLocation(GetObjectByTag("wp_devkill_sp", 0)), 0);
 	}
 }
-

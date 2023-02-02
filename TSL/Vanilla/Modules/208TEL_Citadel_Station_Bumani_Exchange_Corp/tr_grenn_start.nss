@@ -10,4 +10,3 @@ void main() {
 	SetAreaUnescapable(1);
 	AssignCommand(GetObjectByTag("203_Gren", 0), ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

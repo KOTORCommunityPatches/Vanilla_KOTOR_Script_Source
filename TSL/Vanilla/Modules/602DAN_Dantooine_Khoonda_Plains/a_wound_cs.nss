@@ -37,4 +37,3 @@ void main() {
 	AssignCommand(oG_militia_d, ActionPlayAnimation(19, 1.0, (-1.0)));
 	SetLocalBoolean(oG_militia_d, 30, 1);
 }
-

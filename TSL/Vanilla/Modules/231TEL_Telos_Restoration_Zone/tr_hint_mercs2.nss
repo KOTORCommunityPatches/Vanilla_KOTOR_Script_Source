@@ -29,4 +29,3 @@ void main() {
 	DelayCommand(0.1, ChangeToStandardFaction(object11, 1));
 	DelayCommand(0.2, AssignCommand(object11, ActionAttack(GetFirstPC(), 0)));
 }
-

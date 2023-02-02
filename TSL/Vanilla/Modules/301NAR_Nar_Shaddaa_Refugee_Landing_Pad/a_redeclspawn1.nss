@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(object12, ActionMoveToObject(oWP_RE_1_2, 0, 1.0));
 	AssignCommand(oRECapt, ActionMoveToObject(oWP_RE_2_2, 0, 1.0));
 }
-

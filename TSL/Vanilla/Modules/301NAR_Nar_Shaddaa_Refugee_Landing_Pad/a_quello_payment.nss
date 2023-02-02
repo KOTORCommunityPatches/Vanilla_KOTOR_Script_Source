@@ -9,4 +9,3 @@ void main() {
 		TakeGoldFromCreature(50, GetFirstPC(), 0);
 	}
 }
-

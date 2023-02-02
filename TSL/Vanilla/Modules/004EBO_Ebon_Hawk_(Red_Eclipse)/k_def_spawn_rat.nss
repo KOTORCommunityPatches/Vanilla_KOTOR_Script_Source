@@ -1354,4 +1354,3 @@ void main() {
 	sub14();
 	AssignCommand(GetObjectByTag("Ratrin", 0), ActionPlayAnimation(26, 1.0, (-1.0)));
 }
-

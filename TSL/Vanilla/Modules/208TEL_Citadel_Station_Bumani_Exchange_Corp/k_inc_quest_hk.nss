@@ -66,4 +66,3 @@ void main() {
 	}
 	CreateItemOnObject(string2, oLeader, 1, 0);
 }
-

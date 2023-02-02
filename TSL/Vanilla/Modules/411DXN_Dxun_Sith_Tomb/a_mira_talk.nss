@@ -18,4 +18,3 @@ void main() {
 	}
 	DelayCommand(0.1, AssignCommand(oFake_mira, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

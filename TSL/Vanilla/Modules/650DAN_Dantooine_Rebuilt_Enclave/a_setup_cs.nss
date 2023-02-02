@@ -5,4 +5,3 @@ void main() {
 	AssignCommand(oKreia, JumpToLocation(GetLocation(oWp_cut_kreia)));
 	AssignCommand(GetPCSpeaker(), JumpToLocation(GetLocation(oWp_cut_pc)));
 }
-

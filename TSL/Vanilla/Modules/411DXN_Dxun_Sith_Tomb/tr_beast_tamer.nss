@@ -10,4 +10,3 @@ void main() {
 	object oTroop_beast_1 = GetObjectByTag("troop_beast_1", 0);
 	AssignCommand(oTroop_beast_1, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

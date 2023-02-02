@@ -7,4 +7,3 @@ void main() {
 		AssignCommand(oEntering, ActionStartConversation(GetFirstPC(), "ebonhawk", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

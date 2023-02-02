@@ -29,4 +29,3 @@ void main()
 
     UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_REPAIR_ACTIVATE_PATROL_ROUTE, TRUE);
 }
-

@@ -9,4 +9,3 @@ void main() {
 		AssignCommand(oPrisonRoomDr, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

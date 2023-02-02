@@ -12,4 +12,3 @@ void main() {
 		SetGlobalNumber(string2, (GetGlobalNumber(string2) + 1));
 	}
 }
-

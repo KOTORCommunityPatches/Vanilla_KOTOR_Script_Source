@@ -238,4 +238,3 @@ void main() {
 	sub4(intGLOB_91, 1);
 	sub4(intGLOB_118, 1);
 }
-

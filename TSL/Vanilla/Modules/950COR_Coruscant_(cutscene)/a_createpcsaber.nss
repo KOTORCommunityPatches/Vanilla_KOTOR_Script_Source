@@ -159,4 +159,3 @@ void main() {
 	DelayCommand(1.0, sub1(string1));
 	DelayCommand(1.5, SetLightsaberPowered(GetFirstPC(), 1, 0, 0));
 }
-

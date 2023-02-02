@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(oDrexl_boss, ActionUseTalentOnObject(TalentSpell(257), oDrexl_boss));
 	SetNPCAIStyle(oDrexl_boss, 7);
 }
-

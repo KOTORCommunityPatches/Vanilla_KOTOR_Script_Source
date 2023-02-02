@@ -5,4 +5,3 @@ void main() {
 	AssignCommand(oQuello, ClearAllActions());
 	DelayCommand(0.1, AssignCommand(oQuello, ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

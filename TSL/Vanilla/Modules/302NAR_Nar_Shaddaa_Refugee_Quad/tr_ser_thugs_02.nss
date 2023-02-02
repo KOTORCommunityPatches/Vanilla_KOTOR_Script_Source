@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(GetNearestObjectByTag("SerrocoThug1", OBJECT_SELF, 1), ActionStartConversation(GetFirstPC(), "serthug2", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

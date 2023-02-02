@@ -1357,4 +1357,3 @@ void main() {
 	sub15();
 	SetNPCAIStyle(OBJECT_SELF, intGLOB_121);
 }
-

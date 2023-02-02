@@ -30,4 +30,3 @@ void main()
     DelayCommand( IntToFloat(iDelay), AssignCommand( GetObjectByTag(sTag, iInst), ActionForceMoveToObject(GetObjectByTag(sWaypoint), iRun) ) );
 
 }
-

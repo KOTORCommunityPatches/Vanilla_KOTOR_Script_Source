@@ -18,4 +18,3 @@ void main() {
 		AssignCommand(oBaodur, ActionStartConversation(GetFirstPC(), "bao_sens", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

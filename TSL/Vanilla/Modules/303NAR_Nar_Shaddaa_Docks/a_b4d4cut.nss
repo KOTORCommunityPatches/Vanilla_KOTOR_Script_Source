@@ -9,4 +9,3 @@ void main() {
 		DelayCommand(5.0, DestroyObject(oB4D4, 0.0, 0, 0.0, 0));
 	}
 }
-

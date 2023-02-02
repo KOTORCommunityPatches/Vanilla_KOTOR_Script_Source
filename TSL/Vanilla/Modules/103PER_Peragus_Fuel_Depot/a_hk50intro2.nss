@@ -8,4 +8,3 @@ void main() {
 	vector struct2 = GetPositionFromLocation(location1);
 	DelayCommand(2.0, AssignCommand(OBJECT_SELF, SetFacingPoint(struct2)));
 }
-

@@ -538,4 +538,3 @@ void main() {
 	effect efVisual = EffectVisualEffect(2067, 0);
 	ApplyEffectToObject(2, efVisual, OBJECT_SELF, 0.0);
 }
-

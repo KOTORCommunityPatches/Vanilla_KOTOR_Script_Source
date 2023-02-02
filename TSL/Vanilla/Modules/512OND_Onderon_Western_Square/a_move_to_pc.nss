@@ -15,4 +15,3 @@ void main() {
 	}
 	DelayCommand(IntToFloat(nParam2), AssignCommand(object1, ActionForceMoveToObject(GetFirstPC(), nParam1, IntToFloat(nParam3), 30.0)));
 }
-

@@ -52,4 +52,3 @@ void main() {
 		AssignCommand(oHanharr, ActionUnequipItem(GetItemInSlot(5, OBJECT_SELF), 0));
 	}
 }
-

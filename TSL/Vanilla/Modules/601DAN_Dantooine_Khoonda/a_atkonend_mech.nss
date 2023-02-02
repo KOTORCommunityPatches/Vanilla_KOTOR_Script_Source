@@ -4809,4 +4809,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(GetObjectByTag("Mechanic", 0), 1));
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 }
-

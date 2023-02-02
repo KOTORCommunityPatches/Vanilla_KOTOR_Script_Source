@@ -18,4 +18,3 @@ void main() {
 		ApplyEffectToObject(2, efSpeedInc, object1, 0.0);
 	}
 }
-

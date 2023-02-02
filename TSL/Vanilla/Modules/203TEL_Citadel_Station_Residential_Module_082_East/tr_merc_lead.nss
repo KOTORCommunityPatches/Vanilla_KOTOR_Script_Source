@@ -14,4 +14,3 @@ void main() {
 		AssignCommand(oMerc_leader, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

@@ -17,4 +17,3 @@ void main() {
 		ExecuteScript("a_spawn_brood", oTr_kreia_crystal, 0xFFFFFFFF);
 	}
 }
-

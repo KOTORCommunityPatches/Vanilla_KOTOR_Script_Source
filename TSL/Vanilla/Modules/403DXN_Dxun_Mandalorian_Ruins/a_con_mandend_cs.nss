@@ -5,4 +5,3 @@ void main() {
 	oG_mand_guide = GetObjectByTag("g_mand_guide", 0);
 	DestroyObject(oG_mand_guide, 0.0, 0, 0.0, 0);
 }
-

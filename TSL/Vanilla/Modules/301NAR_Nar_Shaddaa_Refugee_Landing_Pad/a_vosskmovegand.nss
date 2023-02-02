@@ -20,4 +20,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oVossk_Gand3, ActionMoveToObject(GetWaypointByTag("WP_VOSSK_GAND3_1"), 0, 1.0)));
 	}
 }
-

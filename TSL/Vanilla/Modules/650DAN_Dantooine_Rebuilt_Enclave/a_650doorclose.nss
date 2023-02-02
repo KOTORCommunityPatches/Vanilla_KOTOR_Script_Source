@@ -9,4 +9,3 @@ void main() {
 	DelayCommand(1.5, SetLocked(oLocked1, 1));
 	DelayCommand(1.5, SetLocked(oLocked2, 1));
 }
-

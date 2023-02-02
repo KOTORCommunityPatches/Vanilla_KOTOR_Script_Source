@@ -42,4 +42,3 @@ void main() {
 	sub1(OBJECT_SELF, 1);
 	SetGlobalNumber("403DXN_Camp_Visited", 1);
 }
-

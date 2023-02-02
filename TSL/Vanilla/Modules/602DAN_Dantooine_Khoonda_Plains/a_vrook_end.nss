@@ -23,4 +23,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(oNpc_vrook, ActionStartConversation(oPC, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

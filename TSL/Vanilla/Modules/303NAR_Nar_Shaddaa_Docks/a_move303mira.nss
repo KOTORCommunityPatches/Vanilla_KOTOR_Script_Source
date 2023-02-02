@@ -47,4 +47,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oHanharr, ActionForceMoveToObject(GetObjectByTag("WP_303MIRA_HANHARR_0", 0), 0, 1.0, 30.0)));
 	}
 }
-

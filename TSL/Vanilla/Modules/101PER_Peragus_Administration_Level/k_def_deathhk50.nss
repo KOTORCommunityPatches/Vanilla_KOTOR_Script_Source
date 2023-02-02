@@ -36,4 +36,3 @@ void main() {
 	AssignCommand(o151HARDoor, ActionOpenDoor(o151HARDoor));
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

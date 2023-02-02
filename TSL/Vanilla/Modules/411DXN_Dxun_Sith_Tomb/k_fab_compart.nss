@@ -77,4 +77,3 @@ void main() {
 	sub1(OBJECT_SELF, intGLOB_20, 1);
 	ChangeToStandardFaction(OBJECT_SELF, 2);
 }
-

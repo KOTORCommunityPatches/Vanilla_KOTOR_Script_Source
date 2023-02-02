@@ -33,4 +33,3 @@ void main() {
 	int nParam2 = GetScriptParameter(2);
 	DelayCommand(IntToFloat(nParam2), AssignCommand(GetFirstPC(), ActionForceMoveToObject(GetObjectByTag(sParam, 0), nParam1, 1.0, 30.0)));
 }
-

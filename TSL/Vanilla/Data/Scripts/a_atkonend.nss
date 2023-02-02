@@ -16,4 +16,3 @@ void main()
     DelayCommand(0.2,ChangeToStandardFaction(OBJECT_SELF,STANDARD_FACTION_HOSTILE_1));
     DelayCommand(0.3,GN_DetermineCombatRound());
 }
-

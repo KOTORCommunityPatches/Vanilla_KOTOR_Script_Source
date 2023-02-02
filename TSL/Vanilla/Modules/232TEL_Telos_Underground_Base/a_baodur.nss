@@ -23,4 +23,3 @@ void main() {
 		SetLockOrientationInDialog(oBaoDur, 0);
 	}
 }
-

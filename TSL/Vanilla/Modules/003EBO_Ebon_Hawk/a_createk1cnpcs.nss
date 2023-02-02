@@ -13,4 +13,3 @@ void main() {
 		CreateObject(1, "p_bastilla001", GetLocation(oWP_T3_HOLO), 0);
 	}
 }
-

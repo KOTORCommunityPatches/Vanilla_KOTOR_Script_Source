@@ -15,4 +15,3 @@ void main() {
 	AurPostString("starting conversation", 5, 15, 5.0);
 	AssignCommand(oKreia_invis, ActionStartConversation(GetFirstPC(), "kreia_ac", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

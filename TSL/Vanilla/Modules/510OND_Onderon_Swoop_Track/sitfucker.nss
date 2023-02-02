@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(oSittingBith, ActionPlayAnimation(204, 1.0, 0.0));
 	}
 }
-

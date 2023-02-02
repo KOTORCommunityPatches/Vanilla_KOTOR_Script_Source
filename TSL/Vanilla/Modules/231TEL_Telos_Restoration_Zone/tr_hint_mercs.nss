@@ -15,4 +15,3 @@ void main() {
 		DelayCommand(0.2, AssignCommand(o231_D_SentryCut, ActionAttack(GetFirstPC(), 0)));
 	}
 }
-

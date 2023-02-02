@@ -6,4 +6,3 @@ void main() {
 	}
 	CreateItemOnObject(sParam, GetPartyLeader(), nParam1, 0);
 }
-

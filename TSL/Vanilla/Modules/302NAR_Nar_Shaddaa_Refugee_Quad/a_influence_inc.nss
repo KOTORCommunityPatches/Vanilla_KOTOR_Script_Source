@@ -21,4 +21,3 @@ void main() {
 	}
 	ModifyInfluence(nParam1, int8);
 }
-

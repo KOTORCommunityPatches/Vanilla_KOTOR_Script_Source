@@ -55,4 +55,3 @@ void main() {
 		AssignCommand(object4, ActionJumpToObject(GetWaypointByTag("wp_skypc2"), 1));
 	}
 }
-

@@ -6,4 +6,3 @@ void main() {
 	ChangeToStandardFaction(GetObjectByTag("fuel_sith", 4), 1);
 	ChangeToStandardFaction(GetObjectByTag("fuel_sith", 5), 1);
 }
-

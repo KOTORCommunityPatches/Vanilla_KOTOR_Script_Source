@@ -4819,4 +4819,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oG_darkpc, ActionAttack(GetFirstPC(), 0)));
 	DelayCommand(0.2, sub1(OBJECT_INVALID));
 }
-

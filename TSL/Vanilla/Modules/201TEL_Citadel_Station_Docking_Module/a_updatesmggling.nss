@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("smuggling", 35, 0);
 	}
 }
-

@@ -10,4 +10,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(OBJECT_SELF, ClearAllActions()));
 	DelayCommand(0.5, AssignCommand(OBJECT_SELF, ActionStartConversation(GetFirstPC(), "map", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

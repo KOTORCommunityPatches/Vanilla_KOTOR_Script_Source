@@ -1346,4 +1346,3 @@ void main() {
 	DelayCommand(0.7, AssignCommand(OBJECT_SELF, ActionPlayAnimation(37, 1.0, (-1.0))));
 	SetOrientOnClick(OBJECT_SELF, 0);
 }
-

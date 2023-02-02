@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(oTran_Jekk, ClearAllActions());
 	AssignCommand(oTran_Jekk, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

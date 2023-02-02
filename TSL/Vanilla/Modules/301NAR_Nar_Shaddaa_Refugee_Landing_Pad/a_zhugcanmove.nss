@@ -4,4 +4,3 @@ void main() {
 	ClearAllActions();
 	AssignCommand(oZhugCut3, ActionMoveToObject(oWP_ZHUG_CANTINA, 1, 1.0));
 }
-

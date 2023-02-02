@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(GetObjectByTag("Zez", 0), ActionPlayAnimation(121, 1.0, 0.0));
 	}
 }
-

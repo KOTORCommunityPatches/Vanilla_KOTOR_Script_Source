@@ -101,4 +101,3 @@ void main() {
 		SetGlobalBoolean("601DAN_Winners", 1);
 	}
 }
-

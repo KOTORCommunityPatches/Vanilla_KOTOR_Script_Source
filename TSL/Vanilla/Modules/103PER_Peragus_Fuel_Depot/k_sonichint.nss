@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("VoiceprintProtocol", 20, 0);
 	}
 }
-

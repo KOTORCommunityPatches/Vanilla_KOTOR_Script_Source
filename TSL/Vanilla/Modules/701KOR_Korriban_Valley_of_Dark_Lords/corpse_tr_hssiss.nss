@@ -71,4 +71,3 @@ void main() {
 		AssignCommand(GetObjectByTag("hssiss", 0), ActionStartConversation(GetFirstPC(), "kreia_kr", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

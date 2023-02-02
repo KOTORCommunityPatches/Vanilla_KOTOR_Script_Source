@@ -133,4 +133,3 @@ GrantSpell(nFormToLearn, GetFirstPC());
 IncrementGlobalNumber("G_PC_FORM", 1);
 
 }
-

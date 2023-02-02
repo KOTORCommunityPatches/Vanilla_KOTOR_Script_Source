@@ -10,4 +10,3 @@ void main() {
 		AssignCommand(GetObjectByTag("Atton", 0), ActionStartConversation(GetFirstPC(), "203atton", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

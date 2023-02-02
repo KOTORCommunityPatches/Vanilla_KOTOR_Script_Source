@@ -13,4 +13,3 @@ void main() {
 	DelayCommand(8.0, SoundObjectPlay(GetObjectByTag("ClothesOn", 0)));
 	SetGlobalFadeIn(10.0, 1.0, 0.0, 0.0, 0.0);
 }
-

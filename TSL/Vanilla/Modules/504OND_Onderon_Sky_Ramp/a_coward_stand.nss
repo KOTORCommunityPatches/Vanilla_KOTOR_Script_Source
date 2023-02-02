@@ -4909,4 +4909,3 @@ void main() {
 	ChangeToStandardFaction(GetObjectByTag("SithAppren", 0), 1);
 	ChangeToStandardFaction(GetObjectByTag("SithAppren", 1), 1);
 }
-

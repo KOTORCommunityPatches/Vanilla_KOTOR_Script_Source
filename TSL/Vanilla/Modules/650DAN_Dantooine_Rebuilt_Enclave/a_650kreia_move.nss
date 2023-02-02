@@ -52,4 +52,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oKreia, ActionForceMoveToObject(GetObjectByTag("WP_KREIA_JEDI_2", 0), 0, 1.0, 30.0)));
 	}
 }
-

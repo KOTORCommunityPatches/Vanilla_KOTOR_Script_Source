@@ -6,4 +6,3 @@ void main() {
 	SetGlobalNumber("107PER_MG_DEAD", 0);
 	SetGlobalNumber("107PER_MG_EBON", 0);
 }
-

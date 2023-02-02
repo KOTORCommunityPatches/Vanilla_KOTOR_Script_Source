@@ -11,4 +11,3 @@ void main() {
 	DelayCommand(2.0, AssignCommand(GetObjectByTag("handmaiden", 0), ActionMoveToObject(GetObjectByTag("wp_handmaiden", 0), 0, 1.0)));
 	DelayCommand(5.0, ActionResumeConversation());
 }
-

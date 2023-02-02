@@ -4,4 +4,3 @@ void main() {
 		DestroyObject(oSensorBall, 0.0, 0, 0.0, 0);
 	}
 }
-

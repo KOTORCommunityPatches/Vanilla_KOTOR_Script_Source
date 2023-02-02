@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(GetObjectByTag("lupo", 0), ActionStartConversation(GetObjectByTag("lupo", 0), "enter_lupo", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

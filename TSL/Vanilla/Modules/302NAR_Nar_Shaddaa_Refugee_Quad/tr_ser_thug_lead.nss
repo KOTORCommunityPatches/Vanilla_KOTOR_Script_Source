@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(oSerrocoLeader, ActionStartConversation(GetPartyLeader(), "serlead", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

@@ -95,4 +95,3 @@ void main() {
 	effect efDamageInc = EffectDamageIncrease(10, 4096);
 	ApplyEffectToObject(2, efDamageInc, OBJECT_SELF, 0.0);
 }
-

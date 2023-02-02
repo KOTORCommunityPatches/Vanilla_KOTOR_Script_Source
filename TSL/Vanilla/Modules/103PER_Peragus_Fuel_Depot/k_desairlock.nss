@@ -29,4 +29,3 @@ void main() {
 	AssignCommand(oSpeaker, ClearAllActions());
 	AssignCommand(oSpeaker, ActionAttack(oMainInv, 0));
 }
-

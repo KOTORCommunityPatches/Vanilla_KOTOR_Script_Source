@@ -5,4 +5,3 @@ void main() {
 	}
 	CreatureFlourishWeapon(GetObjectByTag(sParam, 0));
 }
-

@@ -51,4 +51,3 @@ void main() {
 	sub1(nParam1);
 	SetLocalBoolean(OBJECT_SELF, 30, 1);
 }
-

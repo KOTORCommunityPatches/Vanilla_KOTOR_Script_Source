@@ -4,4 +4,3 @@ void main() {
 		SetLocalBoolean(oG_assassindrd01, 50, 1);
 	}
 }
-

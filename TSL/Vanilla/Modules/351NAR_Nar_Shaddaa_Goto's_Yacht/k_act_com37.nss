@@ -68,4 +68,3 @@ void main() {
 	sub2(int1);
 	SetLocalBoolean(GetModule(), 20, 1);
 }
-

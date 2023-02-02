@@ -142,4 +142,3 @@ void main() {
 	}
 	DelayCommand(0.6, ExecuteScript("a_force_combat", OBJECT_SELF, 0xFFFFFFFF));
 }
-

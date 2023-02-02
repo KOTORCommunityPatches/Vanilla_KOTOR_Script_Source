@@ -103,4 +103,3 @@ void main() {
 	AssignCommand(oAtton, ClearAllActions());
 	AssignCommand(GetFirstPC(), ActionStartConversation(oAtton, "AttonEnd", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

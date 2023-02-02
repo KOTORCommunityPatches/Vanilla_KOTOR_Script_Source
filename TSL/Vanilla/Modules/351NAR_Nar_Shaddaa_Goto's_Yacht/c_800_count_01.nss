@@ -7,4 +7,3 @@ int StartingConditional() {
 	SetGlobalNumber("800DRO_Count_02", 1);
 	return 0;
 }
-

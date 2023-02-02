@@ -42,4 +42,3 @@ void main() {
 	}
 	AddJournalQuestEntry("NewTradeRoutes", 11, 0);
 }
-

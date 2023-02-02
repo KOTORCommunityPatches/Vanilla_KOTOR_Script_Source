@@ -43,4 +43,3 @@ int StartingConditional() {
 	AurPostString("DEBUG ERROR: All cases fell through C_PATO_FINALCHCK (Ferret)", 5, 5, 5.0);
 	return 0;
 }
-

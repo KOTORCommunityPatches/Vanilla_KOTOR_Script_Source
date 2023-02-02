@@ -30,4 +30,3 @@ void main() {
 		SetLockOrientationInDialog(oNpc_atris002, 1);
 	}
 }
-

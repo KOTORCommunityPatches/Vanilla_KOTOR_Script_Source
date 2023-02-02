@@ -13,4 +13,3 @@ void main() {
 		AssignCommand(oKreia, ActionStartConversation(oPC, "veteran", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

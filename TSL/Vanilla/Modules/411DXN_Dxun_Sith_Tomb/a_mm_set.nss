@@ -6,4 +6,3 @@ void main() {
 		SetGlobalNumber(string1, (GetGlobalNumber(string1) + 1));
 	}
 }
-

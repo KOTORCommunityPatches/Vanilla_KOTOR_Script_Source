@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(oPC, ActionMoveToObject(oSW_PC_ROOM_1, 1, 1.0));
 	DelayCommand(2.0, ActionResumeConversation());
 }
-

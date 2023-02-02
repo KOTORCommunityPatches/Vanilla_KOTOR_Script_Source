@@ -1364,4 +1364,3 @@ void main() {
 	DelayCommand(0.4, ChangeToStandardFaction(OBJECT_SELF, 5));
 	DelayCommand(0.4, sub20(OBJECT_SELF));
 }
-

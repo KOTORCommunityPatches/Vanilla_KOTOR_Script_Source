@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("TurboliftLockdown", 25, 0);
 	}
 }
-

@@ -35,4 +35,3 @@ void main() {
 	}
 	SetLocalNumber(OBJECT_SELF, nParam1, (GetLocalNumber(OBJECT_SELF, nParam1) + nParam2));
 }
-

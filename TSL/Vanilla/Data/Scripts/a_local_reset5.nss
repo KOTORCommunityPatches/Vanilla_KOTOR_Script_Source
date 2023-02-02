@@ -29,4 +29,3 @@ void main()
     SetLocalBoolean(OBJECT_SELF, nLocalBoolean5, FALSE);
 
 }
-

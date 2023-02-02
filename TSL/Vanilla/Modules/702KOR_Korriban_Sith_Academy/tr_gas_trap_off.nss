@@ -9,4 +9,3 @@ void main() {
 		SetLocalBoolean(oTr_gas_trap, 41, 1);
 	}
 }
-

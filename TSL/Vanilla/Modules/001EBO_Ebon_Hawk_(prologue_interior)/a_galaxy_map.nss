@@ -17,4 +17,3 @@ void main() {
 		DelayCommand(0.1, ShowGalaxyMap(2));
 	}
 }
-

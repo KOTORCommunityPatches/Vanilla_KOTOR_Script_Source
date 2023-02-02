@@ -12,4 +12,3 @@ void main() {
 		SetLocalBoolean(oKolTank, 30, 1);
 	}
 }
-

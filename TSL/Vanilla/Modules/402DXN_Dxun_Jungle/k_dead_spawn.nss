@@ -524,4 +524,3 @@ void main() {
 	effect efDamage = EffectDamage(300, 8, 0);
 	ApplyEffectToObject(0, efDamage, OBJECT_SELF, 0.0);
 }
-

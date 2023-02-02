@@ -20,4 +20,3 @@ void main() {
 	UnlockAllSongs();
 	EndGame(0);
 }
-

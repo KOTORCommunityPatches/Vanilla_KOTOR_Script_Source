@@ -88,4 +88,3 @@ void main() {
 	ActionWait(0.5);
 	ActionDoCommand(sub1("cond7_1", 10.0, 1));
 }
-

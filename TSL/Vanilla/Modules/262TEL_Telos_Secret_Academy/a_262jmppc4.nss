@@ -8,4 +8,3 @@ void main() {
 	object oWP_Handmaiden_2 = GetWaypointByTag("WP_Handmaiden_2");
 	AssignCommand(oHandmaiden, ActionJumpToObject(oWP_Handmaiden_2, 1));
 }
-

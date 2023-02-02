@@ -4824,4 +4824,3 @@ void main() {
 	DelayCommand(0.3, SetFakeCombatState(oRitual_leader, 1));
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 }
-

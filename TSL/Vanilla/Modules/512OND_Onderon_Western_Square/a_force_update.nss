@@ -14,4 +14,3 @@ void main() {
 		DelayCommand(0.5, DestroyObject(object1, 0.0, 0, 0.0, 0));
 	}
 }
-

@@ -6,4 +6,3 @@ void main() {
 	DestroyObject(oKhoonda_turret_2, 0.0, 0, 0.0, 0);
 	DestroyObject(oKhoonda_turret_3, 0.0, 0, 0.0, 0);
 }
-

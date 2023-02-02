@@ -190,4 +190,3 @@ void main() {
 	DelayCommand(0.1, ClearAllActions());
 	DelayCommand(0.4, sub1(OBJECT_SELF));
 }
-

@@ -7,4 +7,3 @@ void main() {
 	}
 	AssignCommand(oVa_tcpt, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

@@ -4,4 +4,3 @@ void main() {
 	ActionAttack(GetObjectByTag("ExchangeThug302_1", 0), 0);
 	ActionAttack(GetObjectByTag("ExchangeThug302_2", 0), 0);
 }
-

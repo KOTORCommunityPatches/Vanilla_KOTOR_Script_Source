@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(o203_Lorso, ActionStartConversation(GetPCSpeaker(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

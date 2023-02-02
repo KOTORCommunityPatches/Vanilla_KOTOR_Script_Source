@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("smuggling_tsf", 70, 0);
 	}
 }
-

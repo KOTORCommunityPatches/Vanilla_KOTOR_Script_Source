@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(oDrdSentry1, ActionMoveToLocation(location1, 0));
 	AssignCommand(oDrdSentry2, ActionMoveToLocation(location3, 0));
 }
-

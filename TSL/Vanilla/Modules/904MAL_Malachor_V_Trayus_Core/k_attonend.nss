@@ -22,4 +22,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(object11, ActionStartConversation(GetFirstPC(), "904Atton", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

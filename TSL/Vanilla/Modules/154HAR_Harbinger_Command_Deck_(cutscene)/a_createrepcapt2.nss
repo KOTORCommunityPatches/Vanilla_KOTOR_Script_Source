@@ -8,4 +8,3 @@ void main() {
 	CreateObject(1, "n_repsold", GetLocation(oWP_REPSOLD), 0);
 	CreateObject(1, "n_repdoc", GetLocation(oWP_REPDOC), 0);
 }
-

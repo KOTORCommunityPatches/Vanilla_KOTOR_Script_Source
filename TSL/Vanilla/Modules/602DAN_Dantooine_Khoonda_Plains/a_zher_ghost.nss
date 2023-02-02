@@ -11,4 +11,3 @@ void main() {
 		ActionTakeItem(GetObjectByTag("qu_deadwill", 0), GetFirstPC());
 	}
 }
-

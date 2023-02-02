@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(oRepCapt, ActionStartConversation(GetPCSpeaker(), "RepCapt2", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

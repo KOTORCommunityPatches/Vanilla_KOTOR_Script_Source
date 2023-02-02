@@ -8,4 +8,3 @@ int StartingConditional()
 {
   return ((IsNPCPartyMember(NPC_ATTON) == TRUE) && (GetDistanceBetween(GetPCSpeaker(), GetObjectByTag("Atton")) <= 10.0));
 }
-

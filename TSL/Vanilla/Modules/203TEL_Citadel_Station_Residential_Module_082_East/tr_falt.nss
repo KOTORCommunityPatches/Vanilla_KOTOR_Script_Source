@@ -8,4 +8,3 @@ void main() {
 		AssignCommand(o202_Falt, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

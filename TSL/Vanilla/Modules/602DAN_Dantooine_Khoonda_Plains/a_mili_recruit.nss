@@ -4,4 +4,3 @@ void main() {
 	SetGlobalNumber("602DAN_Mili_Recruit", (nGlobal | nParam1));
 	AurPostString(("Recruit: " + IntToString((nGlobal | nParam1))), 5, 5, 2.0);
 }
-

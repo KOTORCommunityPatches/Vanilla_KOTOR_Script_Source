@@ -525,4 +525,3 @@ void main() {
 	ClearAllActions();
 	sub1(intGLOB_114, 1);
 }
-

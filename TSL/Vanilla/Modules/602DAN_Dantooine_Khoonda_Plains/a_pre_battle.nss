@@ -29,4 +29,3 @@ void sub1() {
 void main() {
 	sub1();
 }
-

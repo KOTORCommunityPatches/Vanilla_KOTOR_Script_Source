@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(oChamp, ClearAllActions());
 	AssignCommand(oChamp, ActionForceMoveToLocation(GetLocation(oWp_champm), 0, 30.0));
 }
-

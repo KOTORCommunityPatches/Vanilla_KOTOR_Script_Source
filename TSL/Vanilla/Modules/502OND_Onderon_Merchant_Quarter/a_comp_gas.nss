@@ -71,4 +71,3 @@ void main() {
 	ActionWait(8.0);
 	ActionResumeConversation();
 }
-

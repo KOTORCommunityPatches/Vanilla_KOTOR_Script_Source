@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("chguard", 92, 0);
 	}
 }
-

@@ -8,4 +8,3 @@ void main() {
 	DestroyObject(oSister1, 0.0, 1, 0.0, 0);
 	DestroyObject(oSister2, 0.0, 1, 0.0, 0);
 }
-

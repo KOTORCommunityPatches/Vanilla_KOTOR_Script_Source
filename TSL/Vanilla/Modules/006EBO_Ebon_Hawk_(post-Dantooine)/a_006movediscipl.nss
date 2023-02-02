@@ -8,4 +8,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oDisciple, ActionForceMoveToObject(GetObjectByTag("WP_650END_1", 0), 0, 1.0, 30.0)));
 	}
 }
-

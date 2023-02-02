@@ -17,4 +17,3 @@ void main() {
 		SetLocalBoolean(GetObjectByTag("Drocon", 0), 31, 1);
 	}
 }
-

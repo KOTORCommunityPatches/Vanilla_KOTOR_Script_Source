@@ -3,4 +3,3 @@ void main() {
 	DelayCommand(0.6, AssignCommand(GetObjectByTag("VisasMarr", 0), SetFacingPoint(GetPosition(GetFirstPC()))));
 	DelayCommand(1.0, SetLockOrientationInDialog(GetObjectByTag("Visas", 0), 0));
 }
-

@@ -23,4 +23,3 @@ int StartingConditional()
         return FALSE;
     }
 }
-

@@ -4825,4 +4825,3 @@ void main() {
 	SetGlobalNumber("502OND_End_First", 2);
 	SetGlobalNumber("503OND_Tobin_Battle", 1);
 }
-

@@ -7,4 +7,3 @@ void main() {
 		AssignCommand(GetObjectByTag("MEETMANDALOREPH", 0), ActionStartConversation(oEntering, "meetm_cs", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

@@ -13,4 +13,3 @@ void main() {
 	CreateObject(1, "n_calonord002", GetLocation(oWP_G0T0HOLO_1), 0);
 	PlaySound("v_imp_stun");
 }
-

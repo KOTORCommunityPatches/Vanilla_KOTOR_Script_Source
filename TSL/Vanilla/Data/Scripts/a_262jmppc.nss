@@ -11,4 +11,3 @@ void main()
     AssignCommand( GetFirstPC(), ActionJumpToObject( wpPCCouncil ) );
 
 }
-

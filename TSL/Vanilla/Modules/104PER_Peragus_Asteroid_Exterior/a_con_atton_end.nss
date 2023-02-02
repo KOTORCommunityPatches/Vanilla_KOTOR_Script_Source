@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(76.0, ActionDoCommand(PlayRoomAnimation("104perg", 3)));
 	AssignCommand(oHarbAnimController, ActionStartConversation(GetFirstPC(), "harbcs", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

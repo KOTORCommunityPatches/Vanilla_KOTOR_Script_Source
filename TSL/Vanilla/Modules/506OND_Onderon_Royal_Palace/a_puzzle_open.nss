@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oDoor_puzzle, 0);
 	DelayCommand(0.5, AssignCommand(oDoor_puzzle, ActionOpenDoor(oDoor_puzzle)));
 }
-

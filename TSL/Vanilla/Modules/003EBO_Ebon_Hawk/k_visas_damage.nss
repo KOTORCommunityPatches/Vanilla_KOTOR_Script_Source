@@ -146,4 +146,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(oVisasCut, ActionStartConversation(GetFirstPC(), "visasmarr", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

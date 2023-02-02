@@ -43,4 +43,3 @@ void main() {
 		DelayCommand(1.0, sub1(GetLocalNumber(OBJECT_SELF, 20), nParam2));
 	}
 }
-

@@ -4,4 +4,3 @@ void main() {
 	DestroyObject(GetObjectByTag("ESparkLg", 0), 0.0, 0, 0.0, 0);
 	CreateObject(64, "BlastSmoke", location1, 0);
 }
-

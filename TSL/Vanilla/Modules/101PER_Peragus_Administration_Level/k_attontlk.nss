@@ -10,4 +10,3 @@ void main() {
 		DelayCommand(0.2, AssignCommand(oAtton, ActionStartConversation(oPC, "101atton", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

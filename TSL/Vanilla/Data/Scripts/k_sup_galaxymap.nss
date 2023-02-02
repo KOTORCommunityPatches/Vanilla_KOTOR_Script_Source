@@ -335,4 +335,3 @@ void CUSTOM_TurnOffPlanets()
         SetPlanetSelectable(PLANET_LIVE_05, FALSE);
     }
 }
-

@@ -81,4 +81,3 @@ void main() {
 		DelayCommand(0.5, DisplayMessageBox(136053, "lbl_ilside"));
 	}
 }
-

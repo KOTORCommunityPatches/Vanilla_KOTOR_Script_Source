@@ -20,4 +20,3 @@ void main() {
 		DelayCommand(0.2, AssignCommand(object7, ActionAttack(GetFirstPC(), 0)));
 	}
 }
-

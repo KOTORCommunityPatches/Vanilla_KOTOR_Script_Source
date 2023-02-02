@@ -69,4 +69,3 @@ int StartingConditional() {
 	SetCustomToken(45, IntToString(sub1(6, 5)));
 	return 1;
 }
-

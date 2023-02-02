@@ -4,4 +4,3 @@ void main() {
 	GiveGoldToCreature(oPC, (100 * int1));
 	SetGlobalNumber("301NAR_Tribute_Level", int1);
 }
-

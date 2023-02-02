@@ -45,4 +45,3 @@ void main() {
 	SetLocked(oBlastDoor, 0);
 	DelayCommand(0.7, AssignCommand(oBlastDoor, ActionOpenDoor(oBlastDoor)));
 }
-

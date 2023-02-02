@@ -1345,4 +1345,3 @@ void main() {
 	sub14();
 	SetLocalBoolean(OBJECT_SELF, 60, 1);
 }
-

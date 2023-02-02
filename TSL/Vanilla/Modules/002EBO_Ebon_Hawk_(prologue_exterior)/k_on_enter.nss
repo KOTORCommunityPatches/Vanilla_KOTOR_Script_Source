@@ -16,4 +16,3 @@ void main() {
 		AssignCommand(oLift_to_001, ActionStartConversation(GetFirstPC(), "enter", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

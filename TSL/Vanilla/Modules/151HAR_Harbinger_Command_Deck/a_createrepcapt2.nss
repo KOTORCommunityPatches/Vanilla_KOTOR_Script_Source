@@ -16,4 +16,3 @@ void main() {
 		CreateObject(1, "n_repdoc", GetLocation(oWP_REPDOC), 0);
 	}
 }
-

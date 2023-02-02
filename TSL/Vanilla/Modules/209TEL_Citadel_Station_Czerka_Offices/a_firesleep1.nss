@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(oAtton, ClearAllActions());
 	AssignCommand(oAtton, ActionStartConversation(GetFirstPC(), "203atton", 0, 1, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

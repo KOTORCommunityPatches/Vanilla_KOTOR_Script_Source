@@ -4,4 +4,3 @@ void main() {
 	string string1 = "403DXN_Price_Passage";
 	SetGlobalNumber(string1, (GetGlobalNumber(string1) + 1));
 }
-

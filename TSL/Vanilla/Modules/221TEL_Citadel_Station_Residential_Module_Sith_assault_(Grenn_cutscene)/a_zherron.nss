@@ -7,4 +7,3 @@ void main() {
 	DelayCommand(12.0, DestroyObject(GetObjectByTag("tsfoff1", 0), 0.0, 0, 0.0, 0));
 	DelayCommand(12.0, DestroyObject(GetObjectByTag("tsfoff2", 0), 0.0, 0, 0.0, 0));
 }
-

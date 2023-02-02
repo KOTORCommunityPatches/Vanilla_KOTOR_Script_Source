@@ -24,4 +24,3 @@ void main() {
 	sub1("vrook_holo", 0);
 	ActionResumeConversation();
 }
-

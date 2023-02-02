@@ -19,4 +19,3 @@ void main() {
 	object oN_darthsion002 = CreateObject(1, "n_darthsion002", GetLocation(GetObjectByTag("sp_sion", 0)), 0);
 	AssignCommand(oN_darthsion002, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

@@ -9,4 +9,3 @@ void main() {
 	AssignCommand(oNpc_jorran, ClearAllActions());
 	AssignCommand(oNpc_jorran, ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

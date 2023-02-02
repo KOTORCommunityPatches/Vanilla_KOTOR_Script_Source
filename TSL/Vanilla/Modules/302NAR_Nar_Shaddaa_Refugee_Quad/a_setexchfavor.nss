@@ -14,4 +14,3 @@ void main() {
 		IncrementGlobalNumber("300NAR_Exchange_Gap", nParam2);
 	}
 }
-

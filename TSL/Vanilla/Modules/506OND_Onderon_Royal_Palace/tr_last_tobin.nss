@@ -21,4 +21,3 @@ void main() {
 		AssignCommand(oTobin, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

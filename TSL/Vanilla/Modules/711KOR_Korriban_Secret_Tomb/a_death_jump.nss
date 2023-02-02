@@ -6,4 +6,3 @@ void main() {
 	location1 = GetLocation(GetObjectByTag(("wp_death_invis" + IntToString(nParam1)), 0));
 	AssignCommand(GetObjectByTag("pc_death", 0), ActionJumpToLocation(location1));
 }
-

@@ -5,4 +5,3 @@ void main() {
 		SetGlobalNumber("101PER_XP_Sedatives", 1);
 	}
 }
-

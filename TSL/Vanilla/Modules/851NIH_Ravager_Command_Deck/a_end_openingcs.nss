@@ -158,4 +158,3 @@ void main() {
 	SetLockOrientationInDialog(oMand, 0);
 	DelayCommand(1.0, DestroyObject(GetObjectByTag("Zuka", 0), 0.0, 0, 0.0, 0));
 }
-

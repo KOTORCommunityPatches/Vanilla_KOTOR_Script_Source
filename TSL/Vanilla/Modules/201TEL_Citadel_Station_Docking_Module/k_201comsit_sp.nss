@@ -231,4 +231,3 @@ void main() {
 	ActionPlayAnimation(36, 1.0, (-1.0));
 	SetOrientOnClick(OBJECT_SELF, 0);
 }
-

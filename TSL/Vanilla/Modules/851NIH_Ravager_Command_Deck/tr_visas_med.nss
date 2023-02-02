@@ -16,4 +16,3 @@ void main() {
 	AssignCommand(oVisasMarr, ActionJumpToObject(GetObjectByTag("sp_visas_cell_door", 0), 1));
 	AssignCommand(oVisasMarr, ActionStartConversation(GetFirstPC(), "851visdr", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

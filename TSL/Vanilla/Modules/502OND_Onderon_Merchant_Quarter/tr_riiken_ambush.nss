@@ -15,4 +15,3 @@ void main() {
 	AssignCommand(oG_riiken, ActionMoveToObject(oWp_riiken_amb_2, 0, 1.0));
 	ActionStartConversation(oEntering, "riik_amb", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

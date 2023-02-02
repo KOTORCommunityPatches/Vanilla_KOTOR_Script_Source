@@ -3,4 +3,3 @@ void main() {
 	DelayCommand(2.5, SetDialogPlaceableCamera(9));
 	DelayCommand(2.5, DisableVideoEffect());
 }
-

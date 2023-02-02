@@ -525,4 +525,3 @@ void main() {
 	int int1 = FloatToInt((GetCurrentHitPoints(OBJECT_SELF) * 0.85));
 	ApplyEffectToObject(0, EffectDamage(int1, 8, 0), OBJECT_SELF, 0.0);
 }
-

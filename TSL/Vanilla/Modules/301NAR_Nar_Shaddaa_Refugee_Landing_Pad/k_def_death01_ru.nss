@@ -40,4 +40,3 @@ void main() {
 	DelayCommand(2.5, DestroyObject(oExchangeThug2, 0.0, 0, 0.0, 0));
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(oDoor_training, ActionUnlockObject(oDoor_training));
 	AssignCommand(oDoor_training, ActionOpenDoor(oDoor_training));
 }
-

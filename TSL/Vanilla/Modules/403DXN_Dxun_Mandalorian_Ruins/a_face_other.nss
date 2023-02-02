@@ -6,4 +6,3 @@ void main() {
 	}
 	AssignCommand(OBJECT_SELF, SetFacingPoint(GetPosition(GetObjectByTag(sParam, nParam1))));
 }
-

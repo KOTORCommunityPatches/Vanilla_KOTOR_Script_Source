@@ -4,4 +4,3 @@ void main() {
 	DestroyObject(GetObjectByTag("VisasMarr", 0), 0.0, 1, 0.0, 0);
 	ShowPartySelectionGUI("", 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

@@ -7,4 +7,3 @@ void main() {
 	SetGlobalNumber("907MAL_CUTSCENE", 2);
 	StartNewModule("907MAL", "", "", "", "", "", "", "");
 }
-

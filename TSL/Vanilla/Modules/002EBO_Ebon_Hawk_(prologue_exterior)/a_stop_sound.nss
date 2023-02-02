@@ -4,4 +4,3 @@ void main() {
 	int nParam2 = GetScriptParameter(2);
 	DelayCommand(IntToFloat(nParam1), SoundObjectFadeAndStop(GetObjectByTag(sParam, 0), IntToFloat(nParam2)));
 }
-

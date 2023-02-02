@@ -30,4 +30,3 @@
 void main() {
 	ShowUpgradeScreen(OBJECT_INVALID, GetLastUsedBy(), 0, 1, "tutitemcreate");
 }
-

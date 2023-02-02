@@ -5,4 +5,3 @@ void main() {
 	PlayMovie("MalMov01b", 0);
 	StartNewModule("221TEL", "", "", "", "", "", "", "");
 }
-

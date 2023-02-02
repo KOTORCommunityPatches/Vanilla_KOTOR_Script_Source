@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oPazaakDen, ActionOpenDoor(oPazaakDen)));
 	DelayCommand(0.5, AssignCommand(object3, ActionOpenDoor(object3)));
 }
-

@@ -7,4 +7,3 @@ void main() {
 		AssignCommand(GetObjectByTag("CoortaFake", 0), ActionStartConversation(GetPCSpeaker(), "CoorDead", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

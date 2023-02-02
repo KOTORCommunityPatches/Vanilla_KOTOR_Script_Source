@@ -9,4 +9,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 40, 1);
 	ActionStartConversation(oEntering, "mand_bod", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

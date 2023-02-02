@@ -13,4 +13,3 @@ void main()
     DelayCommand(0.2,AssignCommand(GetObjectByTag("Atton"),ActionAttack(GetFirstPC())) );
 
 }
-

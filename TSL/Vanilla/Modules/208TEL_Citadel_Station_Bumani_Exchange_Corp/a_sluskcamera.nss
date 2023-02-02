@@ -10,4 +10,3 @@ void main() {
 		DelayCommand(6.0, DestroyObject(GetObjectByTag("ithorian_prisoner", 0), 0.0, 0, 0.0, 0));
 	}
 }
-

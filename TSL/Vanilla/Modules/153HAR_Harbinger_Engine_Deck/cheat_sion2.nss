@@ -8,4 +8,3 @@ void main() {
 		AssignCommand(oAtton, ActionStartConversation(oPC, "153atton", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

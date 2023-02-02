@@ -25,4 +25,3 @@ void main() {
 		SetLocalBoolean(GetFirstPC(), 20, 0);
 	}
 }
-

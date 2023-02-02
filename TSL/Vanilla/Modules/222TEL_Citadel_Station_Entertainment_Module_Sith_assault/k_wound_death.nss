@@ -34,4 +34,3 @@ void main() {
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 	ExecuteScript("a_gbl_react", OBJECT_SELF, 0);
 }
-

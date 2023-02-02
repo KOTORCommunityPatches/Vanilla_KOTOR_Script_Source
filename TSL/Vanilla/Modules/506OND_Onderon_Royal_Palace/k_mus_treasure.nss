@@ -14,4 +14,3 @@ void main() {
 	SetGlobalNumber("506OND_MuseumThief", 1);
 	DestroyObject(OBJECT_SELF, 0.0, 0, 0.0, 0);
 }
-

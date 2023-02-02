@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(object3, ActionPlayAnimation(10334, 1.0, 0.0));
 	AssignCommand(object3, ActionPlayAnimation(10278, 1.0, 0.0));
 }
-

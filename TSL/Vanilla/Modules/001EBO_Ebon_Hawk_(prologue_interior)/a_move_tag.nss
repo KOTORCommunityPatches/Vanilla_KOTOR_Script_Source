@@ -38,4 +38,3 @@ void main() {
 	string string4 = ("wp_" + sParam);
 	DelayCommand(IntToFloat(nParam2), AssignCommand(GetObjectByTag(sParam, nParam3), ActionForceMoveToObject(GetObjectByTag(string4, 0), nParam1, 1.0, 30.0)));
 }
-

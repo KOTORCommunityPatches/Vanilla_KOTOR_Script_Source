@@ -9,4 +9,3 @@ void main() {
 		ActionDoCommand(ApplyEffectToObject(2, efVisual, OBJECT_SELF, 0.0));
 	}
 }
-

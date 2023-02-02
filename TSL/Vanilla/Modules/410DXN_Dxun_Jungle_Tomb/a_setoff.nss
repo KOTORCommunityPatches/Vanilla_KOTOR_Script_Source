@@ -21,4 +21,3 @@ void main() {
 	SetLocalBoolean(GetObjectByTag("power_gen_backup", 0), 45, 1);
 	SetLocalBoolean(GetObjectByTag("power_gen", 0), 45, 1);
 }
-

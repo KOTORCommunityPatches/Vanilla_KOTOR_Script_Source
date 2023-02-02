@@ -19,4 +19,3 @@ void main() {
 	DelayCommand(0.5, SetLockHeadFollowInDialog(oRep_gen, 1));
 	DelayCommand(0.5, SetLockOrientationInDialog(oRep_gen, 1));
 }
-

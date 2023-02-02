@@ -19,4 +19,3 @@ void main() {
 	DelayCommand(2.0, AssignCommand(oEntering, ActionForceMoveToObject(GetObjectByTag("wp_pc_mines", 0), 0, 1.0, 30.0)));
 	DelayCommand(3.0, CreatureFlourishWeapon(oEntering));
 }
-

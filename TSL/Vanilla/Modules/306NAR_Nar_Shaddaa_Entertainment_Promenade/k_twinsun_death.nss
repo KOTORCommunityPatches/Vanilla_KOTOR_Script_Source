@@ -47,4 +47,3 @@ void main() {
 		AssignCommand(oTwindeadatton, ActionStartConversation(oAtton, "twindead", 0, 0, 1, "", "", "", "", "", "", 0, (-1), (-1), 1));
 	}
 }
-

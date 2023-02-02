@@ -54,4 +54,3 @@ void main() {
 	SetInputClass(0);
 	StartNewModule("371NAR", "", "", "", "", "", "", "");
 }
-

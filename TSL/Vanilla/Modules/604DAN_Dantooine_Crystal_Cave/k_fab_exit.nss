@@ -4,4 +4,3 @@ void main() {
 		SetLocalBoolean(oTr_kreia_crystal, 50, 0);
 	}
 }
-

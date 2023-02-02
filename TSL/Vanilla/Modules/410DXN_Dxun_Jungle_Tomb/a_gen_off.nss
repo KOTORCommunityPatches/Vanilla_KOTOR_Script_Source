@@ -8,4 +8,3 @@ void main() {
 	SoundObjectFadeAndStop(GetObjectByTag(("Generator" + string1), 0), 1.0);
 	SoundObjectPlay(GetObjectByTag((("Generator" + string1) + "off"), 0));
 }
-

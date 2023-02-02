@@ -144,4 +144,3 @@ void main() {
 		AssignCommand(oDarthSion, ActionStartConversation(GetFirstPC(), "sion", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

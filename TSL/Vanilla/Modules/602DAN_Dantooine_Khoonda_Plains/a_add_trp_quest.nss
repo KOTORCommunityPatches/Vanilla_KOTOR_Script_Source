@@ -6,4 +6,3 @@ void main() {
 		AddJournalQuestEntry("khoonda_traps", 15, 0);
 	}
 }
-

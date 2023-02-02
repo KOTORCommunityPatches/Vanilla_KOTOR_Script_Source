@@ -7,4 +7,3 @@ void main() {
 	AssignCommand(oMaalraas_Scene, ClearAllActions());
 	AssignCommand(oMaalraas_Scene, ActionMoveToObject(oWP_CIRCLECS_1, 1, 1.0));
 }
-

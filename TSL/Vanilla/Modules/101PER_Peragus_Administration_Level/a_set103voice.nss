@@ -11,4 +11,3 @@ void main() {
 		SetGlobalNumber("103PER_Voice_Frag_3", nParam2);
 	}
 }
-

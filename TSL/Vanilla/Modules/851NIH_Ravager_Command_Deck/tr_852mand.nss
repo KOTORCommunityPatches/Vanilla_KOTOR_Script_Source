@@ -19,4 +19,3 @@ void main() {
 	AssignCommand(oVisasMarr, ActionMoveToObject(GetObjectByTag("WP_852MAND_VISAS", 0), 0, 1.0));
 	AssignCommand(oVisasMarr, ActionStartConversation(GetFirstPC(), "852Mand", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

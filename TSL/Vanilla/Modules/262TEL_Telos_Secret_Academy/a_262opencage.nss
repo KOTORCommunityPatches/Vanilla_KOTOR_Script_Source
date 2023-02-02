@@ -5,4 +5,3 @@ void main() {
 	object oForceCageBlocker = GetObjectByTag("ForceCageBlocker", 0);
 	DestroyObject(oForceCageBlocker, 0.0, 0, 0.0, 0);
 }
-

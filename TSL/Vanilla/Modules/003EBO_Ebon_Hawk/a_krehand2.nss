@@ -3,4 +3,3 @@ void main() {
 	object oKreiaInvis = GetObjectByTag("KreiaInvis", 0);
 	AssignCommand(oKreia, SetFacingPoint(GetPosition(oKreiaInvis)));
 }
-

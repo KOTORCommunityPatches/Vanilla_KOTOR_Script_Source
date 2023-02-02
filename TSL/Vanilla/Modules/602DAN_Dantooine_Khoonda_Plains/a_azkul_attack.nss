@@ -25,4 +25,3 @@ void main() {
 		ChangeToStandardFaction(GetObjectByTag("npc_azkul", 0), 1);
 	}
 }
-

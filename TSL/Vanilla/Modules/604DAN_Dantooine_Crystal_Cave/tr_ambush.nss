@@ -7,4 +7,3 @@ void main() {
 	AurPostString("it's the merc", 5, 5, 5.0);
 	AssignCommand(oInvisible, ActionStartConversation(GetFirstPC(), "merc_ambush", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

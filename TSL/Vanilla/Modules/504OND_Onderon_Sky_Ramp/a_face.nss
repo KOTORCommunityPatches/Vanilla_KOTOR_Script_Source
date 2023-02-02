@@ -13,4 +13,3 @@ void main() {
 		AssignCommand(GetObjectByTag(sParam, nParam3), SetFacingPoint(GetPosition(GetFirstPC())));
 	}
 }
-

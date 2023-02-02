@@ -22,4 +22,3 @@ void main() {
 	SetGlobalNumber(string3, 2);
 	SetGlobalFadeIn(0.0, 1.0, 0.0, 0.0, 0.0);
 }
-

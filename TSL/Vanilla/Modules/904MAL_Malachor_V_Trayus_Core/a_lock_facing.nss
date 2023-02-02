@@ -7,4 +7,3 @@ void main() {
 	}
 	SetLockOrientationInDialog(oPC, nParam1);
 }
-

@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(oKreiaEvil, SetFacing(90.0));
 	}
 }
-

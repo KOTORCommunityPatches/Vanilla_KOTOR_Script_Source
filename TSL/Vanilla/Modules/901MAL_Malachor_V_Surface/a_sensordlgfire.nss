@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(oSensor, ActionStartConversation(GetPCSpeaker(), "sensorfi", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

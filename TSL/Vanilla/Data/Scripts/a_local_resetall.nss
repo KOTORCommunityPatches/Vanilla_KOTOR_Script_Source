@@ -36,4 +36,3 @@ void main()
     SetLocalBoolean(oObject, 40, FALSE);
 
 }
-

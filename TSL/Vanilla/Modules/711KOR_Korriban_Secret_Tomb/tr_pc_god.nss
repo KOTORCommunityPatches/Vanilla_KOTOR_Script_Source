@@ -53,4 +53,3 @@ void main() {
 	AurPostString(("Vision Track - " + IntToString(GetGlobalNumber("711KOR_Vision_Track"))), 5, 5, 2.0);
 	DelayCommand(1.0, AssignCommand(GetObjectByTag("g_repsold_capt", 0), ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

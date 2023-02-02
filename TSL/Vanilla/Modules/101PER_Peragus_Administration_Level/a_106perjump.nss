@@ -18,4 +18,3 @@ void main() {
 	DelayCommand(0.1, SetGlobalFadeOut(0.0, 0.75, 0.0, 0.0, 0.0));
 	DelayCommand(1.0, sub1());
 }
-

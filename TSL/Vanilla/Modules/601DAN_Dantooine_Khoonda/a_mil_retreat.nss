@@ -77,4 +77,3 @@ void main() {
 	}
 	DelayCommand(0.5, AssignCommand(oNpc_zherron, ActionStartConversation(oPC, "zherron", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

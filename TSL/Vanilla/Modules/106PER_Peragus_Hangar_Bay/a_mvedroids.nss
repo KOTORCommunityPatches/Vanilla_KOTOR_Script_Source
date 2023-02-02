@@ -146,4 +146,3 @@ void main() {
 	AssignCommand(o106DROID2, ActionMoveToObject(oWP_DROID_2_2, 1, 1.0));
 	DelayCommand(3.0, ActionResumeConversation());
 }
-

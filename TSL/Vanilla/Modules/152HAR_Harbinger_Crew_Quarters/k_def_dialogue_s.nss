@@ -34,4 +34,3 @@ void main() {
 	SetKeepStealthInDialog(1);
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_4);
 }
-

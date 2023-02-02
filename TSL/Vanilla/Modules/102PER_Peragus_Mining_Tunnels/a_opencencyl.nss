@@ -7,4 +7,3 @@ void main() {
 	ActionWait(3.0);
 	ActionResumeConversation();
 }
-

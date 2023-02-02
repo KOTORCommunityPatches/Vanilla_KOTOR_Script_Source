@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(oP_hk048, ClearAllActions());
 	AssignCommand(oP_hk048, ActionStartConversation(GetFirstPC(), "hk50", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

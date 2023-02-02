@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(oAtton, ClearAllActions());
 	AssignCommand(oAtton, ActionMoveToObject(GetObjectByTag("wp_attonwindow", 0), 0, 1.0));
 }
-

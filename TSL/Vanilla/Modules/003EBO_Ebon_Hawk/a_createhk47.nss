@@ -20,4 +20,3 @@ void main() {
 	SetGlobalNumber("000_HK_Alive", 1);
 	DelayCommand(0.8, sub2());
 }
-

@@ -20,4 +20,3 @@ void main() {
 	}
 	DestroyObject(oRepSold, 0.0, 0, 0.0, 0);
 }
-

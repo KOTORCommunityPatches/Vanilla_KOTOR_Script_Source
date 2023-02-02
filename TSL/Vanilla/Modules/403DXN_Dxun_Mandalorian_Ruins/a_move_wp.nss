@@ -36,4 +36,3 @@ void main() {
 	}
 	DelayCommand(IntToFloat(nParam2), ActionForceMoveToObject(GetObjectByTag(sParam, 0), nParam1, 1.0, 30.0));
 }
-

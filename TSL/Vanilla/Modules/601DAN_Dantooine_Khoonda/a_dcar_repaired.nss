@@ -69,4 +69,3 @@ void main() {
 	int nLevel = GetHitDice(GetFirstPC());
 	GiveXPToCreature(GetFirstPC(), (nLevel * 15));
 }
-

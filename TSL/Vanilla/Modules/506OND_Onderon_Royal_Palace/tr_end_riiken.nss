@@ -19,4 +19,3 @@ void main() {
 	AssignCommand(oPC, ActionJumpToObject(oWp_end_pc, 1));
 	DelayCommand(0.1, AssignCommand(oG_riiken, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

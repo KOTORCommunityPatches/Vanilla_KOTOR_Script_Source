@@ -50,4 +50,3 @@ void main() {
 	AssignCommand(oVaklu_lt, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	SetLocalBoolean(oTr_trooper2, 40, 1);
 }
-

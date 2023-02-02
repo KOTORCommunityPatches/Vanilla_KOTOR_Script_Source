@@ -18,4 +18,3 @@ void main() {
 		AssignCommand(oDoton, ActionStartConversation(GetFirstPC(), "dotonhet", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

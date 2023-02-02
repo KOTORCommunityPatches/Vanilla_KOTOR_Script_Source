@@ -218,4 +218,3 @@ void main() {
 	SignalEvent(GetArea(GetFirstPC()), EventUserDefined(1));
 	SetGlobalFadeIn(1.0, 1.0, 0.0, 0.0, 0.0);
 }
-

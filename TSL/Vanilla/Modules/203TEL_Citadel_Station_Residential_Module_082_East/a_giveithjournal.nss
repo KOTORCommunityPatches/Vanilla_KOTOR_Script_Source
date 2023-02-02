@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("ithdip", 11, 0);
 	}
 }
-

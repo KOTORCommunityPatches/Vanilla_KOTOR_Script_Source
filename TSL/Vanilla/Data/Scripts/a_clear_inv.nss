@@ -31,4 +31,3 @@ void main()
     for(i = (NUM_INVENTORY_SLOTS - 1); i >= 0; i--)
         DestroyObject(GetItemInSlot(i,oTarget), 0.0, TRUE, 0.0, TRUE);
 }
-

@@ -17,4 +17,3 @@ void main() {
 	oSith_cs = GetObjectByTag("sith_cs", 1);
 	ForceHeartbeat(oSith_cs);
 }
-

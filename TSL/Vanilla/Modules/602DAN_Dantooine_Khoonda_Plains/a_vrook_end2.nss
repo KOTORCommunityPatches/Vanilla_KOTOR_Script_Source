@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oNpc_vrook, ClearAllActions()));
 	DelayCommand(0.5, AssignCommand(GetObjectByTag("npc_vrook", 0), ActionStartConversation(oPC, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

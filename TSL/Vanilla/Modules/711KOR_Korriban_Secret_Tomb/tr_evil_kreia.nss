@@ -32,4 +32,3 @@ void main() {
 	SetGlobalNumber("711KOR_Vision_Track", 5);
 	AurPostString(IntToString((int5 - 1)), 5, 5, 10.0);
 }
-

@@ -9,4 +9,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oTwilekAtton01, ActionForceMoveToLocation(GetLocation(GetObjectByTag("wp_attontwilek1c", 0)), 0, 30.0)));
 	DelayCommand(0.1, AssignCommand(oTwilekAtton02, ActionForceMoveToLocation(GetLocation(GetObjectByTag("wp_attontwilek2c", 0)), 0, 30.0)));
 }
-

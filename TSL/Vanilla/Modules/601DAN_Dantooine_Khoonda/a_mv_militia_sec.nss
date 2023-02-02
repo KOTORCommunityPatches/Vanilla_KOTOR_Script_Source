@@ -15,4 +15,3 @@ void main() {
 	}
 	DelayCommand(float1, AssignCommand(oG_militia_sec, ActionForceMoveToObject(oWp_militia_sec2, int3, 1.0, 30.0)));
 }
-

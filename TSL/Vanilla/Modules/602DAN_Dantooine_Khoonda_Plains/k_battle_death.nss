@@ -55,4 +55,3 @@ void main() {
 		DelayCommand(2.1, AssignCommand(GetObjectByTag("npc_terena", 0), ActionStartConversation(oPC, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

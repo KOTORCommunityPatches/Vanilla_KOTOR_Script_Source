@@ -8,4 +8,3 @@ void main() {
 		AssignCommand(GetObjectByTag("t3m4", 0), ClearAllActions());
 	}
 }
-

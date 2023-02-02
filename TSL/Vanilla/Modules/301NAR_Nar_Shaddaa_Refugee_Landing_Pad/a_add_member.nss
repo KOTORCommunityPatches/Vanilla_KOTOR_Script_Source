@@ -49,4 +49,3 @@ void main() {
 	AurPostString(("Adding in to party: " + string1), 5, 16, 10.0);
 	AddPartyMember(nParam1, GetObjectByTag(string1, 0));
 }
-

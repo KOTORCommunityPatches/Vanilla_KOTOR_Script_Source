@@ -4,4 +4,3 @@ void main() {
 	location location1 = GetLocation(oWp_champsp);
 	CreateObject(1, "n_commf003", location1, 0);
 }
-

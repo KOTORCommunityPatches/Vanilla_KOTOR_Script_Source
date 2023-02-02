@@ -16,4 +16,3 @@ void main() {
 		DelayCommand(2.0, DestroyObject(oCede, 0.0, 1, 0.0, 0));
 	}
 }
-

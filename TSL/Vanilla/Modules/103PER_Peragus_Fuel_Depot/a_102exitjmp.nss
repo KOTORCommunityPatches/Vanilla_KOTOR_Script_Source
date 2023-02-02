@@ -5,4 +5,3 @@ void main() {
 	location location3 = GetLocation(oFROM_102PER);
 	DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionJumpToLocation(location1)));
 }
-

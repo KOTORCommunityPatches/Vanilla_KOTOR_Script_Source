@@ -15,4 +15,3 @@ void main() {
 		SetLocalBoolean(OBJECT_SELF, 39, 1);
 	}
 }
-

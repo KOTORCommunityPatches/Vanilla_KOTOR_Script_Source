@@ -15,4 +15,3 @@ void main() {
 	int nParam2 = GetScriptParameter(2);
 	DelayCommand(IntToFloat(nParam2), sub1());
 }
-

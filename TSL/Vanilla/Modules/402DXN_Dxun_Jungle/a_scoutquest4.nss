@@ -4818,4 +4818,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(oOm_scout1, 1));
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 }
-

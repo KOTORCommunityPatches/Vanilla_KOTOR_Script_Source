@@ -29,4 +29,3 @@ void main() {
 	o233_mercc = GetObjectByTag("233_mercc", 0);
 	DelayCommand(0.2, AssignCommand(o233_mercc, ActionAttack(GetFirstPC(), 0)));
 }
-

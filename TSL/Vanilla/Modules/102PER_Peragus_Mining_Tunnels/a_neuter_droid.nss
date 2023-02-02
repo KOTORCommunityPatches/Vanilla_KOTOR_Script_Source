@@ -13,4 +13,3 @@ void main() {
 	AurPostString((("a_neuter_droid: " + IntToString(int3)) + " droids shut down."), 5, 5, 5.0);
 	GiveXPToCreature(GetFirstPC(), (int3 * 50));
 }
-

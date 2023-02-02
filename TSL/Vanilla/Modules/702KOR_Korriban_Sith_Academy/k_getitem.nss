@@ -8,4 +8,3 @@ void main() {
 		SetLocalBoolean(GetObjectByTag("datapad_vash", 0), 40, 1);
 	}
 }
-

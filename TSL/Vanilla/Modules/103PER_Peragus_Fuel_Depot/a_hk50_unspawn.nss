@@ -26,4 +26,3 @@ void main() {
 	SetLocked(oSecurityDoor104PER, 1);
 	AssignCommand(oSecurityDoor104PER, ActionCloseDoor(oSecurityDoor104PER));
 }
-

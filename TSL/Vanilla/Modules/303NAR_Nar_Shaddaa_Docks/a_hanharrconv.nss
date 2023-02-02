@@ -93,4 +93,3 @@ void main() {
 		AssignCommand(oTr_hanharrconv, ActionStartConversation(GetFirstPC(), "HanhBoun", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

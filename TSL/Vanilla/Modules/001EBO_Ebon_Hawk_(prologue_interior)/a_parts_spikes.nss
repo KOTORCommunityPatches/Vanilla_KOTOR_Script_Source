@@ -105,4 +105,3 @@ void main() {
 		sub3(int8);
 	}
 }
-

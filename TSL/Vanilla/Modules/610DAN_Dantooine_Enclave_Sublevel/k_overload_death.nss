@@ -92,4 +92,3 @@ void main() {
 	ActionDoCommand(sub1(GetTag(OBJECT_SELF), 5.0, 1));
 	DestroyObject(OBJECT_SELF, 0.0, 0, 0.0, 0);
 }
-

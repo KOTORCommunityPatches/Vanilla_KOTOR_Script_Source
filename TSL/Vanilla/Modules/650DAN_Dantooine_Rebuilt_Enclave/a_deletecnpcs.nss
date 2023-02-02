@@ -22,4 +22,3 @@ void main() {
 	DestroyObject(oMira, 0.0, 0, 0.0, 0);
 	DestroyObject(oMand, 0.0, 0, 0.0, 0);
 }
-

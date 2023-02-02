@@ -68,4 +68,3 @@ void main() {
 		AssignCommand(oOnd_soldier_nter, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

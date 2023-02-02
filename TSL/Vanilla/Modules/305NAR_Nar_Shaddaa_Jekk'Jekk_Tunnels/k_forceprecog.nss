@@ -8,4 +8,3 @@ void main() {
 		AssignCommand(OBJECT_SELF, ActionStartConversation(GetFirstPC(), "305preco", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

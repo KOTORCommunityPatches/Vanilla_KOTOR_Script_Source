@@ -217,4 +217,3 @@ void main() {
 	}
 	int int14 = sub2("vaklu", 0);
 }
-

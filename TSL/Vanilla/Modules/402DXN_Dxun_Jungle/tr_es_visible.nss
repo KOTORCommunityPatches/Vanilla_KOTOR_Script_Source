@@ -12,4 +12,3 @@ void main() {
 	AddJournalQuestEntry("explosivesit", 20, 0);
 	SetLocalBoolean(OBJECT_SELF, 50, 1);
 }
-

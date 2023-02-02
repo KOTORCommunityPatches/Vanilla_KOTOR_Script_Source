@@ -4,4 +4,3 @@ void main() {
 		AddJournalQuestEntry("restdroid", 10, 1);
 	}
 }
-

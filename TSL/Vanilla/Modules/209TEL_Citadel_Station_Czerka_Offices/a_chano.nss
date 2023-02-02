@@ -9,4 +9,3 @@ void main() {
 		SetGlobalNumber("201TEL_Chano_Spawn", 2);
 	}
 }
-

@@ -4,4 +4,3 @@ void main() {
 		ApplyEffectToObject(0, efDamage, GetFirstPC(), 0.0);
 	}
 }
-

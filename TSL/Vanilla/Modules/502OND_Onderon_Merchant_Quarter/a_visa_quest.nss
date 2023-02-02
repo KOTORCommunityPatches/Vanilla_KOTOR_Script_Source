@@ -141,4 +141,3 @@ void main() {
 		DestroyObject(GetItemPossessedBy(GetFirstPC(), "pl_visa_sliced"), 0.0, 0, 0.0, 0);
 	}
 }
-

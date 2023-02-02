@@ -20,4 +20,3 @@ int StartingConditional() {
 	SWMG_SetJumpSpeed(30.0);
 	return 0;
 }
-

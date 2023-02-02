@@ -21,4 +21,3 @@ void main() {
 	DestroyObject(GetObjectByTag("SerrocoLeader", 0), 0.0, 0, 0.0, 0);
 	SetGlobalNumber("302NAR_Serroco", 2);
 }
-

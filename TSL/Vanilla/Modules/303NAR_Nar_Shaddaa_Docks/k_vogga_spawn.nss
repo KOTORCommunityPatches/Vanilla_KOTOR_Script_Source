@@ -1346,4 +1346,3 @@ void main() {
 	SetOrientOnClick(OBJECT_SELF, 0);
 	SetLockOrientationInDialog(OBJECT_SELF, 1);
 }
-

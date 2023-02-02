@@ -32,4 +32,3 @@ void main() {
 	DelayCommand(2.8, AssignCommand(GetFirstPC(), ClearAllActions()));
 	DelayCommand(3.0, AssignCommand(oMira, ActionStartConversation(GetFirstPC(), string1, 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

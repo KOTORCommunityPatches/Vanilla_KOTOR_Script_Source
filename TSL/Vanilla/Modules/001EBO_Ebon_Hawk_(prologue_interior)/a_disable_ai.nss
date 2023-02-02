@@ -139,4 +139,3 @@ void sub1(int intParam1, int intParam2) {
 void main() {
 	sub1(intGLOB_114, 1);
 }
-

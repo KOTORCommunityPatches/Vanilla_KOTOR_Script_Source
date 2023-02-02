@@ -5,4 +5,3 @@ void main() {
 		ChangeToStandardFaction(GetObjectByTag("Disciple", 0), 5);
 	}
 }
-

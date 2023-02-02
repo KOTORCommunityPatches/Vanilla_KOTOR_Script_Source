@@ -37,4 +37,3 @@ void main() {
 	DelayCommand(0.2, AssignCommand(GetFirstPC(), ActionMoveToObject(GetWaypointByTag("WP_SENTRYTLK"), 0, 1.0)));
 	AssignCommand(GetObjectByTag("sentry_standin", 0), ActionStartConversation(GetFirstPC(), "sentry", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

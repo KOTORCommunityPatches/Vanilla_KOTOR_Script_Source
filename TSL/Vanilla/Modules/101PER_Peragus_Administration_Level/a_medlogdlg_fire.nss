@@ -9,4 +9,3 @@ void main() {
 	}
 	DelayCommand(0.1, DestroyObject(GetObjectByTag("MedOff", 0), 0.0, 1, 0.0, 0));
 }
-

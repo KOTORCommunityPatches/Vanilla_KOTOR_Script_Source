@@ -59,4 +59,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oExit_door, ActionOpenDoor(oExit_door)));
 	DelayCommand(0.5, sub1(0, nParam1, OBJECT_SELF));
 }
-

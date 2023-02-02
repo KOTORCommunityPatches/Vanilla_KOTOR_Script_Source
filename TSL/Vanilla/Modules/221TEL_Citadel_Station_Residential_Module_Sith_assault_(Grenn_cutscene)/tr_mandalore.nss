@@ -13,4 +13,3 @@ void main() {
 		AssignCommand(oMand, ActionStartConversation(GetFirstPC(), "221mand", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

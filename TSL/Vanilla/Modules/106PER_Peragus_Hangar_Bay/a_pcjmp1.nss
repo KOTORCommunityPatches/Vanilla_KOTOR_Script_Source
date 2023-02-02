@@ -16,4 +16,3 @@ void main() {
 		AssignCommand(object6, ActionJumpToLocation(GetLocation(oWP_NPC2_JUMP)));
 	}
 }
-

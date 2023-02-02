@@ -33,4 +33,3 @@ void main() {
 	AssignCommand(oCouncilRoom, ActionOpenDoor(oCouncilRoom));
 	DelayCommand(0.1, AssignCommand(oHandmaiden, ActionStartConversation(oEntering, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

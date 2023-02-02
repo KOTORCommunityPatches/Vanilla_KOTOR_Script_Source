@@ -31,4 +31,3 @@ void main() {
 	AssignCommand(GetFirstPC(), ClearAllActions());
 	DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionJumpToObject(GetObjectByTag("WP_PC_WALK_3", 0), 0)));
 }
-

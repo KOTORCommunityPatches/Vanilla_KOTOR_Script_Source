@@ -18,4 +18,3 @@ void main() {
 	AssignCommand(oInvis_reaction, ClearAllActions());
 	DelayCommand(3.0, AssignCommand(oInvis_reaction, ActionStartConversation(oPC, "000react", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

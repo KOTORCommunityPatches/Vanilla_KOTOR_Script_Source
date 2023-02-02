@@ -30,4 +30,3 @@ void main() {
 	}
 	AssignCommand(oG_merc_capt, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

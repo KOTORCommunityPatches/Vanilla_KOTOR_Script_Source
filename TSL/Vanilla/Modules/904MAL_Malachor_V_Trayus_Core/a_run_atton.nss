@@ -3,4 +3,3 @@ void main() {
 	effect efSpeedInc = EffectMovementSpeedIncrease(50);
 	DelayCommand(2.0, ApplyEffectToObject(1, efSpeedInc, oAtton, 14.0));
 }
-

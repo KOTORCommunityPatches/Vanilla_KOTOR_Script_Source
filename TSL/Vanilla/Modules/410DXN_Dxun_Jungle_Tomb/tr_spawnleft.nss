@@ -18,4 +18,3 @@ void main() {
 		SetLocalBoolean(GetObjectByTag("tr_wave_right", 0), 40, 1);
 	}
 }
-

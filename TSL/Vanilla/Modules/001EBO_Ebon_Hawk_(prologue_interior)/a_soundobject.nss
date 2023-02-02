@@ -10,4 +10,3 @@ void main() {
 		DelayCommand(IntToFloat(nParam2), SoundObjectPlay(GetObjectByTag(sParam, 0)));
 	}
 }
-

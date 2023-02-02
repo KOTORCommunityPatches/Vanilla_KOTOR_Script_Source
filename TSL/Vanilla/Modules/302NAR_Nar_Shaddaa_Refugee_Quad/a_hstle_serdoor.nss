@@ -39,4 +39,3 @@ void main() {
 		SetGlobalNumber("302NAR_Serroco", 2);
 	}
 }
-

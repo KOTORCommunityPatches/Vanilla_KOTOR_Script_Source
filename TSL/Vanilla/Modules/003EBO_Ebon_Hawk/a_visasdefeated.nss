@@ -7,4 +7,3 @@ void main() {
 	AssignCommand(oPC, ActionJumpToObject(oWp_visaspc_002, 1));
 	SetGlobalFadeIn(0.5, 1.0, 0.0, 0.0, 0.0);
 }
-

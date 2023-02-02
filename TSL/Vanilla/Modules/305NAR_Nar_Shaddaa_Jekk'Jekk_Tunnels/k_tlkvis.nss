@@ -7,4 +7,3 @@ void main() {
 	ClearAllActions();
 	DelayCommand(1.0, AssignCommand(oVisquis, ActionStartConversation(GetFirstPC(), "305vis", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

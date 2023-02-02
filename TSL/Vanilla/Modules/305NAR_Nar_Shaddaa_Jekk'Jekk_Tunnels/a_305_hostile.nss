@@ -16,4 +16,3 @@ void main() {
 		ChangeToStandardFaction(object1, 6);
 	}
 }
-

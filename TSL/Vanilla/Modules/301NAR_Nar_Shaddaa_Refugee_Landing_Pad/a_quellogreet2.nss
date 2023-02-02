@@ -4,4 +4,3 @@ void main() {
 	location location1 = GetLocation(oWP_Quello_Walk1);
 	AssignCommand(oQuello, ActionMoveToLocation(location1, 1));
 }
-

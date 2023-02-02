@@ -14,4 +14,3 @@ void main() {
 		SetGlobalBoolean("200TEL_Moza_Help", 1);
 	}
 }
-

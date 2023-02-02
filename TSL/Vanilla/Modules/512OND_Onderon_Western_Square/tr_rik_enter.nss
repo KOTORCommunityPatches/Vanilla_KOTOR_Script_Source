@@ -5,4 +5,3 @@ void main() {
 	}
 	SetLocalBoolean(GetObjectByTag("g_riiken", 0), 40, 1);
 }
-

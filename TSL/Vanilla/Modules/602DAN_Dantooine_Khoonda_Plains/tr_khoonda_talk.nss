@@ -20,4 +20,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oNpc_terena, ActionStartConversation(oEntering, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	DelayCommand(0.2, AssignCommand(oEntering, ActionForceMoveToObject(GetObjectByTag("wp_kh_pc2", 0), 0, 1.0, 30.0)));
 }
-

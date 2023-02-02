@@ -30,4 +30,3 @@
 int StartingConditional() {
 	return (!GetLocalBoolean(GetModule(), 20));
 }
-

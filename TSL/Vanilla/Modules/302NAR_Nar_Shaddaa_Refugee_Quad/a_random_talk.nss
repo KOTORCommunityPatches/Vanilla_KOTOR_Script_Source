@@ -10,4 +10,3 @@ void main() {
 	}
 	SetGlobalNumber("302NAR_Random_Talk", nRandom);
 }
-

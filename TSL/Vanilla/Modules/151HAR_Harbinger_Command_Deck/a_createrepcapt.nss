@@ -22,4 +22,3 @@ void main() {
 		CreateObject(1, "n_hk50", GetLocation(oWP_HK50), 0);
 	}
 }
-

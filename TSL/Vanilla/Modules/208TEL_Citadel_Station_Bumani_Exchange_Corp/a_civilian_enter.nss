@@ -8,4 +8,3 @@ void main() {
 	DelayCommand(2.0, AssignCommand(oCivrobbed, ClearAllActions()));
 	DelayCommand(2.0, AssignCommand(oCivrobbed, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

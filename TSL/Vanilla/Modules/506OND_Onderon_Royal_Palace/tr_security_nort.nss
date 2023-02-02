@@ -16,4 +16,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oDoor_secnorth, ActionOpenDoor(oDoor_secnorth)));
 	AssignCommand(oKavar, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

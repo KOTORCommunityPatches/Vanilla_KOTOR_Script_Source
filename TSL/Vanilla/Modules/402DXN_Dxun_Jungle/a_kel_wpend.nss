@@ -8,4 +8,3 @@ void main() {
 	DelayCommand(1.0, ActionMoveToObject(GetWaypointByTag("wp_scoutq_end"), 1, 1.0));
 	DelayCommand(2.0, ApplyEffectToObject(2, effect3, OBJECT_SELF, 2.0));
 }
-

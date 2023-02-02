@@ -17,4 +17,3 @@ void main() {
 	}
 	AurPostString(((("Param1 set to " + IntToString(nParam1)) + "; Param2 set to ") + IntToString(nParam2)), 5, 5, 2.0);
 }
-

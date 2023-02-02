@@ -518,4 +518,3 @@ void main() {
 	CreateItemOnObject(string2, oLeader, 1, 0);
 	ExecuteScript("a_gbl_react", OBJECT_SELF, 0);
 }
-

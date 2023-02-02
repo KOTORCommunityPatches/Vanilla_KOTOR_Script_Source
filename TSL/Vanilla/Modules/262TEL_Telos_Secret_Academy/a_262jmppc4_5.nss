@@ -14,4 +14,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oSister1, ActionJumpToObject(oWP_Hand_Atris_1_4, 1)));
 	DelayCommand(0.1, AssignCommand(oSister2, ActionJumpToObject(oWP_Hand_Atris_2_4, 1)));
 }
-

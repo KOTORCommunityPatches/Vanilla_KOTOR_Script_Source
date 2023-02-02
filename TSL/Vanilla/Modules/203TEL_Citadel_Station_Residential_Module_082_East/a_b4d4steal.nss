@@ -6,4 +6,3 @@ void main() {
 	SetGlobalBoolean("204TEL_Spawn_B4D4", 1);
 	StartNewModule("204TEL", "FROM_201TEL_ITHM1", "", "", "", "", "", "");
 }
-

@@ -10,4 +10,3 @@ void main() {
 	}
 	AurPostString((("a_neuter_droid: " + IntToString(int1)) + " droids have been shut down."), 5, 5, 5.0);
 }
-

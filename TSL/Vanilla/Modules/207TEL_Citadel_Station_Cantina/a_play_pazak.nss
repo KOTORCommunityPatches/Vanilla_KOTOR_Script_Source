@@ -4,4 +4,3 @@ void main() {
 		PlayPazaak(10, "a_end_pazak", 0, 0, oDoton);
 	}
 }
-

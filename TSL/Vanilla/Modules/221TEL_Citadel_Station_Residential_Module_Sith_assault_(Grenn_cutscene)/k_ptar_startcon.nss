@@ -59,4 +59,3 @@ void main() {
 		ShowUpgradeScreen(OBJECT_INVALID, OBJECT_INVALID, 0, 0, "");
 	}
 }
-

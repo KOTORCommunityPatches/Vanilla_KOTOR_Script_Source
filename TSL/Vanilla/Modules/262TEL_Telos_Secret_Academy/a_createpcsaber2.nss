@@ -138,4 +138,3 @@ void main() {
 	}
 	object object1 = CreateItemOnObject(string1, OBJECT_SELF, 1, 0);
 }
-

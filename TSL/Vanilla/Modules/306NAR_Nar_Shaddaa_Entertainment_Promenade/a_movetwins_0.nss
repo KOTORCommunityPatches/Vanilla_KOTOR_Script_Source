@@ -13,4 +13,3 @@ void main() {
 	ApplyEffectToObject(1, effect3, oN_twilekf005, 12.0);
 	AssignCommand(GetFirstPC(), ActionForceMoveToObject(GetObjectByTag("WP_PC_TWIN_0", 0), 0, 1.0, 30.0));
 }
-

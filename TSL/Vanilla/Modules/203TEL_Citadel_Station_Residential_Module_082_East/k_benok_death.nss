@@ -36,4 +36,3 @@ void main() {
 		SetGlobalNumber("207TEL_Benok", 3);
 	}
 }
-

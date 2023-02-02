@@ -9,4 +9,3 @@ void main() {
 		SetLocalBoolean(oPort_master, 40, 1);
 	}
 }
-

@@ -5,4 +5,3 @@ void main() {
 	}
 	DestroyObject(oDockOff, 0.0, 0, 0.0, 0);
 }
-

@@ -10,4 +10,3 @@ void main() {
 	DelayCommand(3.5, AssignCommand(oPC, ClearAllActions()));
 	DelayCommand(4.3, AssignCommand(oPC, ActionPlayAnimation(26, 1.0, (-1.0))));
 }
-

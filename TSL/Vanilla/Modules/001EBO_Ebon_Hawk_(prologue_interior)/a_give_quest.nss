@@ -16,4 +16,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(GetObjectByTag("Galaxymap", 0), ActionStartConversation(GetFirstPC(), "journal", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

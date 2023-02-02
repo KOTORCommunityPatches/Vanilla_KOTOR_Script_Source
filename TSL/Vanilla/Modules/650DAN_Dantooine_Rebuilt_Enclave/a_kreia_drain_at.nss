@@ -27,4 +27,3 @@ void main() {
 	DelayCommand(3.5, SetLightsaberPowered(oZezkaiell, 1, 0, 1));
 	DelayCommand(4.0, SetOrientOnClick(oZezkaiell, 0));
 }
-

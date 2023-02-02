@@ -4,4 +4,3 @@ void main() {
 		IncrementGlobalNumber("000_Goto_Crimes", 1);
 	}
 }
-

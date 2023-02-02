@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oKathVogga, ActionPlayAnimation(22, 1.0, (-1.0))));
 	DelayCommand(0.1, AssignCommand(object3, ActionPlayAnimation(22, 1.0, (-1.0))));
 }
-

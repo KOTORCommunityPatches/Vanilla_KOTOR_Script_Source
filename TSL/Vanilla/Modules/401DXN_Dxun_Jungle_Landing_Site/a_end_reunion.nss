@@ -47,4 +47,3 @@ void main() {
 	AddPartyMember(6, GetObjectByTag("Kreia", 0));
 	AddPartyMember(GetGlobalNumber("403DXN_PARTY2_NPC1"), GetObjectByTag(sub1(GetGlobalNumber("403DXN_PARTY2_NPC1")), 0));
 }
-

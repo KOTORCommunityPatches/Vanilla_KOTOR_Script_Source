@@ -71,4 +71,3 @@ int StartingConditional() {
 	SetCustomToken(nParam4, IntToString(int10));
 	return 1;
 }
-

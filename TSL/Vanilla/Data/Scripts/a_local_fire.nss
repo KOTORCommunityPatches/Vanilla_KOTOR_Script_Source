@@ -26,4 +26,3 @@ void main()
     AurPostString("Executing local script: k_post_master", 5,15,20.0);
     ExecuteScript("k_post_master", GetFirstPC());
 }
-

@@ -8,4 +8,3 @@ void main() {
 		AssignCommand(GetFirstPC(), ActionStartConversation(GetFirstPC(), "hangcam", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

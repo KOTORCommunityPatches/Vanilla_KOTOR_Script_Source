@@ -10,4 +10,3 @@ void main() {
 	DelayCommand(3.0, DestroyObject(oExchangeThug1, 0.0, 0, 0.0, 0));
 	DelayCommand(3.0, DestroyObject(oExchangeThug2, 0.0, 0, 0.0, 0));
 }
-

@@ -16,4 +16,3 @@ void main() {
 		SetLocalBoolean(oCp_guard, 40, 1);
 	}
 }
-

@@ -25,4 +25,3 @@ void main() {
 	DelayCommand(0.7, AssignCommand(oKreia_invis, ClearAllActions()));
 	DelayCommand(0.7, AssignCommand(oKreia_invis, ActionStartConversation(oPC, "sec_tomb", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

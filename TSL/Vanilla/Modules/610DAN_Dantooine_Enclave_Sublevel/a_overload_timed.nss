@@ -65,4 +65,3 @@ void main() {
 	ActionDoCommand(sub1(sParam, 10.0, 1));
 	ActionDoCommand(DestroyObject(GetObjectByTag(sParam, 0), 1.0, 1, 0.0, 0));
 }
-

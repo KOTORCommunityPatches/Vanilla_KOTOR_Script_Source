@@ -122,4 +122,3 @@ void main() {
 	}
 	SetGlobalBoolean("600DAN_Battle_Spawned", 1);
 }
-

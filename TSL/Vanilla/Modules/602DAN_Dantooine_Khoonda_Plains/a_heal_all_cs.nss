@@ -50,4 +50,3 @@ void main() {
 	AssignCommand(GetFirstPC(), DelayCommand(1.0, ActionJumpToLocation(GetLocation(oWP_doc_player))));
 	SetGlobalFadeIn(1.0, 1.0, 0.0, 0.0, 0.0);
 }
-

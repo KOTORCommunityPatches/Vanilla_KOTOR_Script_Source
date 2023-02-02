@@ -69,4 +69,3 @@ void main() {
 	SetLocalBoolean(GetModule(), 21, 1);
 	RevealMap([0.0,0.0,0.0], 0xFFFFFFFF);
 }
-

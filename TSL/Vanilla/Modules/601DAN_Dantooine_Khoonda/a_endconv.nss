@@ -4,4 +4,3 @@ void main() {
 	DestroyObject(oVandar_holo, 0.0, 0, 0.0, 0);
 	DestroyObject(oVrook_holo, 0.0, 0, 0.0, 0);
 }
-

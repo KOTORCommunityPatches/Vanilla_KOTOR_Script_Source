@@ -3,4 +3,3 @@ void main() {
 		SetNPCSelectability(10, 1);
 	}
 }
-

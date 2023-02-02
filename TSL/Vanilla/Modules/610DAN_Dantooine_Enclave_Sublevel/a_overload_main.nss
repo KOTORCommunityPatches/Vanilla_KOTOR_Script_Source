@@ -90,4 +90,3 @@ void main() {
 	ActionDoCommand(sub1("comp_main", 8.0, 1));
 	ActionDoCommand(DestroyObject(GetObjectByTag("comp_main", 0), 1.0, 1, 0.0, 0));
 }
-

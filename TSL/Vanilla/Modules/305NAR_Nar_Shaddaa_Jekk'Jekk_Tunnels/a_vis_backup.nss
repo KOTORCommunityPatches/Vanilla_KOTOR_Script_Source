@@ -7,4 +7,3 @@ void main() {
 	DelayCommand(1.5, DestroyObject(GetObjectByTag("gas3", 0), 0.0, 0, 0.0, 0));
 	DelayCommand(2.0, DestroyObject(GetObjectByTag("gas4", 0), 0.0, 0, 0.0, 0));
 }
-

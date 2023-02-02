@@ -64,4 +64,3 @@ void main() {
 	DelayCommand(5.5, SetFakeCombatState(object16, 0));
 	DelayCommand(1.0, AssignCommand(GetFirstPC(), ActionBarkString(128414)));
 }
-

@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(GetObjectByTag("Kreia", 0), SetFacingPoint(GetPosition(GetObjectByTag("PCDoor", 0))));
 	AssignCommand(GetFirstPC(), SetFacingPoint(GetPosition(GetObjectByTag("PCDoor", 0))));
 }
-

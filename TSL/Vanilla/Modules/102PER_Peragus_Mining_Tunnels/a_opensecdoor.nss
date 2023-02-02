@@ -8,4 +8,3 @@ void main() {
 	DelayCommand(4.0, ActionOpenDoor(oSecDoor));
 	DelayCommand(10.0, AssignCommand(oG_assassindrd010, ChangeToStandardFaction(oG_assassindrd010, 1)));
 }
-

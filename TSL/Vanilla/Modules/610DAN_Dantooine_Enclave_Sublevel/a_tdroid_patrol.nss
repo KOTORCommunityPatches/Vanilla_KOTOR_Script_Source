@@ -9,4 +9,3 @@ void main() {
 		SetLocalBoolean(GetObjectByTag("comp_port", 0), 43, 1);
 	}
 }
-

@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(o203_moza, ClearAllActions());
 	AssignCommand(o203_moza, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

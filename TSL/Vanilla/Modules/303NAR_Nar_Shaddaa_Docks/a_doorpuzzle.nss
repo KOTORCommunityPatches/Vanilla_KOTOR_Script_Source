@@ -5,4 +5,3 @@ void main() {
 	AssignCommand(oSecret_Door, ActionUnlockObject(oSecret_Door));
 	DelayCommand(0.1, AssignCommand(oSecret_Door, ActionOpenDoor(oSecret_Door)));
 }
-

@@ -6,4 +6,3 @@ void main() {
 		BarkString(OBJECT_INVALID, 125726);
 	}
 }
-

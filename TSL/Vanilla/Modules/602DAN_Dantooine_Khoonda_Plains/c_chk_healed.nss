@@ -29,4 +29,3 @@ int StartingConditional() {
 	}
 	return int1;
 }
-

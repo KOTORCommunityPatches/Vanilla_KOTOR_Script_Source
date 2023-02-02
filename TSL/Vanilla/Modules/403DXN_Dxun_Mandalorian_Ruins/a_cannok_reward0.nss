@@ -4,4 +4,3 @@ void main() {
 	ActionTakeItem(GetObjectByTag("PhasePulseConverterCore", 0), GetFirstPC());
 	ActionTakeItem(GetObjectByTag("PhasePulseConverterPS", 0), GetFirstPC());
 }
-

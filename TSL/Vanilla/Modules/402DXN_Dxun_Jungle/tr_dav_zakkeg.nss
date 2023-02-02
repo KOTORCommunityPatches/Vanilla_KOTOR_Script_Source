@@ -18,4 +18,3 @@ void main() {
 	AssignCommand(oNpc_davrel, ActionJumpToObject(GetObjectByTag("sw_exit1", 0), 1));
 	DelayCommand(0.2, AssignCommand(oNpc_davrel, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

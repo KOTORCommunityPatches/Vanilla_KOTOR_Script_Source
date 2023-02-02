@@ -4,4 +4,3 @@ void main() {
 	SetLocalBoolean(oVoggaThug1, 30, 0);
 	SetLocalBoolean(oVoggaThug2, 30, 0);
 }
-

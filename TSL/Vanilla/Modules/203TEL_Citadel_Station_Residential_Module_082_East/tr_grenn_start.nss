@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(oPC, ClearAllActions());
 	AssignCommand(o203_Gren, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

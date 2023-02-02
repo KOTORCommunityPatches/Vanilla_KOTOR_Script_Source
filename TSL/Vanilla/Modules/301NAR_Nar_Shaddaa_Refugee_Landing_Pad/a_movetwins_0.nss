@@ -13,4 +13,3 @@ void main() {
 	ApplyEffectToObject(1, effect3, oN_twilekf005, 12.0);
 	DelayCommand(2.0, AssignCommand(GetFirstPC(), ActionForceMoveToObject(GetObjectByTag("WP_ATTON_CANTINA1a", 0), 0, 1.0, 30.0)));
 }
-

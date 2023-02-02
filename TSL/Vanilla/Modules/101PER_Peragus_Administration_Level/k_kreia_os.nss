@@ -231,4 +231,3 @@ void main() {
 	sub1();
 	sub4(intGLOB_85, 1);
 }
-

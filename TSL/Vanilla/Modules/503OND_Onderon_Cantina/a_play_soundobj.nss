@@ -11,4 +11,3 @@ void main() {
 		DelayCommand(IntToFloat(nParam2), SoundObjectFadeAndStop(object1, IntToFloat(nParam3)));
 	}
 }
-

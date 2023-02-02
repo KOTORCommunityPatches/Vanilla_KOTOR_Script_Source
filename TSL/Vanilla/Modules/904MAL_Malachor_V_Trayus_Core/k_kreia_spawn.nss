@@ -567,4 +567,3 @@ void main() {
 	sub6();
 	SetNPCAIStyle(OBJECT_SELF, intGLOB_116);
 }
-

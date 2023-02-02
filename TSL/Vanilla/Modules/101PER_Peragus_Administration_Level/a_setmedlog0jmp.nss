@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(oMedOff, ActionJumpToLocation(GetLocation(oWP_MEDOFF)));
 	SetGlobalNumber("101PER_Med_Log", 0);
 }
-

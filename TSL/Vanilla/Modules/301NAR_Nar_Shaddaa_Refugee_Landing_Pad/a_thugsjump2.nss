@@ -11,4 +11,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(oExchangeThug1, 1));
 	DelayCommand(0.2, AssignCommand(oExchangeThug1, ActionAttack(GetFirstPC(), 0)));
 }
-

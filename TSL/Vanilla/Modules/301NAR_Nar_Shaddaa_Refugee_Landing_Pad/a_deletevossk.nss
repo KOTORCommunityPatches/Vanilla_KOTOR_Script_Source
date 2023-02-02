@@ -26,4 +26,3 @@ void main() {
 	sub1("Vossk_Mira");
 	sub1("Vossk_Hanharr");
 }
-

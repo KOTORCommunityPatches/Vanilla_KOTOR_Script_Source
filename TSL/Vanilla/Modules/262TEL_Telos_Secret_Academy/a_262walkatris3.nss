@@ -13,4 +13,3 @@ void main() {
 	SetLockOrientationInDialog(oAtris, 1);
 	AssignCommand(oAtris, ActionMoveToLocation(location1, 0));
 }
-

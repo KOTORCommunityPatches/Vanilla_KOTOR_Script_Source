@@ -15,4 +15,3 @@ void main()
     string sConstant = "NPC_INIT_PLANET_" + IntToString(nNPCConst);
     SetGlobalNumber(sConstant, nPlanet);
 }
-

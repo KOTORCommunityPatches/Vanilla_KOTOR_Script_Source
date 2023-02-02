@@ -30,4 +30,3 @@ void main() {
 	sub1("c_boma2", 1);
 	DestroyObject(GetObjectByTag("tdroid", 0), 0.0, 0, 0.0, 0);
 }
-

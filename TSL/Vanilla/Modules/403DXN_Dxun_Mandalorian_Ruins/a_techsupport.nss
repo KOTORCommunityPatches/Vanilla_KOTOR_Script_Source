@@ -6,4 +6,3 @@ void main() {
 	}
 	SetGlobalNumber("403DXN_TechSupport", nParam1);
 }
-

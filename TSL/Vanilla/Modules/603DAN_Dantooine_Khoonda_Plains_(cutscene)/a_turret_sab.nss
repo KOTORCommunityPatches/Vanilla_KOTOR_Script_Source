@@ -27,4 +27,3 @@ void main() {
 	DelayCommand(2.0, ApplyEffectToObject(0, efVisual, object1, 0.0));
 	ChangeToStandardFaction(object1, 11);
 }
-

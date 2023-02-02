@@ -5,4 +5,3 @@ void main() {
 		object1 = GetNextInPersistentObject(OBJECT_SELF, 1, 0);
 	}
 }
-

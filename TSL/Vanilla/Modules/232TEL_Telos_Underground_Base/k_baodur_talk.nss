@@ -11,4 +11,3 @@ void main() {
 	AddPartyMember(1, oBaoDur);
 	AssignCommand(oBaoDur, ActionStartConversation(GetFirstPC(), "232bdur", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

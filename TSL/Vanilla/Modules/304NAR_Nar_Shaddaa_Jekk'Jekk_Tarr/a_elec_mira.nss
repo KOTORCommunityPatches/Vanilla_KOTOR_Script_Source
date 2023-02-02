@@ -15,4 +15,3 @@ void main() {
 	DelayCommand(5.5, AssignCommand(oMira, ClearAllActions()));
 	DelayCommand(5.5, AssignCommand(oMira, ActionPlayAnimation(26, 1.0, (-1.0))));
 }
-

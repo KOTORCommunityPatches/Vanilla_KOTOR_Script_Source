@@ -4,4 +4,3 @@ void main() {
 		DestroyObject(object1, 0.0, 0, 0.0, 0);
 	}
 }
-

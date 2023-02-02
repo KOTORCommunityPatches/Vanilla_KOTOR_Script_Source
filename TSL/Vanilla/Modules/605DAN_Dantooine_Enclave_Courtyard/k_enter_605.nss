@@ -42,4 +42,3 @@ void main() {
 		SetGlobalNumber("605DAN_Jorran", 4);
 	}
 }
-

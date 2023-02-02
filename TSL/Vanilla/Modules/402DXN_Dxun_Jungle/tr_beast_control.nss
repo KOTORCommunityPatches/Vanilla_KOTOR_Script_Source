@@ -9,4 +9,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, 50, 1);
 	ActionStartConversation(GetFirstPC(), "beast_co", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

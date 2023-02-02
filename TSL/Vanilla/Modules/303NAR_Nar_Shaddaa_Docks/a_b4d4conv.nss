@@ -12,4 +12,3 @@ void main() {
 		AssignCommand(oB4D4, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

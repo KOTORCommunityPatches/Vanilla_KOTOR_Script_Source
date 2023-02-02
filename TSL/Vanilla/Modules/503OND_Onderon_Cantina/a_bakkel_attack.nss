@@ -4821,4 +4821,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(oBakkel, 1));
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 }
-

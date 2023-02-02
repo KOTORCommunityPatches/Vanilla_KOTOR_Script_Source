@@ -8,4 +8,3 @@ void main() {
 	}
 	AurPostString(("Dopak Quest = " + IntToString(GetGlobalNumber(string1))), 5, 5, 2.0);
 }
-

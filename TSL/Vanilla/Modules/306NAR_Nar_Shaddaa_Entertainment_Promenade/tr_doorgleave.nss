@@ -8,4 +8,3 @@ void main() {
 		SetLocalBoolean(oDoorGuard, 48, 0);
 	}
 }
-

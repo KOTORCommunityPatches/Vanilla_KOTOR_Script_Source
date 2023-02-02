@@ -32,4 +32,3 @@ void main() {
 	AssignCommand(oDrdIth, ActionForceMoveToObject(GetObjectByTag("WP_DRDITH", 0), 0, 1.0, 30.0));
 	DelayCommand(2.5, DestroyObject(oDrdIth, 0.0, 1, 0.0, 0));
 }
-

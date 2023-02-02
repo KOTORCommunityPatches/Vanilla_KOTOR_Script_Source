@@ -17,4 +17,3 @@ void main() {
 	GiveItem(GetItemInSlot(1, oPC), oPC);
 	AssignCommand(oP_handmaiden009, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

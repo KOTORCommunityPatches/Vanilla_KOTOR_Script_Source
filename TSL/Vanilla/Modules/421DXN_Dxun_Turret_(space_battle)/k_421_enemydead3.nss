@@ -15,4 +15,3 @@ void main() {
 		SetGlobalBoolean("421DXN_Turret_Done", 1);
 	}
 }
-

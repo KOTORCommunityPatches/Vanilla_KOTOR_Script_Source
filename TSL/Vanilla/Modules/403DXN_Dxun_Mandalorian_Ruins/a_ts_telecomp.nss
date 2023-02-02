@@ -45,4 +45,3 @@ void main() {
 	DestroyObject(GetObjectByTag("radar_spark", 1), 0.0, 0, 0.0, 0);
 	PlayRoomAnimation("403dxnd", 2);
 }
-

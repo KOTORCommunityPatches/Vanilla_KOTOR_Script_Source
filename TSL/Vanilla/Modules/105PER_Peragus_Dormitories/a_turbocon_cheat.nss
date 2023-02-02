@@ -6,4 +6,3 @@ void main() {
 	SetLocalBoolean(oDestroytu, 37, 1);
 	SetLocalBoolean(oDestroytu, 38, 1);
 }
-

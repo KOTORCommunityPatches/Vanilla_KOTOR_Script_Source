@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(oChamp, ClearAllActions());
 	AssignCommand(oChamp, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

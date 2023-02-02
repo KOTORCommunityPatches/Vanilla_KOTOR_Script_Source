@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(oDhagon, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	SetGlobalNumber("503OND_Cap_Murder", 8);
 }
-

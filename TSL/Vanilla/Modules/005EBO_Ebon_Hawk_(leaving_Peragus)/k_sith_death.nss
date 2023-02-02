@@ -37,4 +37,3 @@ void main() {
 	SetGlobalNumber("107PER_MG_DEAD", (int3 + 1));
 	ExecuteScript("a_sith_bark", GetObjectByTag("security", 0), 0xFFFFFFFF);
 }
-

@@ -28,4 +28,3 @@ void main() {
 	sub1("c_boma2", 2);
 	sub1("c_boma2", 3);
 }
-

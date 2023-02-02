@@ -14,4 +14,3 @@ void main() {
 		DelayCommand(0.3, AssignCommand(oAttonHint, ActionStartConversation(GetFirstPC(), "106Atton", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

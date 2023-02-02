@@ -35,4 +35,3 @@ void main() {
 	SetGlobalNumber("304NAR_Visquis_Meet", 1);
 	DelayCommand(2.0, sub2());
 }
-

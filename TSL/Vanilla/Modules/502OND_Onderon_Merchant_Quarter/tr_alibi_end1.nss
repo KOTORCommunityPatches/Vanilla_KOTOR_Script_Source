@@ -8,4 +8,3 @@ void main() {
 		AssignCommand(oG_riiken, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

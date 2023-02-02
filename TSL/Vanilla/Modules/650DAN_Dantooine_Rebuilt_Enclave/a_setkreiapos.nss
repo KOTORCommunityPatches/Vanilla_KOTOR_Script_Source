@@ -17,4 +17,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(OBJECT_SELF, ActionStartConversation(GetPCSpeaker(), "650Kreia", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	NoClicksFor(1.5);
 }
-

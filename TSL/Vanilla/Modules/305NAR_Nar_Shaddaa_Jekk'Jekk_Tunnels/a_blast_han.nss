@@ -5,4 +5,3 @@ void main() {
 	efPush = EffectLinkEffects(efPush, EffectVisualEffect(1014, 0));
 	DelayCommand(0.2, ApplyEffectToObject(1, efPush, oHanharr, 0.3));
 }
-

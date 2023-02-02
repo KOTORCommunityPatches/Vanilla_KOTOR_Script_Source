@@ -1344,4 +1344,3 @@ void main() {
 	sub14();
 	SetLocalNumber(OBJECT_SELF, 11, 6);
 }
-

@@ -8,4 +8,3 @@ int StartingConditional()
 {
   return ((IsNPCPartyMember(NPC_KREIA) == TRUE) && (GetDistanceBetween(GetPCSpeaker(), GetObjectByTag("Kreia")) <= 10.0));
 }
-

@@ -50,4 +50,3 @@ void main() {
 	int int1 = sub1(5, 0);
 	SetCustomToken(32, IntToString(int1));
 }
-

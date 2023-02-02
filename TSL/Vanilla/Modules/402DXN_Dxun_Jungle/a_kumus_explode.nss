@@ -110,4 +110,3 @@ void main() {
 		SetGlobalNumber("403DXN_Missing_Mand", 5);
 	}
 }
-

@@ -3,4 +3,3 @@ void main() {
 	SetForceAlwaysUpdate(GetObjectByTag("tobin", 0), 0);
 	SoundObjectStop(GetObjectByTag("DrexlSounds", 0));
 }
-

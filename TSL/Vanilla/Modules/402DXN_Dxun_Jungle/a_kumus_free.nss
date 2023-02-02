@@ -5,4 +5,3 @@ void main() {
 	DelayCommand(0.1, SetFacing(315.0));
 	DelayCommand(0.1, AssignCommand(GetFirstPC(), SetFacing(135.0)));
 }
-

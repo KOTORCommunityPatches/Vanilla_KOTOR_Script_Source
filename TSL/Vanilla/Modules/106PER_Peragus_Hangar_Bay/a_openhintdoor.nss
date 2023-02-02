@@ -7,4 +7,3 @@ void main() {
 	AssignCommand(oAtton, ActionOpenDoor(oTrafficEastDoor));
 	DelayCommand(5.0, ActionResumeConversation());
 }
-

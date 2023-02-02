@@ -1353,4 +1353,3 @@ void main() {
 	sub5(OBJECT_SELF, (Random(3) + 1), 0);
 	sub15();
 }
-

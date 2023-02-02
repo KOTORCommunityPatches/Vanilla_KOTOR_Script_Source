@@ -93,4 +93,3 @@ void main() {
 	sub2(int1);
 	sub3(OBJECT_SELF, intGLOB_19, 1);
 }
-

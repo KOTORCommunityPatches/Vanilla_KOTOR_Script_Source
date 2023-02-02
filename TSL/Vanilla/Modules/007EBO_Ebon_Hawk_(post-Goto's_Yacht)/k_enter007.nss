@@ -60,4 +60,3 @@ void main() {
 	DelayCommand(1.0, sub1());
 	DelayCommand(1.0, sub2());
 }
-

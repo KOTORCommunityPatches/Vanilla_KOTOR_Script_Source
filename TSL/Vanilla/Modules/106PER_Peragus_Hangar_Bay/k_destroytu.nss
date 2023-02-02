@@ -7,4 +7,3 @@ void main() {
 	ApplyEffectAtLocation(0, efVisual, location1, 0.0);
 	DestroyObject(oInvisDecon, 0.0, 0, 0.0, 0);
 }
-

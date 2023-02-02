@@ -75,4 +75,3 @@ void main() {
 	DelayCommand(0.5, sub3());
 	SetGlobalFadeIn(0.5, 1.0, 0.0, 0.0, 0.0);
 }
-

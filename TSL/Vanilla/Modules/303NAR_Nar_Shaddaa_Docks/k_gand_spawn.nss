@@ -5,4 +5,3 @@ void main() {
 	SetEncounterActive(1, OBJECT_SELF);
 	SetLocalBoolean(OBJECT_SELF, 30, 1);
 }
-

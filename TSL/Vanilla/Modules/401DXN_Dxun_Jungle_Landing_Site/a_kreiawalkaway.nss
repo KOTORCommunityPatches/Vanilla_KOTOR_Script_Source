@@ -4,4 +4,3 @@ void main() {
 	location location1 = GetLocation(oWP_Kreia_1);
 	AssignCommand(oKreia, ActionMoveToLocation(location1, 0));
 }
-

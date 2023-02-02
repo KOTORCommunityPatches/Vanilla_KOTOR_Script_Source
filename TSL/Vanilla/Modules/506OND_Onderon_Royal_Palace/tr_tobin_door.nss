@@ -13,4 +13,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(oTobin, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

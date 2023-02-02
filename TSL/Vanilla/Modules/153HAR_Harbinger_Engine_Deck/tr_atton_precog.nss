@@ -13,4 +13,3 @@ void main() {
 		AssignCommand(oAtton, ActionStartConversation(oPC, "attonpre", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

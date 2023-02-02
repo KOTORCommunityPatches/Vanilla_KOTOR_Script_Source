@@ -21,4 +21,3 @@ void main() {
 		AssignCommand(oCzerka_bay, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

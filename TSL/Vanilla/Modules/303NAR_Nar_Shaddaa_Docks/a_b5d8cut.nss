@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(GetFirstPC(), ActionMoveToObject(GetObjectByTag("wp_t3m4_1", 0), 0, 1.0));
 	}
 }
-

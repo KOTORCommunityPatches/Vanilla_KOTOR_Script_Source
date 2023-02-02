@@ -15,4 +15,3 @@ void main() {
 	AssignCommand(GetFirstPC(), ClearAllEffects());
 	DelayCommand(1.0, StartNewModule("101PER", "WP_ADMCON", "", "", "", "", "", ""));
 }
-

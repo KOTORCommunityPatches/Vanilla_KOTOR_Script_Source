@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oD_TSFArmory, 0);
 	AssignCommand(oD_TSFArmory, ActionOpenDoor(oD_TSFArmory));
 }
-

@@ -28,4 +28,3 @@ void main() {
 	object oElevatorExplosionMain = GetObjectByTag("ElevatorExplosionMain", 0);
 	DelayCommand(1.0, SoundObjectPlay(oElevatorBodyRoll));
 }
-

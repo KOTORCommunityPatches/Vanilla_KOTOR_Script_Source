@@ -6,4 +6,3 @@ void main() {
 	DelayCommand(0.3, AssignCommand(GetPCSpeaker(), SetFacingPoint(vPosition)));
 	DelayCommand(1.0, ActionResumeConversation());
 }
-

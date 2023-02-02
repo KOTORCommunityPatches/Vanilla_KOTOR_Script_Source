@@ -36,4 +36,3 @@ void main() {
 		ExecuteScript("a_gbl_react", OBJECT_SELF, 0);
 	}
 }
-

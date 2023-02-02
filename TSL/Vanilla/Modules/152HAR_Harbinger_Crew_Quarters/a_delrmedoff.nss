@@ -5,4 +5,3 @@ void main() {
 	}
 	DestroyObject(oRMedOff, 0.0, 0, 0.0, 0);
 }
-

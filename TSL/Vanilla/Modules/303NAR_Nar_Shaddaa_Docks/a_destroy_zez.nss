@@ -6,4 +6,3 @@ void main() {
 	object oZezkaiel = GetObjectByTag("Zezkaiel", 0);
 	AssignCommand(oArea, DelayCommand(1.0, DestroyObject(oZezkaiel, 0.0, 1, 0.0, 0)));
 }
-

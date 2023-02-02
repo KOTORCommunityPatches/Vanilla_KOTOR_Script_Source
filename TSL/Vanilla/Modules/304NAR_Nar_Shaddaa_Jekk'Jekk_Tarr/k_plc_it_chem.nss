@@ -51,4 +51,3 @@ void main() {
 		CreateItemOnObject("chem_00001", object1, int2, 0);
 	}
 }
-

@@ -5,4 +5,3 @@ void main() {
 	DestroyObject(GetObjectByTag("203_b4d4", 0), 0.0, 0, 0.0, 0);
 	StartNewModule("204TEL", "from_203TEL_b4d4", "", "", "", "", "", "");
 }
-

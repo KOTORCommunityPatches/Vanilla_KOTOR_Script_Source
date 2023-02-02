@@ -145,4 +145,3 @@ void main() {
 	DelayCommand(0.2, AssignCommand(GetObjectByTag("npc_gerevick", 0), ActionMoveToLocation(GetLocation(GetFirstPC()), 0)));
 	DelayCommand(0.3, ExecuteScript("a_force_combat", OBJECT_SELF, 0xFFFFFFFF));
 }
-

@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(object1, ActionLockObject(object1));
 	AssignCommand(object1, ActionCloseDoor(object1));
 }
-

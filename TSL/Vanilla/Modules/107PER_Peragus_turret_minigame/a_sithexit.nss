@@ -8,4 +8,3 @@ void main() {
 		DestroyObject(oEntering, 0.0, 0, 0.0, 0);
 	}
 }
-

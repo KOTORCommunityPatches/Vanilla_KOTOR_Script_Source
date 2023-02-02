@@ -44,4 +44,3 @@ void main()
     }
     else SetLocalBoolean(GetFirstPC(), 20, FALSE);
 }
-

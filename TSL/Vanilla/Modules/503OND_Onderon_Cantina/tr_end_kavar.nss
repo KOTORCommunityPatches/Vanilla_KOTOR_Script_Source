@@ -16,4 +16,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(GetObjectByTag("kavar", 0), ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	SetLocalBoolean(OBJECT_SELF, 40, 1);
 }
-

@@ -40,4 +40,3 @@ void main() {
 		AssignCommand(GetObjectByTag("tsfoff2", 0), ActionMoveToObject(GetObjectByTag("wp_tsf2_01", 0), 1, 1.0));
 	}
 }
-

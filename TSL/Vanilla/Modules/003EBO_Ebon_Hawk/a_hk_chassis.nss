@@ -7,4 +7,3 @@ void main() {
 		RemoveEffectByID(oDrdParts, 2067);
 	}
 }
-

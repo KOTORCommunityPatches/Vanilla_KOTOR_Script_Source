@@ -11,4 +11,3 @@ void main() {
 	}
 	DelayCommand(IntToFloat(nParam2), SetMinOneHP(object1, nParam1));
 }
-

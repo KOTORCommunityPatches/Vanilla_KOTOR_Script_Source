@@ -3,4 +3,3 @@ void main() {
 	SetLockOrientationInDialog(OBJECT_SELF, 1);
 	AssignCommand(OBJECT_SELF, ActionPlayAnimation(10083, 1.0, (-1.0)));
 }
-

@@ -27,4 +27,3 @@ void main() {
 	DelayCommand(1.5, AssignCommand(o711_1st_door, ActionCloseDoor(o711_1st_door)));
 	DelayCommand(1.5, SetLocked(o711_1st_door, 1));
 }
-

@@ -23,4 +23,3 @@ void main() {
 	}
 	SetLocalBoolean(GetObjectByTag("203_Bed", 0), 50, 1);
 }
-

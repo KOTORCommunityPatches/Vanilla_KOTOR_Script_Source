@@ -171,4 +171,3 @@ void main() {
 	sub1(intGLOB_144, 0);
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_4);
 }
-

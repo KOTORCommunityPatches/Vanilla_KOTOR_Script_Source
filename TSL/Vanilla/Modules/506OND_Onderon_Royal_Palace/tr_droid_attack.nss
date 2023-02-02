@@ -45,4 +45,3 @@ void main() {
 	DelayCommand(0.2, ExecuteScript("a_force_combat", oMil_droid_mk2, 0xFFFFFFFF));
 	DelayCommand(0.3, AssignCommand(oMil_droid_mk2, ActionAttack(GetPartyMemberByIndex(0), 0)));
 }
-

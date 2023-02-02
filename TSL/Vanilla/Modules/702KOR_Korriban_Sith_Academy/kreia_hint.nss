@@ -14,4 +14,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(GetObjectByTag("SithAssassin", 1), 1));
 	DelayCommand(0.3, ExecuteScript("a_force_combat", GetObjectByTag("SithAssassin", 1), 0xFFFFFFFF));
 }
-

@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(OBJECT_SELF, ClearAllEffects());
 	AssignCommand(OBJECT_SELF, ClearAllActions());
 }
-

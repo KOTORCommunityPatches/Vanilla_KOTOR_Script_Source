@@ -8,4 +8,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(oExchangeThug302_1, ActionStartConversation(GetFirstPC(), "excthg1", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

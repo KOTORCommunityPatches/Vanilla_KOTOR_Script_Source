@@ -46,4 +46,3 @@ void main() {
 	DelayCommand(0.1, AssignCommand(oXarga, ActionJumpToObject(oWp_end_xarga, 1)));
 	DelayCommand(0.5, AssignCommand(oXarga, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

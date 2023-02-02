@@ -22,4 +22,3 @@ void main() {
 	AssignCommand(oDarthSion, ActionJumpToObject(GetObjectByTag("wp_sion_end", 0), 1));
 	AssignCommand(oDarthSion, ActionStartConversation(GetFirstPC(), "sion", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

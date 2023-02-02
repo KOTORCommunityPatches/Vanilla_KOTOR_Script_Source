@@ -13,4 +13,3 @@ void main() {
 		AssignCommand(oDisciple, ActionStartConversation(GetFirstPC(), "disc_enc", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

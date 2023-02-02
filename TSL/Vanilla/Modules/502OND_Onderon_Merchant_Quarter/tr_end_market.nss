@@ -13,4 +13,3 @@ void main() {
 	object oVaklu_common = GetObjectByTag("vaklu_common", 0);
 	DelayCommand(0.1, AssignCommand(oVaklu_common, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

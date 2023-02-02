@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(GetObjectByTag("ond_door", 0), ClearAllActions());
 	AssignCommand(GetObjectByTag("ond_door", 0), ActionStartConversation(GetFirstPC(), "onddoor", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

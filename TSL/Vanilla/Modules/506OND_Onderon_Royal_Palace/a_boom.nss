@@ -35,4 +35,3 @@ void main() {
 	int nParam1 = GetScriptParameter(1);
 	DelayCommand((IntToFloat(nParam1) + 0.1), sub1(OBJECT_SELF));
 }
-

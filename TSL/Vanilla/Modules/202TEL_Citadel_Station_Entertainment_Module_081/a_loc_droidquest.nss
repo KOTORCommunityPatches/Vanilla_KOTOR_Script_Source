@@ -32,4 +32,3 @@ void main() {
 	SetLocalBoolean(OBJECT_SELF, nParam1, 1);
 	SetGlobalNumber("301NAR_Droid_Quest", 4);
 }
-

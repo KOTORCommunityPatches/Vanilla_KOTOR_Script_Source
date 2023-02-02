@@ -9,4 +9,3 @@ void main() {
 	oRepsold = GetObjectByTag("repsold", 0);
 	DelayCommand(0.1, AssignCommand(oRepsold, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

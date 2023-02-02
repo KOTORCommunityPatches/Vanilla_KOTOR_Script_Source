@@ -6,4 +6,3 @@ void main() {
 	}
 	DelayCommand(0.1, AssignCommand(oN_commf002, ActionStartConversation(GetPCSpeaker(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

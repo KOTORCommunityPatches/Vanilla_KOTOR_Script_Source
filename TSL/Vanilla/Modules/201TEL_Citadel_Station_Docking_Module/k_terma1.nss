@@ -151,4 +151,3 @@ void main() {
 		SetLocalBoolean(GetObjectByTag("TermAirlock1", 0), 30, 0);
 	}
 }
-

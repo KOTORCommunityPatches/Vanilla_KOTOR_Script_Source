@@ -85,4 +85,3 @@ int StartingConditional()
     return TRUE;
 }
 
-

@@ -3,4 +3,3 @@ void main() {
 	location location1 = GetLocation(oWP_PC_1);
 	AssignCommand(GetFirstPC(), ActionMoveToLocation(location1, 0));
 }
-

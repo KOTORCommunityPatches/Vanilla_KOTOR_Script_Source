@@ -40,4 +40,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(oTO_003EBO, ActionOpenDoor(oTO_003EBO)));
 	}
 }
-

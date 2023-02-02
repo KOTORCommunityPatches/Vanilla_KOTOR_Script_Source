@@ -4,4 +4,3 @@ void main() {
 		PlayRoomAnimation("152Har36", 3);
 	}
 }
-

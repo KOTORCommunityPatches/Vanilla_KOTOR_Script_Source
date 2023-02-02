@@ -32,4 +32,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionBarkString(128414)));
 	}
 }
-

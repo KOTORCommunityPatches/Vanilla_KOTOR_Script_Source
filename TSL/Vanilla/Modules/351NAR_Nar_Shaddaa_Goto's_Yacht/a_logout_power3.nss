@@ -33,4 +33,3 @@ void main() {
 	GivePlotXP("Nar_Shaddaa_Plot_Base_XP", 50);
 	DelayCommand(1.0, AssignCommand(oTO_003EBO, ActionOpenDoor(oTO_003EBO)));
 }
-

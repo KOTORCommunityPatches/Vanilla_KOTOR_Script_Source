@@ -15,4 +15,3 @@ void main() {
 		SetGlobalBoolean("505OND_Turret_Done", 1);
 	}
 }
-

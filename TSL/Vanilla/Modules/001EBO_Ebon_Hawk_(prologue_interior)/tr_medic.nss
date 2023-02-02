@@ -5,4 +5,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(GetObjectByTag("pc_invis", 0), ActionStartConversation(GetFirstPC(), "treatinj", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

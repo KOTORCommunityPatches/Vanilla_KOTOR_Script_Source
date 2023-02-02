@@ -522,4 +522,3 @@ void main() {
 	sub5();
 	ActionPlayAnimation(13, 1.0, (-1.0));
 }
-

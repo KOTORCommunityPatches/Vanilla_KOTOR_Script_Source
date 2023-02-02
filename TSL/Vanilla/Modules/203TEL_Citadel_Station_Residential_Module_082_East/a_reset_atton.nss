@@ -4,4 +4,3 @@ void main() {
 		SetLocalBoolean(oAtton, 39, 0);
 	}
 }
-

@@ -32,4 +32,3 @@ void main() {
 	int nParam2 = GetScriptParameter(2);
 	SetLocalNumber(OBJECT_SELF, nParam1, nParam2);
 }
-

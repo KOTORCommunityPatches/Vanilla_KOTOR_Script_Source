@@ -6,4 +6,3 @@ void main() {
 		SetGlobalNumber("302NAR_ExchThugs_01", 3);
 	}
 }
-

@@ -142,4 +142,3 @@ void main() {
 	}
 	sub1(GetPartyLeader());
 }
-

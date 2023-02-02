@@ -31,4 +31,3 @@ void main() {
 	AssignCommand(GetFirstPC(), ActionJumpToObject(GetObjectByTag("WP_PC_WALK_4", 0), 0));
 	DelayCommand(0.1, AssignCommand(GetFirstPC(), SetFacingPoint(GetPosition(GetObjectByTag("Kreia", 0)))));
 }
-

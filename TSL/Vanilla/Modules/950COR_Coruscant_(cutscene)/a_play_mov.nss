@@ -156,4 +156,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(oAtton, ActionStartConversation(oEntering, "holorec", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

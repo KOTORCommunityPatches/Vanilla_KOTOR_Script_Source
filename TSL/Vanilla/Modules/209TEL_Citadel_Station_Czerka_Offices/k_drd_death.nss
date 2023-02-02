@@ -39,4 +39,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(oDoor_203exb, ActionOpenDoor(oDoor_203exb)));
 	}
 }
-

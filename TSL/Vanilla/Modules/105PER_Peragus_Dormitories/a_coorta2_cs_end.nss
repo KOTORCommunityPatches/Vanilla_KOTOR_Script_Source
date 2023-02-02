@@ -15,4 +15,3 @@ void main() {
 	DestroyObject(object10, 0.0, 0, 0.0, 0);
 	DestroyObject(object12, 0.0, 0, 0.0, 0);
 }
-

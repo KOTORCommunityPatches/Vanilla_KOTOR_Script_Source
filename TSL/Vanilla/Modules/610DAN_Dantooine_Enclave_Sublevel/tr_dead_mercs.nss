@@ -9,4 +9,3 @@ void main() {
 		AssignCommand(OBJECT_SELF, ActionStartConversation(GetFirstPC(), "deadmerc", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

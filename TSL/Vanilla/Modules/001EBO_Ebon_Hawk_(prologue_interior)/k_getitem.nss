@@ -17,4 +17,3 @@ void main() {
 		SetGlobalNumber("002EBO_Has_Mine", 1);
 	}
 }
-

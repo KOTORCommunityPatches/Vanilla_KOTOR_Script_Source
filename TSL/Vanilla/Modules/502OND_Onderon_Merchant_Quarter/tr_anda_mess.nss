@@ -36,4 +36,3 @@ void main() {
 	object object4 = sub1("anda_mess", 0);
 	DelayCommand(0.2, AssignCommand(object4, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

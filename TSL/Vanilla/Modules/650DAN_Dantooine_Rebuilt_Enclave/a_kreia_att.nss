@@ -16,4 +16,3 @@ void main() {
 	DelayCommand(0.5, ApplyEffectToObject(1, efPush, oKavar, 0.3));
 	DelayCommand(0.5, ApplyEffectToObject(1, efPush, oZezkaiell, 0.3));
 }
-

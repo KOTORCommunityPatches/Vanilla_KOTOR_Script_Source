@@ -24,4 +24,3 @@ int StartingConditional()
 
     return nResult;
 }
-

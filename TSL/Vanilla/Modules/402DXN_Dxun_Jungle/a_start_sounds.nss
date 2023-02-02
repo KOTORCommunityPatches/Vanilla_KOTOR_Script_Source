@@ -17,4 +17,3 @@ void main() {
 		SoundObjectPlay(GetObjectByTag("JungleHowlSingles", 0));
 	}
 }
-

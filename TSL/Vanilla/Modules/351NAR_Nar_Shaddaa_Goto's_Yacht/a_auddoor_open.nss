@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oAudienceDoor, 0);
 	DelayCommand(0.1, AssignCommand(oAudienceDoor, ActionOpenDoor(oAudienceDoor)));
 }
-

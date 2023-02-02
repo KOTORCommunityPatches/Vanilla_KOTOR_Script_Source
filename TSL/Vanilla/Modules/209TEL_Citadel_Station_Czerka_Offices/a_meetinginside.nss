@@ -9,4 +9,3 @@ void main() {
 		AssignCommand(oDoor_meeting, ActionStartConversation(GetFirstPC(), "meeting", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

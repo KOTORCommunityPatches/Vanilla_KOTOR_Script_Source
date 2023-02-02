@@ -1354,4 +1354,3 @@ void main() {
 	}
 	ActionMoveToObject(GetObjectByTag("From_403DXN", 0), 1, 1.0);
 }
-

@@ -21,4 +21,3 @@ void main() {
 	DelayCommand(1.0, AssignCommand(oForceField6, ActionCloseDoor(oForceField6)));
 	DelayCommand(1.0, AssignCommand(oForceField7, ActionCloseDoor(oForceField7)));
 }
-

@@ -14,4 +14,3 @@ void main() {
 		DelayCommand(2.0, AssignCommand(object4, ActionStartConversation(oPC, "901mira", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

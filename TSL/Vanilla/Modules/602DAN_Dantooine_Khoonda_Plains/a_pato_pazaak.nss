@@ -16,4 +16,3 @@ void main() {
 	}
 	PlayPazaak(nLocal, "k_pato_donepzk", (nLocal * 250), 0, OBJECT_INVALID);
 }
-

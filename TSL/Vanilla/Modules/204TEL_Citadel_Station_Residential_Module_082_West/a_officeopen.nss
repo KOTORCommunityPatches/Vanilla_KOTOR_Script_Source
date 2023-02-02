@@ -5,4 +5,3 @@ void main() {
 	AssignCommand(oPC, ClearAllActions());
 	AssignCommand(oMerc_leader, ActionStartConversation(oPC, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

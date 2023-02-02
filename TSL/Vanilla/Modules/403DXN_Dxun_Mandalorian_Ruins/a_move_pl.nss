@@ -7,4 +7,3 @@ void main() {
 	}
 	DelayCommand(IntToFloat(nParam2), AssignCommand(GetPartyLeader(), ActionForceMoveToObject(GetObjectByTag(sParam, 0), nParam1, 1.0, 30.0)));
 }
-

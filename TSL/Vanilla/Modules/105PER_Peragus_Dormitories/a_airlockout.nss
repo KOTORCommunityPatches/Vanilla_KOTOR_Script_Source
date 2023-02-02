@@ -36,4 +36,3 @@ void main() {
 	DelayCommand(1.5, SetGlobalFadeIn(0.0, 1.0, 0.0, 0.0, 0.0));
 	DelayCommand(1.0, AssignCommand(oNearestAirlockInnerDoor_105PER, ActionCloseDoor(oNearestAirlockInnerDoor_105PER)));
 }
-

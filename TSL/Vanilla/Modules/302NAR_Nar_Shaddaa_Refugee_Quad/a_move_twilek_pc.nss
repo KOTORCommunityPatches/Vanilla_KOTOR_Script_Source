@@ -5,4 +5,3 @@ void main() {
 	AssignCommand(GetFirstPC(), ClearAllActions());
 	DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionForceMoveToObject(oTwilekAtton01, 0, 1.0, 30.0)));
 }
-

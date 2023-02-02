@@ -3,4 +3,3 @@ void main() {
 	int nParam1 = GetScriptParameter(1);
 	SetMapPinEnabled(GetObjectByTag(sParam, 0), nParam1);
 }
-

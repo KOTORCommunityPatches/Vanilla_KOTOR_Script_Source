@@ -4832,4 +4832,3 @@ void main() {
 	DelayCommand(0.2, ChangeToStandardFaction(oDezanti, 1));
 	DelayCommand(0.3, sub1(OBJECT_INVALID));
 }
-

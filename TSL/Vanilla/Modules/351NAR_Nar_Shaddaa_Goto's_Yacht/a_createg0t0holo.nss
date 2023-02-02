@@ -43,4 +43,3 @@ void sub1() {
 void main() {
 	DelayCommand(0.7, sub1());
 }
-

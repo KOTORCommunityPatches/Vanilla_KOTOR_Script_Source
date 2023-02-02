@@ -22,4 +22,3 @@ void main() {
 	}
 	DelayCommand(IntToFloat(nParam4), AssignCommand(oPC, PlayAnimation((10000 + nParam1), IntToFloat(nParam2), IntToFloat(nParam3))));
 }
-

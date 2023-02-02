@@ -14,4 +14,3 @@ void main() {
 	SetLocalBoolean(oOnd_soldier_ster, 49, 1);
 	DelayCommand(0.1, AssignCommand(oOnd_soldier_ster, ActionStartConversation(oEntering, "term_so", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

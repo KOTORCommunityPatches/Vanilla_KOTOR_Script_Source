@@ -7,4 +7,3 @@ void main() {
 		AssignCommand(oNearestNarShaddaaDoor01, ActionCloseDoor(oNearestNarShaddaaDoor01));
 	}
 }
-

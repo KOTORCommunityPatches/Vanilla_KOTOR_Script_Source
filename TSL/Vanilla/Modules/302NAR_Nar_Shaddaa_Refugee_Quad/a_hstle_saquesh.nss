@@ -27,4 +27,3 @@ void main() {
 		ChangeToStandardFaction(oPersonal_guard2, 1);
 	}
 }
-

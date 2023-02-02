@@ -10,4 +10,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(oHK50AMBUSH, ActionStartConversation(GetPCSpeaker(), "hk50ambpc", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

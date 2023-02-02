@@ -7,4 +7,3 @@ int StartingConditional() {
 	int1 = (intGLOB_1 == nGlobal);
 	return int1;
 }
-

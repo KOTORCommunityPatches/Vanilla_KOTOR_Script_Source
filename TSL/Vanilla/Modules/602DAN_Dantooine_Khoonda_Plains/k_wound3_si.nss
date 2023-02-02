@@ -240,4 +240,3 @@ void main() {
 		AssignCommand(OBJECT_SELF, ActionPlayAnimation(23, 1.0, (-1.0)));
 	}
 }
-

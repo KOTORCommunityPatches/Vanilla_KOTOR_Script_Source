@@ -3,4 +3,3 @@ void main() {
 	SetLocked(o106DeconDoor, 0);
 	DelayCommand(1.0, AssignCommand(o106DeconDoor, ActionOpenDoor(o106DeconDoor)));
 }
-

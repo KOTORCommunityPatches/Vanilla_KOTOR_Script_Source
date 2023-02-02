@@ -37,4 +37,3 @@ void main() {
 	RemoveAvailableNPC(7);
 	StartNewModule("101PER", "", "", "", "", "", "", "");
 }
-

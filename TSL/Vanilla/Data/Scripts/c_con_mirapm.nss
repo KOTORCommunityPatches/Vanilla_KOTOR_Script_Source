@@ -8,4 +8,3 @@ int StartingConditional()
 {
   return ((IsNPCPartyMember(NPC_MIRA) == TRUE) && (GetGlobalNumber ("000_Hanharr_Joined") == 0) && (GetDistanceBetween(GetPCSpeaker(), GetObjectByTag("Mira")) <= 10.0));
 }
-

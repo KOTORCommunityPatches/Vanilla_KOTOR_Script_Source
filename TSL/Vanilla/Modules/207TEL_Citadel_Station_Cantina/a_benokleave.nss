@@ -9,4 +9,3 @@ void main() {
 	DelayCommand(7.0, DestroyObject(GetObjectByTag("207_nahata", 0), 0.0, 1, 0.0, 0));
 	ActionResumeConversation();
 }
-

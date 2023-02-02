@@ -10,4 +10,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oSis1, ActionForceMoveToObject(GetObjectByTag("WP_HANDMAIDEN1_1", 0), 0, 1.0, 30.0)));
 	DelayCommand(0.5, AssignCommand(oSis2, ActionForceMoveToObject(GetObjectByTag("WP_HANDMAIDEN2_1", 0), 0, 1.0, 30.0)));
 }
-

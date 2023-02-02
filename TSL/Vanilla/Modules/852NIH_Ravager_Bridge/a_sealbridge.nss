@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(oBridge, ActionCloseDoor(oBridge));
 	SetLocked(oBridge, 1);
 }
-

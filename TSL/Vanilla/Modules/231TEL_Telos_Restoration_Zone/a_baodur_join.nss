@@ -27,4 +27,3 @@ void main() {
 		AurPostString("231TEL: Error! BaoDur and/or Remoter INVALID!", 5, 15, 30.0);
 	}
 }
-

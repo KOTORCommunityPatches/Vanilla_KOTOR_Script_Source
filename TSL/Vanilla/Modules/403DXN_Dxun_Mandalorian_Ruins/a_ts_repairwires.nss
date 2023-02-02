@@ -43,4 +43,3 @@ void main() {
 		AddJournalQuestEntry("tsupport", 20, 0);
 	}
 }
-

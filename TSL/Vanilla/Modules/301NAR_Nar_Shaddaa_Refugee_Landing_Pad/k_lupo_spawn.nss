@@ -524,4 +524,3 @@ void main() {
 	SetLocalNumber(OBJECT_SELF, 11, 6);
 	SetLocalBoolean(GetObjectByTag("Lupo", 0), 55, 0);
 }
-

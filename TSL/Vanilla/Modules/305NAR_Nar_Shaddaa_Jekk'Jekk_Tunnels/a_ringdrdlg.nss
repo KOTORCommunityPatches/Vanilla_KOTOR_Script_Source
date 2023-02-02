@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(GetObjectByTag("Visquis", 0), ActionStartConversation(GetPartyMemberByIndex(0), "visquis", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

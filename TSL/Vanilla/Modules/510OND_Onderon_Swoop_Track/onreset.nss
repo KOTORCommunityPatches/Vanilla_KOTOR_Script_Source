@@ -4,4 +4,3 @@ void main() {
 	SetInputClass(0);
 	StartNewModule("510OND", "", "", "", "", "", "", "");
 }
-

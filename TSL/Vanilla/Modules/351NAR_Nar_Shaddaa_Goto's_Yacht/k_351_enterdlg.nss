@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(oGotoHolo, ClearAllActions());
 	AssignCommand(oGotoHolo, ActionStartConversation(GetFirstPC(), "gotocut1", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

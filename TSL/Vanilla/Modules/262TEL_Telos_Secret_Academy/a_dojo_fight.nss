@@ -5008,4 +5008,3 @@ void main() {
 	}
 	SetGlobalNumber("262TEL_Echani_Killed", 0);
 }
-

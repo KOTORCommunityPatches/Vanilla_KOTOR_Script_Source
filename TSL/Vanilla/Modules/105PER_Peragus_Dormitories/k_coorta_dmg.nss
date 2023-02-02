@@ -34,4 +34,3 @@ void main() {
 	ActionPlayAnimation(30, 1.0, (-1.0));
 	ChangeToStandardFaction(OBJECT_SELF, 5);
 }
-

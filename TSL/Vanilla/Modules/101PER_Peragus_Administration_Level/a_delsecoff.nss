@@ -5,4 +5,3 @@ void main() {
 	}
 	DestroyObject(oSecOff, 0.0, 0, 0.0, 0);
 }
-

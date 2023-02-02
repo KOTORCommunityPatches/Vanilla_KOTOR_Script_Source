@@ -7,4 +7,3 @@ void main() {
 	DelayCommand(3.0, DestroyObject(GetObjectByTag("Generator2", 0), 0.0, 0, 0.0, 0));
 	DelayCommand(3.0, SoundObjectPlay(GetObjectByTag("Generator2off", 0)));
 }
-

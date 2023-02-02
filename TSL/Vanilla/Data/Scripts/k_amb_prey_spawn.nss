@@ -20,4 +20,3 @@ void main()
                                 //creature it should never be removed.
     GN_WalkWayPoints();
 }
-

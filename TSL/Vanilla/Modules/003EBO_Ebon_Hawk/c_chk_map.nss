@@ -78,4 +78,3 @@ int StartingConditional() {
 	}
 	return int3;
 }
-

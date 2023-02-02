@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(GetObjectByTag("202_TSF1", 0), ActionPlayAnimation(19, 1.0, (-1.0)));
 	AssignCommand(GetObjectByTag("202_TSF2", 0), ActionPlayAnimation(19, 1.0, (-1.0)));
 }
-

@@ -6,4 +6,3 @@ void main() {
 		DestroyObject(oNearestDoorinvblk, 0.0, 0, 0.0, 0);
 	}
 }
-

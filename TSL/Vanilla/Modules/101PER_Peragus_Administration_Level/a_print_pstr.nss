@@ -5,4 +5,3 @@ void main() {
 	string sParam = GetScriptStringParameter();
 	AurPostString(sParam, nParam1, nParam2, float1);
 }
-

@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(o203_TSF2, ActionStartConversation(GetPCSpeaker(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

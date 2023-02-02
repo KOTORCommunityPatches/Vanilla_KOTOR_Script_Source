@@ -34,4 +34,3 @@ void main() {
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 	SetGlobalBoolean("207TEL_Destroy_Falt", 1);
 }
-

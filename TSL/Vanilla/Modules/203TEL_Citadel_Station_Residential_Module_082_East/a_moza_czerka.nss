@@ -18,4 +18,3 @@ void main() {
 		AssignCommand(o203_Moza, ActionStartConversation(oPC, "moza", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

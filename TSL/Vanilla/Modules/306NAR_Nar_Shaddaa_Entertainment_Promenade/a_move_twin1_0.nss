@@ -6,4 +6,3 @@ void main() {
 	AssignCommand(oTwinSun1, ClearAllActions());
 	DelayCommand(0.5, AssignCommand(oTwinSun1, ActionForceMoveToObject(oWP_TWIN1_0b, 0, 1.0, 30.0)));
 }
-

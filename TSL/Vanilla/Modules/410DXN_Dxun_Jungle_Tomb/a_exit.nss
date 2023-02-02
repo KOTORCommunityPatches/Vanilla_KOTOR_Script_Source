@@ -12,4 +12,3 @@ void main() {
 	DelayCommand(1.1, AssignCommand(object3, ActionJumpToObject(GetObjectByTag("sp_cnpc2", 0), 1)));
 	DelayCommand(1.1, AssignCommand(object5, ActionJumpToObject(GetObjectByTag("sp_cnpc3", 0), 1)));
 }
-

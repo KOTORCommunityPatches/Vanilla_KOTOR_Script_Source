@@ -9,4 +9,3 @@ void main() {
 		ApplyEffectToObject(0, efDamage, oTT32, 0.0);
 	}
 }
-

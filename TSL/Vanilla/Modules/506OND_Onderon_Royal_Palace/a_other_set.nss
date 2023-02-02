@@ -11,4 +11,3 @@ void main() {
 	}
 	SetLocalBoolean(GetObjectByTag(sParam, 0), nParam1, int5);
 }
-

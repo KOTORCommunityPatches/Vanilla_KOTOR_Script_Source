@@ -52,4 +52,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(oSamhan, ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

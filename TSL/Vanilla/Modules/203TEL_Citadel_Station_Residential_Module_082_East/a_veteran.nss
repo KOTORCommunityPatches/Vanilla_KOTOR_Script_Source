@@ -7,4 +7,3 @@ void main() {
 		AssignCommand(GetObjectByTag("Kreia", 0), ActionJumpToObject(GetObjectByTag("wp_playerwindow", 0), 1));
 	}
 }
-

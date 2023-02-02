@@ -13,4 +13,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(oInner_Door, ActionOpenDoor(oInner_Door)));
 	}
 }
-

@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(oRep_sold, ClearAllActions());
 	AssignCommand(oRep_sold, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

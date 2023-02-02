@@ -6,4 +6,3 @@ void main() {
 	object oHK50SpyCam = GetObjectByTag("HK50SpyCam", 0);
 	AssignCommand(oHK50SpyCam, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

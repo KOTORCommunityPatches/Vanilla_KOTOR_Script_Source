@@ -4,4 +4,3 @@ void main() {
 		SetGlobalBoolean("203TEL_Chano_Destroy", 0);
 	}
 }
-

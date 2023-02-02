@@ -523,4 +523,3 @@ void main() {
 	sub6();
 	ClearAllActions();
 }
-

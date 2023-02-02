@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(oMk2Droid2, ActionMoveToLocation(location3, 0));
 	DelayCommand(4.0, ActionResumeConversation());
 }
-

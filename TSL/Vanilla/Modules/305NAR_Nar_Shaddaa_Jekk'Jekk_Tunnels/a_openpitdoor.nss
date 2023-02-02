@@ -3,4 +3,3 @@ void main() {
 	DelayCommand(0.5, SetLocked(oPitDoor, 0));
 	DelayCommand(1.0, AssignCommand(oPitDoor, ActionOpenDoor(oPitDoor)));
 }
-

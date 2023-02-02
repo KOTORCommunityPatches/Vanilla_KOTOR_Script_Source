@@ -12,4 +12,3 @@ void main()
 
     SetGlobalNumber ( "262TEL_CNPC_Freed", nNum);
 }
-

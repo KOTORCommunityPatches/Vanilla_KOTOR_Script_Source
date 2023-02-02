@@ -4,4 +4,3 @@ void main() {
 		DestroyObject(oNpc_vrook, 0.0, 0, 0.0, 0);
 	}
 }
-

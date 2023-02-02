@@ -52,4 +52,3 @@ int StartingConditional() {
 	}
 	return sub1(object1);
 }
-

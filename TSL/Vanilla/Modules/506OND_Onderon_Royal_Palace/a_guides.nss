@@ -64,4 +64,3 @@ void main() {
 			ActionJumpToObject(object2, 1);
 	}
 }
-

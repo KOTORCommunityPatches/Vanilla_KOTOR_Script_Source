@@ -21,4 +21,3 @@ void main() {
 		DelayCommand(0.2, AssignCommand(oPC, ActionJumpToObject(GetObjectByTag("wp_pc_move1", 0), 1)));
 	}
 }
-

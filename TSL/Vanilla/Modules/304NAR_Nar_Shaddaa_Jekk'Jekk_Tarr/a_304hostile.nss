@@ -20,4 +20,3 @@ void main() {
 	sub1("tranthug");
 	sub1("gandthug");
 }
-

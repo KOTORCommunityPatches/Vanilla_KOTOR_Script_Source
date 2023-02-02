@@ -8,4 +8,3 @@ void main() {
 	DestroyObject(GetObjectByTag("MineGas4", 0), 0.0, 0, 0.0, 0);
 	DestroyObject(GetObjectByTag("MineGas5", 0), 0.0, 0, 0.0, 0);
 }
-

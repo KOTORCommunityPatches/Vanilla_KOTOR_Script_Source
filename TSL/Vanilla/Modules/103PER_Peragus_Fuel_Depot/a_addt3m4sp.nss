@@ -7,4 +7,3 @@ void main() {
 	AddPartyMember(8, oT3M4);
 	SetNPCSelectability(8, 1);
 }
-

@@ -17,4 +17,3 @@ void main() {
 		DelayCommand(IntToFloat(nParam2), ChangeToStandardFaction(object1, 4));
 	}
 }
-

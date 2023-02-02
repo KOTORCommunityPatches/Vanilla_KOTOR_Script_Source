@@ -41,4 +41,3 @@ void main() {
 		SetNPCSelectability(4, 0);
 	}
 }
-

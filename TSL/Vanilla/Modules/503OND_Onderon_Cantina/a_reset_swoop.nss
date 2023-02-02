@@ -4,4 +4,3 @@ void main() {
 	SetLocalBoolean(oQimtiq, 40, 0);
 	SetGlobalBoolean("FORFEIT_SWOOPRACE", 0);
 }
-

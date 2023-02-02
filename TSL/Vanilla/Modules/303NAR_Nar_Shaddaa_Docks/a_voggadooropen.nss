@@ -6,4 +6,3 @@ void main() {
 	SetLocalBoolean(GetObjectByTag("tr_voggaservant", 0), 31, 1);
 	DelayCommand(0.3, AssignCommand(GetObjectByTag("Twilek_Servant", 0), ActionMoveToObject(GetObjectByTag("wp_twiservant_1", 0), 0, 1.0)));
 }
-

@@ -27,4 +27,3 @@ void main() {
 	DelayCommand(11.0, AssignCommand(oSister1, ActionMoveToLocation(location7, 0)));
 	DelayCommand(11.0, AssignCommand(oSister2, ActionMoveToLocation(location9, 0)));
 }
-

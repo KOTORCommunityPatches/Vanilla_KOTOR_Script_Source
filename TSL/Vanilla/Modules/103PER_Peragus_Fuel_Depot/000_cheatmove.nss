@@ -8,4 +8,3 @@ void main() {
 	CreateObject(64, "stmventi001", location3, 0);
 	DelayCommand(0.2, ApplyEffectToObject(0, EffectDeath(0, 1, 0), GetObjectByTag("T3M4", 0), 0.0));
 }
-

@@ -6,4 +6,3 @@ void main() {
 		AssignCommand(oN_minecoorta, ActionStartConversation(GetPCSpeaker(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

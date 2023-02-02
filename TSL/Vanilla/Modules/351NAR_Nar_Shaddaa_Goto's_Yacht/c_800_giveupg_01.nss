@@ -143,4 +143,3 @@ int StartingConditional() {
 		case 2:
 	}
 }
-

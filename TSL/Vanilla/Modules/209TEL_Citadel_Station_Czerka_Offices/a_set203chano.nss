@@ -30,4 +30,3 @@ void main() {
 		SetGlobalNumber("203TEL_Chano", 7);
 	}
 }
-

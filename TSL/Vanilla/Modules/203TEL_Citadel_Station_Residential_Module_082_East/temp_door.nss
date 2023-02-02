@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oCzerkam, 0);
 	AssignCommand(oCzerkam, ActionOpenDoor(oCzerkam));
 }
-

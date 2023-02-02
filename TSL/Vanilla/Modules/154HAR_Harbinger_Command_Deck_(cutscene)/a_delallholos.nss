@@ -20,4 +20,3 @@ void main() {
 	}
 	DestroyObject(oHK50, 0.0, 0, 0.0, 0);
 }
-

@@ -7,4 +7,3 @@ void main() {
 	AssignCommand(oAtris, ActionJumpToObject(oWP_Atris_5, 1));
 	AssignCommand(oAtris, ActionMoveToLocation(location1, 0));
 }
-

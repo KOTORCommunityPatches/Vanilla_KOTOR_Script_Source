@@ -19,4 +19,3 @@ void main() {
 	AssignCommand(oKreia, ActionJumpToObject(GetObjectByTag("WP_END_KREIA_APPEAR", 0), 0));
 	DelayCommand(0.7, ActionStartConversation(oKreia, "305kreia", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

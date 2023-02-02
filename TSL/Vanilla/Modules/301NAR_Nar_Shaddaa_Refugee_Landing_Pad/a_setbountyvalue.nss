@@ -11,4 +11,3 @@ void main() {
 		SetGlobalNumber("300NAR_Bounty", nParam2);
 	}
 }
-

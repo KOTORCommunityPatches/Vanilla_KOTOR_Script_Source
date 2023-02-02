@@ -21,4 +21,3 @@ void main() {
 		SetGlobalNumber("800DRO_Console_44", 1);
 	}
 }
-

@@ -9,4 +9,3 @@ void main() {
 	AssignCommand(object5, ClearAllActions());
 	AssignCommand(object5, ActionJumpToObject(GetObjectByTag("wp_pc_jump3", 0), 1));
 }
-

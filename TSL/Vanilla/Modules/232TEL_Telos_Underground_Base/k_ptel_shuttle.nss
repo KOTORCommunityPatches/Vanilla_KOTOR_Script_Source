@@ -8,4 +8,3 @@ void main() {
 	SetFadeUntilScript();
 	StartNewModule("261TEL", "from_232TEL", "", "", "", "", "", "");
 }
-

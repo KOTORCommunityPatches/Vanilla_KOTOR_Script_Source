@@ -4,4 +4,3 @@ void main() {
 	DelayCommand(3.0, ApplyEffectAtLocation(0, efVisual, GetLocation(OBJECT_SELF), 0.0));
 	DelayCommand(3.0, SoundObjectStop(GetObjectByTag("Alarm", 0)));
 }
-

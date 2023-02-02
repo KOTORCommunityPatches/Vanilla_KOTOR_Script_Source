@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(oP_baodur001, ClearAllActions());
 	AssignCommand(oP_baodur001, ActionStartConversation(GetPartyLeader(), "sensorfi", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

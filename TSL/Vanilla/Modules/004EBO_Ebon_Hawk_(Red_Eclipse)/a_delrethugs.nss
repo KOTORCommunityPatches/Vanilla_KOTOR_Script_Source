@@ -7,4 +7,3 @@ void main() {
 		oAreaObject = GetNextObjectInArea(OBJECT_INVALID, 1);
 	}
 }
-

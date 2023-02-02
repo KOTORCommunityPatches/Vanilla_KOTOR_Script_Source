@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(oKreia, ActionJumpToLocation(location1));
 	AssignCommand(oKreia, ActionStartConversation(GetFirstPC(), "101kreia", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

@@ -45,4 +45,3 @@ void main() {
 		DelayCommand(4.0, AssignCommand(oTwindeadatton, ActionStartConversation(oAtton, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

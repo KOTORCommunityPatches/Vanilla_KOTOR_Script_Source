@@ -17,4 +17,3 @@ void main() {
 	oFake_replace = GetObjectByTag("fake_replace", 0);
 	DelayCommand(0.5, AssignCommand(oFake_replace, ActionStartConversation(GetFirstPC(), "cp_replac", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

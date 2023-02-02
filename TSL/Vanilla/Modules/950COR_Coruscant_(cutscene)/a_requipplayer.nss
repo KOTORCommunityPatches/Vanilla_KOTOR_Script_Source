@@ -20,4 +20,3 @@ void main() {
 	DelayCommand(1.4, AssignCommand(GetFirstPC(), ActionEquipItem(object23, 0, 0)));
 	DelayCommand(1.8, AssignCommand(GetFirstPC(), ActionEquipItem(oInvItem, 1, 0)));
 }
-

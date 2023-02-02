@@ -20,4 +20,3 @@ void main() {
 	AssignCommand(oHanharr, ClearAllActions());
 	DelayCommand(0.3, AssignCommand(oVisquis, ActionStartConversation(oEntering, "305han", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

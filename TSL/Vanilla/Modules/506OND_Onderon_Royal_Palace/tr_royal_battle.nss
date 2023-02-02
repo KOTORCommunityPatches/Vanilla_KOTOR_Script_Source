@@ -32,4 +32,3 @@ void main() {
 	}
 	DelayCommand(0.1, AssignCommand(GetObjectByTag("invis_vaklu", 0), ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

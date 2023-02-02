@@ -11,4 +11,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(o203_Ith_Rec, ActionStartConversation(GetFirstPC(), "", 0, 1, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

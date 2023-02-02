@@ -14,4 +14,3 @@ void main() {
 	SetGlobalFadeIn(0.1, 2.0, 0.0, 0.0, 0.0);
 	AssignCommand(oSwoopMC, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

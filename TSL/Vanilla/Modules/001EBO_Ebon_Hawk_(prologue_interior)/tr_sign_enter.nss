@@ -55,4 +55,3 @@ void main() {
 	}
 	ActionStartConversation(GetNearestObjectByTag("SignSpeaker", oEntering, 1), "extra", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

@@ -43,4 +43,3 @@ void main() {
 		ApplyEffectToObject(0, EffectVisualEffect(1008, 0), object4, 0.0);
 	}
 }
-

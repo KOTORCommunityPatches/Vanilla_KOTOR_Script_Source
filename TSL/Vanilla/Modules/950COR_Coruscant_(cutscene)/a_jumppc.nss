@@ -19,4 +19,3 @@ void main() {
 		AssignCommand(GetFirstPC(), ActionJumpToLocation(GetLocation(GetObjectByTag("FROM_262TEL", 0))));
 	}
 }
-

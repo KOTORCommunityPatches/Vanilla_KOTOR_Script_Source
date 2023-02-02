@@ -108,4 +108,3 @@ void main()
         AddAvailableNPCByTemplate(NPC_DISCIPLE, "p_disciple" );
     }
 }
-

@@ -155,4 +155,3 @@ void main() {
 	}
 	ExecuteScript("a_sith_bark", GetObjectByTag("security", 0), 0xFFFFFFFF);
 }
-

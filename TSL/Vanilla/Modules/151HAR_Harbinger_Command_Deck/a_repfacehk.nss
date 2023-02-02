@@ -3,4 +3,3 @@ void main() {
 	object oHK50 = GetObjectByTag("HK50", 0);
 	DelayCommand(0.7, AssignCommand(oRepCapt, SetFacingPoint(GetPosition(GetObjectByTag("HK50", 0)))));
 }
-

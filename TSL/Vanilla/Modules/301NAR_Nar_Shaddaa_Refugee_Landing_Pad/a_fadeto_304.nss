@@ -33,4 +33,3 @@ void main() {
 	AssignCommand(oInvisoKreia, DelayCommand(1.1, sub2()));
 	AssignCommand(oInvisoKreia, DelayCommand(2.0, StartNewModule("304NAR", "", "", "", "", "", "", "")));
 }
-

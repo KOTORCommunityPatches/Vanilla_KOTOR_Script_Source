@@ -50,4 +50,3 @@ void main() {
 		CreateItemOnObject("brokenitem", object1, (Random(5) + 1), 0);
 	}
 }
-

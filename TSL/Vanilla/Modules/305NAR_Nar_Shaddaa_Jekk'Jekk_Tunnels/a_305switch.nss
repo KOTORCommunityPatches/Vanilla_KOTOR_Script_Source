@@ -67,4 +67,3 @@ void main() {
 		DelayCommand(1.5, AssignCommand(GetFirstPC(), ActionStartConversation(GetObjectByTag("HighSecurityDoorInterior", 0), "pcenter", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

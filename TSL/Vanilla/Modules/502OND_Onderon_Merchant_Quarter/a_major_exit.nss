@@ -32,4 +32,3 @@ void main() {
 	AssignCommand(oMajor, ActionForceMoveToObject(GetObjectByTag("sw_exit1", 0), 0, 1.0, 30.0));
 	DelayCommand(8.0, DestroyObject(oMajor, 0.0, 0, 0.0, 0));
 }
-

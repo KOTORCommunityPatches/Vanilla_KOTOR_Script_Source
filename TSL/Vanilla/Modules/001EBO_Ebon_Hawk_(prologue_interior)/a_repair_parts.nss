@@ -67,4 +67,3 @@ void main() {
 	int nParam1 = GetScriptParameter(1);
 	sub2(sub1(nParam1, 5));
 }
-

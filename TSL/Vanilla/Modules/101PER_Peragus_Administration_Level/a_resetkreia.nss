@@ -3,4 +3,3 @@ void main() {
 	SetMinOneHP(oKreia, 0);
 	ChangeToStandardFaction(oKreia, 2);
 }
-

@@ -12,4 +12,3 @@ void main() {
 		AssignCommand(oRod_killer, ActionStartConversation(oPC, "", 0, 1, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

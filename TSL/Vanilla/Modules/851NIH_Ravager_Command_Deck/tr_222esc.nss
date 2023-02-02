@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(o222TEL, ClearAllActions());
 	AssignCommand(o222TEL, ActionStartConversation(GetFirstPC(), "222TEL", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

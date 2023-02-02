@@ -3,4 +3,3 @@ void main() {
 	DelayCommand(1.0, AssignCommand(oDoor_To_101PER, ActionCloseDoor(oDoor_To_101PER)));
 	DelayCommand(1.5, SetLocked(oDoor_To_101PER, 1));
 }
-

@@ -4,4 +4,3 @@ void main() {
 	SetLocalBoolean(GetObjectByTag("DroCon", 0), 30, 1);
 	AssignCommand(GetObjectByTag("DroCon", 0), ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

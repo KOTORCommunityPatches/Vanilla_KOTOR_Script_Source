@@ -13,4 +13,3 @@ void main() {
 		AssignCommand(object13, ActionStartConversation(OBJECT_SELF, "attontwi", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

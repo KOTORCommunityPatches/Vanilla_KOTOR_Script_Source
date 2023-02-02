@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(OBJECT_SELF, ClearAllActions());
 	AssignCommand(OBJECT_SELF, ActionStartConversation(GetFirstPC(), "mapon", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

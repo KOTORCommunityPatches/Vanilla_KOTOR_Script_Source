@@ -14,4 +14,3 @@ void main() {
 	ClearAllActions();
 	DelayCommand(0.3, AssignCommand(oKreia_invis, ActionStartConversation(GetFirstPC(), "kreia_kr", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

@@ -3,4 +3,3 @@ void main() {
 		CreateItemOnObject("G_I_TRAPKIT004", OBJECT_SELF, 1, 0);
 	}
 }
-

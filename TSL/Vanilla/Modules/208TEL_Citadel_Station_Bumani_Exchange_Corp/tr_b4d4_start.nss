@@ -7,4 +7,3 @@ void main() {
 		DelayCommand(2.5, AssignCommand(GetObjectByTag("203_b4d4", 0), ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

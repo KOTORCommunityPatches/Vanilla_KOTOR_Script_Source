@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(GetObjectByTag("wound_sold", 0), ActionAttack(GetFirstPC(), 0));
 	}
 }
-

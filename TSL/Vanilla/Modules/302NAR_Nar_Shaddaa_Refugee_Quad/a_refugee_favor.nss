@@ -6,4 +6,3 @@ void main() {
 		SetGlobalNumber("302NAR_Refugee_Favor", 10);
 	}
 }
-

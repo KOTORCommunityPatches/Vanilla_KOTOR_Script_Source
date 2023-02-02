@@ -4,4 +4,3 @@ void main() {
 		SoundObjectPlay(oWallt_med);
 	}
 }
-

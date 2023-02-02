@@ -21,4 +21,3 @@ void main()
         ActionForceMoveToObject(GetObjectByTag(sWaypoint), iRun) ));
 }
 
-

@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(oSpeaker, ClearAllActions());
 	AssignCommand(oSpeaker, ActionAttack(object3, 0));
 }
-

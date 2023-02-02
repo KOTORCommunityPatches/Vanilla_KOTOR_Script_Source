@@ -3,4 +3,3 @@ void main() {
 	AssignCommand(GetPCSpeaker(), ClearAllActions());
 	AssignCommand(GetPCSpeaker(), ActionJumpToLocation(GetLocation(oWP_PC_JUMP_2)));
 }
-

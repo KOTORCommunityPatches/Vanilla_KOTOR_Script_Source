@@ -11,4 +11,3 @@ void main() {
 	AssignCommand(oPC, ActionPlayAnimation(0, 1.0, 1.0));
 	AssignCommand(oGeriel, ActionPlayAnimation(0, 1.0, 1.0));
 }
-

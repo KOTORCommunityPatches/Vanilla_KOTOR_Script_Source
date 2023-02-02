@@ -19,4 +19,3 @@ void main() {
 	SetGlobalFadeIn(1.0, 1.0, 0.0, 0.0, 0.0);
 	DelayCommand(1.0, AssignCommand(o203_slusk, ActionStartConversation(oPC, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

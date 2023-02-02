@@ -9,4 +9,3 @@ void main() {
 	vector struct2 = GetPositionFromLocation(location3);
 	DelayCommand(2.5, AssignCommand(oHK50, ActionDoCommand(SetFacingPoint(struct2))));
 }
-

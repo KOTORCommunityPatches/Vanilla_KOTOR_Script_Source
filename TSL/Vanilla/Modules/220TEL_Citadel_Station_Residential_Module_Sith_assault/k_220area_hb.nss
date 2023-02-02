@@ -26,4 +26,3 @@ void main() {
 	}
 	SetGlobalBoolean("220TEL_Battle_Over", int2);
 }
-

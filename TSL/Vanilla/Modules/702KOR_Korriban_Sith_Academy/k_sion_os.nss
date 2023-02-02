@@ -523,4 +523,3 @@ void main() {
 	SetLocalNumber(OBJECT_SELF, 11, 6);
 	sub6();
 }
-

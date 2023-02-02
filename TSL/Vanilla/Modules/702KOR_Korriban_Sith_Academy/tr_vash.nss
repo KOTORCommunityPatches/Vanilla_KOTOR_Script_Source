@@ -17,4 +17,3 @@ void main() {
 		AssignCommand(oVash_container, ActionStartConversation(GetFirstPC(), "vash", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

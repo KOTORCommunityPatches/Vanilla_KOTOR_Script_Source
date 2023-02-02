@@ -8,4 +8,3 @@ int StartingConditional()
 {
   return ((IsNPCPartyMember(NPC_HANDMAIDEN) == TRUE) && (GetGlobalNumber ("000_Disciple_Joined") == 0) && (GetDistanceBetween(GetPCSpeaker(), GetObjectByTag("Handmaiden")) <= 10.0));
 }
-

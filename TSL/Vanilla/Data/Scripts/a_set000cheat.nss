@@ -12,4 +12,3 @@ void main()
 
     SetGlobalNumber ( "000_Cheat", n000cheat);
 }
-

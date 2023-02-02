@@ -5,4 +5,3 @@ void main() {
 	PlayMovie("MalMov11b", 0);
 	PlayMovie("MalMov12", 0);
 }
-

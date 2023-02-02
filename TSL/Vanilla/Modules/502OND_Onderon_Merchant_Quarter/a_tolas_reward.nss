@@ -7,4 +7,3 @@ void main() {
 	}
 	SetLocalBoolean(OBJECT_SELF, 53, 1);
 }
-

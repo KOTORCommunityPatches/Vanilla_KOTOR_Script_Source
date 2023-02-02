@@ -12,4 +12,3 @@ void main() {
 		DelayCommand(1.0, AssignCommand(oEntering, ActionStartConversation(oPC, "hk50die", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

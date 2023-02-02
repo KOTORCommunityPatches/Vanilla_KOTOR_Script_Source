@@ -43,4 +43,3 @@ void main() {
 		AddJournalQuestEntry("fuel_sith", 20, 0);
 	}
 }
-

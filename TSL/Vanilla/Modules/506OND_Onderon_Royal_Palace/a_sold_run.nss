@@ -16,4 +16,3 @@ void main() {
 	object oVa_speaker_1 = GetObjectByTag("va_speaker_1", 0);
 	DelayCommand(2.0, AssignCommand(oVa_speaker_1, SetFacing(90.0)));
 }
-

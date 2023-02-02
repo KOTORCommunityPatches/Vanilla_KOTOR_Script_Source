@@ -19,4 +19,3 @@ void main() {
 		object3 = GetObjectByTag(string1, int1);
 	}
 }
-

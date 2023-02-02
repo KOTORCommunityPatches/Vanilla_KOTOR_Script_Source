@@ -5,4 +5,3 @@ void main() {
 	DelayCommand(1.0, AssignCommand(oT3m4, ApplyEffectToObject(1, efBeam, oT3m4, 2.9)));
 	DelayCommand(1.0, AssignCommand(oT3m4, ActionPlayAnimation(26, 1.0, (-1.0))));
 }
-

@@ -3,4 +3,3 @@ void main() {
 	location location1 = GetLocation(oWP_from_outside);
 	AssignCommand(GetFirstPC(), ActionMoveToLocation(location1, 0));
 }
-

@@ -78,4 +78,3 @@ void main() {
 	}
 	SetLocalBoolean(object2, 40, 1);
 }
-

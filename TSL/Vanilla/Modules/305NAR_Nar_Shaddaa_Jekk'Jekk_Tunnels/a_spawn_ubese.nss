@@ -87,4 +87,3 @@ void main() {
 		DelayCommand(3.0, AssignCommand(object83, SetFacingPoint(GetPosition(GetObjectByTag("DoorRing", 0)))));
 	}
 }
-

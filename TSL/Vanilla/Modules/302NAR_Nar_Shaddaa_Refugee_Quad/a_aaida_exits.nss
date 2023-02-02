@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("InterGRU", 55, 1);
 	}
 }
-

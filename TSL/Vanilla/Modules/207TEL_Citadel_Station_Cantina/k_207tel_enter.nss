@@ -182,4 +182,3 @@ void main() {
 	}
 	SetGlobalFadeIn(2.0, 1.0, 0.0, 0.0, 0.0);
 }
-

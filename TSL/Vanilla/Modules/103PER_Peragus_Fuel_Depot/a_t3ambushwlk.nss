@@ -39,4 +39,3 @@ void main() {
 		DelayCommand(1.1, AssignCommand(oPC, SetFacingPoint(struct2)));
 	}
 }
-

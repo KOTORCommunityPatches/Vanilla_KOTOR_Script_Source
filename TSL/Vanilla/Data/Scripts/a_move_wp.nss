@@ -28,4 +28,3 @@ void main()
 
     if (iPlot) DelayCommand( IntToFloat(iDelay), SetCommandable(FALSE));
 }
-

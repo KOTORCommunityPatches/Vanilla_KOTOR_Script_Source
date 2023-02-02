@@ -140,4 +140,3 @@ void main() {
 	ActionEquipItem(object1, 4, 0);
 	ActionPlayAnimation(115, 1.0, 0.0);
 }
-

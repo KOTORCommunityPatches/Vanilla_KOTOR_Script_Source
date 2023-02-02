@@ -18,4 +18,3 @@ void main() {
 		SetLocalBoolean(OBJECT_SELF, nParam2, 1);
 	}
 }
-

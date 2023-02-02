@@ -3,4 +3,3 @@ void main() {
 	SetGlobalBoolean("G_Paz_JustPlayed", 0);
 	SetGlobalNumber("Tar_PazNik", (GetGlobalNumber("Tar_PazNik") - 1));
 }
-

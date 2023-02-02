@@ -4,4 +4,3 @@ void main() {
 	location location1 = GetLocation(oWP_Atris_4);
 	AssignCommand(oAtris, ActionMoveToLocation(location1, 0));
 }
-

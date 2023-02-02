@@ -12,4 +12,3 @@ void main() {
 	AssignCommand(oXarga, ClearAllActions());
 	DelayCommand(0.1, AssignCommand(oXarga, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

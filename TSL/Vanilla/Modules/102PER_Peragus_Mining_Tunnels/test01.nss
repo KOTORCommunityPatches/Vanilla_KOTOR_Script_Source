@@ -436,4 +436,3 @@ void main() {
 	DelayCommand(0.90000004, ClearAllActions());
 	DelayCommand(1.0, sub2());
 }
-

@@ -16,4 +16,3 @@ void main() {
 		SetGlobalNumber("402DXN_ScoutHunt", 1);
 	}
 }
-

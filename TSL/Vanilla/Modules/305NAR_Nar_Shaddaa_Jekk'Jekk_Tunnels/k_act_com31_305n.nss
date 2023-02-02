@@ -109,4 +109,3 @@ void main() {
 		oAreaObject = GetNextObjectInArea(GetArea(OBJECT_SELF), 8);
 	}
 }
-

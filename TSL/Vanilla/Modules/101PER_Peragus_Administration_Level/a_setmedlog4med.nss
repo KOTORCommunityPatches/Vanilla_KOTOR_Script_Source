@@ -4,4 +4,3 @@ void main() {
 	DelayCommand(1.0, AssignCommand(OBJECT_SELF, ActionMoveToObject(oWP_MEDOFF_RUN, 1, 1.0)));
 	SetGlobalNumber("101PER_Med_Log", 4);
 }
-

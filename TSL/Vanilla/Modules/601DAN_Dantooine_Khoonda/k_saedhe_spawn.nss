@@ -1347,4 +1347,3 @@ void main() {
 	sub6(OBJECT_SELF, (Random(4) - 2), 0);
 	sub15();
 }
-

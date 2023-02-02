@@ -4,4 +4,3 @@ void main() {
 		ChangeToStandardFaction(GetObjectByTag("C7E3", 0), 1);
 	}
 }
-

@@ -17,4 +17,3 @@ void main() {
 	CreateObject(1, "n_twilekf006", GetLocation(GetObjectByTag("WP_VOSSK_TWIN1_0", 0)), 0);
 	CreateObject(1, "n_twilekf007", GetLocation(GetObjectByTag("WP_VOSSK_TWIN2_0", 0)), 0);
 }
-

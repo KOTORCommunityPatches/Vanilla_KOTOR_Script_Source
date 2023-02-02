@@ -11,4 +11,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oAtton, ClearAllActions()));
 	DelayCommand(0.5, AssignCommand(oAtton, ActionForceMoveToObject(oWp_atton_mandcs2, 0, 1.0, 30.0)));
 }
-

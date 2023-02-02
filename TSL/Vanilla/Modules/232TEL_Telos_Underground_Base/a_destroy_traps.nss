@@ -7,4 +7,3 @@ void main() {
 		oG_T_TRAP012 = GetObjectByTag("G_T_TRAP012", int1);
 	}
 }
-

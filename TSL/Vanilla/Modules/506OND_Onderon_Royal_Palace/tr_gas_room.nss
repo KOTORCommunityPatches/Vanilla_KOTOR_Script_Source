@@ -53,4 +53,3 @@ void main() {
 	}
 	SetLocalBoolean(GetObjectByTag("sec_term_gas", 0), 51, 1);
 }
-

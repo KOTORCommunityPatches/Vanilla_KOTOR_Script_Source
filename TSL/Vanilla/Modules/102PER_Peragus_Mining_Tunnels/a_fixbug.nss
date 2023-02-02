@@ -101,4 +101,3 @@ void main() {
 	sub3(int1);
 	sub4(GetModule(), intGLOB_12, 1);
 }
-

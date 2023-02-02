@@ -8,4 +8,3 @@ void main() {
 		BarkString(oAttacker, 48325);
 	}
 }
-

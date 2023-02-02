@@ -10,4 +10,3 @@ int StartingConditional() {
 	SWMG_AdjustFollowerHitPoints(SWMG_GetLastFollowerHit(), (-100), (-100));
 	return 0;
 }
-

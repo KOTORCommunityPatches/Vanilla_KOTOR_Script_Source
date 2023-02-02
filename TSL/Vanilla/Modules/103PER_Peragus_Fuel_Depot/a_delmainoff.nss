@@ -6,4 +6,3 @@ void main() {
 	DestroyObject(oMainOff, 0.0, 1, 0.0, 0);
 	DelayCommand(0.1, AssignCommand(GetFirstPC(), SetFacing(GetFacing(GetWaypointByTag("WP_DroCon")))));
 }
-

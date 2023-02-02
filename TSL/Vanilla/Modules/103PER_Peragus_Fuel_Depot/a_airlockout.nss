@@ -10,4 +10,3 @@ void main() {
 	ActionOpenDoor(OBJECT_SELF);
 	AssignCommand(oNearestAirlockInnerDoor_103PER, ActionCloseDoor(oNearestAirlockInnerDoor_103PER));
 }
-

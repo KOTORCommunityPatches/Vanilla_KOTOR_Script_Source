@@ -11,4 +11,3 @@ void main() {
 	DelayCommand(0.3, ActionOpenDoor(oFFDoor4));
 	DelayCommand(4.0, ActionResumeConversation());
 }
-

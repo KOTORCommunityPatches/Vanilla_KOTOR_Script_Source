@@ -8,4 +8,3 @@ void main() {
 	}
 	DelayCommand(0.5, DisplayDatapad(oQu_deadwill));
 }
-

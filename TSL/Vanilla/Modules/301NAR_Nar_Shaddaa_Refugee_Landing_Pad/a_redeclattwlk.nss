@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(oREThug2, ActionMoveToObject(oWP_RE_3_2, 0, 1.0));
 	AssignCommand(oREThug3, ActionMoveToObject(oWP_RE_4_2, 0, 1.0));
 }
-

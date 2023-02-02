@@ -8,4 +8,3 @@ void main() {
 	oWp_ls_plat = GetObjectByTag("wp_ls_plat", 0);
 	DelayCommand(0.3, AssignCommand(oRo_plat, ActionMoveToObject(oWp_ls_plat, 0, 1.0)));
 }
-

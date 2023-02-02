@@ -16,4 +16,3 @@ void main() {
 	}
 	DestroyObject(oHOLO3, 0.0, 0, 0.0, 0);
 }
-

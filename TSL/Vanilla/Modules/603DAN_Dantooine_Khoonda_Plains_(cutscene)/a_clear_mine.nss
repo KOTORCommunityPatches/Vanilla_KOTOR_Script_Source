@@ -6,4 +6,3 @@ void main() {
 		oMine_merc = GetObjectByTag("mine_merc", (int1++));
 	}
 }
-

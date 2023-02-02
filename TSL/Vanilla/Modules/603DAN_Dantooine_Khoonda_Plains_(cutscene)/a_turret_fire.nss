@@ -15,4 +15,3 @@ void main() {
 	ChangeToStandardFaction(oKhoonda_turret_2, 11);
 	ChangeToStandardFaction(oKhoonda_turret_3, 11);
 }
-

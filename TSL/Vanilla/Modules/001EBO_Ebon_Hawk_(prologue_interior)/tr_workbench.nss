@@ -5,4 +5,3 @@ void main() {
 		AssignCommand(oTr_workbench, ActionStartConversation(GetFirstPC(), "wrkbnch", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

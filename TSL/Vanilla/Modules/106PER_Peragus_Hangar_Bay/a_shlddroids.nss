@@ -235,4 +235,3 @@ void main() {
 	AssignCommand(o106DROID1, ActionDoCommand(sub1()));
 	AssignCommand(o106DROID2, ActionDoCommand(sub1()));
 }
-

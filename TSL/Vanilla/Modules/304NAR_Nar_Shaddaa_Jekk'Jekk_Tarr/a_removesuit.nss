@@ -24,4 +24,3 @@ void main() {
 	sub1();
 	SetPlayerRestrictMode(0);
 }
-

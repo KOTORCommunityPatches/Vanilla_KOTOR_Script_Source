@@ -28,4 +28,3 @@ void main() {
 	sub1("npc_goon", 2);
 	sub1("npc_goon", 3);
 }
-

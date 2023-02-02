@@ -36,4 +36,3 @@ void main() {
 		object33 = GetObjectByTag(string1, int1);
 	}
 }
-

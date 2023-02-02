@@ -6,4 +6,3 @@ void main() {
 		AssignCommand(GetObjectByTag("232_hk502", 0), ActionMoveToObject(GetObjectByTag("wp_hk502_02", 0), 0, 1.0));
 	}
 }
-

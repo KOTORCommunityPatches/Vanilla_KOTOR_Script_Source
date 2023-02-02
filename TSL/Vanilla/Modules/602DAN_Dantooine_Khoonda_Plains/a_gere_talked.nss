@@ -42,4 +42,3 @@ void main() {
 	sub1(OBJECT_SELF, 1);
 	SetLocalBoolean(GetObjectByTag("npc_berun", 0), 40, 1);
 }
-

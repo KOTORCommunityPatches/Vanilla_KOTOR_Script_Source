@@ -12,4 +12,3 @@ void main() {
 		SetLocalBoolean(GetObjectByTag("boma_frenzy", 0), 59, 1);
 	}
 }
-

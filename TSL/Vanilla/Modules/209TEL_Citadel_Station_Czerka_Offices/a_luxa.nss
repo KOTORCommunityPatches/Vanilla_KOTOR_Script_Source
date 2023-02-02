@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(GetFirstPC(), ClearAllActions());
 	AssignCommand(GetObjectByTag("203_slusk", 0), ActionStartConversation(GetFirstPC(), "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

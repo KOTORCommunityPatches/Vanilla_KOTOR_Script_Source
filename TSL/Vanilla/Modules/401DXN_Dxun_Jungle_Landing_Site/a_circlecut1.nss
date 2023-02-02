@@ -12,4 +12,3 @@ void main() {
 		DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionStartConversation(oCircleCutsceneDlg, "", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

@@ -43,4 +43,3 @@ void main() {
 	SetGlobalFadeIn(1.0, 1.0, 0.0, 0.0, 0.0);
 	DelayCommand(1.0, ShowPartySelectionGUI("", 9, 0xFFFFFFFF, 0));
 }
-

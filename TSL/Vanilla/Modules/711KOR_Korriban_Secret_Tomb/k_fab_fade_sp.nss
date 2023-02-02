@@ -525,4 +525,3 @@ void main() {
 	sub6();
 	SetMinOneHP(OBJECT_SELF, 1);
 }
-

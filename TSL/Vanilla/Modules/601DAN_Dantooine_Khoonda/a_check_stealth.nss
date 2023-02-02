@@ -14,4 +14,3 @@ void main() {
 	DelayCommand(0.1, SetKeepStealthInDialog(1));
 	DelayCommand(0.1, ActionStartConversation(GetPartyLeader(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

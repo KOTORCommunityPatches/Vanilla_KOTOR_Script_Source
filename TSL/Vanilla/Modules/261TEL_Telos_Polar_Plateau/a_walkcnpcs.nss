@@ -14,4 +14,3 @@ void main() {
 	AssignCommand(oPC, PlayAnimation(0, 1.0, 2.0));
 	DelayCommand(2.0, AssignCommand(oPC, ActionForceMoveToObject(GetObjectByTag("WP_PC_1", 0), 0, 1.0, 30.0)));
 }
-

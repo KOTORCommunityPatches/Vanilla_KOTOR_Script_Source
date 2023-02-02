@@ -42,4 +42,3 @@ int StartingConditional()
     return TRUE;
 }
 
-

@@ -39,4 +39,3 @@ void main() {
 		DelayCommand(1.0, ApplyEffectToObject(0, EffectHeal((GetMaxHitPoints(OBJECT_SELF) - GetCurrentHitPoints(OBJECT_SELF))), OBJECT_SELF, 0.0));
 	}
 }
-

@@ -25,4 +25,3 @@ void main() {
 		AssignCommand(GetObjectByTag("204_Habat", 0), ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

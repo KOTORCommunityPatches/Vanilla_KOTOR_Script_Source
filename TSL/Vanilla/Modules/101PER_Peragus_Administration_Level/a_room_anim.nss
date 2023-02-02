@@ -14,4 +14,3 @@ void main() {
 	}
 	PlayRoomAnimation(sParam, nParam1);
 }
-

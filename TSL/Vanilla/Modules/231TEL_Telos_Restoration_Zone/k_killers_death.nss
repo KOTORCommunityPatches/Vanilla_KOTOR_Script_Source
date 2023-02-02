@@ -38,4 +38,3 @@ void main() {
 		SetGlobalNumber("202TEL_Bounty_Killers", 6);
 	}
 }
-

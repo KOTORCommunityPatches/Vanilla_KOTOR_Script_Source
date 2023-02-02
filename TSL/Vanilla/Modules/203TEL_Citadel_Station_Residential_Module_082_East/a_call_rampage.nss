@@ -221,4 +221,3 @@ void main() {
 		AurPostString("No Tiny around.", 5, 6, 5.0);
 	}
 }
-

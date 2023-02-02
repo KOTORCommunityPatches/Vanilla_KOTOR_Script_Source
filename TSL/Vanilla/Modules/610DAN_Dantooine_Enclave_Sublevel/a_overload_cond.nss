@@ -75,4 +75,3 @@ void main() {
 	ActionDoCommand(sub1("comp_cond", 10.0, 1));
 	ActionDoCommand(DestroyObject(GetObjectByTag("comp_cond", 0), 1.0, 1, 0.0, 0));
 }
-

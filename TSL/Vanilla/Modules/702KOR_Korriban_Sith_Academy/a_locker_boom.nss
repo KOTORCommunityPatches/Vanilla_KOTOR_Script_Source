@@ -68,4 +68,3 @@ void main() {
 	DestroyObject(GetItemPossessedBy(oMil_locker, "pl_thorium"), 0.0, 0, 0.0, 0);
 	ActionDoCommand(sub1(oMil_locker));
 }
-

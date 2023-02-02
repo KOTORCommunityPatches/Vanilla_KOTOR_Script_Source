@@ -3,4 +3,3 @@ void main() {
 	struct1.x = 30.0;
 	SWMG_PlayerApplyForce(struct1);
 }
-

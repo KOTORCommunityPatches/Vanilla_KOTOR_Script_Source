@@ -16,4 +16,3 @@ void main() {
 		AssignCommand(GetObjectByTag("dan_lead", 0), ActionStartConversation(oEntering, "zherron", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

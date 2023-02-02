@@ -15,4 +15,3 @@ void main() {
 	AssignCommand(oExchangeThug1, ActionDoCommand(ApplyEffectToObject(0, EffectDeath(0, 1, 0), oExchangeThug1, 0.0)));
 	AssignCommand(oExchangeThug2, ActionDoCommand(ApplyEffectToObject(0, EffectDeath(0, 1, 0), oExchangeThug2, 0.0)));
 }
-

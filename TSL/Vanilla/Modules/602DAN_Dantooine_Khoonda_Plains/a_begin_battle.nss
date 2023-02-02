@@ -19,4 +19,3 @@ void main() {
 	sub1();
 	DelayCommand(1.0, StartNewModule("601DAN", "wp_speech_pc", "", "", "", "", "", ""));
 }
-

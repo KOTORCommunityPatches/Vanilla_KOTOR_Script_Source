@@ -6,4 +6,3 @@ void main() {
 	DestroyObject(oMira, 0.0, 0, 0.0, 0);
 	DestroyObject(o303Mira, 0.0, 0, 0.0, 0);
 }
-

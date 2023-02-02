@@ -1076,4 +1076,3 @@ void main() {
 	sub13();
 	DelayCommand(0.4, sub16(OBJECT_SELF));
 }
-

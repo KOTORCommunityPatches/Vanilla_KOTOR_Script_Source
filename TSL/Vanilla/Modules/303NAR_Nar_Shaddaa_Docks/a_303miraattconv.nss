@@ -47,4 +47,3 @@ void main() {
 		AssignCommand(o303MiraAtt, ActionStartConversation(GetFirstPC(), "MiraAtt", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

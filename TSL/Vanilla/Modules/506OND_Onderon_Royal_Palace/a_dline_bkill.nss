@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oFf_outer, 1);
 	AssignCommand(oFf_outer, ActionOpenDoor(oFf_outer));
 }
-

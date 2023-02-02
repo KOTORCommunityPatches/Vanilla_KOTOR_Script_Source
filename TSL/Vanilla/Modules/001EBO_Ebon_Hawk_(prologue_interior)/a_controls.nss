@@ -6,4 +6,3 @@ void main() {
 		DelayCommand(0.5, AssignCommand(oPrologue, ActionStartConversation(GetFirstPC(), "controls", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

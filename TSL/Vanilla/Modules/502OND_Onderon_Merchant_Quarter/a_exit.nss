@@ -52,4 +52,3 @@ void main() {
 		DelayCommand(IntToFloat(nParam2), DestroyObject(OBJECT_SELF, 0.0, 0, 0.0, 0));
 	}
 }
-

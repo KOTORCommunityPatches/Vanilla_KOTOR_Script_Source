@@ -7,4 +7,3 @@ void main() {
 	}
 	GivePlotXP("Peragus_Plot_Base_XP", 15);
 }
-

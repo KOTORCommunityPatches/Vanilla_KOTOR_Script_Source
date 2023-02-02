@@ -16,4 +16,3 @@ void main() {
 	}
 	ActionStartConversation(oKhoonda_turret3, "", 0, 1, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

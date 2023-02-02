@@ -1346,4 +1346,3 @@ void main() {
 	sub6(OBJECT_SELF, 2, 240);
 	sub15();
 }
-

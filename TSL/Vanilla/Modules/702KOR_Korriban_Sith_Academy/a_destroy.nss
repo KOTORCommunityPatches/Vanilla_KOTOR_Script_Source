@@ -3,4 +3,3 @@ void main() {
 	string sParam = GetScriptStringParameter();
 	DelayCommand(IntToFloat(nParam1), DestroyObject(GetObjectByTag(sParam, 0), 0.0, 0, 0.0, 0));
 }
-

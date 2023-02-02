@@ -13,4 +13,3 @@ void main() {
 	SetLocalNumber(GetObjectByTag("SignSpeaker", 0), 20, 3);
 	ActionStartConversation(oEntering, "sign", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0);
 }
-

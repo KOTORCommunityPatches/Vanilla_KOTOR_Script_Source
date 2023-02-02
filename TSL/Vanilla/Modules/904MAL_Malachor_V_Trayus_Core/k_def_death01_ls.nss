@@ -53,4 +53,3 @@ void main() {
 	}
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 }
-

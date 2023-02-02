@@ -13,4 +13,3 @@ void main() {
 	SetSoloMode(0);
 	DelayCommand(0.1, AssignCommand(oAtton, ActionStartConversation(GetFirstPC(), "153Atton", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

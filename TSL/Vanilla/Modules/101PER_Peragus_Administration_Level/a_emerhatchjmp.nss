@@ -3,4 +3,3 @@ void main() {
 	EnableVideoEffect(3);
 	AssignCommand(GetPCSpeaker(), ActionJumpToLocation(GetLocation(oWP_EMER_HATCH)));
 }
-

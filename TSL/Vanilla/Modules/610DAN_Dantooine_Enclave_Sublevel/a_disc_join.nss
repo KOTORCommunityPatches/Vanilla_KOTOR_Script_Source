@@ -26,4 +26,3 @@ void main() {
 		AurPostString("ERROR: Disciple not valid.", 5, 15, 10.0);
 	}
 }
-

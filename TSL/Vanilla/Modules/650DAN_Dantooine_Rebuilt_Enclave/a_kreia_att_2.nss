@@ -11,4 +11,3 @@ void main() {
 	efPush = EffectLinkEffects(efPush, EffectVisualEffect(1014, 0));
 	DelayCommand(0.5, ApplyEffectToObject(1, efPush, oVrook, 0.3));
 }
-

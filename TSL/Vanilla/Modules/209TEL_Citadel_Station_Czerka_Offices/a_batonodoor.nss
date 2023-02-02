@@ -9,4 +9,3 @@ void main() {
 	AssignCommand(o203_batono, ClearAllActions());
 	AssignCommand(o203_batono, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

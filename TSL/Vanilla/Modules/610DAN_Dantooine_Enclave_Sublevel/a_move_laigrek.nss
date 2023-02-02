@@ -14,4 +14,3 @@ void main() {
 	}
 	AurPostString((("a_move_laigrek: " + IntToString(int1)) + " laigreks moved"), 10, 10, 5.0);
 }
-

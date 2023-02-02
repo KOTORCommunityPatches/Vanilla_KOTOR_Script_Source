@@ -5,4 +5,3 @@ void main() {
 		AdjustCreatureAttributes(object1, 2, nParam1);
 	}
 }
-

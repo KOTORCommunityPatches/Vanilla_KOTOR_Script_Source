@@ -37,4 +37,3 @@ void main() {
 		ApplyEffectToObject(0, efDamage, OBJECT_SELF, 0.0);
 	}
 }
-

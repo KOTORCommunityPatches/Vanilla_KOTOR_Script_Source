@@ -3,4 +3,3 @@ void main() {
 		SetGlobalNumber("502OND_Riot", 2);
 	}
 }
-

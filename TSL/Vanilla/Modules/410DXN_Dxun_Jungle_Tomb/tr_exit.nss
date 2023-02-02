@@ -6,4 +6,3 @@ void main() {
 		AssignCommand(OBJECT_SELF, ActionStartConversation(oEntering, "exit", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

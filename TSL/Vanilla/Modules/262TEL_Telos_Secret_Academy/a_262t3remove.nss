@@ -5,4 +5,3 @@ void main() {
 	object oT3M4 = GetObjectByTag("T3M4", 0);
 	DestroyObject(oT3M4, 0.0, 1, 0.0, 0);
 }
-

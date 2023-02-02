@@ -43,4 +43,3 @@ void main() {
 		DelayCommand(2.5, AssignCommand(oMira, ActionStartConversation(GetFirstPC(), "miraapt", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 	}
 }
-

@@ -98,4 +98,3 @@ void main() {
 		AssignCommand(oTr_miraconv, ActionStartConversation(GetFirstPC(), "MiraBoun", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

@@ -21,4 +21,3 @@ void main() {
 	ApplyEffectToObject(0, efResurrect, GetObjectByTag("baodur", 0), 0.0);
 	DelayCommand(1.0, sub1());
 }
-

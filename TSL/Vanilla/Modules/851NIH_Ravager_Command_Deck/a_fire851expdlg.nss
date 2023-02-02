@@ -5,4 +5,3 @@ void main() {
 	AssignCommand(oZuka, ClearAllActions());
 	AssignCommand(oZuka, ActionStartConversation(GetFirstPC(), "851exp", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

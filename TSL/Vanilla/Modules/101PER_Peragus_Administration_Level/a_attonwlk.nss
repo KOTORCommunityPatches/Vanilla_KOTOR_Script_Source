@@ -11,4 +11,3 @@ void main() {
 	DelayCommand(0.8, AssignCommand(oPC, ActionMoveToLocation(location1, 0)));
 	DelayCommand(3.0, ActionResumeConversation());
 }
-

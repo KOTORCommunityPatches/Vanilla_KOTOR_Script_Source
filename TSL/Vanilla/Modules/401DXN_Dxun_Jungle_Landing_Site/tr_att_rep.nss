@@ -20,4 +20,3 @@ void main() {
 	DelayCommand(1.5, AssignCommand(object3, ClearAllActions()));
 	DelayCommand(1.5, AssignCommand(object3, ActionStartConversation(GetFirstPC(), "att_rep", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

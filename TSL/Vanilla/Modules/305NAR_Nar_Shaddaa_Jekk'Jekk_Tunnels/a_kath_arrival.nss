@@ -9,4 +9,3 @@ void main() {
 	DelayCommand(0.5, AssignCommand(oKHoundA2, ActionMoveToObject(GetObjectByTag("WP_KATH_2_0", 0), 0, 1.0)));
 	DelayCommand(0.7, AssignCommand(oKHoundA3, ActionMoveToObject(GetObjectByTag("WP_KATH_3_0", 0), 0, 1.0)));
 }
-

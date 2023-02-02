@@ -4,4 +4,3 @@ void main() {
 	ApplyEffectToObject(1, effect1, oPC, 14.0);
 	AssignCommand(oPC, ActionForceMoveToLocation(GetLocation(GetObjectByTag("WP_ATTON_WALKTO_1", 0)), 0, 30.0));
 }
-

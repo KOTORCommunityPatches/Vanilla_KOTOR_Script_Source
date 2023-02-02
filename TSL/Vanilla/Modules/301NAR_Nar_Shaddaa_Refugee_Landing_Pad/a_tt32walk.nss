@@ -4,4 +4,3 @@ void main() {
 	AssignCommand(oTT32, ClearAllActions());
 	AssignCommand(oTT32, ActionMoveToObject(oWP_TT32_WALK, 0, 1.0));
 }
-

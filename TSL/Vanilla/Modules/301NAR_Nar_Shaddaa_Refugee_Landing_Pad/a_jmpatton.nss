@@ -17,4 +17,3 @@ void main() {
 		AssignCommand(object13, ActionJumpToLocation(GetLocation(GetObjectByTag("WP_ATTON_CANTINA3", 0))));
 	}
 }
-

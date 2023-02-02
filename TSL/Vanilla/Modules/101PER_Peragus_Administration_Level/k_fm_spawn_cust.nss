@@ -582,4 +582,3 @@ void main() {
 	effect efVisual = EffectVisualEffect(8001, 0);
 	DelayCommand(0.5, ApplyEffectToObject(1, efVisual, OBJECT_SELF, 5.0));
 }
-

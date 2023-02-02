@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(oNPC, ClearAllActions());
 	AssignCommand(oNPC, ActionJumpToObject(oWp_ante_mira, 1));
 }
-

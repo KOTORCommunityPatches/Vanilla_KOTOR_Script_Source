@@ -151,4 +151,3 @@ void main() {
 	sub1("g_mand_first", 4);
 	sub1("g_mand_first", 5);
 }
-

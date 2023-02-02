@@ -3,4 +3,3 @@ void main() {
 	SetLocked(oMedChamber, 0);
 	DelayCommand(1.0, AssignCommand(oMedChamber, ActionOpenDoor(oMedChamber)));
 }
-

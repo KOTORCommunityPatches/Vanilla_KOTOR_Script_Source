@@ -9,4 +9,3 @@ void main() {
 		AssignCommand(GetObjectByTag("BaoDur", 0), ActionStartConversation(GetFirstPC(), "231bdur", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

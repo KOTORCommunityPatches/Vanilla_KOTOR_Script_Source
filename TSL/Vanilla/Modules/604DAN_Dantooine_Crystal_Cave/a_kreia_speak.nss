@@ -9,4 +9,3 @@ void main() {
 		AssignCommand(oKreia_invis, ActionStartConversation(GetFirstPC(), "kreia_cr", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-

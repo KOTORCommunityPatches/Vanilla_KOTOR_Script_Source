@@ -18,4 +18,3 @@ void main() {
 	AssignCommand(oNpc_pato, ClearAllActions());
 	AssignCommand(oNpc_pato, ActionStartConversation(GetFirstPC(), "pato", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

@@ -9,4 +9,3 @@ void main() {
 	DelayCommand(0.1, ChangeToStandardFaction(o231_warbot2, 1));
 	DelayCommand(0.2, AssignCommand(o231_warbot2, ActionAttack(GetFirstPC(), 0)));
 }
-

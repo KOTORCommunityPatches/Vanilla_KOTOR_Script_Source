@@ -8,4 +8,3 @@ void main() {
 	AssignCommand(oBaoDur, ClearAllActions());
 	AssignCommand(oBaoDur, ActionStartConversation(GetFirstPC(), "231bdur", 0, 1, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

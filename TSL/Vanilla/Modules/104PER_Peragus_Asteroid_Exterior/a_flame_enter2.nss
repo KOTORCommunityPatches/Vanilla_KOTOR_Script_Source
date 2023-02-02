@@ -4,4 +4,3 @@ void main() {
 		ApplyEffectToObject(0, EffectDamage((Random(11) + 10), 256, 0), oEntering, 0.0);
 	}
 }
-

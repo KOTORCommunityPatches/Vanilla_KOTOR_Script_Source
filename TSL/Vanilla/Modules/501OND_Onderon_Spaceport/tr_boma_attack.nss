@@ -14,4 +14,3 @@ void main() {
 	SetLocalBoolean(oBeast_rider, 51, 1);
 	AssignCommand(oBeast_rider, ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

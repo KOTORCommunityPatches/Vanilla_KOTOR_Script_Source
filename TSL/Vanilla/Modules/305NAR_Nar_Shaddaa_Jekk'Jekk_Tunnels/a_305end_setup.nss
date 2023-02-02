@@ -16,4 +16,3 @@ void main() {
 		CreateObject(1, "p_Kreia001", GetLocation(GetWaypointByTag("WP_END_KREIA_APPEAR")), 0);
 	}
 }
-

@@ -10,4 +10,3 @@ void main() {
 	AssignCommand(oB4R5, ClearAllActions());
 	AssignCommand(oB4R5, ActionStartConversation(GetFirstPC(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

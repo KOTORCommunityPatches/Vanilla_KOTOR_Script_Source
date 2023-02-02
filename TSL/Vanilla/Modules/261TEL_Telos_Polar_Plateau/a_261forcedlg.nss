@@ -19,4 +19,3 @@ void main() {
 	AssignCommand(oPlateau, ClearAllActions());
 	AssignCommand(oPlateau, ActionStartConversation(GetFirstPC(), "Plateau", 0, 0, 1, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 }
-

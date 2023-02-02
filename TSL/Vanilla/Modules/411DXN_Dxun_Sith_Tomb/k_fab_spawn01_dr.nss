@@ -1355,4 +1355,3 @@ void main() {
 	SetLocalNumber(OBJECT_SELF, 11, 6);
 	SetLocalBoolean(OBJECT_SELF, 60, 1);
 }
-

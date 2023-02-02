@@ -18,4 +18,3 @@ void main() {
 		AssignCommand(object10, ActionForceMoveToObject(GetObjectByTag("WP_ZEZ_1", 0), 0, 1.0, 30.0));
 	}
 }
-

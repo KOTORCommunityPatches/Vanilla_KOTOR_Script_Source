@@ -34,4 +34,3 @@ void main() {
 	ExecuteScript("k_ai_master", OBJECT_SELF, intGLOB_7);
 	AssignCommand(GetObjectByTag("C6E3", 0), ActionJumpToObject(GetObjectByTag("wp_c6e3_1", 0), 1));
 }
-

@@ -16,4 +16,3 @@ void main() {
 		oShapeObject = GetNextObjectInShape(4, 7.5, location1, 0, 65, [0.0,0.0,0.0]);
 	}
 }
-

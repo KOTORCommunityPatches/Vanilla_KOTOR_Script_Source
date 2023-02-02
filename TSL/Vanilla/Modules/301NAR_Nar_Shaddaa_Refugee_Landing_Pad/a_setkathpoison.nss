@@ -33,4 +33,3 @@ void main() {
 		SetGlobalNumber("303NAR_Kath_Poison", nParam1);
 	}
 }
-

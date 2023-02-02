@@ -10,4 +10,3 @@ void main() {
 	object1 = GetObjectByTag(string1, 0);
 	DelayCommand(0.1, AssignCommand(object1, ActionCloseDoor(object1)));
 }
-

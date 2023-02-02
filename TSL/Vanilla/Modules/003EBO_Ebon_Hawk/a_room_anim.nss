@@ -49,4 +49,3 @@ void main() {
 	}
 	PlayRoomAnimation(string1, nParam1);
 }
-

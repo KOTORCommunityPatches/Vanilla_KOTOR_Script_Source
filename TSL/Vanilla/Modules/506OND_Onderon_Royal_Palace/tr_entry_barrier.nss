@@ -12,4 +12,3 @@ void main() {
 	SetLocalBoolean(GetWaypointByTag("wp_barrier_entry"), 40, 1);
 	DelayCommand(0.1, AssignCommand(GetObjectByTag("tobin", 0), ActionStartConversation(oEntering, "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0)));
 }
-

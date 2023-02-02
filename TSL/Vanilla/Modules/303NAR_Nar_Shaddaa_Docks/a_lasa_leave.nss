@@ -3,4 +3,3 @@ void main() {
 		AddJournalQuestEntry("30002", 15, 0);
 	}
 }
-

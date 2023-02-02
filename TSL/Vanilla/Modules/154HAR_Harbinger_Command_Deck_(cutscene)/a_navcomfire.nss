@@ -4,4 +4,3 @@ void main() {
 		AssignCommand(oBrfRoomCon, ActionStartConversation(GetPCSpeaker(), "", 0, 0, 0, "", "", "", "", "", "", 0, 0xFFFFFFFF, 0xFFFFFFFF, 0));
 	}
 }
-
