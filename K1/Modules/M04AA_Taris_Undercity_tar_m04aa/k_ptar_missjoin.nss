@@ -1,5 +1,6 @@
-// Could not recompile
+// Original could not recompile, missing required party member integer variable.
 
 void main() {
- 	AddPartyMember(OBJECT_SELF);
+ 	
+	AddPartyMember(NPC_MISSION, OBJECT_SELF);
  }
