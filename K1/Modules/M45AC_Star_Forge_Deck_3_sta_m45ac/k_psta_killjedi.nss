@@ -1,16 +1,23 @@
-// Could not recompile
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
 
 void main() {
-	object oSta_jedivic1 = GetObjectByTag("sta_jedivic1", 0);
-	object oSta_jedivic2 = GetObjectByTag("sta_jedivic2", 0);
-	unknown unknown1 = EventUserDefined(345);
+	
+	object oJedi1 = GetObjectByTag("sta_jedivic1", 0);
+	object oJedi2 = GetObjectByTag("sta_jedivic2", 0);
+	event eUser = EventUserDefined(345);
+	
 	ActionPauseConversation();
-	ActionCastFakeSpellAtObject(11, oSta_jedivic1, 0);
-	ActionCastFakeSpellAtObject(11, oSta_jedivic2, 0);
-	effect efBeam = EffectBeam(2026, OBJECT_SELF, 0, 0);
-	ApplyEffectToObject(1, efBeam, oSta_jedivic1, 2.0);
-	ApplyEffectToObject(1, efBeam, oSta_jedivic2, 2.0);
-	DelayCommand(2.0, ApplyEffectToObject(0, EffectDeath(0, 1), oSta_jedivic1, 0.0));
-	DelayCommand(2.0, ApplyEffectToObject(0, EffectDeath(0, 1), oSta_jedivic2, 0.0));
+	
+	ActionCastFakeSpellAtObject(FORCE_POWER_DEATH_FIELD, oJedi1, FALSE);
+	ActionCastFakeSpellAtObject(FORCE_POWER_DEATH_FIELD, oJedi2, FALSE);
+	
+	effect efBeam = EffectBeam(VFX_BEAM_DEATH_FIELD_TENTACLE, OBJECT_SELF, BODY_NODE_HAND, FALSE);
+	
+	ApplyEffectToObject(DURATION_TYPE_INSTANT, efBeam, oJedi1, 2.0);
+	ApplyEffectToObject(DURATION_TYPE_INSTANT, efBeam, oJedi2, 2.0);
+	
+	DelayCommand(2.0, ApplyEffectToObject(0, EffectDeath(FALSE, TRUE), oJedi1, 0.0));
+	DelayCommand(2.0, ApplyEffectToObject(0, EffectDeath(FALSE, TRUE), oJedi2, 0.0));
+	
 	ActionResumeConversation();
 }

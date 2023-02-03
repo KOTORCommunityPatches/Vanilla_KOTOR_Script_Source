@@ -1,20 +1,25 @@
-// Could not recompile
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
 
 void main() {
-	object oK45_plc_wardroid = GetObjectByTag("k45_plc_wardroid", 0);
-	object oK45_plc_assdroid = GetObjectByTag("k45_plc_assdroid", 0);
-	object oK45_plc_mk2droid = GetObjectByTag("k45_plc_mk2droid", 0);
-	object oK45_plc_mk4droid = GetObjectByTag("k45_plc_mk4droid", 0);
-	object oK45_plc_prbdroid = GetObjectByTag("k45_plc_prbdroid", 0);
-	object oK45_plc_excharge = GetObjectByTag("k45_plc_excharge", 0);
-	unknown unknown1 = EventUserDefined(445);
-	SignalEvent(oK45_plc_wardroid, unknown1);
-	SignalEvent(oK45_plc_assdroid, unknown1);
-	SignalEvent(oK45_plc_mk2droid, unknown1);
-	SignalEvent(oK45_plc_mk4droid, unknown1);
-	SignalEvent(oK45_plc_prbdroid, unknown1);
-	SignalEvent(oK45_plc_excharge, unknown1);
-	SetGlobalBoolean("STA_GEN_DESTROYED", 1);
-	object oSta45c_sta45d = GetObjectByTag("sta45c_sta45d", 0);
-	SetLocked(oSta45c_sta45d, 0);
+	
+	object oWarDroid = GetObjectByTag("k45_plc_wardroid", 0);
+	object oAssDroid = GetObjectByTag("k45_plc_assdroid", 0);
+	object oMk2Droid = GetObjectByTag("k45_plc_mk2droid", 0);
+	object oMk4Droid = GetObjectByTag("k45_plc_mk4droid", 0);
+	object oPrbDroid = GetObjectByTag("k45_plc_prbdroid", 0);
+	object oExcharge = GetObjectByTag("k45_plc_excharge", 0);
+	event eUser = EventUserDefined(445);
+	
+	SignalEvent(oWarDroid, eUser);
+	SignalEvent(oAssDroid, eUser);
+	SignalEvent(oMk2Droid, eUser);
+	SignalEvent(oMk4Droid, eUser);
+	SignalEvent(oPrbDroid, eUser);
+	SignalEvent(oExcharge, eUser);
+	
+	SetGlobalBoolean("STA_GEN_DESTROYED", TRUE);
+	
+	object oDoor = GetObjectByTag("sta45c_sta45d", 0);
+	
+	SetLocked(oDoor, FALSE);
 }

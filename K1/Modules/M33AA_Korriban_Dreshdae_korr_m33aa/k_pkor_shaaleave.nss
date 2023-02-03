@@ -1,20 +1,29 @@
-// Could not recompile
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
 
 void main() {
-	object oKor33_shaardan = GetObjectByTag("kor33_shaardan", 0);
-	if ((GetEnteringObject() == oKor33_shaardan)) {
-		object oK33_shastudent1 = GetObjectByTag("k33_shastudent1", 0);
-		object oK33_shastudent2 = GetObjectByTag("k33_shastudent2", 0);
-		object oK33_shastudent3 = GetObjectByTag("k33_shastudent3", 0);
-		unknown unknown1 = EventUserDefined(101);
-		if ((!GetIsDead(oK33_shastudent1))) {
-			SignalEvent(oK33_shastudent1, unknown1);
+	
+	object oShaardan = GetObjectByTag("kor33_shaardan", 0);
+	
+	if (GetEnteringObject() == oShaardan)
+		{
+			object oStudent1 = GetObjectByTag("k33_shastudent1", 0);
+			object oStudent2 = GetObjectByTag("k33_shastudent2", 0);
+			object oStudent3 = GetObjectByTag("k33_shastudent3", 0);
+			event eUser = EventUserDefined(101);
+			
+			if ((!GetIsDead(oStudent1)))
+				{
+					SignalEvent(oStudent1, eUser);
+				}
+			
+			if ((!GetIsDead(oStudent2)))
+				{
+					SignalEvent(oStudent2, eUser);
+				}
+			
+			if ((!GetIsDead(oStudent3)))
+				{
+					SignalEvent(oStudent3, eUser);
+				}
 		}
-		if ((!GetIsDead(oK33_shastudent2))) {
-			SignalEvent(oK33_shastudent2, unknown1);
-		}
-		if ((!GetIsDead(oK33_shastudent3))) {
-			SignalEvent(oK33_shastudent3, unknown1);
-		}
-	}
 }

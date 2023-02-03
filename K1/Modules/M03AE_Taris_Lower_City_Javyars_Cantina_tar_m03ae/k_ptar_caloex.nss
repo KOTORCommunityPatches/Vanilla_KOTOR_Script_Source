@@ -1,4 +1,4 @@
-// Could not recompile
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
 
 void main() {
  

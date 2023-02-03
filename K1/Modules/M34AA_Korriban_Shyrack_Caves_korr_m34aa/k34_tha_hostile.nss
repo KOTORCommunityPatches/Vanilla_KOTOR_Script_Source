@@ -1,7 +1,7 @@
-// Could not recompile
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
 
 #include "k_inc_generic"
- #include "k_inc_debug"
+#include "k_inc_debug"
  
  void main() {
  	
@@ -14,15 +14,10 @@
  	ChangeToStandardFaction(oRebel1, STANDARD_FACTION_HOSTILE_1);
  	ChangeToStandardFaction(oRebel2, STANDARD_FACTION_HOSTILE_1);
  	
- 	unknown unknown1 = EventUserDefined(134);
- 	SignalEvent(oKor34_sithrebel1, unknown1);
- 	SignalEvent(oKor34_sithrebel2, unknown1);
- 	// Presumably:
- 	/*
- 	SignalEvent(OBJECT_SELF, EventUserDefined(134));
- 	SignalEvent(oRebel1, EventUserDefined(134));
- 	SignalEvent(oRebel2, EventUserDefined(134));
- 	*/
+ 	event eUser = EventUserDefined(134);
+ 	
+	SignalEvent(oRebel1, eUser);
+ 	SignalEvent(oRebel2, eUser);
  	
  	if (GetIsObjectValid(oSaber))
  		{

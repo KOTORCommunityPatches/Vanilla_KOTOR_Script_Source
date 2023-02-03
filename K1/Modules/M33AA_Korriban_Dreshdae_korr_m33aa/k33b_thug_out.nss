@@ -1,8 +1,10 @@
-// Could not recompile
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
+
+#include "k_inc_generic"
 
 void main() {
  	
- 	SetGlobalBoolean("KOR_THUG_TALK", 0);
+ 	SetGlobalBoolean("KOR_THUG_TALK", FALSE);
  	
  	object oCommoner = GetObjectByTag("korr_citizenmwlk", 0);
  	
@@ -14,15 +16,15 @@ void main() {
  	
  	SetGlobalNumber("KOR_THUG_DEATH", 4);
  
- 	unknown unknown1 = EventUserDefined(10);
+ 	event eUser = EventUserDefined(10);
  	
  	object oExit = GetObjectByTag("k33_way_yuthuraexit", 0);
  	
- 	SignalEvent(oThug01, unknown1);
- 	SignalEvent(oThug02, unknown1);
- 	SignalEvent(oThug03, unknown1);
+ 	SignalEvent(oThug01, eUser);
+ 	SignalEvent(oThug02, eUser);
+ 	SignalEvent(oThug03, eUser);
  	
  	ActionMoveToObject(oExit, TRUE);
  	ActionDoCommand(DestroyObject(OBJECT_SELF));
- 	SetCommandable(0, OBJECT_SELF);
+ 	SetCommandable(FALSE, OBJECT_SELF);
  }
