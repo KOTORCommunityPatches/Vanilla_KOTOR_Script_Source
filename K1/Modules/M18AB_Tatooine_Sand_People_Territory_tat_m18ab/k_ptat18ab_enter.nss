@@ -1,3 +1,5 @@
+// DeNCS failed to decompile. Manual reconstruction. 100% binary match.
+
 #include "k_inc_tat"
 
 void Spawn_Guard() {
