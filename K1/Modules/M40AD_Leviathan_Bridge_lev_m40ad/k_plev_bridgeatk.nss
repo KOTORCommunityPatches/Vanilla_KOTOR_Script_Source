@@ -1,0 +1,38 @@
+// DeNCS failed to decompile. Manual reconstruction. Bytecode match for main function, mismatch in include functions.
+
+#include "k_inc_utility"
+#include "k_inc_generic"
+
+void main() {
+	
+	object nObject;
+	int nCnt;
+	
+	nObject = GetObjectByTag("SaulKarath402", 0);
+	
+	ChangeToStandardFaction(nObject, STANDARD_FACTION_HOSTILE_1);
+	DelayCommand(1.0, AssignCommand(nObject, GN_DetermineCombatRound()));
+	
+	nCnt = 0;
+	
+	while (GetIsObjectValid(nObject = GetObjectByTag("lev40_saulguard", nCnt)))
+		{
+			ChangeToStandardFaction(nObject, STANDARD_FACTION_HOSTILE_1);
+			DelayCommand(1.0, AssignCommand(nObject, GN_DetermineCombatRound()));
+			
+			nCnt++;
+		}
+	
+	nCnt = 0;
+	
+	while (GetIsObjectValid(nObject = GetObjectByTag("lev40_sauljedi", nCnt)))
+		{
+			ChangeToStandardFaction(nObject, STANDARD_FACTION_HOSTILE_1);
+			DelayCommand(1.0, AssignCommand(nObject, GN_DetermineCombatRound()));
+			
+			nCnt++;
+		}
+	
+	AddPartyMember(NPC_CARTH, GetObjectByTag("Carth", 0));
+	AddPartyMember(NPC_BASTILA, GetObjectByTag("Bastila", 0));
+}
