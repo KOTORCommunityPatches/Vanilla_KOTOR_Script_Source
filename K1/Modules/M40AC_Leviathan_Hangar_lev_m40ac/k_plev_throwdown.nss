@@ -1,4 +1,4 @@
-// DeNCS failed to decompile. Manual reconstruction. Bytecode match for main function, mismatch in include functions.
+// DeNCS failed to decompile. Manual reconstruction. Bytecode match for main function, mismatch in include functions due to changes in k_inc_generic during development.
 
 #include "k_inc_generic"
 #include "k_inc_utility"
