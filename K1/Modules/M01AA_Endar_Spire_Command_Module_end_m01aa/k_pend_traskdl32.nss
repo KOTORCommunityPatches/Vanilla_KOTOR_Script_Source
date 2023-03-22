@@ -1,3 +1,4 @@
 void main() {
-	SetPartyLeader(0xFFFFFFFF);
+	
+	SetPartyLeader(NPC_PLAYER);
 }

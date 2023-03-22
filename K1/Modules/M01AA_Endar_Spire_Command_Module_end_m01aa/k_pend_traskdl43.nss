@@ -2,6 +2,5 @@
 
 void main() {
 	
-	// SetGlobalNumber "END_TRASK_DLG"
-	SetTraskState(3);
+	SetTraskState(TRASK_MUST_EQUIP);
 }

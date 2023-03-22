@@ -6,6 +6,6 @@ void main() {
 	
 	if (HealingDone())
 		{
-			SetGlobalNumber("END_TRASK_DLG", 11);
+			SetGlobalNumber("END_TRASK_DLG", TRASK_BRIDGE_DONE);
 		}
 }

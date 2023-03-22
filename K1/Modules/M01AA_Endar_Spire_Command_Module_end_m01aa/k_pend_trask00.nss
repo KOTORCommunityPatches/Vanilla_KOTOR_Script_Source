@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalNumber("End_TraskTalk") == 0);
-	return int1;
+	
+	int nState = (GetGlobalNumber("End_TraskTalk") == 0);
+	
+	return nState;
 }

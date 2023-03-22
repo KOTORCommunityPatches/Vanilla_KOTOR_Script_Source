@@ -7,7 +7,7 @@ void main() {
 	if ((IsObjectPartyMember(oEntering) && HasNeverTriggered()))
 		{
 			SetPartyLeader(NPC_PLAYER);
-			SetTraskState(10);
+			SetTraskState(TRASK_CARTH_BRIDGE);
 			TalkTrask();
 		}
 }
