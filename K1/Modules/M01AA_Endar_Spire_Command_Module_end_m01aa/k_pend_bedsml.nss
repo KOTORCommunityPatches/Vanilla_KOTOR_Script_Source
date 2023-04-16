@@ -1,4 +1,6 @@
 int StartingConditional() {
+	
 	object oPC = GetFirstPC();
-	return (((GetLevelByClass(2, oPC) > 0) && (GetGender(oPC) == 0)) || ((GetLevelByClass(1, oPC) > 0) && (GetGender(oPC) == 1)));
+	
+	return ((GetLevelByClass(CLASS_TYPE_SCOUNDREL, oPC) > 0 && GetGender(oPC) == GENDER_MALE) || (GetLevelByClass(CLASS_TYPE_SCOUT, oPC) > 0 && GetGender(oPC) == GENDER_FEMALE));
 }
