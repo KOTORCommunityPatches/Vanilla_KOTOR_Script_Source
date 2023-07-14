@@ -2,32 +2,33 @@
 
 void main() {
 	
-	int nMook = 0;
-	object oLackeyA = GetObjectByTag("g_darkjedi02", nMook);
-	object oLackeyB = GetObjectByTag("g_darkjedi02", nMook);
+	int nCnt = 0;
+	object oMookA = GetObjectByTag("g_darkjedi02", nCnt);
+	object oMookB = GetObjectByTag("g_darkjedi02", nCnt);
 	
-	while ((GetIsObjectValid(oLackeyA) || GetIsObjectValid(oLackeyB)))
+	while (GetIsObjectValid(oMookA) || GetIsObjectValid(oMookB))
 		{
-			if (GetIsObjectValid(oLackeyA))
+			if (GetIsObjectValid(oMookA))
 				{
-					ChangeToStandardFaction(oLackeyA, STANDARD_FACTION_HOSTILE_1);
-					DelayCommand(0.5, AssignCommand(oLackeyA, ClearAllActions()));
-					DelayCommand(0.5, AssignCommand(oLackeyA, GN_DetermineCombatRound(OBJECT_INVALID)));
+					ChangeToStandardFaction(oMookA, STANDARD_FACTION_HOSTILE_1);
+					DelayCommand(0.5, AssignCommand(oMookA, ClearAllActions()));
+					DelayCommand(0.5, AssignCommand(oMookA, GN_DetermineCombatRound()));
 				}
-			if (GetIsObjectValid(oLackeyB))
-				{
-					ChangeToStandardFaction(oLackeyB, STANDARD_FACTION_HOSTILE_1);
-					DelayCommand(0.5, AssignCommand(oLackeyB, ClearAllActions()));
-					DelayCommand(0.5, AssignCommand(oLackeyB, GN_DetermineCombatRound(OBJECT_INVALID)));
-				}
-			(nMook++);
 			
-			oLackeyA = GetObjectByTag("g_bandonlacky", nMook);
-			oLackeyB = GetObjectByTag("g_bandonlacky", nMook);
+			if (GetIsObjectValid(oMookB))
+				{
+					ChangeToStandardFaction(oMookB, STANDARD_FACTION_HOSTILE_1);
+					DelayCommand(0.5, AssignCommand(oMookB, ClearAllActions()));
+					DelayCommand(0.5, AssignCommand(oMookB, GN_DetermineCombatRound()));
+				}
+			
+			nCnt++;
+			
+			oMookA = GetObjectByTag("g_bandonlacky", nCnt);
+			oMookB = GetObjectByTag("g_bandonlacky", nCnt);
 		}
 	
-	ChangeToStandardFaction(GetObjectByTag("g_bandon", 0), 1);
-	
+	ChangeToStandardFaction(GetObjectByTag("g_bandon", 0), STANDARD_FACTION_HOSTILE_1);
 	DelayCommand(0.5, ClearAllActions());
-	DelayCommand(0.5, GN_DetermineCombatRound(OBJECT_INVALID));
+	DelayCommand(0.5, GN_DetermineCombatRound());
 }
