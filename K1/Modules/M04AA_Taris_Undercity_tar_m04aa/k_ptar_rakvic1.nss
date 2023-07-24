@@ -1,80 +1,39 @@
-// Globals
-	int intGLOB_1 = 0;
-	int intGLOB_2 = 1;
-	int intGLOB_3 = 2;
-	int intGLOB_4 = 3;
-	int intGLOB_5 = 4;
-	int intGLOB_6 = 5;
-	int intGLOB_7 = 6;
-	int intGLOB_8 = 7;
-	int intGLOB_9 = 8;
-	int intGLOB_10 = 9;
-	int intGLOB_11 = 10;
-	int intGLOB_12 = 11;
-	int intGLOB_13 = 12;
-	int intGLOB_14 = 13;
-	int intGLOB_15 = 14;
-	int intGLOB_16 = 15;
-	int intGLOB_17 = 16;
-	int intGLOB_18 = 17;
-	int intGLOB_19 = 18;
-	int intGLOB_20 = 19;
-	int intGLOB_21 = 1100;
-	int intGLOB_22 = (-6);
-	int intGLOB_23 = (-5);
-	int intGLOB_24 = (-4);
-	int intGLOB_25 = (-2);
-	int intGLOB_26 = (-1);
-	int intGLOB_27 = 0;
+#include "k_inc_utility"
 
-// Prototypes
-void sub3(location locationParam1);
-void sub2(object objectParam1, location locationParam2);
-void sub1(object objectParam1, location locationParam2);
-
-void sub3(location locationParam1) {
-	CreateObject(1, "tar04_rakghoulvi", locationParam1, 0);
+void SpawnRak(location lSpawn) {
+	CreateObject(OBJECT_TYPE_CREATURE, "tar04_rakghoulvi", lSpawn);
 }
 
-void sub2(object objectParam1, location locationParam2) {
-	if ((!GetIsObjectValid(objectParam1))) {
-		return;
-	}
-	if ((GetCurrentHitPoints(objectParam1) < 1)) {
-		ApplyEffectToObject(0, EffectResurrection(), objectParam1, 0.0);
-		ApplyEffectToObject(0, EffectHeal(1), objectParam1, 0.0);
-	}
-	SetCommandable(1, objectParam1);
-	AssignCommand(objectParam1, ClearAllActions());
-	AssignCommand(objectParam1, ActionJumpToLocation(locationParam2));
-}
-
-void sub1(object objectParam1, location locationParam2) {
-	location location1 = GetLocation(objectParam1);
-	object oPtar_wpgraveyard = GetObjectByTag("ptar_wpgraveyard", 0);
-	ApplyEffectAtLocation(0, EffectVisualEffect(1046, 0), location1, 0.0);
-	DelayCommand(1.0, ApplyEffectAtLocation(0, EffectVisualEffect(1047, 0), location1, 0.0));
-	DelayCommand(1.1, AssignCommand(objectParam1, PlaySound("cs_ghoulchange")));
-	DelayCommand(1.2, sub2(objectParam1, GetLocation(oPtar_wpgraveyard)));
+void RakChange(object oObject, location lLocation) {
+	location lSpawn = GetLocation(oObject);
+	object oWP = GetObjectByTag("ptar_wpgraveyard", 0);
+	
+	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(1046), lSpawn);
+	DelayCommand(1.0, ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(1047), lSpawn));
+	DelayCommand(1.1, AssignCommand(oObject, PlaySound("cs_ghoulchange")));
+	DelayCommand(1.2, UT_TeleportPartyMember(oObject, GetLocation(oWP)));
 	DelayCommand(1.4, PlaySound("cs_ghoulchange"));
-	DelayCommand(1.5, sub3(location1));
+	DelayCommand(1.5, SpawnRak(lSpawn));
 }
 
 void main() {
-	int int1;
-	object object1;
-	object oRakghoulvic00 = GetObjectByTag("rakghoulvic00", 0);
-	object oRakghoulvic01 = GetObjectByTag("rakghoulvic01", 0);
-	object oRakghoulvic02 = GetObjectByTag("rakghoulvic02", 0);
-	location location1 = GetLocation(oRakghoulvic00);
-	location location3 = GetLocation(oRakghoulvic01);
-	location location5 = GetLocation(oRakghoulvic02);
-	DelayCommand(0.1, ApplyEffectToObject(1, EffectHorrified(), oRakghoulvic00, 8.0));
-	DelayCommand(0.3, ApplyEffectToObject(1, EffectHorrified(), oRakghoulvic01, 8.0));
-	DelayCommand(0.5, ApplyEffectToObject(1, EffectHorrified(), oRakghoulvic02, 8.0));
-	DelayCommand(2.0, sub1(oRakghoulvic00, location1));
-	DelayCommand(3.0, sub1(oRakghoulvic01, location3));
-	DelayCommand(3.3, sub1(oRakghoulvic02, location5));
+	
+	int nNum;
+	object oObject;
+	object oVic1 = GetObjectByTag("rakghoulvic00", 0);
+	object oVic2 = GetObjectByTag("rakghoulvic01", 0);
+	object oVic3 = GetObjectByTag("rakghoulvic02", 0);
+	location lVic1 = GetLocation(oVic1);
+	location lVic2 = GetLocation(oVic2);
+	location lVic3 = GetLocation(oVic3);
+	
+	DelayCommand(0.1, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectHorrified(), oVic1, 8.0));
+	DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectHorrified(), oVic2, 8.0));
+	DelayCommand(0.5, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectHorrified(), oVic3, 8.0));
+	DelayCommand(2.0, RakChange(oVic1, lVic1));
+	DelayCommand(3.0, RakChange(oVic2, lVic2));
+	DelayCommand(3.3, RakChange(oVic3, lVic3));
+	
 	ActionPauseConversation();
 	ActionWait(5.0);
 	ActionResumeConversation();
