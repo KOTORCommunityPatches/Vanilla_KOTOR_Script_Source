@@ -1,4 +1,5 @@
-// Original could not recompile. DeNCS failed to declare EventUserDefined as an event. Used a Korriban include that does not exist in the shipped game files.
+// Original could not recompile. DeNCS failed to declare EventUserDefined as an event.
+// Likely used a Korriban include that does not exist in the shipped game files. 
 
 #include "k_inc_utility"
 

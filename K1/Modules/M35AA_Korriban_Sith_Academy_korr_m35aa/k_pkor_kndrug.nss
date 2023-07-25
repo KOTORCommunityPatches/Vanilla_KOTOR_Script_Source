@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("KOR_KNOW_DRUG", 1);
+	
+	SetGlobalBoolean("KOR_KNOW_DRUG", TRUE);
 }

@@ -1,8 +1,8 @@
 // Byte code does not match
+// Likely used a Korriban include that does not exist in the shipped game files. 
 
 #include "k_inc_utility"
  
- // Probably missing Korriban include functions.
  void SetTriggered(int nState) {
  	UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, nState);
  }

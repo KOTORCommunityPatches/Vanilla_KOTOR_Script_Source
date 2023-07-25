@@ -1,14 +1,16 @@
 // Byte code does not match
 
 void main() {
-	object oKor35_victim = GetObjectByTag("kor35_victim", 0);
-	object object3 = GetLastUsedBy();
-	if (((!GetIsDead(oKor35_victim)) && GetGlobalBoolean("KOR_PC_INTERROGATE"))) {
-		AssignCommand(oKor35_victim, ActionStartConversation(object3, "kor35_victim", 0, 0, 1, "", "", "", "", "", ""));
-	}
-	else {
-		if (GetIsDead(oKor35_victim)) {
-			ActionStartConversation(object3, "kor35_nocons", 0, 1, 0, "", "", "", "", "", "");
+	
+	object oVic = GetObjectByTag("kor35_victim", 0);
+	object oPC = GetLastUsedBy();
+	
+	if (!GetIsDead(oVic) && GetGlobalBoolean("KOR_PC_INTERROGATE")
+		{
+			AssignCommand(oVic, ActionStartConversation(oPC, "kor35_victim", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 		}
-	}
+		else if (GetIsDead(oVic))
+			{
+				ActionStartConversation(oPC, "kor35_nocons", FALSE, CONVERSATION_TYPE_COMPUTER, FALSE);
+			}
 }

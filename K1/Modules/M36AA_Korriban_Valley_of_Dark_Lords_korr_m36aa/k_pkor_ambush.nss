@@ -1,5 +1,6 @@
 // DeNCS failed to decompile. Manual reconstruction. Bytecode match for main function and added subroutine, except original used an earlier version
-// of ActionStartConversation with one less input variable. Likely used a Korriban include that does not exist in the shipped game files. 
+// of ActionStartConversation with one less input variable.
+// Likely used a Korriban include that does not exist in the shipped game files. 
 
 string sCalo = "kor_calo";
 string sBandon = "kor_bandon";

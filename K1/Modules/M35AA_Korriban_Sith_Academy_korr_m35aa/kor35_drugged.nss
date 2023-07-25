@@ -1,3 +1,4 @@
 void main() {
-	ActionPlayAnimation(13, 0.7, 10.0);
+	
+	ActionPlayAnimation(ANIMATION_LOOPING_PAUSE_DRUNK, 0.7, 10.0);
 }
