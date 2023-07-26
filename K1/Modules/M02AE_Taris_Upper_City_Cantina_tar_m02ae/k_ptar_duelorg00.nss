@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalBoolean("Tar_DuelOrg") == 0);
-	return int1;
+	
+	int nGlobal = GetGlobalBoolean("Tar_DuelOrg") == FALSE;
+	
+	return nGlobal;
 }

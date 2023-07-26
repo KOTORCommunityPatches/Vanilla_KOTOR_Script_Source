@@ -1,9 +1,12 @@
 void main() {
-	object oDeadeyeDun021 = GetObjectByTag("DeadeyeDun021", 0);
-	object oGerlonTwof021 = GetObjectByTag("GerlonTwof021", 0);
-	object oTar02_wpannarena1 = GetObjectByTag("tar02_wpannarena1", 0);
-	object oDuelAnnoun021 = GetObjectByTag("DuelAnnoun021", 0);
+	
+	object oDuncan = GetObjectByTag("DeadeyeDun021", 0);
+	object oGerlon = GetObjectByTag("GerlonTwof021", 0);
+	object oWP_Arena1 = GetObjectByTag("tar02_wpannarena1", 0);
+	object oAnnouncer = GetObjectByTag("DuelAnnoun021", 0);
+	
 	SetGlobalNumber("Tar_DuelAnTk", 2);
-	ChangeToStandardFaction(oDeadeyeDun021, 5);
-	ChangeToStandardFaction(oGerlonTwof021, 5);
+	
+	ChangeToStandardFaction(oDuncan, STANDARD_FACTION_NEUTRAL);
+	ChangeToStandardFaction(oGerlon, STANDARD_FACTION_NEUTRAL);
 }

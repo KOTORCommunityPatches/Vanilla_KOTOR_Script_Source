@@ -1,4 +1,5 @@
 void main() {
-	SetGlobalBoolean("Tar_DuelOver", 1);
-	SetGlobalBoolean("Tar_DuelLost", 1);
+	
+	SetGlobalBoolean("Tar_DuelOver", TRUE);
+	SetGlobalBoolean("Tar_DuelLost", TRUE);
 }

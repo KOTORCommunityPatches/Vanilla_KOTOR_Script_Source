@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Tar_TwitchPay", 1);
+	
+	SetGlobalBoolean("Tar_TwitchPay", TRUE);
 }

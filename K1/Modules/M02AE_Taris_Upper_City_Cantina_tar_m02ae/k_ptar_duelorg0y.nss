@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Tar_DuelOrg", 1);
+	
+	SetGlobalBoolean("Tar_DuelOrg", TRUE);
 }
