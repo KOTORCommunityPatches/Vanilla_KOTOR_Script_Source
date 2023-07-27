@@ -1,19 +1,28 @@
 void main() {
-	object oDeadeyeDun021 = GetObjectByTag("DeadeyeDun021", 0);
-	object oGerlonTwof021 = GetObjectByTag("GerlonTwof021", 0);
-	int int1 = (GetMaxHitPoints(oDeadeyeDun021) - 2);
-	object oNearestG_w_blstrpstl001 = GetNearestObjectByTag("g_w_blstrpstl001", oDeadeyeDun021, 1);
+	
+	object oDuncan = GetObjectByTag("DeadeyeDun021", 0);
+	object oGerlon = GetObjectByTag("GerlonTwof021", 0);
+	int nHP = GetMaxHitPoints(oDuncan) - 2;
+	object oBlaster = GetNearestObjectByTag("g_w_blstrpstl001", oDuncan, 1);
+	
 	ActionPauseConversation();
-	AssignCommand(oDeadeyeDun021, ClearAllActions());
-	AssignCommand(oDeadeyeDun021, PlayAnimation(10, 1.0, 1.0));
-	ApplyEffectToObject(1, EffectAssuredHit(), oGerlonTwof021, 20.0);
-	ApplyEffectToObject(0, EffectDamage(int1, 8, 0), oDeadeyeDun021, 0.0);
-	DelayCommand(0.1, ApplyEffectToObject(1, EffectDamageIncrease(int1, 8), oGerlonTwof021, 20.0));
-	DelayCommand(0.90000004, AssignCommand(oGerlonTwof021, ActionAttack(oDeadeyeDun021, 0)));
-	DelayCommand(0.85, DestroyObject(oNearestG_w_blstrpstl001, 0.0, 0, 0.0));
-	DelayCommand(1.05, AssignCommand(oDeadeyeDun021, ClearAllActions()));
-	DelayCommand(1.1, AssignCommand(oDeadeyeDun021, ActionEquipMostDamagingRanged(OBJECT_INVALID)));
+	
+	AssignCommand(oDuncan, ClearAllActions());
+	AssignCommand(oDuncan, PlayAnimation(ANIMATION_LOOPING_GET_LOW, 1.0, 1.0));
+	
+	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectAssuredHit(), oGerlon, 20.0);
+	ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectDamage(nHP), oDuncan);
+	
+	DelayCommand(0.1, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectDamageIncrease(nHP), oGerlon, 20.0));
+	DelayCommand(0.90000004, AssignCommand(oGerlon, ActionAttack(oDuncan)));
+	
+	DelayCommand(0.85, DestroyObject(oBlaster));
+	
+	DelayCommand(1.05, AssignCommand(oDuncan, ClearAllActions()));
+	DelayCommand(1.1, AssignCommand(oDuncan, ActionEquipMostDamagingRanged()));
+	
 	DelayCommand(1.74, SetDialogPlaceableCamera(23));
 	DelayCommand(2.1499999, SetDialogPlaceableCamera(24));
+	
 	DelayCommand(3.4, ActionResumeConversation());
 }

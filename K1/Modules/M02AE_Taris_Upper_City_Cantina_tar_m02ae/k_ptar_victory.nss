@@ -1,15 +1,15 @@
-// Prototypes
-void sub1();
-
-void sub1() {
-	object oTar_duel_crowd2 = GetObjectByTag("tar_duel_crowd2", 0);
-	SoundObjectPlay(oTar_duel_crowd2);
-	DelayCommand(5.0, SoundObjectStop(oTar_duel_crowd2));
+void PlayCrowdSFX() {
+	object oCrowd2 = GetObjectByTag("tar_duel_crowd2", 0);
+	SoundObjectPlay(oCrowd2);
+	DelayCommand(5.0, SoundObjectStop(oCrowd2));
 }
 
 void main() {
-	sub1();
-	AssignCommand(GetFirstPC(), ActionPlayAnimation(108, 1.0, 0.0));
+	
+	PlayCrowdSFX();
+	
+	AssignCommand(GetFirstPC(), ActionPlayAnimation(ANIMATION_FIREFORGET_VICTORY1));
+	
 	ActionPauseConversation();
 	ActionWait(3.0);
 	ActionResumeConversation();
