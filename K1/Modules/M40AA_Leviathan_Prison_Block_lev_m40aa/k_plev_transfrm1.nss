@@ -1,4 +1,4 @@
-// Byte code does not match
+// DeNCS reported byte code does not match. Manual reconstruction. 100% binary match.
 
 #include "k_inc_lev"
  
@@ -9,10 +9,8 @@
  		{
  			case 3:
  				// Jail breaker is HK.
- 				break;
  			case 7:
  				// Jail breaker is T3.
- 				break;
  			case 5:
  				// Jail breaker is Juhani.
  				break;
@@ -25,8 +23,6 @@
  				LEV_StripCharacter(GetFirstPC(), GetObjectByTag("lev40_ptylocker", 0));
  				break;
  		}
- 	
- 	return;
  }
  
  void PlayerStart(object oWP) {
