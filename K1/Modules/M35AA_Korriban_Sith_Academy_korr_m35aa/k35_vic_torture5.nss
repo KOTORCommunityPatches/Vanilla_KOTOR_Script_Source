@@ -1,5 +1,8 @@
 void main() {
-	int int1 = (GetGlobalNumber("KOR_THRESHOLD") + 5);
-	SetGlobalNumber("KOR_THRESHOLD", int1);
-	ActionPlayAnimation(13, 0.7, 10.0);
+	
+	int nGlobal = (GetGlobalNumber("KOR_THRESHOLD") + 5);
+	
+	SetGlobalNumber("KOR_THRESHOLD", nGlobal);
+	
+	ActionPlayAnimation(ANIMATION_LOOPING_PAUSE_DRUNK, 0.7, 10.0);
 }
