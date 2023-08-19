@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("KOR_PC_INTERROGATE", 1);
+	
+	SetGlobalBoolean("KOR_PC_INTERROGATE", TRUE);
 }
