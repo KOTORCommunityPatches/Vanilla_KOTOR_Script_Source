@@ -1,5 +1,7 @@
 void main() {
-	if ((GetGlobalBoolean("K_KAS_SWOOP_POINT_02") == 0)) {
-		SetGlobalBoolean("K_KAS_SWOOP_POINT_02", 1);
-	}
+	
+	if (GetGlobalBoolean("K_KAS_SWOOP_POINT_02") == FALSE)
+		{
+			SetGlobalBoolean("K_KAS_SWOOP_POINT_02", TRUE);
+		}
 }
