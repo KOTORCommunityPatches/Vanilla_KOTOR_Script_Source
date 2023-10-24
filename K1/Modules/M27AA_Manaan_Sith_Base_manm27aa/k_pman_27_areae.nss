@@ -1,6 +1,7 @@
-
 void main() {
-	if (GetIsPC(GetEnteringObject())) {
-		SetGlobalBoolean("MAN_HRAKERT_DONE", 1);
-	}
+	
+	if (GetIsPC(GetEnteringObject()))
+		{
+			SetGlobalBoolean("MAN_HRAKERT_DONE", TRUE);
+		}
 }
