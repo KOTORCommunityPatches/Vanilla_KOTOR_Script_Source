@@ -1,24 +1,35 @@
 void main() {
-	object oNearestTar08_ceilingfall = GetNearestObjectByTag("tar08_ceilingfall", OBJECT_SELF, 1);
-	object oNPC;
-	object oNearestTar08_wpflee;
-	int int1;
-	int int2 = 0;
-	int1 = 0;
-	while ((int1 < GetPartyMemberCount())) {
-		oNPC = GetPartyMemberByIndex(int1);
-		if ((GetDistanceBetween(oNPC, OBJECT_SELF) < 10.0)) {
-			oNearestTar08_wpflee = GetNearestObjectByTag("tar08_wpflee", oNPC, 1);
-			SetCommandable(1, oNPC);
-			AssignCommand(oNPC, ClearAllActions());
-			AssignCommand(oNPC, ActionMoveToLocation(GetLocation(oNearestTar08_wpflee), 1));
-			int2 = 1;
+	
+	object oPLC = GetNearestObjectByTag("tar08_ceilingfall", OBJECT_SELF, 1);
+	object oPM;
+	object oWP;
+	int nIdx;
+	int bResume = FALSE;
+	
+	nIdx = 0;
+	
+	while (nIdx < GetPartyMemberCount())
+		{
+			oPM = GetPartyMemberByIndex(nIdx);
+			
+			if (GetDistanceBetween(oPM, OBJECT_SELF) < 10.0)
+				{
+					oWP = GetNearestObjectByTag("tar08_wpflee", oPM, 1);
+					
+					SetCommandable(TRUE, oPM);
+					AssignCommand(oPM, ClearAllActions());
+					AssignCommand(oPM, ActionMoveToLocation(GetLocation(oWP), TRUE));
+					
+					bResume = TRUE;
+				}
+			
+			nIdx++;
 		}
-		(int1++);
-	}
-	if (int2) {
-		ActionPauseConversation();
-		ActionWait(3.0);
-		ActionResumeConversation();
-	}
+	
+	if (bResume)
+		{
+			ActionPauseConversation();
+			ActionWait(3.0);
+			ActionResumeConversation();
+		}
 }

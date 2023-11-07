@@ -1,8 +1,12 @@
 void main() {
-	CreateObject(64, "rfl001", GetLocation(OBJECT_SELF), 0);
+	
+	CreateObject(OBJECT_TYPE_PLACEABLE, "rfl001", GetLocation(OBJECT_SELF));
+	
 	ActionPauseConversation();
-	ActionPlayAnimation(113, 1.0, 0.0);
-	ActionPlayAnimation(113, 1.0, 0.0);
-	ActionPlayAnimation(113, 1.0, 0.0);
+	
+	ActionPlayAnimation(ANIMATION_FIREFORGET_USE_COMPUTER, 1.0, 0.0);
+	ActionPlayAnimation(ANIMATION_FIREFORGET_USE_COMPUTER, 1.0, 0.0);
+	ActionPlayAnimation(ANIMATION_FIREFORGET_USE_COMPUTER, 1.0, 0.0);
+	
 	ActionResumeConversation();
 }
