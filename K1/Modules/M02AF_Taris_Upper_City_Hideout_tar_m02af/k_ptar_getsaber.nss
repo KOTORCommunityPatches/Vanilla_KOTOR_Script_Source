@@ -1,5 +1,7 @@
 void main() {
-	object object1 = GetItemPossessedBy(GetFirstPC(), "G_W_DBLSBR006");
-	GiveItem(object1, OBJECT_SELF);
-	ActionEquipItem(object1, 4, 0);
+	
+	object oSaber = GetItemPossessedBy(GetFirstPC(), "G_W_DBLSBR006");
+	
+	GiveItem(oSaber, OBJECT_SELF);
+	ActionEquipItem(oSaber, INVENTORY_SLOT_RIGHTWEAPON, FALSE);
 }

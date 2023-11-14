@@ -1,7 +1,7 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 #include "k_inc_utility"
- #include "k_inc_debug"
+#include "k_inc_debug"
  
  void main() {
  	

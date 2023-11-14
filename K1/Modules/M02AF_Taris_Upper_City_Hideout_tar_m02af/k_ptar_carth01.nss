@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalNumber("Tar_Carth") == 1);
-	return int1;
+	
+	int nGlobal = GetGlobalNumber("Tar_Carth") == 1;
+	
+	return nGlobal;
 }
