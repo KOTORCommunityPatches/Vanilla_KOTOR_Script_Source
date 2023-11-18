@@ -1,8 +1,8 @@
 // GetStringByStrRef hotfix
 
 #include "k_inc_man"
- 
- void main() {
+
+void main() {
  	
 	object oEntering = GetEnteringObject();
  	
@@ -14,4 +14,4 @@
 			AssignCommand(oSith, ClearAllActions());
 			AssignCommand(oSith, ActionStartConversation(GetFirstPC(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 		}
- }
+}

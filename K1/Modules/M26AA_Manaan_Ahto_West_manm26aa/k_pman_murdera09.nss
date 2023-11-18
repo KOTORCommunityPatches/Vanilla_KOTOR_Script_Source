@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalNumber("MAN_TRIAL_JUDNUM") >= 3);
-	return int1;
+	
+	int nGlobal = GetGlobalNumber("MAN_TRIAL_JUDNUM") >= 3;
+	
+	return nGlobal;
 }

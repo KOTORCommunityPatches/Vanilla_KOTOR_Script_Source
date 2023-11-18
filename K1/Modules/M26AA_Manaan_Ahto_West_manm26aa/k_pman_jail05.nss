@@ -1,3 +1,4 @@
 void main() {
-	StartNewModule("ebo_m12aa", "", "", "", "", "", "", "");
+	
+	StartNewModule("ebo_m12aa");
 }

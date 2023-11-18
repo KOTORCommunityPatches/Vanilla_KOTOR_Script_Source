@@ -1,4 +1,5 @@
 void main() {
+	
 	RemoveJournalQuestEntry("man_elora");
 	RemoveJournalQuestEntry("man_firith");
 	RemoveJournalQuestEntry("man_gluupor");

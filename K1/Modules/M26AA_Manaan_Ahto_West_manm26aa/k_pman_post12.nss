@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("MAN_EXILED", 1);
+	
+	SetGlobalBoolean("MAN_EXILED", TRUE);
 }

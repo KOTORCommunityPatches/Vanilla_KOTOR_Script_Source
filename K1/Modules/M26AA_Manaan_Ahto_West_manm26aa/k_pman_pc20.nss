@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("MAN_PROOF", 1);
+	
+	SetGlobalBoolean("MAN_PROOF", TRUE);
 }

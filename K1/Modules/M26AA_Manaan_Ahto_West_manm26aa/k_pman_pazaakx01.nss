@@ -1,11 +1,17 @@
 int StartingConditional() {
-	int int1;
-	int nGlobal;
-	int1 = ((((GetGlobalBoolean("G_Paz_JustPlayed") == 1) && (GetLastPazaakResult() == 1)) && (GetGlobalNumber("MAN_GONTON") >= 9)) || (GetGlobalNumber("MAN_GONTON") >= 10));
-	if (int1) {
-		nGlobal = GetGlobalNumber("MAN_GONTON");
-		SetGlobalNumber("MAN_GONTON", (nGlobal + 1));
-		SetGlobalBoolean("G_Paz_JustPlayed", 0);
-	}
-	return int1;
+	
+	int nGlobalA;
+	int nGlobalB;
+	
+	nGlobalA = GetGlobalBoolean("G_Paz_JustPlayed") == TRUE && GetLastPazaakResult() == 1 && GetGlobalNumber("MAN_GONTON") >= 9 || GetGlobalNumber("MAN_GONTON") >= 10;
+	
+	if (nGlobalA)
+		{
+			nGlobalB = GetGlobalNumber("MAN_GONTON");
+			
+			SetGlobalNumber("MAN_GONTON", nGlobalB + 1);
+			SetGlobalBoolean("G_Paz_JustPlayed", FALSE);
+		}
+	
+	return nGlobalA;
 }

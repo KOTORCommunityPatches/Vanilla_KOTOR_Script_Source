@@ -1,5 +1,6 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 void main() {
-	ActionStartConversation(GetLastUsedBy(), "", 0, 0, 1, "", "", "", "", "", "");
+	
+	ActionStartConversation(GetLastUsedBy(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE);
 }

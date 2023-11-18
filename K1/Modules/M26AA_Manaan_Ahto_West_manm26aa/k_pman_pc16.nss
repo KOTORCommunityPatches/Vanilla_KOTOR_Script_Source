@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("MAN_SARBITER", 1);
+	
+	SetGlobalBoolean("MAN_SARBITER", TRUE);
 }
