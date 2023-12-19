@@ -1,3 +1,4 @@
 void main() {
-	SetGlobalBoolean("Dan_notvictim", 1);
+	
+	SetGlobalBoolean("Dan_notvictim", TRUE);
 }

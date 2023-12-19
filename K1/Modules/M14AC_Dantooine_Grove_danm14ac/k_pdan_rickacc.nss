@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalBoolean("Dan_Rickaccuse") == 1);
-	return int1;
+	
+	int nGlobal = GetGlobalBoolean("Dan_Rickaccuse") == TRUE;
+	
+	return nGlobal;
 }

@@ -1,6 +1,10 @@
 void main() {
-	object oDan14_handon = GetObjectByTag("dan14_handon", 0);
+	
+	object oHandon = GetObjectByTag("dan14_handon", 0);
+	
 	ActionPauseConversation();
-	ActionTakeItem(GetItemPossessedBy(oDan14_handon, "dan14_nothing"), oDan14_handon);
+	
+	ActionTakeItem(GetItemPossessedBy(oHandon, "dan14_nothing"), oHandon);
+	
 	ActionResumeConversation();
 }
