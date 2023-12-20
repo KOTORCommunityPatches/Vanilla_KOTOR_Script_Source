@@ -16,7 +16,7 @@ void main() {
 			DelayCommand(1.0, SpawnGriff());
 		}
 	
-	if (GetGlobalNumber("Mis_MissionTalk") == 14 && GetGlobalBoolean("Tat_Greet_Griff" == FALSE)
+	if (GetGlobalNumber("Mis_MissionTalk") == 14 && GetGlobalBoolean("Tat_Greet_Griff") == FALSE)
 		{
 			SetGlobalBoolean("Tat_Greet_Griff", TRUE);
 		}
