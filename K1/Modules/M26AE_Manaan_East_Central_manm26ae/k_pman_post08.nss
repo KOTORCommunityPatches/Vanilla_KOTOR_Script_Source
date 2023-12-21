@@ -1,4 +1,6 @@
 void main() {
+	
 	ActionPauseConversation();
-	ExecuteScript("k_pman_player11", GetFirstPC(), 0xFFFFFFFF);
+	
+	ExecuteScript("k_pman_player11", GetFirstPC(), -1);
 }

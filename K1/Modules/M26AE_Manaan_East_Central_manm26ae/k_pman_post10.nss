@@ -1,3 +1,4 @@
 void main() {
-	SetLockOrientationInDialog(GetFirstPC(), 0);
+	
+	SetLockOrientationInDialog(GetFirstPC(), FALSE);
 }
