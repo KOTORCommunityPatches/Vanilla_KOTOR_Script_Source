@@ -1,0 +1,4 @@
+void main() {
+	DelayCommand(0.5, AssignCommand(GetObjectByTag("Mira", 0), SetFacingPoint(GetPosition(GetObjectByTag("304Enter", 0)))));
+	DelayCommand(2.5, AssignCommand(GetObjectByTag("Mira", 0), SetFacingPoint(GetPosition(GetObjectByTag("DevThug", 0)))));
+}

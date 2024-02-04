@@ -1,0 +1,58 @@
+// Globals
+	int intGLOB_1 = 0;
+	int intGLOB_2 = 1;
+	int intGLOB_3 = 2;
+	int intGLOB_4 = 3;
+	int intGLOB_5 = 4;
+	int intGLOB_6 = 5;
+	int intGLOB_7 = 6;
+	int intGLOB_8 = 7;
+	int intGLOB_9 = 8;
+	int intGLOB_10 = 9;
+	int intGLOB_11 = 10;
+	int intGLOB_12 = 11;
+	int intGLOB_13 = 12;
+	int intGLOB_14 = 13;
+	int intGLOB_15 = 14;
+	int intGLOB_16 = 15;
+	int intGLOB_17 = 16;
+	int intGLOB_18 = 17;
+	int intGLOB_19 = 18;
+	int intGLOB_20 = 19;
+	int intGLOB_21 = 1100;
+	int intGLOB_22 = (-6);
+	int intGLOB_23 = (-5);
+	int intGLOB_24 = (-4);
+	int intGLOB_25 = (-2);
+	int intGLOB_26 = (-1);
+	int intGLOB_27 = 0;
+
+// Prototypes
+void sub1(object objectParam1);
+
+void sub1(object objectParam1) {
+	effect efVisual = EffectVisualEffect(3003, 0);
+	ApplyEffectAtLocation(0, efVisual, GetLocation(objectParam1), 0.0);
+}
+
+void main() {
+	int nParam1 = GetScriptParameter(1);
+	switch (nParam1) {
+		case 0:
+			DestroyObject(GetItemPossessedBy(GetPCSpeaker(), "pl_thorium"), 0.0, 0, 0.0, 0);
+			break;
+		case 1:
+			{
+				int int3 = 0;
+				while ((int3 <= 4)) {
+					ActionWait(((IntToFloat(int3) / 2) * 0.3));
+					ActionDoCommand(sub1(GetObjectByTag("WP_BOMB1", int3)));
+					(int3++);
+				}
+				object oDoor_thorium = GetObjectByTag("door_thorium", 0);
+				SetLocked(oDoor_thorium, 0);
+				DelayCommand(0.5, AssignCommand(oDoor_thorium, ActionOpenDoor(oDoor_thorium)));
+			}
+			break;
+	}
+}
