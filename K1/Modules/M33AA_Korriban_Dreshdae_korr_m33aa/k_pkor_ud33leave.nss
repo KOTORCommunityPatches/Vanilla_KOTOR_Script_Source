@@ -48,7 +48,7 @@ void main() {
 		{
 			UT_ReturnToBase("wp_homebase");
 		}
-	else if (nGlobal == 10) // CUSTOM EVENT
+	else if (nUser == 10) // CUSTOM EVENT
 		{
 			object oExit = GetObjectByTag("k33_way_yuthuraexit", 0);
 			

@@ -61,6 +61,6 @@ void main() {
 	else if(nUser == 6000)
 	{
 		ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1);
-		GN_DetermineCombatRoundGetFirstPC());
+		GN_DetermineCombatRound(GetFirstPC());
 	}
 }

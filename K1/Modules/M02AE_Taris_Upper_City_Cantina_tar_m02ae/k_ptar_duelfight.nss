@@ -1,5 +1,4 @@
 #include "k_inc_tar"
-#include "k_inc_debug"
 
 void main() {
 	
@@ -29,7 +28,10 @@ void main() {
 		}
 	
 	SetGlobalBoolean("Tar_DuelOver", FALSE);
+	
 	UT_SetPlotBooleanFlag(oOpponent, SW_PLOT_BOOLEAN_01, FALSE);
+	
 	NoClicksFor(0.75);
+	
 	DelayCommand(1.0, SignalEvent(oOpponent, EventUserDefined(6000)));
 }

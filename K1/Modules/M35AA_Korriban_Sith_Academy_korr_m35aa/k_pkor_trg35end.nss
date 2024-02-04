@@ -1,4 +1,4 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 // Likely used a Korriban include that does not exist in the shipped game files. 
 
 #include "k_inc_utility"
@@ -17,7 +17,7 @@ void main() {
 	
 	object oPC = GetFirstPC();
 	
-	if (GetEnteringObject() == oPC && !GetState()) && GetGlobalBoolean("KOR_PRESTIGE_END")
+	if (GetEnteringObject() == oPC && !GetState() && GetGlobalBoolean("KOR_PRESTIGE_END"))
 		{
 			ActionStartConversation(oPC, "kor35_trg_endmod", FALSE, CONVERSATION_TYPE_CINEMATIC, FALSE);
 			

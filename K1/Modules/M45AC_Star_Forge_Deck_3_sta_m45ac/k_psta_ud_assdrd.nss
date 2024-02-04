@@ -47,7 +47,7 @@ void main() {
 		{
 			object oAssDroid = GetObjectByTag("k45_plc_assdroid", 0);
 			
-			if (GetIsObjectValid(oAssDroid) && (!GetGlobalBoolean("STA_GEN_NEW"))
+			if (GetIsObjectValid(oAssDroid) && !GetGlobalBoolean("STA_GEN_NEW"))
 				{
 					CreateItemOnObject("g_i_progspike01", GetObjectByTag((GetTag(OBJECT_SELF) + "_bin"), 0), 1);
 					

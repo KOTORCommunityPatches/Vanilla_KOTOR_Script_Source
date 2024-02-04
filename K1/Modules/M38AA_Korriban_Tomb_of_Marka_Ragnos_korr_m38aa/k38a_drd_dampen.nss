@@ -1,3 +1,5 @@
+#include "k_inc_utility"
+
 int StartingConditional() {
 	
 	//int nState;

@@ -1,4 +1,7 @@
 // Byte code does not match
+
+#include "k_inc_unk"
+
 void FakeForcePush(object oNPC) {
 	PlaySound("v_useforce");
 	ActionCastFakeSpellAtObject(FORCE_POWER_FORCE_WAVE, oNPC);
@@ -46,7 +49,7 @@ void main() {
 		}
 	else if (nUser == 1006) // DAMAGED
 		{
-			if (GetMaxHitPoints(OBJECT_SELF) - GetCurrentHitPoints(OBJECT_SELF)) > 150)
+			if ((GetMaxHitPoints(OBJECT_SELF) - GetCurrentHitPoints(OBJECT_SELF)) > 150)
 				{
 					ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectResurrection(), GetFirstPC(), 0.0);
 					

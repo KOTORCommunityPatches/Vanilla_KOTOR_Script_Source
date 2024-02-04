@@ -29,7 +29,7 @@ void main() {
 					SetGlobalBoolean("DAN_BASTILA_AT_JEDI", TRUE);
 				}
 			
-			if (nGlobal <= 1) && GetGlobalBoolean("DAN_CARTH_AT_JEDI") == FALSE && GetGlobalBoolean("DAN_CARTH_BACKUP") == FALSE)
+			if (nGlobal <= 1 && GetGlobalBoolean("DAN_CARTH_AT_JEDI") == FALSE && GetGlobalBoolean("DAN_CARTH_BACKUP") == FALSE)
 				{
 					if (IsNPCPartyMember(NPC_CARTH))
 						{

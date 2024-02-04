@@ -1,7 +1,6 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
-#include "k_inc_utility"
- #include "k_inc_debug"
+#include "k_inc_tar"
  
  void main() {
  	
@@ -9,7 +8,7 @@
  	
  	Db_PostString("IGEAR TRIGGER - " + IntToString(GetGlobalNumber("tar_rukil")), 5, 5, 5.0);
  	
- 	if (GetIsPC(oEntering) && GetGlobalNumber("tar_rukil") == 20))
+ 	if (GetIsPC(oEntering) && GetGlobalNumber("tar_rukil") == 20)
  		{
  			Db_PostString("IGEAR TALK", 5, 6, 5.0);
  			

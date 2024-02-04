@@ -1,5 +1,6 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
+#include "k_inc_utility"
 
  void main() {
  	if (GetIsPC(GetEnteringObject()) == TRUE)
@@ -79,7 +80,7 @@
  			
  			PlayRoomAnimation("m12aa_01q", 7);
  			
- 			if (IsAvailableCreature(NPC_JOLEE) == TRUE))
+ 			if (IsAvailableCreature(NPC_JOLEE) == TRUE)
  				{
  					DestroyObject(GetObjectByTag("bastila", 0), 0.0, TRUE);
  					RemovePartyMember(NPC_BASTILA);

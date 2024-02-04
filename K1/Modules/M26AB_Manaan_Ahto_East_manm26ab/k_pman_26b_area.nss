@@ -4,7 +4,7 @@
 
 void main() {
 	
-	if (GetIsPC(GetEnteringObject())
+	if (GetIsPC(GetEnteringObject()))
 		{
 			InitiateSitters();
 			SetTokenRaceTime(18, 2382);

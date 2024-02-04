@@ -1,7 +1,8 @@
+// DeNCS failed to decompile. Manual reconstruction. 100% binary match.
+
 #include "k_inc_tat"
 
 void SpawnWraidHerdC(location lLocation) {
-	
 	object oPC = GetFirstPC();
 	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
 	
@@ -22,7 +23,6 @@ void SpawnWraidHerdC(location lLocation) {
 }
 
 void SpawnWraidHerdB(location lLocation) {
-	
 	object oPC = GetFirstPC();
 	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
 	
@@ -43,7 +43,6 @@ void SpawnWraidHerdB(location lLocation) {
 }
 
 void SpawnWraidHerdA(location lLocation) {
-	
 	object oPC = GetFirstPC();
 	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
 	
@@ -65,35 +64,35 @@ void SpawnWraidHerdA(location lLocation) {
 
 void main() {
 	
-	if (GetGlobalNumber("k_genoharadan") == 50 && GetIsPC(GetEnteringObject())
+	if (GetGlobalNumber("k_genoharadan") == 50 && GetIsPC(GetEnteringObject()))
 		{
 			SetGlobalNumber("k_genoharadan", 60);
 			
-			location location1 = GetLocation(GetObjectByTag("tat_bh_hulas_wp", 0));
-			location location3 = GetLocation(GetObjectByTag("tat_bh_senni_wp", 0));
-			location location5 = GetLocation(GetObjectByTag("tat_bh_bounty_wp", 0));
-			location location7 = GetLocation(GetObjectByTag("tat_bh_thug1_wp", 0));
-			location location9 = GetLocation(GetObjectByTag("tat_bh_thug2_wp", 0));
-			location location11 = GetLocation(GetObjectByTag("tat_bh_thug3_wp", 0));
-			location location13 = GetLocation(GetObjectByTag("tat_bh_thug4_wp", 0));
-			location location15 = GetLocation(GetObjectByTag("tat_bh_bike1_wp", 0));
-			location location17 = GetLocation(GetObjectByTag("tat_bh_bike2_wp", 0));
-			location location19 = GetLocation(GetObjectByTag("tat_bh_bike3_wp", 0));
-			location location21 = GetLocation(GetObjectByTag("tat_bh_speeder1_wp", 0));
-			location location23 = GetLocation(GetObjectByTag("tat_bh_speeder2_wp", 0));
+			location lHulas = GetLocation(GetObjectByTag("tat_bh_hulas_wp", 0));
+			location lSenni = GetLocation(GetObjectByTag("tat_bh_senni_wp", 0));
+			location lBounty = GetLocation(GetObjectByTag("tat_bh_bounty_wp", 0));
+			location lThug1 = GetLocation(GetObjectByTag("tat_bh_thug1_wp", 0));
+			location lThug2 = GetLocation(GetObjectByTag("tat_bh_thug2_wp", 0));
+			location lThug3 = GetLocation(GetObjectByTag("tat_bh_thug3_wp", 0));
+			location lThug4 = GetLocation(GetObjectByTag("tat_bh_thug4_wp", 0));
+			location lBike1 = GetLocation(GetObjectByTag("tat_bh_bike1_wp", 0));
+			location lBike2 = GetLocation(GetObjectByTag("tat_bh_bike2_wp", 0));
+			location lBike3 = GetLocation(GetObjectByTag("tat_bh_bike3_wp", 0));
+			location lSpeeder1 = GetLocation(GetObjectByTag("tat_bh_speeder1_wp", 0));
+			location lSpeeder2 = GetLocation(GetObjectByTag("tat_bh_speeder2_wp", 0));
 			
-			CreateObject(OBJECT_TYPE_CREATURE, "n_duros001", location1, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_senni", location3, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_bounty", location5, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug1", location7, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug2", location9, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug3", location11, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug4", location13, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location15, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location17, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location19, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", location21, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", location23, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "n_duros001", lHulas, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_senni", lSenni, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_bounty", lBounty, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug1", lThug1, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug2", lThug2, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug3", lThug3, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug4", lThug4, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", lBike1, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", lBike2, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", lBike3, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", lSpeeder1, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", lSpeeder2, 0);
 		}
 	
 	object oPC = GetFirstPC();
@@ -105,24 +104,23 @@ void main() {
 	
 	SandpeopleDisguiseUsable();
 	
-	object oSPWarrior1 = GetObjectByTag("tat18_tusken", 0);
-	object oSPWarrior2 = GetObjectByTag("tat18_tusken02", 0);
-	object oSPWarrior3 = GetObjectByTag("tat18_tusken03", 0);
-	object oSPEncounter = GetObjectByTag("tat18_tuskenenc", 0);
-	object oTusken;
+	object oTusken1 = GetObjectByTag("tat18_tusken", 0);
+	object oTusken2 = GetObjectByTag("tat18_tusken02", 0);
+	object oTusken3 = GetObjectByTag("tat18_tusken03", 0);
+	object oTuskEnc = GetObjectByTag("tat18_tuskenenc", 0);
 	
-	if ((GetTuskenJobGlobal() == TRUE && GetIsObjectValid(oSPWarrior1)) || GetIsObjectValid(oSPWarrior2) || GetIsObjectValid(oSPWarrior3) || GetIsObjectValid(oSPEncounter))
+	if (GetTuskenJobGlobal() == TRUE && (GetIsObjectValid(oTusken1) || GetIsObjectValid(oTusken2) || GetIsObjectValid(oTusken3) || GetIsObjectValid(oTuskEnc)))
 		{
-			oTusken = GetFirstObjectInArea(OBJECT_INVALID, OBJECT_TYPE_ALL);
+			oTusken1 = GetFirstObjectInArea(OBJECT_INVALID, OBJECT_TYPE_ALL);
 			
-			while (GetIsObjectValid(oTusken))
+			while (GetIsObjectValid(oTusken1))
 				{
-					if (GetTag(oTusken) == "tat18_tusken" || GetTag(oTusken) == "tat18_tusken02" || GetTag(oTusken) == "tat18_tusken03" || GetTag(oTusken) == "tat18_tuskenenc")
+					if (GetTag(oTusken1) == "tat18_tusken" || GetTag(oTusken1) == "tat18_tusken02" || GetTag(oTusken1) == "tat18_tusken03" || GetTag(oTusken1) == "tat18_tuskenenc")
 						{
-							DestroyObject(oTusken);
+							DestroyObject(oTusken1);
 						}
 					
-					oTusken = GetNextObjectInArea(OBJECT_INVALID, OBJECT_TYPE_CREATURE);
+					oTusken1 = GetNextObjectInArea(OBJECT_INVALID, OBJECT_TYPE_CREATURE);
 				}
 		}
 	
@@ -141,7 +139,7 @@ void main() {
 			switch (GetGlobalNumber("tat_WraidHerd"))
 				{
 					case 0:
-						if (GetIsObjectValid(oWraid1) == FALSE) && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
+						if (GetIsObjectValid(oWraid1) == FALSE && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
 							{
 								DelayCommand(1.0, SpawnWraidHerdA(lWP_Wraid1));
 								SetGlobalNumber("tat_WraidHerd", 1);
@@ -150,7 +148,7 @@ void main() {
 						break;
 					
 					case 1:
-						if (GetIsObjectValid(oWraid1) == FALSE) && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
+						if (GetIsObjectValid(oWraid1) == FALSE && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
 							{
 								DelayCommand(1.0, SpawnWraidHerdB(lWP_Wraid2));
 								SetGlobalNumber("tat_WraidHerd", 2);
@@ -159,7 +157,7 @@ void main() {
 						break;
 					
 					case 2:
-						if (GetIsObjectValid(oWraid1) == FALSE) && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
+						if (GetIsObjectValid(oWraid1) == FALSE && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
 							{
 								DelayCommand(1.0, SpawnWraidHerdC(lWP_Wraid3));
 								SetGlobalNumber("tat_WraidHerd", 0);

@@ -1,4 +1,4 @@
-#include "k_inc_utility"
+#include "k_inc_lev"
 
 void main() {
 	
@@ -38,7 +38,7 @@ void main() {
 	CreateItemOnObject("bast_temp_saber", oBastila, 1);
 	DelayCommand(0.5, AssignCommand(oBastila, ActionEquipItem(GetItemPossessedBy(oBastila, "bast_temp_saber"), INVENTORY_SLOT_RIGHTWEAPON, TRUE)));
 	
-	if (GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oCarth) == OBJECT_INVALID))
+	if (GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oCarth) == OBJECT_INVALID)
 		{
 			AssignCommand(oCarth, ActionEquipMostDamagingRanged(OBJECT_INVALID));
 		}

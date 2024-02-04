@@ -5,5 +5,5 @@ void main() {
 	GN_SetSpawnInCondition(SW_FLAG_DYNAMIC_COMBAT_ZONE, TRUE);
 	GN_SetDayNightPresence(AMBIENT_PRESENCE_ALWAYS_PRESENT);
 	GN_SetListeningPatterns();
-	GN_WalkWayPoints);
+	GN_WalkWayPoints();
 }

@@ -13,7 +13,7 @@ void main() {
 							
 							if (GetIsObjectValid(oEnemy))
 								{
-									if (GetDistanceBetween(OBJECT_SELF, oEnemy) < 30.0))
+									if (GetDistanceBetween(OBJECT_SELF, oEnemy) < 30.0)
 										{
 											nShow = FALSE;
 										}

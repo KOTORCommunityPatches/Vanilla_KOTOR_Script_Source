@@ -1,8 +1,14 @@
-#include "k_inc_debug"
+void PostString(string sString, int nX, int nY, float fShow) {
+	if (!ShipBuild())
+		{
+			AurPostString(sString, nX, nY, fShow);
+		}
+}
+
 
 void main() {
 	
-	Db_PostString("v2.0 HEALING", 5, 5, 4.0);
+	PostString("v2.0 HEALING", 5, 5, 4.0);
 	
 	object oNPC;
 	object oBastila = GetObjectByTag("bastila", 0);
@@ -10,7 +16,7 @@ void main() {
 	effect efHeal;
 	int nMaxHP;
 	
-	oNPC = GetFirstObjectInArea(GetArea(GetFirstPC(), OBJECT_TYPE_CREATURE));
+	oNPC = GetFirstObjectInArea(GetArea(GetFirstPC()), OBJECT_TYPE_CREATURE);
 	
 	while (GetIsObjectValid(oNPC))
 		{

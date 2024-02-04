@@ -1,3 +1,6 @@
+#include "k_inc_utility"
+#include "k_inc_generic"
+
 void main() {
 	
 	object oPM0 = GetPartyMemberByIndex(0);

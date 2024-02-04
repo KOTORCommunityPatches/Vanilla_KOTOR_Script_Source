@@ -1,11 +1,11 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 void main() {
 	
 	object oVic = GetObjectByTag("kor35_victim", 0);
 	object oPC = GetLastUsedBy();
 	
-	if (!GetIsDead(oVic) && GetGlobalBoolean("KOR_PC_INTERROGATE")
+	if (!GetIsDead(oVic) && GetGlobalBoolean("KOR_PC_INTERROGATE"))
 		{
 			AssignCommand(oVic, ActionStartConversation(oPC, "kor35_victim", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 		}

@@ -12,7 +12,7 @@ void main() {
 	object oExcharge = GetObjectByTag("k45_plc_excharge", 0);
 	event eUser = EventUserDefined(245);
 	
-	UT_SetPlotBooleanFlag(OBJECT_SELF, intGLOB_1, 1);
+	UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
 	
 	SignalEvent(oWarDroid, eUser);
 	SignalEvent(oAssDroid, eUser);

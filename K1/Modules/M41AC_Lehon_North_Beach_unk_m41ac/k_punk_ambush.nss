@@ -1,4 +1,4 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 #include "k_inc_utility"
  
@@ -6,7 +6,7 @@
  	
  	if (GetIsPC(GetEnteringObject()) == TRUE)
  		{
- 			if (!GetIsInConversation(GetFirstPC())
+ 			if (!GetIsInConversation(GetFirstPC()))
  				{
  					if (GetGlobalBoolean("UNK_TEMP5") == FALSE && GetGlobalBoolean("UNK_TEMP6") == FALSE && GetGlobalBoolean("UNK_THEONE") == FALSE ||
  					GetGlobalBoolean("UNK_TEMP6") == FALSE && GetGlobalBoolean("UNK_BLACKHOSTILE") == TRUE && GetGlobalBoolean("Unk_Ambush_Temp") == FALSE ||

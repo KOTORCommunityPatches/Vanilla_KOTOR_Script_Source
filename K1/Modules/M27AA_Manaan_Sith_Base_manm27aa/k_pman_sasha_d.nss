@@ -3,7 +3,7 @@
 
 void main() {
 	
-	int int1 = GetUserDefinedEventNumber();
+	int nUser = GetUserDefinedEventNumber();
 	
 	if (nUser == 1001) // HEARTBEAT
 		{

@@ -22,7 +22,7 @@ void main() {
 			
 			oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "tar02_gana02ac", GetLocation(GetObjectByTag("tar02_wpgana02", 0)));
 			
-			if (GetIsObjectValid(oSpawn) && GetIsObjectValid(GetObjectByTag("tar02_wpgana02", 0))))
+			if (GetIsObjectValid(oSpawn) && GetIsObjectValid(GetObjectByTag("tar02_wpgana02", 0)))
 				{
 					Db_PostString("GANA SPAWNED", 5, 6, 5.0);
 				}

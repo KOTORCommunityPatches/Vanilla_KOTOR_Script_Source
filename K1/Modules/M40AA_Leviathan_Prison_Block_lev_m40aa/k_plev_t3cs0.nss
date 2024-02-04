@@ -1,4 +1,6 @@
-void sub2() {
+#include "k_inc_lev"
+
+void PlayAnim() {
 	ActionMoveToObject(GetFirstPC(), FALSE, 1.0);
 	ActionPlayAnimation(ANIMATION_LOOPING_GET_MID, 1.0, 3.0);
 }
@@ -18,7 +20,7 @@ void main() {
 	
 	DelayCommand(1.0, AssignCommand(GetFirstPC(), ActionMoveToObject(GetObjectByTag("lev40_wpt3techa", 0), FALSE, 1.0)));
 	
-	DelayCommand(2.0, AssignCommand(oTech, sub2()));
+	DelayCommand(2.0, AssignCommand(oTech, PlayAnim()));
 	
 	ActionPauseConversation();
 	ActionWait(6.0);

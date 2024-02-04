@@ -4,11 +4,11 @@
 #include "k_inc_utility"
 
 void SetState(int nState) {
-	UT_SetPlotBooleanFlag(OBJECT_SELF, intGLOB_1, nState);
+	UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, nState);
 }
 
 int GetState() {
-	return UT_GetPlotBooleanFlag(OBJECT_SELF, intGLOB_1);
+	return UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01);
 }
 
 void main() {

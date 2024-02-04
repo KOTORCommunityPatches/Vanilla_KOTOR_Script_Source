@@ -1,12 +1,17 @@
-#include "k_inc_debug"
+void PostString(string sString, int nX, int nY, float fShow) {
+	if (!ShipBuild())
+		{
+			AurPostString(sString, nX, nY, fShow);
+		}
+}
 
 void main() {
 	
-	Db_PostString("FIRING EXIT EVENT", 5, 5, 4.0);
+	PostString("FIRING EXIT EVENT", 5, 5, 4.0);
 	
 	object oExiting = GetExitingObject();
 	
-	if !GetLoadFromSaveGame() && oExiting == GetFirstPC())
+	if (!GetLoadFromSaveGame() && oExiting == GetFirstPC())
 		{
 			SetGlobalBoolean("K_PUNK_BEACH_RESET", TRUE);
 			

@@ -44,7 +44,7 @@ void main() {
 		{
 
 		}
-	else if (nUser == 2000))
+	else if (nUser == 2000)
 		{
 			ActionMoveToObject(GetObjectByTag("Noble021", 0));
 		}

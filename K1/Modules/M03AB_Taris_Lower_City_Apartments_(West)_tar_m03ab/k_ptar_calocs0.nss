@@ -1,3 +1,5 @@
+#include "k_inc_tar"
+
 void main() {
 	
 	object oCalo = GetObjectByTag("calo032", 0);

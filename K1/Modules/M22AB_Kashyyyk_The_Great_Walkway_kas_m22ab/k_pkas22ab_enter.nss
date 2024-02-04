@@ -68,7 +68,7 @@ void main() {
 						SetGlobalBoolean("G_KashyyykSlaver", TRUE);
 					}
 
-	if (GetChuundarDeadGlobal() == TRUE && (GetWookieRebels2Local(OBJECT_SELF) == FALSE)
+	if (GetChuundarDeadGlobal() == TRUE && GetWookieRebels2Local(OBJECT_SELF) == FALSE)
 		{
 			object oCorpse = GetObjectByTag("kas22_wookcorps2", 0);
 			object oCzerka01 = GetObjectByTag("kas22_czguard_01", 0);

@@ -1,3 +1,5 @@
+#include "k_inc_lev"
+
 void StripVFX() {
 	object oBastila = GetObjectByTag("bastila", 0);
 	object oCarth = GetObjectByTag("carth", 0);
@@ -41,7 +43,7 @@ void StripVFX() {
 			efVFX = GetNextEffect(GetFirstPC());
 		}
 	
-	if (GetGender(GetFirstPC()) == GENDER_MALE))
+	if (GetGender(GetFirstPC()) == GENDER_MALE)
 		{
 			Db_PostString("SPEAKING...", 5, 6, 5.0);
 		}

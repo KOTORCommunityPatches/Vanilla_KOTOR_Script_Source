@@ -1,4 +1,4 @@
-#include "k_inc_debug"
+#include "k_inc_tar"
 
 int StartingConditional() {
 	
@@ -19,7 +19,7 @@ int StartingConditional() {
 	
 	while (GetIsObjectValid(oInvItem))
 		{
-			Db_MyPrintString(("EATING - " + GetTag(oInvItem)), 5, (5 + nInvNum), 5.0);
+			Db_PostString("EATING - " + GetTag(oInvItem), 5, (5 + nInvNum), 5.0);
 			
 			DestroyObject(oInvItem);
 			oInvItem = GetNextItemInInventory(oPile);

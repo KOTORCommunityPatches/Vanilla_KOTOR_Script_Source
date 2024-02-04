@@ -1,3 +1,4 @@
+#include "k_inc_generic"
 #include "k_inc_utility"
 
 void main() {
@@ -6,7 +7,7 @@ void main() {
 
 	if (nUser == 1001) // HEARTBEAT
 		{
-			if (GetGlobalNumber("tat_AmbushDead") >= 12) && GetStandardFaction(OBJECT_SELF) == STANDARD_FACTION_FRIENDLY_1)
+			if (GetGlobalNumber("tat_AmbushDead") >= 12 && GetStandardFaction(OBJECT_SELF) == STANDARD_FACTION_FRIENDLY_1)
 				{
 					ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL);
 				}

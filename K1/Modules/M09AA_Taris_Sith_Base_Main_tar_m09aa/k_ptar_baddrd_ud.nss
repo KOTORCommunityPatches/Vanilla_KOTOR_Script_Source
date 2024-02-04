@@ -1,6 +1,5 @@
-#include "k_inc_debug"
 #include "k_inc_generic"
-#include "k_inc_utility"
+#include "k_inc_tar"
 
 void main() {
 	
@@ -8,6 +7,7 @@ void main() {
 
 	if (nUser == 1001) // HEARTBEAT
 		{
+
 		}
 	else if (nUser == 1002) // PERCEIVE
 		{
@@ -46,7 +46,7 @@ void main() {
 		{
 
 		}
-	else if (nUser == 2000))
+	else if (nUser == 2000)
 		{
 			effect eEffect;
 			
@@ -67,7 +67,7 @@ void main() {
 					ActionDoCommand(ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1));
 				}
 		}
-	else if (nUser == 3000))
+	else if (nUser == 3000)
 		{
 			Db_PostString("PLAYING DROID ROAR", 5, 5, 5.0);
 			PlaySound("c_drdmk1_bat1");

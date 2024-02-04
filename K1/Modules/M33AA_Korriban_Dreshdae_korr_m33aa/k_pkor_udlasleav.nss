@@ -42,7 +42,7 @@ void main() {
 		{
 
 		}
-	else if (nGlobal == 10) // CUSTOM EVENT
+	else if (nUser == 10) // CUSTOM EVENT
 		{
 			object oWP01 = GetObjectByTag("k33a_way_shaar3", 0);
 			object oWP02 = GetObjectByTag("k33a_way_shaar4", 0);

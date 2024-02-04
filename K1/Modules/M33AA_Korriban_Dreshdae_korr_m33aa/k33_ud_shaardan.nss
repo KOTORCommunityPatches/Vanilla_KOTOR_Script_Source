@@ -40,7 +40,7 @@ void main() {
 		{
 
 		}
-	else if (nUser == 10))
+	else if (nUser == 10)
 		{
 
 		}
