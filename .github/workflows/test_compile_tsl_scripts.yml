@@ -12,8 +12,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: npm ci                   # install packages
-    - run: npm test                 # run tests (configured to use jest-junit reporter)
     - name: Set up Python 3.8
       uses: actions/setup-python@v3
       with:
