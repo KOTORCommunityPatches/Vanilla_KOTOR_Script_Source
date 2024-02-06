@@ -34,8 +34,6 @@ jobs:
       run: |
         git clone --branch vanilla-source-test https://github.com/th3w1zard1/PyKotor.git PyKotor
         cd PyKotor
-        chmod +x ./install_python_venv.ps1
-        chmod +x ./compile/compile_holopatcher.ps1
         ./install_python_venv.ps1 -noprompt
         python -m pip install -r ./Libraries/PyKotor/requirements.txt --prefer-binary
         python -m pip install -r ./Libraries/PyKotor/recommended.txt --prefer-binary
