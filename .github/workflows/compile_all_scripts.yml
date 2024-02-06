@@ -30,7 +30,7 @@ jobs:
     #    sudo apt-get install -y powershell
     #  shell: bash
 
-    - name: Clone PyKotor
+    - name: Run PyKotor's Compile Tests
       run: |
         git clone --branch vanilla-source-test https://github.com/th3w1zard1/PyKotor.git PyKotor
         cd PyKotor
