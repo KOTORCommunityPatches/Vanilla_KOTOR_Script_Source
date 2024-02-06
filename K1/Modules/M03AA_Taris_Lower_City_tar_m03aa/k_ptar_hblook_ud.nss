@@ -6,7 +6,7 @@ void main() {
 
 	if (nUser == 1001) // HEARTBEAT
 		{
-			if (!GN_GetIsFighting(OBJECT_SELF)) && GetDistanceBetween(OBJECT_SELF, GetObjectByTag("tar03_wpbekpost", 0)) > 2.0)
+			if (!GN_GetIsFighting(OBJECT_SELF) && GetDistanceBetween(OBJECT_SELF, GetObjectByTag("tar03_wpbekpost", 0)) > 2.0)
 				{
 					TAR_PlotMoveObject(GetObjectByTag("tar03_wpbekpost", 0), 0);
 				}

@@ -21,7 +21,7 @@ void HawkEnter() {
 	
 	if (GetGlobalNumber("EBO_GIZKA_PLOT") == 1)
 		{
-			SetGlobalNumber("GizkaMultiplier", GetGlobalNumber("GizkaMultiplier") + 1;
+			SetGlobalNumber("GizkaMultiplier", GetGlobalNumber("GizkaMultiplier") + 1);
 			
 			nGlobal = (GetGlobalNumber("GizkaMultiplier") + 1) * 3;
 			

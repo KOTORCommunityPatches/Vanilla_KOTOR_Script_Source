@@ -5,5 +5,5 @@ void main() {
 	GN_SetSpawnInCondition(SW_FLAG_AMBIENT_ANIMATIONS, TRUE);
 	GN_SetDayNightPresence(AMBIENT_PRESENCE_ALWAYS_PRESENT);
 	GN_SetListeningPatterns();
-	GN_RespondToShout();
+	GN_WalkWaypoints();
 }
