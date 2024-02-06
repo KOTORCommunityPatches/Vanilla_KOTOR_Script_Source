@@ -38,5 +38,5 @@ jobs:
         python -m pip install -r ./Libraries/PyKotor/requirements.txt --prefer-binary
         python -m pip install -r ./Libraries/PyKotor/recommended.txt --prefer-binary
         python -m pip install pytest
-        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v --full-trace -ra -o log_cli=true --capture=no
+        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v --full-trace -ra -o log_cli=true
       shell: pwsh
