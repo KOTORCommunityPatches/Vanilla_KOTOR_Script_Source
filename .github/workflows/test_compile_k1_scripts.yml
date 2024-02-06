@@ -1,4 +1,4 @@
-name: Compile All Scripts Test
+name: K1 Scripts Test
 
 on: [push]
 
