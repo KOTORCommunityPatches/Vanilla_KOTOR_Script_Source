@@ -27,7 +27,7 @@ jobs:
         python -m pip install -r ./Libraries/PyKotor/recommended.txt --prefer-binary
         python -m pip install pytest
         python -m pip install pytest pytest-html
-        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v --full-trace -ra -o log_cli=true --junitxml=pytest_report.xml --html=pytest_report.html --self-contained-html
+        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v --full-trace -ra -o log_cli=true --capture=no --junitxml=pytest_report.xml --html=pytest_report.html --self-contained-html
       shell: pwsh
 
     - name: Publish Test Report
