@@ -1,0 +1,44 @@
+name: Compile All Scripts Test
+
+on: [push]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.8"
+
+    #- name: Install PowerShell Core
+    #  run: |
+    #    # Install pre-requisite packages
+    #    sudo apt-get update
+    #    sudo apt-get install -y wget apt-transport-https software-properties-common
+        # Import the Microsoft repository key
+    #    wget -q "https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb"
+    #    sudo dpkg -i packages-microsoft-prod.deb
+    #    sudo apt-get update
+        # Install PowerShell
+    #    sudo apt-get install -y powershell
+    #  shell: bash
+
+    - name: Clone PyKotor
+      run: |
+        git clone --branch vanilla-source-test https://github.com/th3w1zard1/PyKotor.git PyKotor
+        cd PyKotor
+        chmod +x ./install_python_venv.ps1
+        chmod +x ./compile/compile_holopatcher.ps1
+        ./install_python_venv.ps1 -noprompt
+        python -m pip install -r ./Libraries/PyKotor/requirements.txt --prefer-binary
+        python -m pip install -r ./Libraries/PyKotor/recommended.txt --prefer-binary
+        python -m pip install pytest
+        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v --full-trace -ra -o log_cli=true --capture=no
+      shell: pwsh
