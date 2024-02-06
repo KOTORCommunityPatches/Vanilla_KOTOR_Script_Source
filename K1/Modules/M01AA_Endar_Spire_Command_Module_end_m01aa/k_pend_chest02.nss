@@ -7,7 +7,7 @@ void main() {
 			GivePlotXP("end_tutorial", 5);
 		}
 	
-	object oTrask = sTraskTag();
+	object oTrask = GetTrask();
 	
 	if (GetTraskState() < 2)
 		{

@@ -1,6 +1,6 @@
 #include "k_inc_utility"
 
-void PlaceNPC(string sTag, location lLocation = "") {
+void PlaceNPC(string sTag, location lLocation) {
 	CreateObject(OBJECT_TYPE_CREATURE, sTag, lLocation, FALSE);
 }
 

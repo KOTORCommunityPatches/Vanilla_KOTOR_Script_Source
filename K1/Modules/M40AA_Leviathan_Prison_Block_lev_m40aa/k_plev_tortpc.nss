@@ -1,3 +1,5 @@
+#include "k_inc_lev"
+
 void PrisonerAnim(float fLength) {
 	ActionPlayAnimation(ANIMATION_LOOPING_SPASM, 1.0, fLength / 3.0);
 	ActionPlayAnimation(ANIMATION_LOOPING_HORROR, 1.0, fLength / 3.0);
@@ -36,7 +38,7 @@ void main() {
 	
 	TortureTarget(GetFirstPC());
 	
-	DelayCommand(5.0, SetGlobalFadeOut(0.0, 3.0);
+	DelayCommand(5.0, SetGlobalFadeOut(0.0, 3.0));
 	DelayCommand(7.0, AssignCommand(oDoor, ActionCloseDoor(oDoor)));
 	
 	ActionPauseConversation();

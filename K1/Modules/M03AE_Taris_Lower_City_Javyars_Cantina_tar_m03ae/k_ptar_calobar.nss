@@ -1,16 +1,16 @@
 #include "k_inc_utility"
+#include "k_inc_generic"
 
 void main() {
 
-	//object oSelf = OBJECT_SELF;
+	object oSelf = OBJECT_SELF;
 	object oRodian = GetObjectByTag("taproomvic031", 0);
 	object oTwilek1 = GetObjectByTag("taproomvic032", 0);
 	object oTwilek2 = GetObjectByTag("taproomvic033", 0);
 	object oCalo = GetObjectByTag("calo031", 0);
 	
 	UT_SetTalkedToBooleanFlag(oCalo, TRUE);
-	// SW_FLAG_AI_OFF
-	AssignCommand(oCalo, UT_SetPlotBooleanFlag(62, TRUE));
+	AssignCommand(oCalo, UT_SetPlotBooleanFlag(62, TRUE)); // 62 = SW_FLAG_AI_OFF. Function assigned incorrectly, should be UT_SetPlotBooleanFlag(oCalo, 62, TRUE)
 	
 	ActionPauseConversation();
 	
