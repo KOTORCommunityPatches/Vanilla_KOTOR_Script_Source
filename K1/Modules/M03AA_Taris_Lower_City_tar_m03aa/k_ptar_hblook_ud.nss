@@ -1,4 +1,5 @@
 #include "k_inc_tar"
+#include "k_inc_generic"
 
 void main() {
 	
@@ -21,6 +22,7 @@ void main() {
 		}
 	else if (nUser == 1004) // ON DIALOGUE
 		{
+
 		}
 	else if (nUser == 1005) // ATTACKED
 		{
