@@ -50,4 +50,5 @@ jobs:
           PyKotor/fallback_level_info_*
           PyKotor/fallback_level_debug_*
           PyKotor/*_incompatible_*
+          PyKotor/comparison_results_*
 
