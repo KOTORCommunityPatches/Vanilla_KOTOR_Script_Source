@@ -25,7 +25,7 @@ jobs:
         python -m pip install -r ./Libraries/PyKotor/requirements.txt --prefer-binary
         python -m pip install -r ./Libraries/PyKotor/recommended.txt --prefer-binary
         python -m pip install pytest pytest-html pytest-xdist
-        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v -ra -o log_cli=true --capture=no --junitxml=pytest_report.xml --html=pytest_report.html --self-contained-html --tb=no -n auto
+        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v -ra -o log_cli=true --capture=no --junitxml=pytest_report.xml --html=pytest_report.html --self-contained-html --tb=no
       shell: pwsh
 
     - name: Upload Pytest Reports
