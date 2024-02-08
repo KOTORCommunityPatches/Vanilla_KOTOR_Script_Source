@@ -42,3 +42,4 @@ jobs:
           PyKotor/*_incompatible_*
           PyKotor/comparison_results_*
           PyKotor/comparisons/**
+          PyKotor/bytecode_mismatches.txt
