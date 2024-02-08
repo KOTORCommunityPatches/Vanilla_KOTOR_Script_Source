@@ -41,3 +41,4 @@ jobs:
           PyKotor/fallback_level_debug_*
           PyKotor/*_incompatible_*
           PyKotor/comparisons/**
+          PyKotor/bytecode_mismatches.txt
