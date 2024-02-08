@@ -4,5 +4,5 @@
 
 # RTF MS Word temp file
 ~$*.rtf*
-*.ncs
 .secrets
+PyKotor
