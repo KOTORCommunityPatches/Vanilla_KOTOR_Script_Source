@@ -6,7 +6,7 @@ void main() {
 	location lSpawn = GetLocation(GetNearestObjectByTag("kas25_wp_mandenc1", OBJECT_SELF, 1));
 	string sMand = "kas25_mandalor01";
 	
-	if (!GetIsObjectValid(GetObjectByTag("kas25_mandtrig2", 0))
+	if (!GetIsObjectValid(GetObjectByTag("kas25_mandtrig2", 0)))
 		{
 			sMand = "kas25_mand_end";
 		}

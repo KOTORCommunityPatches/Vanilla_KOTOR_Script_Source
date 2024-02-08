@@ -1,4 +1,5 @@
 #include "k_inc_tar"
+#include "k_inc_generic"
 
 void main() {
 	
@@ -6,7 +7,7 @@ void main() {
 
 	if (nUser == 1001) // HEARTBEAT
 		{
-			if (!GN_GetIsFighting(OBJECT_SELF)) && GetDistanceBetween(OBJECT_SELF, GetObjectByTag("tar03_wpbekpost", 0)) > 2.0)
+			if (!GN_GetIsFighting(OBJECT_SELF) && GetDistanceBetween(OBJECT_SELF, GetObjectByTag("tar03_wpbekpost", 0)) > 2.0)
 				{
 					TAR_PlotMoveObject(GetObjectByTag("tar03_wpbekpost", 0), 0);
 				}
@@ -21,6 +22,7 @@ void main() {
 		}
 	else if (nUser == 1004) // ON DIALOGUE
 		{
+
 		}
 	else if (nUser == 1005) // ATTACKED
 		{
