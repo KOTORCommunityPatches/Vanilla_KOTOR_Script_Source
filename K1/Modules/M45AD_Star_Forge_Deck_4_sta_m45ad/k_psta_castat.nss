@@ -1,4 +1,5 @@
 #include "k_inc_utility"
+#include "k_inc_debug"
 
 void PlaySFX() {
 	object oDrain = GetNearestObjectByTag("drainedcaptive", OBJECT_SELF, 1);
@@ -40,7 +41,7 @@ void main() {
 					UT_SetPlotBooleanFlag(OBJECT_SELF, nFree, TRUE);
 					
 					DelayCommand(0.3, PlayAnimation(ANIMATION_PLACEABLE_DEACTIVATE));
-					DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectHeal(nMaxHP - nCurHP), oCaster)));
+					DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectHeal(nMaxHP - nCurHP), oCaster));
 					DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectHealForcePoints(nMaxFP - nCurFP), oCaster));
 					
 					SoundObjectStop(oBuzz);
