@@ -1,3 +1,4 @@
 void main() {
-	RevealMap(GetPosition(GetFirstPC()), 0xFFFFFFFF);
+	
+	RevealMap(GetPosition(GetFirstPC()), -1);
 }
