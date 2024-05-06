@@ -7,7 +7,7 @@ int StartingConditional() {
 	int nFree = SW_PLOT_BOOLEAN_03;
 	int nKill = SW_PLOT_BOOLEAN_04;
 	
-	if (UT_GetTalkedToBooleanFlag(OBJECT_SELF, nDrain))
+	if (UT_GetPlotBooleanFlag(OBJECT_SELF, nDrain))
 		{
 			return TRUE;
 		}
