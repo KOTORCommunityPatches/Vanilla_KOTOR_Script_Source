@@ -4,6 +4,8 @@
 
 void main() {
 	
+	SetGlobalBoolean("TAR_DUELINPROGRESS", FALSE);
+	
 	if (GetIsPC(GetExitingObject()))
 		{
 			TAR_EnableSithArmor();

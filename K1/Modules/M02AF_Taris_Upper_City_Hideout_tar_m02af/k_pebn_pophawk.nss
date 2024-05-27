@@ -21,7 +21,7 @@ void HawkEnter() {
 	
 	if (GetGlobalNumber("EBO_GIZKA_PLOT") == 1)
 		{
-			SetGlobalNumber("GizkaMultiplier", GetGlobalNumber("GizkaMultiplier") + 1;
+			SetGlobalNumber("GizkaMultiplier", GetGlobalNumber("GizkaMultiplier") + 1);
 			
 			nGlobal = (GetGlobalNumber("GizkaMultiplier") + 1) * 3;
 			
@@ -92,7 +92,7 @@ void HealNPC() {
 	object oJuhani = GetObjectByTag("juhani", 0);
 	object oMission = GetObjectByTag("mission", 0);
 	object oT3m4 = GetObjectByTag("t3m4", 0);
-	object oParty = GetObjectByTag("zaalbar", 0);
+	object oZaal = GetObjectByTag("zaalbar", 0);
 	object oParty;
 	int nCnt = 1;
 	
@@ -140,7 +140,7 @@ void HealNPC() {
 			
 			if (nCnt == 9)
 				{
-					oParty = oParty;
+					oParty = oZaal;
 				}
 			
 			if (GetIsObjectValid(oParty))

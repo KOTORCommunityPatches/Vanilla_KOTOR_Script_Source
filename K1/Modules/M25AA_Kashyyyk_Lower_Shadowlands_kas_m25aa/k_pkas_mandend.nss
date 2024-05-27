@@ -6,7 +6,7 @@ void main() {
 	object oMando2 = GetNearestObjectByTag("kas25_mandalor02", OBJECT_SELF, 1);
 	object oMando3 = GetNearestObjectByTag("kas25_mandalor03", OBJECT_SELF, 1);
 	
-	if (!GetIsObjectValid(GetObjectByTag("kas25_mandtrig2", 0))
+	if (!GetIsObjectValid(GetObjectByTag("kas25_mandtrig2", 0)))
 		{
 			oMando1 = GetNearestObjectByTag("kas25_mand_end", OBJECT_SELF, 1);
 		}
