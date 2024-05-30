@@ -4,7 +4,7 @@
  
  void main() {
  	
- 	int nCheck = GetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_10) == FALSE && GetIsPC(GetEnteringObject()) == TRUE;
+ 	int nCheck = GetLocalBoolean(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO) == FALSE && GetIsPC(GetEnteringObject()) == TRUE;
  	
  	Db_PostString("first if", 5, 5, 3.0);
  	
@@ -25,6 +25,6 @@
  			
  			DelayCommand(0.5, AssignCommand(GetObjectByTag("invish", 0), ActionStartConversation(GetFirstPC(), "newfight", FALSE, 0, TRUE)));
  			
- 			SetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_10, TRUE);
+ 			SetLocalBoolean(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO, TRUE);
  		}
  }
