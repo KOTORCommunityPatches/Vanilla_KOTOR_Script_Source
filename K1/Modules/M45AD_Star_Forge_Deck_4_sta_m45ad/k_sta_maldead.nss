@@ -1,6 +1,9 @@
 int StartingConditional() {
-	int int1;
-	object oSta_45darthMalak = GetObjectByTag("sta_45darthMalak", 0);
-	int1 = (!GetIsObjectValid(oSta_45darthMalak));
-	return int1;
+	
+	int nState;
+	object oMalak = GetObjectByTag("sta_45darthMalak", 0);
+	
+	nState = !GetIsObjectValid(oMalak);
+	
+	return nState;
 }

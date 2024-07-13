@@ -1,8 +1,12 @@
 void main() {
+	
 	object oPC = GetFirstPC();
-	object oSta_45darthMalak = GetObjectByTag("sta_45darthMalak", 0);
+	object oMalak = GetObjectByTag("sta_45darthMalak", 0);
+	
 	ActionPauseConversation();
-	AssignCommand(oSta_45darthMalak, ActionMoveAwayFromObject(oPC, 0, 20.0));
+	
+	AssignCommand(oMalak, ActionMoveAwayFromObject(oPC, FALSE, 20.0));
+	
 	ActionWait(3.0);
 	ActionResumeConversation();
 }

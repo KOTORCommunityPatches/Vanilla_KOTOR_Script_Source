@@ -1,4 +1,6 @@
 int StartingConditional() {
-	int int1 = (GetGlobalNumber("G_FinalChoice") == 1);
-	return int1;
+	
+	int nGlobal = GetGlobalNumber("G_FinalChoice") == 1;
+	
+	return nGlobal;
 }

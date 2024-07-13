@@ -1,21 +1,24 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 void main() {
-	object oNearestSta_jedi_conv = GetNearestObjectByTag("sta_jedi_conv", OBJECT_SELF, 1);
-	object oNearestSta_malak_drain = GetNearestObjectByTag("sta_malak_drain", OBJECT_SELF, 1);
-	object oSta_45darthMalak = GetObjectByTag("sta_45darthMalak", 0);
+	
+	object oCaptive = GetNearestObjectByTag("sta_jedi_conv", OBJECT_SELF, 1);
+	object oDrain = GetNearestObjectByTag("sta_malak_drain", OBJECT_SELF, 1);
+	object oMalak = GetObjectByTag("sta_45darthMalak", 0);
 	object oPC = GetFirstPC();
-	int nGlobal = GetGlobalNumber("STA_MALAK_TALK");
-	int int3 = GetGlobalBoolean("STA_MALAK_DRAIN");
-	if (((int3 == 1) && GetIsObjectValid(oNearestSta_malak_drain))) {
-		if ((GetDistanceToObject(oNearestSta_malak_drain) > 2.0)) {
-			AssignCommand(oSta_45darthMalak, ActionMoveToObject(oNearestSta_malak_drain, 1, 1.0));
+	int nTalk = GetGlobalNumber("STA_MALAK_TALK");
+	int nDrain = GetGlobalBoolean("STA_MALAK_DRAIN");
+	
+	if (nDrain == 1 && GetIsObjectValid(oDrain))
+		{
+			if (GetDistanceToObject(oDrain) > 2.0)
+				{
+					AssignCommand(oMalak, ActionMoveToObject(oDrain, TRUE));
+				}
+				else if (!GetIsInConversation(oCaptive))
+					{
+						AssignCommand(oPC, ClearAllActions());
+						AssignCommand(oCaptive, ActionStartConversation(oCaptive, "", FALSE, CONVERSATION_TYPE_CINEMATIC, FALSE));
+					}
 		}
-		else {
-			if ((!GetIsInConversation(oNearestSta_jedi_conv))) {
-				AssignCommand(oPC, ClearAllActions());
-				AssignCommand(oNearestSta_jedi_conv, ActionStartConversation(oNearestSta_jedi_conv, "", 0, 0, 0, "", "", "", "", "", ""));
-			}
-		}
-	}
 }
