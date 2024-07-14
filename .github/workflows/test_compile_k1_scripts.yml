@@ -1,6 +1,8 @@
 name: K1 Scripts Test
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 permissions:
   contents: read
