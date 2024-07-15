@@ -13,7 +13,8 @@ void main() {
 					
 					CancelCombat(oPC);
 					
-					SetCarthState(ROOM5_DEAD);
+					// ROOM5_DEAD = 4
+					SetCarthState(4);
 					
 					SignalEvent(GetCarth(), EventUserDefined(10));
 				}
