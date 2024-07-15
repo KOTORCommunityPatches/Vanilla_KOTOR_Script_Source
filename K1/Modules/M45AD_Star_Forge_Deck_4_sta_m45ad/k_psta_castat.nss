@@ -9,9 +9,9 @@ void PlaySFX() {
 
 void main() {
 	
-	int nDrain = SW_PLOT_BOOLEAN_02;
-	int nFree = SW_PLOT_BOOLEAN_03;
-	int nKill = SW_PLOT_BOOLEAN_04;
+	int nState1 = SW_PLOT_BOOLEAN_02;
+	int nState2 = SW_PLOT_BOOLEAN_03;
+	int nState3 = SW_PLOT_BOOLEAN_04;
 	object oInvis = GetObjectByTag("sta_invis_camera", 0);
 	object oDrain = GetNearestObjectByTag("sta_malak_drain", OBJECT_SELF, 1);
 	object oCaster = GetLastSpellCaster();
@@ -38,7 +38,7 @@ void main() {
 					
 					DestroyObject(oDrain);
 					UT_SetTalkedToBooleanFlag(OBJECT_SELF, FALSE);
-					UT_SetPlotBooleanFlag(OBJECT_SELF, nFree, TRUE);
+					UT_SetPlotBooleanFlag(OBJECT_SELF, nState1, TRUE);
 					
 					DelayCommand(0.3, PlayAnimation(ANIMATION_PLACEABLE_DEACTIVATE));
 					DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectHeal(nMaxHP - nCurHP), oCaster));
@@ -61,7 +61,7 @@ void main() {
 						DelayCommand(0.3, PlayAnimation(ANIMATION_PLACEABLE_DEACTIVATE));
 						DelayCommand(0.5, CancelCombat(oCaster));
 						
-						UT_SetPlotBooleanFlag(OBJECT_SELF, nKill, TRUE);
+						UT_SetPlotBooleanFlag(OBJECT_SELF, nState3, TRUE);
 						SoundObjectStop(oBuzz);
 					}
 					else if (nLastPower == FORCE_POWER_DROID_DESTROY || nLastPower == FORCE_POWER_DROID_DISABLE || nLastPower == FORCE_POWER_FORCE_BREACH ||
@@ -79,7 +79,7 @@ void main() {
 											
 											DelayCommand(1.2, PlaySFX());
 											DelayCommand(1.2, PlayAnimation(ANIMATION_PLACEABLE_OPEN));
-											UT_SetPlotBooleanFlag(OBJECT_SELF, nDrain, TRUE);
+											UT_SetPlotBooleanFlag(OBJECT_SELF, nState2, TRUE);
 											
 											DelayCommand(1.5, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_IMP_HEAL), oCaster));
 											DelayCommand(1.2, ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL));
@@ -94,7 +94,7 @@ void main() {
 												
 												DelayCommand(0.3, PlaySFX());
 												DelayCommand(0.3, PlayAnimation(ANIMATION_PLACEABLE_OPEN));
-												UT_SetPlotBooleanFlag(OBJECT_SELF, nDrain, TRUE);
+												UT_SetPlotBooleanFlag(OBJECT_SELF, nState2, TRUE);
 												DelayCommand(0.3, ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL));
 												
 												DelayCommand(0.3, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_IMP_HEAL), oCaster));
@@ -113,7 +113,7 @@ void main() {
 										DelayCommand(1.2, ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL));
 										DelayCommand(1.5, CancelCombat(oCaster));
 										
-										UT_SetPlotBooleanFlag(OBJECT_SELF, nFree, TRUE);
+										UT_SetPlotBooleanFlag(OBJECT_SELF, nState1, TRUE);
 									}
 									else
 										{
@@ -123,7 +123,7 @@ void main() {
 											
 											DelayCommand(0.3, PlaySFX());
 											DelayCommand(0.3, PlayAnimation(ANIMATION_PLACEABLE_DEACTIVATE));
-											UT_SetPlotBooleanFlag(OBJECT_SELF, nFree, TRUE);
+											UT_SetPlotBooleanFlag(OBJECT_SELF, nState1, TRUE);
 											DelayCommand(0.0, ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL));
 											DelayCommand(0.5, CancelCombat(oCaster));
 										}
