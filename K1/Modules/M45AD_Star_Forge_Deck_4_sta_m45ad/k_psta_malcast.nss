@@ -5,8 +5,6 @@
 
 object oGetMalak = GetObjectByTag("sta_45darthMalak", 0);
 
-#include "k_inc_generic"
-
 void DrainCaptive() {
 	object oCaptive = GetNearestObjectByTag("drainedcaptive", OBJECT_SELF, 1);
 	

@@ -2,12 +2,12 @@
 
 void main() {
 	
-	if (GetEnteringObject() == GetFirstPC())
+	if (GetExitingObject() == GetFirstPC())
 		{
 			SetGlobalBoolean("END_PC_ON_BRIDGE", FALSE);
 		}
 	
-	if (GetEnteringObject() == GetTrask())
+	if (GetExitingObject() == GetTrask())
 		{
 			SetGlobalBoolean("END_TRASK_ON_BRIDGE", FALSE);
 		}

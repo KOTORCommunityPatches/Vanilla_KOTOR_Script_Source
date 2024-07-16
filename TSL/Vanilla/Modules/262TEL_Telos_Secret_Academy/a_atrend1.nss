@@ -1,5 +1,3 @@
-// Could not recompile
-
 struct structtype2 {
 	int int1;
 	int int3;
@@ -144,22 +142,22 @@ void sub98();
 void sub97();
 int sub96();
 int sub95();
-int sub94(int intParam1);
-int sub93(int intParam1);
+int sub94(object objectParam1);
+int sub93(object objectParam1);
 int sub92(float floatParam1);
 int sub91(object objectParam1);
 int sub90();
-int sub89(int intParam1);
-int sub88(int intParam1);
+int sub89(object objectParam1);
+int sub88(object objectParam1);
 object sub87(object objectParam1);
 int sub86();
 int sub85();
-int sub84(int intParam1);
+int sub84(object objectParam1);
 int sub83(float floatParam1);
-int sub82(int intParam1);
-int sub81(int intParam1);
+int sub82(object objectParam1);
+int sub81(object objectParam1);
 void sub80(object objectParam1);
-int sub79(int intParam1);
+int sub79(object objectParam1);
 talent sub78(object objectParam1, talent talentParam2);
 int sub77(int intParam1);
 int sub76(int intParam1);
@@ -225,7 +223,7 @@ object sub17(int intParam1);
 int sub16();
 int sub15(int intParam1, object objectParam2);
 object sub14();
-int sub13(int intParam1);
+int sub13(object objectParam1);
 int sub12();
 int sub11();
 void sub10(int intParam1, int intParam2);
@@ -236,7 +234,7 @@ string sub6(object objectParam1);
 void sub5();
 string sub4(object objectParam1);
 void sub3(string stringParam1);
-void sub2(int intParam1);
+void sub2(object objectParam1);
 void sub1(object objectParam1);
 
 void sub102(string stringParam1, int intParam2, int intParam3, float floatParam4) {
@@ -618,14 +616,14 @@ int sub95() {
 	return 0;
 }
 
-int sub94(int intParam1) {
+int sub94(object objectParam1) {
 	AurPostString("Monster Powers AI Routine", 5, 4, 3.0);
 	talent talRandom = GetCreatureTalentRandom(4868, OBJECT_SELF, 0);
 	if ((d100(1) < 20)) {
 		if ((GetIsTalentValid(talRandom) && GetCreatureHasTalent(talRandom, OBJECT_SELF))) {
-			if ((GetIsObjectValid(intParam1) && GetIsEnemy(intParam1, OBJECT_SELF))) {
+			if ((GetIsObjectValid(objectParam1) && GetIsEnemy(objectParam1, OBJECT_SELF))) {
 				sub3("GENERIC DEBUG *************** Using Talent on Intruder Target");
-				ActionUseTalentOnObject(talRandom, intParam1);
+				ActionUseTalentOnObject(talRandom, objectParam1);
 				return 1;
 			}
 			else {
@@ -641,9 +639,9 @@ int sub94(int intParam1) {
 	return 0;
 }
 
-int sub93(int intParam1) {
+int sub93(object objectParam1) {
 	if ((!GetIsPuppet(OBJECT_SELF))) {
-		sub33(intParam1);
+		sub33(objectParam1);
 		return 0;
 	}
 	object oPUPOwner = GetPUPOwner(OBJECT_SELF);
@@ -808,7 +806,7 @@ int sub90() {
 	return 0;
 }
 
-int sub89(int intParam1) {
+int sub89(object objectParam1) {
 	if ((!IsObjectPartyMember(OBJECT_SELF))) {
 		return 0;
 	}
@@ -822,11 +820,11 @@ int sub89(int intParam1) {
 	if (sub90()) {
 		return 0;
 	}
-	sub33(intParam1);
+	sub33(objectParam1);
 	return 0;
 }
 
-int sub88(int intParam1) {
+int sub88(object objectParam1) {
 	int nLocal = GetLocalNumber(OBJECT_SELF, 15);
 	if ((GetCurrentHitPoints(OBJECT_SELF) < 5)) {
 		return 1;
@@ -979,7 +977,7 @@ int sub85() {
 	return 0;
 }
 
-int sub84(int intParam1) {
+int sub84(object objectParam1) {
 	if (GetIsConversationActive()) {
 		return 1;
 	}
@@ -1079,7 +1077,7 @@ int sub83(float floatParam1) {
 	return 1;
 }
 
-int sub82(int intParam1) {
+int sub82(object objectParam1) {
 	if ((IsObjectPartyMember(OBJECT_SELF) || (d100(1) > 50))) {
 		int int3 = 0;
 		talent talent1;
@@ -1095,13 +1093,13 @@ int sub82(int intParam1) {
 			return 1;
 		}
 		sub3("GENERIC DEBUG *************** Grenade AI Failure");
-		return sub33(intParam1);
+		return sub33(objectParam1);
 	}
 	sub3("GENERIC DEBUG *************** Grenade AI Fall Through");
-	return sub33(intParam1);
+	return sub33(objectParam1);
 }
 
-int sub81(int intParam1) {
+int sub81(object objectParam1) {
 	if ((GetCurrentAction(OBJECT_SELF) == 0)) {
 		return 1;
 	}
@@ -1151,7 +1149,7 @@ void sub80(object objectParam1) {
 	}
 }
 
-int sub79(int intParam1) {
+int sub79(object objectParam1) {
 	object oTarget = GetHealTarget(OBJECT_SELF);
 	if ((GetIsObjectValid(oTarget) && (!GetIsDead(oTarget)))) {
 		float fDistance = GetDistanceToObject(oTarget);
@@ -1159,7 +1157,7 @@ int sub79(int intParam1) {
 			sub80(oTarget);
 			SetHealTarget(OBJECT_SELF, OBJECT_INVALID);
 			if (GetIsInCombat(OBJECT_SELF, 0)) {
-				DelayCommand(3.0, sub2(intParam1));
+				DelayCommand(3.0, sub2(objectParam1));
 			}
 		}
 		else {
@@ -1167,7 +1165,7 @@ int sub79(int intParam1) {
 			if ((nAction != 0)) {
 				ActionMoveToObject(oTarget, 1, 3.0);
 				if (GetIsInCombat(OBJECT_SELF, 0)) {
-					DelayCommand(3.0, sub2(intParam1));
+					DelayCommand(3.0, sub2(objectParam1));
 				}
 			}
 		}
@@ -1214,7 +1212,7 @@ int sub79(int intParam1) {
 					SetHealTarget(OBJECT_SELF, oShapeObject);
 					ActionMoveToObject(oShapeObject, 1, 3.0);
 					if (GetIsInCombat(OBJECT_SELF, 0)) {
-						DelayCommand(3.0, sub2(intParam1));
+						DelayCommand(3.0, sub2(objectParam1));
 					}
 					return 0;
 				}
@@ -1222,7 +1220,7 @@ int sub79(int intParam1) {
 					sub80(oShapeObject);
 					SetHealTarget(OBJECT_SELF, OBJECT_INVALID);
 					if (GetIsInCombat(OBJECT_SELF, 0)) {
-						DelayCommand(3.0, sub2(intParam1));
+						DelayCommand(3.0, sub2(objectParam1));
 					}
 					return 0;
 				}
@@ -4395,7 +4393,7 @@ object sub14() {
 	return OBJECT_INVALID;
 }
 
-int sub13(int intParam1) {
+int sub13(object objectParam1) {
 	sub3("GENERIC DEBUG *************** Boss AI Start");
 	object object1 = sub14();
 	if (GetIsObjectValid(object1)) {
@@ -4645,7 +4643,7 @@ void sub3(string stringParam1) {
 	}
 }
 
-void sub2(int intParam1) {
+void sub2(object objectParam1) {
 	sub3("");
 	sub3(("GENERIC DEBUG *************** START DETERMINE COMBAT ROUND " + sub4(OBJECT_SELF)));
 	if ((IsObjectPartyMember(OBJECT_SELF) && GetCombatActionsPending(OBJECT_SELF))) {
@@ -4660,9 +4658,9 @@ void sub2(int intParam1) {
 		if (((GetPartyMemberByIndex(0) != OBJECT_SELF) && (!GetPlayerRestrictMode(OBJECT_SELF)))) {
 			if (((IsObjectPartyMember(OBJECT_SELF) && (!GetPlayerRestrictMode(OBJECT_SELF))) || (!IsObjectPartyMember(OBJECT_SELF)))) {
 				if ((nNPCStyle == 2)) {
-					if (GetIsObjectValid(intParam1)) {
+					if (GetIsObjectValid(objectParam1)) {
 						ClearAllActions();
-						ActionAttack(intParam1, 0);
+						ActionAttack(objectParam1, 0);
 						return;
 					}
 					else {
@@ -4688,27 +4686,27 @@ void sub2(int intParam1) {
 					}
 				}
 				if ((sub7(intGLOB_116) == 1)) {
-					if ((sub13(intParam1) == 1)) {
+					if ((sub13(objectParam1) == 1)) {
 						return;
 					}
 				}
 				if ((nNPCStyle == 6)) {
-					sub79(intParam1);
+					sub79(objectParam1);
 					return;
 				}
 				if ((nNPCStyle == 7)) {
-					if (sub81(intParam1)) {
+					if (sub81(objectParam1)) {
 						return;
 					}
 				}
 				if (((nNPCStyle == 0) || (nNPCStyle == 7))) {
-					if ((sub33(intParam1) == 1)) {
+					if ((sub33(objectParam1) == 1)) {
 						return;
 					}
 				}
 				else {
 					if ((nNPCStyle == 4)) {
-						if ((sub82(intParam1) == 1)) {
+						if ((sub82(objectParam1) == 1)) {
 							return;
 						}
 					}
@@ -4717,19 +4715,19 @@ void sub2(int intParam1) {
 							if ((sub83(10.0) == 1)) {
 								return;
 							}
-							if ((sub84(intParam1) == 1)) {
+							if ((sub84(objectParam1) == 1)) {
 								return;
 							}
 						}
 						else {
 							if ((nNPCStyle == 8)) {
-								if ((sub88(intParam1) == 1)) {
+								if ((sub88(objectParam1) == 1)) {
 									return;
 								}
 							}
 							else {
 								if ((nNPCStyle == 9)) {
-									if ((sub33(intParam1) == 1)) {
+									if ((sub33(objectParam1) == 1)) {
 										return;
 									}
 								}
@@ -4738,7 +4736,7 @@ void sub2(int intParam1) {
 										if ((sub83(5.0) == 1)) {
 											return;
 										}
-										sub33(intParam1);
+										sub33(objectParam1);
 										return;
 									}
 									else {
@@ -4746,21 +4744,21 @@ void sub2(int intParam1) {
 											if ((sub83(10.0) == 1)) {
 												return;
 											}
-											sub89(intParam1);
+											sub89(objectParam1);
 											return;
 										}
 										else {
 											if ((nNPCStyle == 12)) {
-												sub89(intParam1);
+												sub89(objectParam1);
 												return;
 											}
 											else {
 												if ((nNPCStyle == 13)) {
 													if (sub91(OBJECT_SELF)) {
-														sub84(intParam1);
+														sub84(objectParam1);
 													}
 													else {
-														sub82(intParam1);
+														sub82(objectParam1);
 													}
 													return;
 												}
@@ -4769,20 +4767,20 @@ void sub2(int intParam1) {
 														if ((sub92(2.0) == 1)) {
 															return;
 														}
-														sub93(intParam1);
+														sub93(objectParam1);
 														return;
 													}
 													else {
 														if ((nNPCStyle == 15)) {
-															if ((sub94(intParam1) == 1)) {
+															if ((sub94(objectParam1) == 1)) {
 																return;
 															}
 															else {
-																sub33(intParam1);
+																sub33(objectParam1);
 															}
 														}
 														else {
-															if ((sub33(intParam1) == 1)) {
+															if ((sub33(objectParam1) == 1)) {
 																return;
 															}
 														}
@@ -4835,3 +4833,4 @@ void main() {
 			break;
 	}
 }
+

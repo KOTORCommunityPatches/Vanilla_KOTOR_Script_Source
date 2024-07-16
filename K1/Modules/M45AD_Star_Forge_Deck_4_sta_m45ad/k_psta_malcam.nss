@@ -1,61 +1,60 @@
 void main() {
-	object oNearestSta_malak_drain = GetNearestObjectByTag("sta_malak_drain", OBJECT_SELF, 1);
-	string sName = GetName(oNearestSta_malak_drain);
-	int int1 = StringToInt(sName);
-	int int3;
-	int int4;
-	object oSta_plc_captive8;
-	if ((int1 == 1)) {
-		int3 = 13;
-		int4 = 14;
-		oSta_plc_captive8 = GetObjectByTag("sta_plc_captive1", 0);
-	}
-	else {
-		if ((int1 == 2)) {
-			int3 = 23;
-			int4 = 24;
-			oSta_plc_captive8 = GetObjectByTag("sta_plc_captive2", 0);
+	
+	object oDrain = GetNearestObjectByTag("sta_malak_drain", OBJECT_SELF, 1);
+	string sName = GetName(oDrain);
+	int nCaptive = StringToInt(sName);
+	int StaticCam3;
+	int StaticCam4;
+	object oCaptive;
+	
+	if (nCaptive == 1)
+		{
+			StaticCam3 = 13;
+			StaticCam4 = 14;
+			oCaptive = GetObjectByTag("sta_plc_captive1", 0);
 		}
-		else {
-			if ((int1 == 3)) {
-				int3 = 33;
-				int4 = 34;
-				oSta_plc_captive8 = GetObjectByTag("sta_plc_captive3", 0);
-			}
-			else {
-				if ((int1 == 4)) {
-					int3 = 43;
-					int4 = 44;
-					oSta_plc_captive8 = GetObjectByTag("sta_plc_captive4", 0);
-				}
-				else {
-					if ((int1 == 5)) {
-						int3 = 53;
-						int4 = 54;
-						oSta_plc_captive8 = GetObjectByTag("sta_plc_captive5", 0);
-					}
-					else {
-						if ((int1 == 6)) {
-							int3 = 63;
-							int4 = 64;
-							oSta_plc_captive8 = GetObjectByTag("sta_plc_captive6", 0);
-						}
-						else {
-							if ((int1 == 7)) {
-								int3 = 73;
-								int4 = 74;
-								oSta_plc_captive8 = GetObjectByTag("sta_plc_captive7", 0);
-							}
-							else {
-								int3 = 83;
-								int4 = 84;
-								oSta_plc_captive8 = GetObjectByTag("sta_plc_captive8", 0);
-							}
-						}
-					}
-				}
-			}
+	else if (nCaptive == 2)
+		{
+			StaticCam3 = 23;
+			StaticCam4 = 24;
+			oCaptive = GetObjectByTag("sta_plc_captive2", 0);
 		}
-	}
-	SetDialogPlaceableCamera(int4);
+	else if (nCaptive == 3)
+		{
+			StaticCam3 = 33;
+			StaticCam4 = 34;
+			oCaptive = GetObjectByTag("sta_plc_captive3", 0);
+		}
+	else if (nCaptive == 4)
+		{
+			StaticCam3 = 43;
+			StaticCam4 = 44;
+			oCaptive = GetObjectByTag("sta_plc_captive4", 0);
+		}
+	else if (nCaptive == 5)
+		{
+			StaticCam3 = 53;
+			StaticCam4 = 54;
+			oCaptive = GetObjectByTag("sta_plc_captive5", 0);
+		}
+	else if (nCaptive == 6)
+		{
+			StaticCam3 = 63;
+			StaticCam4 = 64;
+			oCaptive = GetObjectByTag("sta_plc_captive6", 0);
+		}
+	else if (nCaptive == 7)
+		{
+			StaticCam3 = 73;
+			StaticCam4 = 74;
+			oCaptive = GetObjectByTag("sta_plc_captive7", 0);
+		}
+	else
+		{
+			StaticCam3 = 83;
+			StaticCam4 = 84;
+			oCaptive = GetObjectByTag("sta_plc_captive8", 0);
+		}
+	
+	SetDialogPlaceableCamera(StaticCam4);
 }
