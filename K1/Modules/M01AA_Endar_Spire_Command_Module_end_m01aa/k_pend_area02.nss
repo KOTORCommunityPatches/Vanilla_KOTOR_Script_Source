@@ -1,10 +1,12 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 #include "k_inc_end"
- 
- void main() {
- 	int nEvent = GetUserDefinedEventNumber();
- 	switch (nEvent) {
+
+void main() {
+ 	
+	int nEvent = GetUserDefinedEventNumber();
+ 	
+	switch (nEvent) {
  		case 10:
  			{
  				effect efVisual = EffectVisualEffect(VFX_IMP_SCREEN_SHAKE, FALSE);
@@ -18,8 +20,8 @@
  		case 20:
  			CancelCombat(GetFirstPC());
  			CancelCombat(GetTrask());
- 			AssignCommand(GetCutsceneObject(2), ActionStartConversation(GetFirstPC(), "", FALSE, 0, TRUE));
- 			ExecuteScript("k_pman_npcstop", GetTrask(), -1);
+ 			AssignCommand(GetCutsceneObject(2), ActionStartConversation(GetFirstPC(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
+ 			ExecuteScript("k_pman_npcstop", GetTrask());
  			break;
  	}
- }
+}

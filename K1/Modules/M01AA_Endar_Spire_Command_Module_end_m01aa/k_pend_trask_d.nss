@@ -1,4 +1,4 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 #include "k_inc_end"
  
@@ -12,10 +12,17 @@
  	switch (nUser) {
  		case 50:
  			ClearAllActions();
- 			ActionStartConversation(GetFirstPC(), "", FALSE, 0, TRUE);
+ 			ActionStartConversation(GetFirstPC(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE);
  			break;
  		case 100:
- 			if (nState == TRASK_MUST_GET_GEAR || nState == TRASK_TARGET_DONE || nState == TRASK_MUST_EQUIP || nState == TRASK_MUST_MAP || nState == TRASK_MUST_DROID || nState == TRASK_MUST_MAP_02 || nState == TRASK_MUST_LEVEL && GetTraskWillInitiate())
+			if ((nState == TRASK_MUST_GET_GEAR
+			 || nState == TRASK_TARGET_DONE
+			 || nState == TRASK_MUST_EQUIP
+			 || nState == TRASK_MUST_MAP
+			 || nState == TRASK_MUST_DROID
+			 || nState == TRASK_MUST_MAP_02
+			 || nState == TRASK_MUST_LEVEL)
+			 && GetTraskWillInitiate())
  				{
  					TalkTrask();
  				}
@@ -33,12 +40,12 @@
  			if (GetHasEquippedSomething())
  				{
  					SetTraskState(TRASK_EQUIP_DONE);
- 					ActionStartConversation(GetFirstPC(), "", FALSE, 0, FALSE);
+ 					ActionStartConversation(GetFirstPC(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, FALSE);
  				}
  			break;
  		case 300:
  			ClearAllActions();
- 			ActionStartConversation(GetFirstPC(), "end_cut01", FALSE, 0, TRUE);
+ 			ActionStartConversation(GetFirstPC(), "end_cut01", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE);
  			break;
  		case 400:
  			ActionWait(1.0);

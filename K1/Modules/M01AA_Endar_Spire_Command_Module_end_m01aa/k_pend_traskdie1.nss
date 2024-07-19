@@ -1,4 +1,4 @@
-// Byte code does not match
+// Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 #include "k_inc_end"
  
@@ -11,7 +11,7 @@
  			SetPartyLeader(NPC_PLAYER);
  		}
  	
- 	ExecuteScript("k_pend_trasknkd", GetTrask(), -1);
+ 	ExecuteScript("k_pend_trasknkd", GetTrask());
  	
  	NoClicksFor(0.3);
  	

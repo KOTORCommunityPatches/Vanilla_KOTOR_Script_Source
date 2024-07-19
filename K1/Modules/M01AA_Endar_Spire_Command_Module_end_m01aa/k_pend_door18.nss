@@ -1,8 +1,8 @@
 // Byte code does not match. Original appears to use an earlier version of ActionStartConversation with one less input variable.
 
 #include "k_inc_end"
- 
- void main() {
+
+void main() {
  	
 	object oPC = GetFirstPC();
  	
@@ -10,7 +10,7 @@
 		{
 			SetPartyLeader(NPC_PLAYER);
 			
-			ExecuteScript("k_pman_npcstop", GetTrask(), -1);
+			ExecuteScript("k_pman_npcstop", GetTrask());
 			
 			SetGlobalFadeOut();
 			DelayCommand(0.5, SetGlobalFadeIn(0.0, 0.5));
@@ -21,4 +21,4 @@
 			
 			DelayCommand(0.2, AssignCommand(GetCutsceneObject(1), ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
- }
+}
