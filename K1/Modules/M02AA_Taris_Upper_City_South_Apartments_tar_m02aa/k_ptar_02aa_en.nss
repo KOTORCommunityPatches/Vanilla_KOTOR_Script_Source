@@ -8,7 +8,9 @@ void main() {
 	object oBith = GetObjectByTag("Bith", 0);
 	object oDuros = GetObjectByTag("Duros", 0);
 	
-	if ((!GetIsObjectValid(oTrooper) && !GetIsObjectValid(oDroid1) && !GetIsObjectValid(oDroid2)) || (GetIsDead(oTrooper) && GetIsDead(oDroid1) && GetIsDead(oDroid2) && !GetLoadFromSaveGame()))
+	if (((!GetIsObjectValid(oTrooper) && !GetIsObjectValid(oDroid1) && !GetIsObjectValid(oDroid2))
+	|| (GetIsDead(oTrooper) && GetIsDead(oDroid1) && GetIsDead(oDroid2)))
+	&& !GetLoadFromSaveGame())
 		{
 			AssignCommand(oTrooper, SetIsDestroyable(TRUE, TRUE, TRUE));
 			AssignCommand(oDroid1, SetIsDestroyable(TRUE, TRUE, TRUE));

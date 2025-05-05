@@ -1,3 +1,4 @@
+#include "k_inc_utility"
 #include "k_inc_debug"
 
 void main() {
@@ -10,7 +11,7 @@ void main() {
 		}
 		else
 			{
-				Db_PostString(("OPENER - " + GetTag(oNPC)), 5, 5, 5.0);
+				Db_PostString("OPENER - " + GetTag(oNPC), 5, 5, 5.0);
 			}
 	
 	if (!GetLocked(OBJECT_SELF))

@@ -6,7 +6,8 @@ void main() {
 	
 	if (HasNeverTriggered() && GetSkillRank(SKILL_STEALTH, GetFirstPC()) > 0)
 		{
-			SetCarthState(ROOM3_DEAD);
+			// ROOM3_DEAD = 3
+			SetCarthState(3);
 			AssignCommand(GetCarth(), ActionStartConversation(GetFirstPC(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 		}
 }

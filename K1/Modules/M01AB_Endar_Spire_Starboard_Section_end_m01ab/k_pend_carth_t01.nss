@@ -6,7 +6,8 @@ void main() {
 	
 	if (HasNeverTriggered())
 		{
-			SetCarthState(ROOM7_DEAD);
+			// ROOM7_DEAD = 2
+			SetCarthState(2);
 			AssignCommand(GetCarth(), ActionStartConversation(GetFirstPC(), "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 		}
 }

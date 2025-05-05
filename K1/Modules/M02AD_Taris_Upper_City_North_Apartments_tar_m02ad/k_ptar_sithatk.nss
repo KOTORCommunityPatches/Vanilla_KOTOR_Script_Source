@@ -1,3 +1,5 @@
+#include "k_inc_generic"
+
 void main() {
 	
 	SignalEvent(GetObjectByTag("tar02_sithcommander", 0), EventUserDefined(3000));
