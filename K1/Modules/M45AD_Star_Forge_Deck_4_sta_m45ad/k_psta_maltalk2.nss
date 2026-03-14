@@ -12,7 +12,7 @@ void main() {
 	string sName = GetName(oDrain);
 	object oCaptive = GetObjectByTag("sta_plc_captive" + sName, 0);
 	
-	if (GetIsObjectValid(oDrain)
+	if (GetIsObjectValid(oDrain))
 		{
 			if (GetDistanceToObject(oDrain) <= 5.0)
 				{
