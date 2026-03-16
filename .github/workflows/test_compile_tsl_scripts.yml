@@ -1,0 +1,43 @@
+name: TSL Scripts Test
+
+on: [push]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.8"
+
+    - name: Run PyKotor's Compile Tests
+      run: |
+        git clone --branch vanilla-source-test-k2 https://github.com/th3w1zard1/PyKotor.git PyKotor
+        cd PyKotor
+        ./install_python_venv.ps1 -noprompt
+        python -m pip install -r ./Libraries/PyKotor/requirements.txt --prefer-binary
+        python -m pip install -r ./Libraries/PyKotor/recommended.txt --prefer-binary
+        python -m pip install pytest pytest-html pytest-xdist
+        python -m pytest ./tests/resource/formats/pytest_ncs_compile_installation.py -v --tb=no -ra -o log_cli=true --capture=no --junitxml=pytest_report.xml --html=pytest_report.html --self-contained-html -n auto
+      shell: pwsh
+
+    - name: Upload Pytest Reports
+      uses: actions/upload-artifact@v3
+      if: always()  # Ensures this step runs even if the previous step fails
+      with:
+        name: pytest-reports
+        path: |
+          PyKotor/pytest_report.html
+          PyKotor/pytest_report.xml
+          PyKotor/FAILED_TESTS.log
+          PyKotor/fallback_level_info_*
+          PyKotor/fallback_level_debug_*
+          PyKotor/*_incompatible_*
+
